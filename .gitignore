@@ -1,0 +1,59 @@
+# -------------------------
+# Web & HTML Distribution
+# -------------------------
+*.html
+!index.html
+
+# -------------------------
+# Quarto build artifacts
+# -------------------------
+.quarto/
+**/.quarto/
+*_files/
+_freeze/
+dist/
+
+# -------------------------
+# Temporary files & Hygiene
+# -------------------------
+temp/
+logs/
+artifacts/
+.venv/
+*.log
+.Trash-*/
+.Trash/
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.~lock.*#
+.vscode/
+.obsidian/
+*.bak
+*.tmp
+*~
+*.swp
+*.swo
+
+# -------------------------
+# R Environment & Sessions
+# -------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
