@@ -24,10 +24,6 @@
 
 Chondrosarcoma is a cartilaginous bone malignancy characterized by severe intrinsic resistance to conventional chemotherapeutics and ionizing radiation. This repository hosts the distribution artifacts and research presentation for an *in silico* structure-based drug discovery program investigating computational virtual screening strategies to overcome these therapeutic barriers.
 
-> [!NOTE]
-> **Proprietary Research Notice:**
-> To protect project intellectual property and prevent automated text scraping of unpublished therapeutic targets, active-site coordinates, and proprietary screening algorithms, detailed biochemical protocols and numerical screening cutoffs are intentionally omitted from plain-text repository markdown. Complete scientific rationales, structural models, docking quality gates, and multi-phase validation roadmaps are compiled into the interactive presentation deck for research evaluators and human collaborators.
-
 ---
 
 ## 2. Interactive Presentation Deck
