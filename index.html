@@ -1071,24 +1071,70 @@ $code-font: "JetBrains Mono", monospace !default;
 }
 
 /* 3-Week Execution Roadmap Table */
-.roadmap-table table,
-.reveal table.roadmap-matrix {
-  font-size: 0.43em;
-  margin-top: 6px;
+.roadmap-table {
   width: 100%;
+  margin-top: 14px;
 }
 
-.roadmap-table table td,
-.reveal table.roadmap-matrix td {
-  padding: 5px 8px;
-  line-height: 1.22;
-  vertical-align: middle;
+.roadmap-table table,
+.reveal table.roadmap-matrix {
+  font-size: 0.52em;
+  margin-top: 4px;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px -2px rgba(15, 23, 42, 0.05);
+  border: 1px solid #cbd5e1;
 }
 
 .roadmap-table table th,
 .reveal table.roadmap-matrix th {
-  padding: 6px 8px;
-  font-size: 1.0em;
+  padding: 10px 14px;
+  font-size: 0.95em;
+  font-weight: 700;
+  background-color: #0f172a;
+  color: #f8fafc;
+  letter-spacing: 0.02em;
+}
+
+.roadmap-table table td,
+.reveal table.roadmap-matrix td {
+  padding: 10px 14px;
+  line-height: 1.35;
+  vertical-align: middle;
+}
+
+/* Explicit column width balancing for 4-column layout */
+.roadmap-table table col:nth-child(1),
+.roadmap-table table th:nth-child(1),
+.roadmap-table table td:nth-child(1) {
+  width: 20% !important;
+  font-weight: 700;
+  color: #0284c7;
+}
+
+.roadmap-table table col:nth-child(2),
+.roadmap-table table th:nth-child(2),
+.roadmap-table table td:nth-child(2) {
+  width: 42% !important;
+}
+
+.roadmap-table table col:nth-child(3),
+.roadmap-table table th:nth-child(3),
+.roadmap-table table td:nth-child(3) {
+  width: 16% !important;
+  color: #334155;
+  font-weight: 500;
+}
+
+.roadmap-table table col:nth-child(4),
+.roadmap-table table th:nth-child(4),
+.roadmap-table table td:nth-child(4) {
+  width: 22% !important;
+  color: #0f172a;
 }
 
 
@@ -2014,15 +2060,13 @@ Hoang Q. Tran
 <div class="roadmap-table">
 <table class="caption-top">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Timeline</th>
 <th style="text-align: left;">SBVS Phase</th>
 <th style="text-align: left;">Key Tasks &amp; Milestones</th>
 <th style="text-align: left;">Core Tools</th>
@@ -2031,35 +2075,30 @@ Hoang Q. Tran
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Week 1 (Days 1–3)</strong></td>
 <td style="text-align: left;"><strong>Phase 1: Receptor Prep</strong></td>
 <td style="text-align: left;">• AlphaFold 3 homodimer model of hSPS2(U60C) + 2 ATP + 2 Mg²⁺.<br>• Alignment against PDB 3FD5 and 24 Å cubic grid box setup.</td>
 <td style="text-align: left;">AlphaFold 3, PyMOL</td>
 <td style="text-align: left;">Solvated holo-homodimer &amp; defined 24 Å catalytic grid box.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Week 1 (Days 4–7)</strong></td>
 <td style="text-align: left;"><strong>Phase 2: Ligand Prep</strong></td>
 <td style="text-align: left;">• FDA library curation (~1,900 drugs; bRo5 MW &lt; 900 Da).<br>• Ionization at pH 7.4 ± 0.5, MMFF94 minimization &amp; Meeko PDBQT.</td>
 <td style="text-align: left;">Dimorphite-DL, OpenBabel, Meeko</td>
 <td style="text-align: left;">Energy-minimized, charge-assigned 3D ligand database.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Week 2 (Days 8–14)</strong></td>
 <td style="text-align: left;"><strong>Phase 3: Batch Docking</strong></td>
 <td style="text-align: left;">• Blind re-docking of native AMPCP into 3FD5 (RMSD ≤ 2.0 Å gate).<br>• Batch AutoDock Vina 1.2 screening; rank by ΔG ≤ −7.5 kcal/mol.</td>
 <td style="text-align: left;">AutoDock Vina, GNU Parallel</td>
 <td style="text-align: left;">Validated docking gate &amp; ranked candidate affinity database.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Week 3 (Days 15–17)</strong></td>
 <td style="text-align: left;"><strong>Phase 4: Post-Docking Triage</strong></td>
 <td style="text-align: left;">• Sec60 restoration &amp; PLIP contact verification (Lys58, Sec60, Lys63).<br>• SwissADME bioavailability radar &amp; hERG/PAINS toxicity triage.</td>
 <td style="text-align: left;">PLIP, SwissADME, pkCSM</td>
 <td style="text-align: left;">Curated shortlist of non-toxic, bioavailable candidate hits.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Week 3 (Days 18–21)</strong></td>
 <td style="text-align: left;"><strong>Phase 5: Dynamic Validation</strong></td>
 <td style="text-align: left;">• 50–100 ns explicit-solvent GROMACS MD at 37°C (RMSD &lt; 2.5 Å).<br>• Trajectory-averaged MM/GBSA free energy via gmx_MMPBSA.</td>
 <td style="text-align: left;">GROMACS, gmx_MMPBSA</td>
