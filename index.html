@@ -1093,11 +1093,13 @@ $code-font: "JetBrains Mono", monospace !default;
 .roadmap-table table th,
 .reveal table.roadmap-matrix th {
   padding: 10px 14px;
-  font-size: 0.95em;
+  font-size: 0.90em;
   font-weight: 700;
-  background-color: #0f172a;
-  color: #f8fafc;
-  letter-spacing: 0.02em;
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+  letter-spacing: 0.03em;
+  border: none !important;
+  text-align: left;
 }
 
 .roadmap-table table td,
@@ -1112,8 +1114,6 @@ $code-font: "JetBrains Mono", monospace !default;
 .roadmap-table table th:nth-child(1),
 .roadmap-table table td:nth-child(1) {
   width: 20% !important;
-  font-weight: 700;
-  color: #0284c7;
 }
 
 .roadmap-table table col:nth-child(2),
@@ -1126,14 +1126,26 @@ $code-font: "JetBrains Mono", monospace !default;
 .roadmap-table table th:nth-child(3),
 .roadmap-table table td:nth-child(3) {
   width: 16% !important;
-  color: #334155;
-  font-weight: 500;
 }
 
 .roadmap-table table col:nth-child(4),
 .roadmap-table table th:nth-child(4),
 .roadmap-table table td:nth-child(4) {
   width: 22% !important;
+}
+
+/* TD cell specific styling (preserves white text on TH headers) */
+.roadmap-table table td:nth-child(1) {
+  font-weight: 700;
+  color: #0284c7;
+}
+
+.roadmap-table table td:nth-child(3) {
+  color: #334155;
+  font-weight: 500;
+}
+
+.roadmap-table table td:nth-child(4) {
   color: #0f172a;
 }
 
