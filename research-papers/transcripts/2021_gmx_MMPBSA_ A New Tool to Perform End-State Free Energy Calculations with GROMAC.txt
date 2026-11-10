@@ -1,0 +1,1287 @@
+--- Page 1 ---
+pubs.acs.org/JCTC
+
+Article
+
+gmx_MMPBSA: A New Tool to Perform End-State Free Energy
+Calculations with GROMACS
+Mario S. Valdés-Tresanco,*,§ Mario E. Valdés-Tresanco,§ Pedro A. Valiente, and Ernesto Moreno*
+Cite This: J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+ACCESS
+
+Metrics & More
+
+Read Online
+
+Article Recommendations
+
+* Supporting Information
+sı
+
+ABSTRACT: Molecular mechanics/Poisson−Boltzmann (GeneralizedBorn) surface area is one of the most popular methods to estimate
+binding free energies. This method has been proven to balance accuracy
+and computational eﬃciency, especially when dealing with large systems.
+As a result of its popularity, several programs have been developed for
+performing MM/PB(GB)SA calculations within the GROMACS
+community. These programs, however, present several limitations. Here
+we present gmx_MMPBSA, a new tool to perform end-state free energy
+calculations from GROMACS molecular dynamics trajectories.
+gmx_MMPBSA provides the user with several options, including binding
+free energy calculations with diﬀerent solvation models (PB, GB, or 3DRISM), stability calculations, computational alanine scanning, entropy
+corrections, and binding free energy decomposition. Noteworthy, several
+promising methodologies to calculate relative binding free energies such
+as alanine scanning with variable dielectric constant and interaction entropy have also been implemented in gmx_MMPBSA. Two
+additional toolsgmx_MMPBSA_test and gmx_MMPBSA_anahave been integrated within gmx_MMPBSA to improve its
+usability. Multiple illustrating examples can be accessed through gmx_MMPBSA_test, while gmx_MMPBSA_ana provides fast, easy,
+and eﬃcient access to diﬀerent graphics plotted from gmx_MMPBSA output ﬁles. The latest version (v1.4.3, 26/05/2021) is
+available free of charge (documentation, test ﬁles, and tutorials included) at https://github.com/Valdes-Tresanco-MS/gmx_
+MMPBSA.
+
+■
+
+INTRODUCTION
+Molecular mechanics/Poisson−Boltzmann (GeneralizedBorn) Surface Area (MM/PB(GB)SA) has become one of
+the most popular methods to estimate binding free energies
+since its introduction in the late 1990s.1,2 This method
+achieves a good balance between accuracy and computational
+eﬃciency, being more accurate than most scoring functions,
+especially when dealing with protein−protein and protein−
+nucleic acid systems, and less computationally demanding than
+alchemical free energy methods. MM/PB(GB)SA is a highly
+versatile method that allows estimating binding free energies,
+determining structural stability, predicting hotspots, and
+assessing the contributions from individual residues or energy
+terms by free energy decomposition analyses.3−5
+Several computational tools used to perform MM/PB(GB)SA calculations have been developed and released over the
+years. MMPBSA.py is a Python script implemented in the
+Amber package that allows users to quickly and eﬃciently
+calculate free energies from molecular dynamics (MD) and
+Monte Carlo simulations.6,7 MMPBSA.py has been the leading
+tool for performing MM/PB(GB)SA calculations within the
+Amber package due to its improved accessibility, implementation, and capabilities as compared to older scripts like
+mmpbsa.pl.6 Multiple implicit solvation models are available
+© 2021 American Chemical Society
+
+within MMPBSA.py, including the PB, GB, and 3D-Reference
+Interaction Site Model (3D-RISM). Normal mode or quasiharmonic analysis can be used to calculate vibrational
+frequencies and approximate the solute entropy. Speciﬁc
+interactions can be analyzed using alanine scanning or free
+energy decomposition. All these procedures can be speeded up
+by dividing frames evenly across available processors, thus
+providing the users with an eﬃcient and user-friendly program
+with the ﬂexibility to accommodate most of their needs.6,7
+On the other hand, several toolkits have been developed to
+conduct MM/PBSA calculations on structural ensembles
+derived from GROMACS8 trajectories. g_mmpbsa implements
+the MM/PBSA approach using subroutines written in-house or
+sourced from the GROMACS and APBS9 packages. It is
+distributed as a stand-alone tool with a user interface similar to
+those of other GROMACS modules. This tool provides a
+Received: June 29, 2021
+Published: September 29, 2021
+
+6281
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 2 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+choice of nonpolar solvation models and diﬀerent types of
+atomic radii to calculate the polar solvation energy. Finally,
+g_mmpbsa can be used to decompose the total calculated
+binding energy into contributions per residue.10
+GMXPBSA is another user-friendly suite of Bash/Perl scripts
+for streamlining MM/PBSA calculations on GROMACS
+trajectories.11 This tool also combines GROMACS and the
+Poisson−Boltzmann equation solver APBS to dissect the
+diﬀerent MM/PBSA energy contributions. GMXPBSA can
+compare the binding free energy of diﬀerent complex
+trajectories, allowing researchers to investigate the eﬀects of
+alanine and nonalanine mutations, post-translational changes,
+and non-natural amino acids on the binding free energy of the
+system under study. A single or distributed automated fashion
+on a cluster facility can speed up calculations by dividing
+frames across the available processors.11 g_mmpbsa and
+GMXPBSA are distributed for free and used extensively within
+the GROMACS community. Nevertheless, they have limitations regarding the number of calculations that can be
+performed and various compatibility issues.
+Here, we present a new tool named gmx_MMPBSA
+designed to ﬁll the gap and bring AmberTools’s rich
+functionalities from MMPBSA.py and associated programs to
+GROMACS users. Several calculations can be performed
+within gmx_MMPBSA, including but not limited to binding
+free energy calculations with diﬀerent solvation models (PB,
+GB, or 3D-RISM), stability calculations, computational alanine
+scanning, entropy corrections, and binding free energy
+decomposition. Two additional tools have been integrated
+within gmx_MMPBSA: gmx_MMPBSA_test and
+gmx_MMPBSA_ana. gmx_MMPBSA_test provides the user
+with multiple illustrating examples (https://valdes-tresancoms.github.io/gmx_MMPBSA/examples) and allows whether
+gmx_MMPBSA was installed successfully to be checked.
+gmx_MMPBSA_ana, on the other hand, is a graphical user
+interface that provides fast, easy, and eﬃcient access to
+diﬀerent graphics plotted from gmx_MMPBSA output ﬁles.
+The gmx_MMPBSA suite has been written in Python 3.8 and
+uses the MMPBSA.py calculation engine, a widely used tool for
+streamlining end-state free energy calculations. The program is
+freely available (documentation, test ﬁles, and tutorials
+included) at https://github.com/Valdes-Tresanco-MS/gmx_
+MMPBSA.
+
+Figure 1. Thermodynamic cycle for binding free energy calculations.
+
+The ΔH can be decomposed into diﬀerent terms:1
+ΔH = ΔEMM + ΔGsol
+
+ΔEMM = ΔE bonded + ΔEnonbonded
+= (ΔE bond + ΔEangle + ΔEdihedral)
++ (ΔEele + ΔEvdW )
+
+ΔGsol = ΔGpolar + ΔGnon ‐ polar = ΔG PB/GB + ΔGnon ‐ polar
+(6)
+
+where
+ΔGnon ‐ polar = NPTENSION × ΔSASA + NPOFFSET
+
+(7)
+
+or
+ΔGnon ‐ polar = ΔGdisp + ΔGcavity
+= ΔGdisp + (CAVITYTENSION × ΔSASA
++ CAVITYOFFSET)
+
+(8)
+
+In the above equations, ΔEMM corresponds to the molecular
+mechanical energy changes in the gas phase. ΔEMM includes
+ΔEbonded, also known as internal energy, and ΔEnonbonded,
+corresponding to the van der Waals and electrostatic
+contributions. The solvation energy is determined diﬀerently,
+depending on the method employed. In the 3D-RISM model,
+both componentspolar and nonpolarof the solvation
+energy are calculated. However, the PB and GB models
+estimate only the polar component of the solvation. The
+nonpolar component is usually assumed to be proportional to
+the molecule’s total solvent accessible surface area (SASA),
+with a proportionality constant derived from experimental
+solvation energies of small nonpolar molecules (eq 7; Amber’s
+inp1 method).13,14 Alternatively, a modern approach that
+separates nonpolar solvation free energies into cavity and
+dispersion terms can be used (eq 8; Amber’s inp2 method). In
+this approach, SASA is used to correlate the cavity term only,
+while a surface-integration method is employed to compute the
+dispersion term.14
+
+(1)
+
+where each term to the right in the equation is given by
+(2)
+
+In turn, ΔGbind can also be represented as
+ΔG bind = ΔH − T ΔS
+
+(5)
+
+and
+
+■
+
+⟨Gx⟩ = ⟨EMM⟩ + ⟨Gsol⟩ − ⟨TS⟩
+
+(4)
+
+where
+
+THEORY AND METHODS
+The MM/PB(GB)SA method can be used for calculating
+binding free energies of noncovalently bound complexes
+(Figure 1).
+The free binding energy for a complex can be estimated as
+follows:
+ΔG bind = ⟨GCOM⟩ − ⟨G REC⟩ − ⟨G LIG⟩
+
+Article
+
+(3)
+
+where ΔH corresponds to the enthalpy of binding and −TΔS
+to the conformational entropy after ligand binding. When the
+entropic term is dismissed, the computed value is the eﬀective
+free energy, which is usually suﬃcient for comparing relative
+binding free energies of related ligands.5,12
+6282
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 3 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Furthermore, the entropic component is usually calculated
+by normal modes analysis (NMODE). The translational and
+rotational entropies can be estimated using standard statistical
+mechanical formulas. Nevertheless, calculating vibrational
+entropy using normal modes is computationally expensive
+because it requires expanding the internal coordinate
+covariance matrix for all degrees of freedom for a set of
+minimized structures.15 Conversely, the Quasi-harmonic (QH)
+approximation is less computationally expensive, although it
+requires a considerable number of frames to converge.16
+Recently, other alternatives have been developed, such as
+NMODE in truncated systems, which considerably reduces the
+computational cost.17 Interaction Entropy (IE) is another
+novel method that calculates the entropic component of the
+binding free energy directly from MD simulations without any
+extra computational cost. This method is numerically reliable,
+more computationally eﬃcient, and superior to the standard
+NMODE approach, as shown in an extensive study of over a
+dozen randomly selected protein−ligand binding systems.18
+Typically, two approaches are used for MM/PB(GB)SA
+calculations, known as Single Trajectory Protocol (STP) and
+Multiple Trajectory Protocol (MTP).5,12,19 In STP, both the
+receptor and the ligand trajectories are extracted from that of
+the complex. This approach is valid when the bound and
+unbound states of the receptor and the ligand are similar. It is
+computationally less expensive than the MTP approach since
+only a simulation of the complex is required. Additionally, the
+potential internal terms (e.g., bonds, angles, and dihedrals)
+cancel exactly in STP since these terms are the same in both
+bound and unbound states.5,12 On the other hand, the MTP is
+a more realistic approach because it considers multiple
+trajectories (i.e., complex, receptor, and ligand). However,
+signiﬁcant conformational changes can lead to numerous
+errors.5,12,20 In practice, a detailed study of the system is
+required to select the approach to be used.
+
+Article
+
+Figure 2. gmx_MMPBSA general workﬂow for performing end-state
+calculations. Step 1. Preparation: parmed/LEaP is used to generate
+Amber topologies, and GROMACS is used to generate PDB
+structures and clean up the trajectories. Step 2. Calculation:
+MMPBSA.py core with modiﬁcations is used to perform the energy
+calculations. Step 3. Visualization and analysis: gmx_MMPBSA_ana is
+used to visualize and analyze the results.
+
+■
+
+and even residues with insertion codes. Depending on the
+deﬁned GROMACS structure+mass(db) ﬁle, the PDB
+structure ﬁles generated for the receptor and ligand may
+contain ambiguities or lack a correct notation, which is
+resolved automatically within gmx_MMPBSA. Another way to
+overcome these issues within gmx_MMPBSA is by deﬁning a
+reference structure that can be used to ensure an exact match
+between the GROMACS structure+mass(db) ﬁle and the
+generated PDB structure ﬁles.
+Both AMBER and CHARMM force ﬁelds are supported,
+although the input ﬁles are created diﬀerently (Figure S1). The
+topologies for AMBER, as a native force ﬁeld within
+AmberTools, can be generated either from PDB structures
+or by converting the GROMACS topology to Amber format.
+On the other hand, the topologies for the CHARMM force
+ﬁeld can be generated only by converting the GROMACS
+topology to Amber format. The PDB structures generated for
+the receptor and ligand are used to create the topologies from
+structures by using LEaP7 or splitting the GROMACS
+topologies with parmed after their conversion to Amber
+format.21
+Either the input PDB structure for LEaP or the input
+topology for parmed are thoroughly reviewed. In the PDB
+structures, the names of the diﬀerent atoms (i.e., CD carbons
+in isoleucine and C-terminal oxygens) and residues (disulﬁde
+cysteines, histidines, lysines, aspartates, and glutamates) are
+changed according to the AMBER force ﬁeld naming
+convention. The chain IDs are ﬁxed, and if required, a
+
+RESULTS AND DISCUSSION
+gmx_MMPBSA is written in Python 3.8 and combines
+functions from GROMACS8 and AmberTools12 to generate
+input ﬁles in a consistent/reproducible manner and perform
+end-state free energy calculations. We will ﬁrst illustrate the
+general workﬂow and how all the tools are integrated into the
+gmx_MMPBSA environment. Next, we describe the diﬀerent
+tools (i.e., gmx_MMPBSA_ana and gmx_MMPBSA_test) that
+have been built to improve gmx_MMPBSA usability. Later, we
+include a thorough comparison of gmx_MMPBSA vs other
+programs widely used within the GROMACS community to
+perform MM/PBSA calculations. Finally, we present a set of
+illustrative examples to demonstrate the versatility and
+potential applications of gmx_MMPBSA.
+Workﬂow. gmx_MMPBSA divides work into three major
+steps: (i) preparation, (ii) calculation, and (iii) visualization
+and analysis (Figure 2).
+i. Preparation. The MMPSA.py calculation engine is used
+within gmx_MMPBSA to perform most of the calculations.
+The preparation process is focused on generating the
+topologies in Amber format in a consistent and reproducible
+way. In this step, the PDB structure ﬁles for the receptor and
+ligand are generated from the GROMACS structure+mass(db)
+ﬁles (i.e., *.tpr, *.pdb, or *.gro). Of note, GROMACS diﬀers in
+several aspects from Amber in terms of data structure. Amber
+renumbers residues starting from 1, while GROMACS is more
+ﬂexible, allowing the same residue numbers in diﬀerent chains
+6283
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 4 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Article
+
+Table 1. Comparison of Calculation Features among g_mmpbsa, GMXPBSA2.1, MMPBSA.py, and gmx_MMPBSA
+feature
+eﬀective binding free energy
+stability
+GB models
+QM-MM/GBSA
+membrane protein
+entropy corrections
+decomposition schemes
+alanine scanning
+approaches
+
+g_mmpbsa
+
+GMXPBSA2.1
+
+PB
+
+PB
+
+per-residue
+★a
+STP
+
+★
+STP, MTP
+
+MMPBSA.py
+
+gmx_MMPBSA
+
+GB, PB, 3D-RISM
+★
+1, 2, 5, 7 and 8
+★
+★
+NMODE, QH
+per-residue, per-wise
+★
+STP, MTP
+
+GB, PB, 3D-RISM
+★
+1, 2, 5, 7 and 8
+★
+★
+NMODE, QH, IE
+per-residue, per-wise
+★
+STP, MTP
+
+a
+
+Without documentation.
+
+mutation is performed for alanine scanning. Additionally,
+waters and salt ions are removed. In essence, the output of the
+preparation step is a pair of *.prmtop and *.inpcrd ﬁles
+generated for the structures in the gas phase, which can be
+used as input ﬁles for the MMPBSA.py calculation engine.
+MMPBSA.py is one of the most popular and complete
+software packages for performing MM/PB(GB)SA calculations. This tool is released with AmberTools, and as such, its
+engine requires Amber *.prmtop topology ﬁles as input.
+Several tutorials describe how to generate Amber topologies
+from GROMACS ﬁles; however, they are cumbersome and
+multistep processes, leading to errors. Within gmx_MMPBSA,
+we have optimized this process to handle large and
+heterogeneous systems. Additionally, we have included several
+Amber-compatible force ﬁelds (i.e., zwitterionic amino acids22)
+to ensure compatibility with as many systems as possible. A
+comprehensive list of the diﬀerent systems tested so far can be
+found at https://valdes-tresanco-ms.github.io/gmx_
+MMPBSA/examples.
+Unlike MMPBSA.py, which uses an additional tool (anteMMPBSA.py) to generate the topologies for the STP
+approximation and change the atomic radii, gmx_MMPBSA
+performs the process internally. gmx_MMPBSA separates the
+receptor and ligand in the preparation step, avoiding the
+requirement for additional procedures or external applications.
+Similarly, our tool generates the alanine mutant without an
+external tool or a user-deﬁned topology. This reduces unforced
+errors and speeds up the input ﬁle preparation process.
+ii. Calculation. Multiple calculations (e.g., binding free
+energy with diﬀerent solvation models (PB, GB, or 3D-RISM),
+stability, alanine scanning, entropy corrections, and binding
+free energy decomposition) can be conducted with
+gmx_MMPBSA. The preparation and execution of alanine
+scanning and energy decomposition have been substantially
+facilitated as compared to their implementation in
+MMPBSA.py. As a new facility, interaction entropy calculations can now be conducted. For these new features, several
+variables in the input ﬁle have been added or modiﬁed in
+gmx_MMPBSA. A comprehensive description of the added/
+modiﬁed variables can be found at https://valdes-tresanco-ms.
+github.io/gmx_MMPBSA/input_ﬁle.
+iii. Visualization and Analysis of Results. Once the
+calculation is ﬁnished, a graphical user interface application
+(gmx_MMPBSA_ana) shows up to visualize and analyze the
+results. A detailed description of gmx_MMPBSA_ana
+functionalities is provided below.
+gmx_MMPBSA Tools. gmx_MMPBSA includes three
+tools: gmx_MMPBSA, which constitutes the application
+core; gmx_MMPBSA_ana, a tool for visualizing and analyzing
+
+the results; and gmx_MMPBSA_test, which helps users to
+familiarize themselves with the application, as well as inspect a
+set of provided examples.
+gmx_MMPBSA. gmx_MMPBSA carries out the ﬁrst two
+steps (i.e., preparation and calculation) described in the
+workﬂow. Additionally, it has an application programming
+interface (API) that provides direct access to the raw data
+produced during the calculation (https://valdes-tresanco-ms.
+github.io/gmx_MMPBSA/summary/#gmx_mmpbsa-in-anutshell).
+gmx_MMPBSA_ana. gmx_MMPBSA_ana is a graphical
+user interface (GUI) tool that has been built with the Python
+PyQt5 library for analyzing gmx_MMPBSA results. This tool
+provides a clean and user-friendly work environment using a
+multidocument interface that eases the graph analysis process,
+either individually or in sets. gmx_MMPBSA_ana has a
+multiprocessing capacity for reading and loading the results,
+thus reducing the processing time considerably. It uses
+seaborn23 and matplotlib24 for plotting, as well as pandas25
+and numpy 26 for manipulating the data. Currently,
+gmx_MMPBSA_ana allows analyzing multiple systems simultaneously and computing the correlation between calculated
+and experimental energies in a user-deﬁned set. Several graphs
+can be plotted in gmx_MMPBSA_ana, for instance, per-frame
+line and average bar graphs for each energy component,
+temporal heatmaps for per-residue free energies, relational
+heatmaps for per-wise free energies, and linear regression
+graphs for correlation analyses between the systems. Of note,
+each chart has a toolbar that allows editing several features in
+the graphs and exporting high-quality images. A thorough
+review of all kinds of graphs supported in gmx_MMPBSA_ana
+can be found at https://valdes-tresanco-ms.github.io/gmx_
+MMPBSA/analyzer.
+gmx_MMPBSA_test. We have currently provided
+gmx_MMPBSA users with a set of examples that show how
+the program works and the variety of systems and analyses that
+gmx_MMPBSA supports. Users can access them directly from
+the repository or by using gmx_MMPBSA_test. This tool
+downloads the current version of the example folder from the
+repository and uses exactly the command line recommended in
+each example. The process is carried out using multiprocessing,
+which allows running the examples in less time. Once all the
+calculations are ﬁnished, gmx_MMPBSA_ana is launched to
+display the results of all the selected systems. In this way, we
+delivered a tool to test gmx_MMPBSA operation and
+familiarize the user with the characteristics, methods, and
+analyses available in our application (https://valdes-tresancoms.github.io/gmx_MMPBSA/command-line/#running-gmx_
+mmpbsa_test).
+6284
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 5 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Article
+
+Table 2. Comparison of Analysis Features among g_mmpbsa, GMXPBSA2.1, MMPBSA.py, and gmx_MMPBSA
+feature
+API
+analyzer tool
+multiple systems at the same time
+correlation between systems
+per-residue energies to PDB
+interactive visualization
+3D molecular visualization
+interactive charts
+plotting tool
+energetic term charts
+export data to CSV ﬁle
+energy summary
+individual energetic terms
+
+g_mmpbsa
+
+GMXPBSA2.1
+
+MMPBSA.py
+
+gmx_MMPBSA
+
+★
+a
+×
+×
+
+static image
+internal tools
+Gpolar, Gnonpolar, EMM, Gbind
+
+API and graphics libraryb
+★
+★
+
+★
+gmx_MMPBSA_ana
+★
+★
+★
+★
+PyMOL
+★
+gmx_MMPBSA_ana
+all
+★
+★
+★
+
+a
+
+We plan to extend gmx_MMPBSA_ana compatibility to MMPBSA.py’s results. bCurrently, there is a repository (https://github.com/
+williamdlees/AmberUtils) for analyzing the results.
+
+gmx_MMPBSA vs Other Programs. Hereunder, we
+compare gmx_MMPBSA with the diﬀerent existing GROMACS programs to perform MM/PBSA calculations. The
+comparison includes g_mmpbsa,10 a tool widely used within
+the GROMACS community, and GMXPBSA2.1.11 We have
+also considered MMPBSA.py in the comparison, as it
+constitutes the base for gmx_MMPBSA.
+Calculation Features. gmx_MMPBSA includes the GB, PB,
+and 3D-RISM models for estimating the solvation energy
+during binding free energy or stability calculations. Thus far,
+no program allows GROMACS users to perform calculations
+using diﬀerent GB models. The previously licensed Sander
+code was recently released, thus enabling unrestricted use of
+the GBHCT,27 GBOBC, GBOBC2,28 GB-Neck,29 and GB-Neck2
+models.30 These models are widely used in free energy
+calculations as they allow achieving good results at a reasonable
+computational speed. In addition, part of the system can be
+treated by quantum mechanics using a hybrid quantum
+mechanical−molecular mechanical (QM/MM) Hamiltonian
+and a GB model, thus allowing a more accurate description of
+the system (Table 1). The model given by Pellegrini and
+Field31 is used in the QM/MM generalized Born implementation, with QM/MM PME support based on the work by
+Walker et al.32
+Furthermore, several ﬁnite-diﬀerence numerical solvers are
+available through gmx_MMPBSA, such as linear PB
+solvers,33,34 which can be used for standard applications such
+as modeling of globular proteins.35 On the other hand,
+nonlinear PB solvers36 are recommended when dealing with
+highly charged systems, such as nucleic acids. An implicit
+membrane region with a uniform37 or heterogeneous38
+dielectric constant can also be considered in the calculations
+(Table 1).39 Neither g_mmpbsa nor GMXPBSA2.1 has this
+feature implemented despite the APBS capability to simulate a
+membrane environment.40
+gmx_MMPBSA also incorporates 3D-RISM for calculating
+solvation energies (Table 1). 3D-RISM is based on ﬁrstprinciples and gives a comprehensive molecular description of
+the solvation.41,42 It considers various interactions between the
+solvent and the solute (e.g., hydrophobic interactions,
+hydrogen bonds), making it the most rigorous statistical
+mechanics solvation model available in gmx_MMPBSA.
+Nevertheless, it is prohibitive for several applications due to
+the large memory and CPU time required for the calculations.
+
+Furthermore, gmx_MMPBSA implements a new method for
+estimating the entropic term IE method, in addition to the two
+(NMODE and QH) already available in MMPBSA.py. The
+main advantage of this new method is its low computational
+cost, making it attractive for high throughput energy
+calculations.43−45 Neither g_mmpbsa nor GMXPBSA2.1 has
+any of these methods implemented in their routines. Although
+several studies conclude that correlations based on eﬀective
+energy may be suﬃcient,3,46 others assert that entropic
+correction can improve these estimates.43,47,48 In any case,
+we provide the user with diﬀerent methods to estimate the
+entropic component that can be executed independently
+(Table 1).
+Although the GB and PB models are not strictly
+decomposable, the per-wise scheme can provide information
+about pairwise interactions between residues. Similarly, both
+alanine scanning and per-residue decomposition allow
+estimating the contribution of a particular selection of residues.
+Currently, g_mmpbsa only supports residue decomposition,
+while GMXPBSA2.1 only supports alanine mutation at several
+residues simultaneously. These analyses shed light on the
+receptor−ligand interaction, though the results of a per-residue
+or per-wise decomposition should be interpreted carefully.
+gmx_MMPBSA implements a more ﬂexible selection method
+than MMPBSA.py when selecting residues from the complex
+to print. The interacting elements in the receptor and the
+ligand within a certain distance can be spotted by using the
+“within” keyword in gmx_MMPBSA (see an example at
+https://valdes-tresanco-ms.github.io/gmx_MMPBSA/
+examples/Decomposition_analysis). This reduces considerably
+both the computation time and the amount of generated raw
+data, as well as errors when listing the residues (Table 1).
+Finally, gmx_MMPBSA implements both the STP and MTP
+approach. The user can decide which approach to use based on
+the system’s behavior during the production run. Only
+GMXPBSA2.1 allows comparison between diﬀerent systems
+(e.g., comparing a mutant and the wild type), which will be
+implemented soon in gmx_MMPBSA. Additionally,
+gmx_MMPBSA allows deﬁning several trajectories of the
+same system, allowing the analysis of multiple replicas in the
+same calculation without concatenating them previously
+(Table 1).
+Analysis Features. gmx_MMPBSA is the only program that
+includes a dedicated analysis tool among all the compared
+6285
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 6 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Article
+
+Table 3. Comparison of Technical Features among g_mmpbsa, GMXPBSA2.1, MMPBSA.py, and gmx_MMPBSA
+feature
+
+g_mmpbsa
+
+GMXPBSA2.1
+
+GROMACS
+dependencies
+parallel computation
+steps for:
+calculation and summary
+analysis
+
+4.x.x, 5.x.x, and 2016+a
+APBS (1.2.x, 1.3.x or 1.4.x)c
+depends on APBS
+
+4.x.x, 5.x.x, and 20xx.xb
+APBS (1.x.x)d,e
+★
+
+MMPBSA.py
+
+★
+
+4.x.x, 5.x.x, and 20xx.x
+AmberTools20/21e
+★
+
+gmx_MMPBSA
+
+multiple
+multiple
+
+multiple
+multiple
+
+one
+multiple
+
+one
+one
+
+a
+GROMACS 20xx.x is not oﬃcially supported. There is a Pull Request that oﬀers minimum compatibility with versions higher than 2016.x, but still
+with limitations. bGROMACS 20xx.x is not oﬃcially supported. It requires several modiﬁcations of the scripts to work correctly. cThe precompiled
+program does not require any external library or GROMACS and APBS package. dIt is not clear whether it supports APBS versions 3.x.x. eThe
+referred program must be installed.
+
+Figure 3. Relative IE values for OMTKY3 mutants. (A) Chymotrypsin:OMTKY3 complex. Residues in the OMTKY3 reactive site loop are
+represented as sticks. The electrostatic surface is shown for chymotrypsin. (B) Comparison of IE relative values obtained with gmx_MMPBSA vs
+those reported by Yan et al.
+
+the raw data can be exported in CSV format for downstream
+analyses (Table 2).
+Technical Features. g_mmpbsa and GMXPBSA2.1 present
+some compatibility issues with modern GROMACS versions
+(20xx.x), while gmx_MMPBSA can use any GROMACS
+version included in the PATH to extract the structures,
+generate the indexes, and clean up the trajectories. We have
+successfully tested several GROMACS versions, including but
+not limited to 4.6.5, 5.1.2, 2018.3, 2019.1, 2020.3, and 2021.1
+(Table 3).
+All the programs can run in parallel, although there are
+diﬀerences in their execution and implementation. g_mmpbsa
+depends exclusively on the APBS parallelization; thus, it is
+necessary to conﬁgure both the external use of APBS and
+environment variables that control the number of processors to
+use. Conversely, GMXPBSA2.1 takes advantage of both locally
+available processors and PBS/Torque queuing in a cluster.
+Both gmx_MMPBSA and MMPBSA.py natively incorporate
+parallelization with Message Passing Interface (MPI) through
+the mpi4py library.50 That way, it eﬃciently leverages either
+processors available locally or on multiple nodes in highperformance computing (HPC) systems. In addition, it does
+not require any additional process, execution of external
+applications, or user intervention (Table 3).
+The calculation and analyses are performed as a single-step
+execution process within gmx_MMPBSA. On the contrary,
+several python scripts are required in g_mmpbsa to perform
+the ﬁnal statistical analyses and calculate the energetic
+contributions of each residue in the complex. Likewise,
+GMXPBSA2.1 comprises a suite of Bash/Perl scripts for
+streamlining MM/PBSA calculations (Table 3).
+Illustrating Examples. To demonstrate the applicability
+and versatility of the gmx_MMPBSA module, we performed
+
+programs. gmx_MMPBSA_ana provides a friendly GUI that
+allows access to all the gmx_MMPBSA results. Multiple
+systems can be analyzed within gmx_MMPBSA_ana concurrently. Pearson and Spearman’s coeﬃcients can be
+calculated with their associated p-values, and scatter plots
+containing the calculated vs experimental energy are provided.
+Noteworthy, up to 12 diﬀerent methods (i.e., PB, GB, 3DRISM, PB+NMODE, PB+QH, PB+IE, GB+NMODE, GB
++QH, GB+IE, 3D-RISM+NMODE, 3D-RISM+QH, and 3DRISM+IE) can be used to calculate energies in the same
+gmx_MMPBSA run, given that PB/GB/3D-RISM and
+entropic calculations are performed independently. This way,
+users can select the best method for their system in a single
+step (Table 2).
+On the other hand, line plots show instantaneous energy
+values for individual (i.e., Eele, EvdW) or summed terms (i.e.,
+Ggas, Gsol, Gtotal). Likewise, bar plots are used to show average
+values for diﬀerent terms with their respective standard
+deviations. In addition, heatmap plots are used to show results
+from per-residue and per-wise energy decomposition (Table
+2).
+Additionally, gmx_MMPBSA_ana incorporates the interactive visualization of per-residue energy contributions on the
+PDB structure using PyMOL.49 PyMOL is widely used to
+visualize, share, and analyze molecular data. In addition to
+being lightweight and fast, PyMOL can create images of
+peerless visualization quality while oﬀering the ﬂexibility of
+Python-based development and scalability.49 Nonetheless, the
+PDB ﬁle with the mapped per-residue energy contributions can
+also be exported and visualized with other software (e.g.,
+Chimera or VMD, see https://valdes-tresanco-ms.github.io/
+gmx_MMPBSA/examples/Decomposition_analysis). Finally,
+6286
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 7 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Article
+
+Figure 4. MMGBSA calculations for jel42 Fab fragment/HPr complex. (A) Per-residue energy contributions to the formation of the jel42 Fab
+fragment/HPr complex. (B) Structural representation of residues at the interface of the complex colored according to their energy contribution to
+the complex formation; see color-gradient bar. (C) Calculated and experimental ΔΔG values for HPr mutants.
+
+residues are more diﬃcult to converge and reproduce because
+their interaction energies tend to be higher and more variable.
+It is worth noting also that the study by Yan et al. was carried
+out with Amber, while our simulations were conducted with
+GROMACS. Even if the same parameters are used to generate
+the trajectories, this does not ensure that the evolution of the
+system will be the same. Therefore, these factors may account
+also for the obtained diﬀerences.
+Energy Contributions of Residues at the Antibody−
+Antigen Complex Interface. Jel42 Fab fragment/HPr (PDB
+ID: 2JEL)53 is an antibody−antigen complex determined at 2.5
+Å resolution. Experimental information from alanine-scanning
+mutagenesis experiments is accessible through the SKEMPI
+database54 and was used to validate our ﬁndings. The antibody
+residues are numbered according to Kabat numbering
+system.53,55,56 H, L, or P are the chain identiﬁers for the
+heavy and light chains of the Jel42 Fab fragment and the HPr
+antigen, respectively.
+The identiﬁcation of hot spots at the interface was ﬁrst
+carried out using the per-residue eﬀective free energy
+decomposition protocol. This method predicted a high free
+energy contribution (|ΔGres| > 6 kcal/mol) for QP71 and
+YH53 (Figure 4A). QP71 is buried in the antibody binding site
+and establishes multiple van der Waals contacts, hydrogen
+bonds with TH30 and TH52A, and water-mediated
+interactions with SH52 and SH54 residues.53 YH53 presents
+a similar interaction proﬁle, interacting through hydrogen
+bonding with HP76 and van der Waals contacts with QP71,
+KP72, and EP75 (Figure 4B).53 Residues YH56, MH96, MP1,
+and FP2 are predicted to have a high (|ΔGres| > 3 kcal/mol)
+contribution to the eﬀective binding free energy (Figure 4A).
+These residues interact mainly through van der Waals contacts
+
+several calculations for complexes of diﬀerent nature, i.e.,
+protein−inhibitor, antibody−antigen, and protein−carbohydrate. To check the correct implementation of
+gmx_MMPBSA, we ran these systems also with MMPBSA.py,
+using the topologies generated with gmx_MMPBSA and an
+input ﬁle with the same variables, as well as the trajectories as
+inputs to MMPBSA.py. In all cases, the results were identical.
+Details on system preparation, MD simulation procedures, and
+energy calculations are described in the Supporting Information.
+gmx_MMPBSA Reproduces the Relative IE Values of
+Alanine Mutants. Yan and co-workers43 proposed the IE
+method combined with residue-speciﬁc dielectric constants to
+compute the entropic contribution in alanine scanning
+calculations. They validated this method in a set of 24
+protein−protein complexes. An overall mean absolute error of
+1.0 kcal/mol relative to the experiment was achieved when
+combining MM/GBSA, IE, and residue-speciﬁc dielectric
+constants (i.e., 1 for nonpolar residues, 3 for polar residues,
+and 5 for charged residues).43 Here, we chose a well-studied
+system, chymotrypsin, with its inhibitor turkey ovomucoid
+third domain (OMTKY3), to test the IE method implementation in gmx_MMPBSA.
+The relative IE values of three alanine mutants (T17A, I18A,
+and E19A) in the reactive site loop of OMTKY3 (Figure 3A)
+were calculated with gmx_MMPBSA, showing a good
+agreement with those reported by Yan et al. (Figure 3B).
+The calculated values are modularly small, which is expected
+since none of these residues changes their conformation
+signiﬁcantly upon complex formation.51 The most signiﬁcant
+diﬀerence was observed for E19, a charged residue exposed to
+the solvent. As noticed recently,52 the IE values for charged
+6287
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 8 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Article
+
+Figure 5. Assessment of diﬀerent methods to calculate the binding free energy of the Lectin RSL:Me-α-L-Fucose complex. (A) Me-α-L-Fucose
+bound to the intermonomeric site of Lectin RSL. CH···π stacking is shown as gray dashed lines. (B) Performance of MM/GBSA + IE and MM/
+PBSA + IE vs QM-MM/GBSA. Error bars represent standard errors from a single run.
+
+implicit solvent models while automating the input ﬁle
+preparation process to minimize user errors. Two additional
+tools, gmx_MMPBSA_test and gmx_MMPBSA_ana, have
+been included to enhance gmx_MMPBSA usability.
+gmx_MMPBSA_test has been designed for testing purposes
+and familiarizing the user with each supported type of
+calculation as well as all kinds of systems that can be studied
+with gmx_MMPBSA. On the other hand, gmx_MMPBSA_ana
+allows the user to visualize and analyze results from
+gmx_MMPBSA output ﬁles.
+gmx_MMPBSA brings improvements in compatibility,
+versatility, scope of the analyses, and parallelization compared
+to existing programs. Our tool is compatible with all
+GROMACS versions, which has been a constant issue with
+programs with a similar purpose. gmx_MMPBSA oﬀers access
+to various calculations with diﬀerent methods, including
+binding free energy calculations, computational alanine
+scanning, entropy estimation, and binding free energy
+decomposition with diﬀerent schemes. gmx_MMPBSA_ana
+is a dedicated analysis tool that provides the user access to all
+gmx_MMPBSA results. Outcomes from up to 12 diﬀerent
+methods can be shown simultaneously for several systems. Last
+but not least, all calculations and analyses can be speeded up
+through parallelization with MPI.
+Since its initial release in October 2020, gmx_MMPBSA has
+had tremendous acceptance within the GROMACS community (ca. >12 500 downloads and >1500 users accessing the
+documentation, as of August 2021), which has pushed us
+forward to create a robust toolkit. Thorough documentation is
+available with a detailed explanation for all the routines
+implemented in gmx_MMPBSA and various illustrating
+examples. The latest version (v1.4.3, 26/05/2021) of
+gmx_MMPBSA is distributed under the GNU General Public
+License (version 3) and available for download at https://
+github.com/Valdes-Tresanco-MS/gmx_MMPBSA. Documentation and tutorials are also available at https://valdestresanco-ms.github.io/gmx_MMPBSA.
+
+favored by their large hydrophobic side chains (Figure 4B).53
+Of note, the contribution to the free energy of the residues
+mentioned above was very stable throughout the MD
+simulation (Figure S2).
+Next, computational alanine scanning was performed over
+ﬁve residues (TP62, EP68, EP70, HP76, and EP83). The
+results of standard MM/GBSA calculations and those
+including the entropic contribution computed with the IE
+method were compared directly to the experimental data. As
+shown in Table 2C, both approaches show encouraging results
+with mean absolute errors (MAE) < 1 kcal/mol, which denotes
+excellent agreement with experimental ﬁndings. A detailed
+analysis of the contributions showed the enthalpic component
+(ΔH) as favorable (negative value) to the binding process. At
+the same time, the entropic term (−TΔS) was unfavorable
+(positive value) and modularly smaller (Figure S3).
+Comparing QM-MM/GBSA vs MM/PB(GB)SA + IE Method.
+Lectin RSL from Ralstonia solanacearum complexed with Meα-L-Fucose was obtained from the X-ray crystal structure
+(PDB ID: 2BT9)57 and used as a study case to evaluate the
+performance of QM-MM/GBSA vs MM/PB(GB)SA + IE
+method.
+Figure 5A shows Me-α-L-Fucose bound to the intermonomeric site of Lectin RSL. Noteworthy, W31 establishes a
+CH···π stacking interaction with Me-α-L-Fucose.57 This
+interaction between an aromatic amino acid and the hydrophobic face of the carbohydrate can contribute up to 5 kcal/
+mol.58 Figure 5B shows a comparison among diﬀerent
+methods to calculate the binding free energy. In this particular
+case, the PB model performed better than the GB model.
+Furthermore, the addition of the entropic component
+improves the calculations (ΔGcalc = −12.7 ± 2.5 kcal/mol
+with PB; ΔGcalc = −25.2 ± 2.1 kcal/mol with GB), although
+the binding free energy value calculated with the GB model is
+still far from the experimental one (ΔGexp = −8.6 kcal/mol).
+On the other hand, QM-MM/GBSA outperformed (ΔGcalc =
+−9.5 ± 1.5 kcal/mol) both classical approaches, in agreement
+with previous ﬁndings.59 QM-MM/GBSA success relies on
+using a DFTB Hamiltonian, which better describes the
+interactions between the active site residues and Me-α-LFucose, particularly the dispersion eﬀects.
+
+■
+
+ASSOCIATED CONTENT
+
+* Supporting Information
+sı
+
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.jctc.1c00645.
+
+■
+
+CONCLUSIONS
+gmx_MMPBSA is a program written in Python aiming to
+perform end-state free energy calculations with GROMACS
+ﬁles. Our tool simpliﬁes end-state free energy calculations with
+
+Details on systems preparation, MD simulation
+procedures, and energy calculations; topology generation process for AMBER and CHARMM force ﬁelds
+(Figure S1); time evolution of instantaneous per-residue
+6288
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 9 ---
+Journal of Chemical Theory and Computation
+
+■
+
+pubs.acs.org/JCTC
+
+(2) Massova, I.; Kollman, P. A. Combined Molecular Mechanical
+and Continuum Solvent Approach (MM-PBSA/GBSA) to Predict
+Ligand Binding. Perspect. Drug Discovery Des. 2000, 18, 113.
+(3) Genheden, S.; Ryde, U. The MM/PBSA and MM/GBSA
+Methods to Estimate Ligand-Binding Affinities. Expert Opin. Drug
+Discovery 2015, 10 (5), 449−461.
+(4) Wang, C.; Greene, D.; Xiao, L.; Qi, R.; Luo, R. Recent
+Developments and Applications of the MMPBSA Method. Front. Mol.
+Biosci. 2018, 4, 87.
+(5) Wang, E.; Sun, H.; Wang, J.; Wang, Z.; Liu, H.; Zhang, J. Z. H.;
+Hou, T. End-Point Binding Free Energy Calculation with MM/PBSA
+and MM/GBSA: Strategies and Applications in Drug Design. Chem.
+Rev. 2019, 119 (16), 9478−9508.
+(6) Miller, B. R., 3rd; McGee, T. D. J.; Swails, J. M.; Homeyer, N.;
+Gohlke, H.; Roitberg, A. E. MMPBSA.Py: An Efficient Program for
+End-State Free Energy Calculations. J. Chem. Theory Comput. 2012, 8
+(9), 3314−3321.
+(7) Case, D. A.; Cheatham, T. E., 3rd; Darden, T.; Gohlke, H.; Luo,
+R.; Merz, K. M. J.; Onufriev, A.; Simmerling, C.; Wang, B.; Woods, R.
+J. The Amber Biomolecular Simulation Programs. J. Comput. Chem.
+2005, 26 (16), 1668−1688.
+(8) Abraham, M. J.; Murtola, T.; Schulz, R.; Páll, S.; Smith, J. C.;
+Hess, B.; Lindahl, E. GROMACS: High Performance Molecular
+Simulations through Multi-Level Parallelism from Laptops to
+Supercomputers. SoftwareX 2015, 1−2, 19−25.
+(9) Jurrus, E.; Engel, D.; Star, K.; Monson, K.; Brandi, J.; Felberg, L.
+E.; Brookes, D. H.; Wilson, L.; Chen, J.; Liles, K.; Chun, M.; Li, P.;
+Gohara, D. W.; Dolinsky, T.; Konecny, R.; Koes, D. R.; Nielsen, J. E.;
+Head-Gordon, T.; Geng, W.; Krasny, R.; Wei, G.-W.; Holst, M. J.;
+McCammon, J. A.; Baker, N. A. Improvements to the APBS
+Biomolecular Solvation Software Suite. Protein Sci. 2018, 27 (1),
+112−128.
+(10) Kumari, R.; Kumar, R.; Lynn, A. G_mmpbsa–a GROMACS
+Tool for High-Throughput MM-PBSA Calculations. J. Chem. Inf.
+Model. 2014, 54 (7), 1951−1962.
+(11) Paissoni, C.; Spiliotopoulos, D.; Musco, G.; Spitaleri, A.
+GMXPBSA 2.0: A GROMACS Tool to Perform MM/PBSA and
+Computational Alanine Scanning. Comput. Phys. Commun. 2015, 186,
+105−107.
+(12) Case, D. A.; Aktulga, H. M.; Belfon, K.; Ben-Shalom, I. Y.;
+Brozell, S. R.; Cerutti, D. S.; Cheatham, T. E., III; Cisneros, C. A.;
+Cruzeiro, V. W. D.; Darden, T. A.; Duke, R. E.; Giambasu, G.; Gilson,
+M. K.; Gohlke, H.; Goetz, A. W.; Harris, R.; Izadi, S. A.; Izmailov, S.
+A.; Jin, C.; Kasavajhala, K.; Kaymak, M. C.; King, E.; Kovalenko, A.;
+Kurtzman, T.; Lee, T. S.; LeGrand, S.; Li, P.; Lin, C.; Liu, J.; Luchko,
+T.; Luo, R.; Machado, M.; Man, V.; Manathunga, M.; Merz, K. M.;
+Miao, Y.; Mikhailovskii, O.; Monard, G.; Nguyen, H.; O’Hearn, K. A.;
+Onufriev, A.; Pan, F.; Pantano, S.; Qi, R.; Rahnamoun, A.; Roe, D. R.;
+Roitberg, A.; Sagui, C.; Schott-Verdugo, S.; Shen, J.; Simmerling, C.
+L.; Skrynnikov, N. R.; Smith, J.; Swails, J.; Walker, R. C.; Wang, J.;
+Wei, H.; Wolf, R. M.; Wu, X.; Xue, Y.; York, D. M.; Zhao, S.;
+Kollman, P. A. Amber 2021; University of California: San Francisco,
+2021.
+(13) Sitkoff, D.; Sharp, K. A.; Honig, B. Accurate Calculation of
+Hydration Free Energies Using Macroscopic Solvent Models. J. Phys.
+Chem. 1994, 98 (7), 1978−1988.
+(14) Tan, C.; Tan, Y. H.; Luo, R. Implicit Nonpolar Solvent Models.
+J. Phys. Chem. B 2007, 111, 12263.
+(15) Karplus, M.; Kushick, J. N. Method for Estimating the
+Configurational Entropy of Macromolecules. Macromolecules 1981, 14
+(2), 325.
+(16) Brooks, B. R.; Janežič, D.; Karplus, M. Harmonic Analysis of
+Large Systems. I. Methodology. J. Comput. Chem. 1995, 16 (12),
+1522−1542.
+(17) Rastelli, G.; Del Rio, A.; Degliesposti, G.; Sgobba, M. Fast and
+Accurate Predictions of Binding Free Energies Using MM-PBSA and
+MM-GBSA. J. Comput. Chem. 2009, 31 (4), 797−810.
+
+energies throughout the MD simulation (Figure S2);
+and enthalpic (ΔH) and entropic (−TΔS) components
+for wild-type and mutant systems (Figure S3) (PDF)
+
+AUTHOR INFORMATION
+
+Corresponding Authors
+
+Mario S. Valdés-Tresanco − Faculty of Basic Sciences,
+University of Medellin, Medellin 050026, Colombia;
+Email: mariosergiovaldes145@gmail.com
+Ernesto Moreno − Faculty of Basic Sciences, University of
+Medellin, Medellin 050026, Colombia; orcid.org/00000002-2309-4826; Email: emoreno@udem.edu.co
+Authors
+
+Mario E. Valdés-Tresanco − Centre for Molecular
+Simulations and Department of Biological Sciences,
+University of Calgary, Calgary, Alberta T2N 1N4, Canada
+Pedro A. Valiente − Donnelly Centre for Cellular &
+Biomolecular Research, University of Toronto, Toronto,
+Ontario M5S 3E1, Canada; Center of Protein Studies,
+Faculty of Biology, University of Havana, 25 & J 10400 La
+Habana, Cuba; orcid.org/0000-0002-4776-6017
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.jctc.1c00645
+Author Contributions
+§
+
+(M.S.V-T. and M.E.V-T.) These authors contributed equally.
+
+Author Contributions
+
+The manuscript was written through the contributions of all
+authors. All authors have approved the ﬁnal version of the
+manuscript.
+Funding
+
+Work by M.S.V.-T. and E.M. was supported by the University
+of Medellin and MINCIENCIAS, MINEDUCACIÓ N, MINCIT and ICETEX, through the Program NanoBioCáncer, Cod.
+FP44842-211-2018. M.E.V.-T. is an Eyes High Doctoral
+Recruitment Scholarship and Alberta Graduate Student
+Scholarship recipient at the University of Calgary.
+Notes
+
+The authors declare no competing ﬁnancial interest.
+
+■
+
+ACKNOWLEDGMENTS
+Special thanks to the JetBrains company (https://www.
+jetbrains.com) for granting a free, open-source license to use
+their software.
+
+■
+
+ABBREVIATIONS
+MM/PB(GB)SA, molecular mechanics/Poisson−Boltzmann
+(Generalized-Born) surface area; 3D-RISM, 3D-Reference
+Interaction Site Model; MD, molecular dynamics; SAS, solvent
+accessible surface area; NMODE, normal modes analysis; QH,
+quasi-harmonic; IE, interaction entropy; STP, single trajectory
+protocol; MTP, multiple trajectory protocol; QM/MM,
+quantum mechanical−molecular mechanical
+
+■
+
+Article
+
+REFERENCES
+
+(1) Srinivasan, J.; Cheatham, T. E.; Cieplak, P.; Kollman, P. A.; Case,
+D. A. Continuum Solvent Studies of the Stability of DNA, RNA, and
+Phosphoramidate−DNA Helices. J. Am. Chem. Soc. 1998, 120 (37),
+9401−9409.
+6289
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 10 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+(18) Duan, L.; Liu, X.; Zhang, J. Z. Interaction Entropy: A New
+Paradigm for Highly Efficient and Reliable Computation of Protein−
+Ligand Binding Free Energy. J. Am. Chem. Soc. 2016, 138, 5722.
+(19) Lee, M. S.; Olson, M. A. Calculation of Absolute Protein−
+Ligand Binding Affinity Using Path and Endpoint Approaches.
+Biophys. J. 2006, 90, 864.
+(20) Daggett, V. Long Timescale Simulations. Curr. Opin. Struct.
+Biol. 2000, 10, 160.
+(21) Shirts, M. R.; Klein, C.; Swails, J. M.; Yin, J.; Gilson, M. K.;
+Mobley, D. L.; Case, D. A.; Zhong, E. D. Lessons Learned from
+Comparing Molecular Dynamics Engines on the SAMPL5 Dataset. J.
+Comput.-Aided Mol. Des. 2017, 31 (1), 147−161.
+(22) Horn, A. H. C. A Consistent Force Field Parameter Set for
+Zwitterionic Amino Acid Residues. J. Mol. Model. 2014, 20 (11), 1−
+14.
+(23) Waskom, M. Seaborn: Statistical Data Visualization. J. Open
+Source Softw. 2021, 6 (60), 3021.
+(24) Hunter, J. D. Matplotlib: A 2D Graphics Environment. Comput.
+Sci. Eng. 2007, 9 (3), 90−95.
+(25) Mckinney, W. Data Structures for Statistical Computing in Python
+2010, 56.
+(26) Harris, C. R.; Millman, K. J.; van der Walt, S. J.; Gommers, R.;
+Virtanen, P.; Cournapeau, D.; Wieser, E.; Taylor, J.; Berg, S.; Smith,
+N. J.; Kern, R.; Picus, M.; Hoyer, S.; van Kerkwijk, M. H.; Brett, M.;
+Haldane, A.; del Río, J. F.; Wiebe, M.; Peterson, P.; Gérard-Marchant,
+P.; Sheppard, K.; Reddy, T.; Weckesser, W.; Abbasi, H.; Gohlke, C.;
+Oliphant, T. E. Array Programming with NumPy. Nature 2020, 585,
+357−362.
+(27) Hawkins, G. D.; Cramer, C. J.; Truhlar, D. G. Parametrized
+Models of Aqueous Free Energies of Solvation Based on Pairwise
+Descreening of Solute Atomic Charges from a Dielectric Medium. J.
+Phys. Chem. 1996, 100, 19824.
+(28) Onufriev, A.; Bashford, D.; Case, D. A. Exploring Protein
+Native States and Large-Scale Conformational Changes with a
+Modified Generalized Born Model. Proteins: Struct., Funct., Genet.
+2004, 55 (2), 383.
+(29) Mongan, J.; Simmerling, C.; McCammon, J. A.; Case, D. A.;
+Onufriev, A. Generalized Born Model with a Simple, Robust
+Molecular Volume Correction. J. Chem. Theory Comput. 2007, 3
+(1), 156−169.
+(30) Nguyen, H.; Roe, D. R.; Simmerling, C. Improved Generalized
+Born Solvent Model Parameters for Protein Simulations. J. Chem.
+Theory Comput. 2013, 9 (4), 2020−2034.
+(31) Pellegrini, E.; Field, M. J. A Generalized-Born Solvation Model
+for Macromolecular Hybrid-Potential Calculations. J. Phys. Chem. A
+2002, 106 (7), 1316−1326.
+(32) Walker, R. C.; Crowley, M. F.; Case, D. A. The Implementation
+of a Fast and Accurate QM/MM Potential Method in Amber. J.
+Comput. Chem. 2008, 29 (7), 1019−1031.
+(33) Luo, R.; David, L.; Gilson, M. K. Accelerated Poisson−
+Boltzmann Calculations for Static and Dynamic Systems. J. Comput.
+Chem. 2002, 23, 1244.
+(34) Wang, J.; Luo, R. Assessment of Linear Finite-Difference
+Poisson-Boltzmann Solvers. J. Comput. Chem. 2010, 31 (8), 1689.
+(35) Wang, J.; Cai, Q.; Xiang, Y.; Luo, R. Reducing Grid
+Dependence in Finite-Difference Poisson−Boltzmann Calculations.
+J. Chem. Theory Comput. 2012, 8 (8), 2741−2751.
+(36) Cai, Q.; Hsieh, M.-J.; Wang, J.; Luo, R. Performance of
+Nonlinear Finite-Difference Poisson-Boltzmann Solvers. J. Chem.
+Theory Comput. 2010, 6 (1), 203−211.
+(37) Botello-Smith, W. M.; Liu, X.; Cai, Q.; Li, Z.; Zhao, H.; Luo, R.
+Numerical Poisson-Boltzmann Model for Continuum Membrane
+Systems. Chem. Phys. Lett. 2013, 555, 274.
+(38) Greene, D.; Qi, R.; Nguyen, R.; Qiu, T.; Luo, R. Heterogeneous
+Dielectric Implicit Membrane Model for the Calculation of MMPBSA
+Binding Free Energies. J. Chem. Inf. Model. 2019, 59 (6), 3041−3056.
+(39) Xiao, L.; Diao, J.; Greene, D.; Wang, J.; Luo, R. A Continuum
+Poisson−Boltzmann Model for Membrane Channel Proteins. J. Chem.
+Theory Comput. 2017, 13 (7), 3398−3412.
+
+Article
+
+(40) Callenberg, K. M.; Choudhary, O. P.; de Forest, G. L.; Gohara,
+D. W.; Baker, N. A.; Grabe, M. APBSmem: A Graphical Interface for
+Electrostatic Calculations at the Membrane. PLoS One 2010, 5 (9),
+e12722.
+(41) Genheden, S.; Luchko, T.; Gusarov, S.; Kovalenko, A.; Ryde, U.
+An MM/3D-RISM Approach for Ligand Binding Affinities. J. Phys.
+Chem. B 2010, 114 (25), 8505−8516.
+(42) Luchko, T.; Gusarov, S.; Roe, D. R.; Simmerling, C.; Case, D.
+A.; Tuszynski, J.; Kovalenko, A. Three-Dimensional Molecular
+Theory of Solvation Coupled with Molecular Dynamics in Amber.
+J. Chem. Theory Comput. 2010, 6 (3), 607−624.
+(43) Yan, Y.; Yang, M.; Ji, C. G.; Zhang, J. Z. H. Interaction Entropy
+for Computational Alanine Scanning. J. Chem. Inf. Model. 2017, 57
+(5), 1112−1122.
+(44) Zhong, S.; Huang, K.; Luo, S.; Dong, S.; Duan, L. Improving
+the Performance of the MM/PBSA and MM/GBSA Methods in
+Recognizing the Native Structure of the Bcl-2 Family Using the
+Interaction Entropy Method. Phys. Chem. Chem. Phys. 2020, 22 (7),
+4240−4251.
+(45) Huang, K.; Luo, S.; Cong, Y.; Zhong, S.; Zhang, J. Z. H.; Duan,
+L. An Accurate Free Energy Estimator: Based on MM/PBSA
+Combined with Interaction Entropy for Protein-Ligand Binding
+Affinity. Nanoscale 2020, 12 (19), 10737−10750.
+(46) Spacková, N.; Cheatham, T. E., 3rd; Ryjácek, F.; Lankas, F.;
+Van Meervelt, L.; Hobza, P.; Sponer, J. Molecular Dynamics
+Simulations and Thermodynamics Analysis of DNA-Drug Complexes.
+Minor Groove Binding between 4′,6-Diamidino-2-Phenylindole and
+DNA Duplexes in Solution. J. Am. Chem. Soc. 2003, 125 (7), 1759−
+1769.
+(47) Checa, A.; Ortiz, A. R.; De Pascual-Teresa, B.; Gago, F.
+Assessment of Solvation Effects on Calculated Binding Affinity
+Differences: Trypsin Inhibition by Flavonoids as a Model System for
+Congeneric Series. J. Med. Chem. 1997, 40 (25), 4136−4145.
+(48) Sun, Z.; Yan, Y. N.; Yang, M.; Zhang, J. Z. H. Interaction
+Entropy for Protein-Protein Binding. J. Chem. Phys. 2017, 146 (12),
+124124.
+(49) Schrödinger, L. The PyMOL Molecular Graphics System, Version
+2.3.4; 2019.
+(50) Dalcin, L. D.; Paz, R. R.; Kler, P. A.; Cosimo, A. Parallel
+Distributed Computing Using Python. Adv. Water Resour. 2011, 34
+(9), 1124−1139.
+(51) Fujinaga, M.; Sielecki, A. R.; Read, R. J.; Ardelt, W.; Laskowski,
+M.; James, M. N. G. Crystal and Molecular Structures of the Complex
+of α-Chymotrypsin with Its Inhibitor Turkey Ovomucoid Third
+Domain at 1.8 Å Resolution. J. Mol. Biol. 1987, 195 (2), 397−418.
+(52) Ekberg, V.; Ryde, U. On the Use of Interaction Entropy and
+Related Methods to Estimate Binding Entropies. J. Chem. Theory
+Comput. 2021, 17 (8), 5379−5391.
+(53) Prasad, L.; Waygood, E. B.; Lee, J. S.; Delbaere, L. T. J. The 2.5
+Å Resolution Structure of the Jel42 Fab Fragment/HPr Complex. J.
+Mol. Biol. 1998, 280 (5), 829−845.
+(54) Jankauskaitė, J.; Jiménez-García, B.; Dapku̅nas, J.; FernándezRecio, J.; Moal, I. H. SKEMPI 2.0: An Updated Benchmark of
+Changes in Protein−Protein Binding Energy, Kinetics and Thermodynamics upon Mutation. Bioinformatics 2019, 35 (3), 462−469.
+(55) Kabat, E. A. Sequences of Proteins of Immunological Interest; U.S.
+Dept. of Health and Human Services, Public Health Service, National
+Institutes of Health: Bethesda, MD, 1991.
+(56) Prasad, L.; Sharma, S.; Vandonselaar, M.; Quail, J. W.; Lee, J.
+S.; Waygood, E. B.; Wilson, K. S.; Dauter, Z.; Delbaere, L. T. J.
+Evaluation of Mutagenesis for Epitope Mapping. Structure of an
+Antibody- Protein Antigen Complex. J. Biol. Chem. 1993, 268 (15),
+10705−10708.
+(57) Kostlánová, N.; Mitchell, E. P.; Lortat-Jacob, H.; Oscarson, S.;
+Lahmann, M.; Gilboa-Garber, N.; Chambat, G.; Wimmerová, M.;
+Imberty, A. The Fucose-Binding Lectin from Ralstonia Solanacearum:
+A New Type of β-Propeller Architecture Formed by Oligomerization
+and Interacting with Fucoside, Fucosyllactose, and Plant Xyloglucan.
+J. Biol. Chem. 2005, 280 (30), 27839−27849.
+6290
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291
+
+--- Page 11 ---
+Journal of Chemical Theory and Computation
+
+pubs.acs.org/JCTC
+
+Article
+
+(58) Wimmerová, M.; Kozmon, S.; Nečasová, I.; Mishra, S. K.;
+Komárek, J.; Koča, J. Stacking Interactions between Carbohydrate and
+Protein Quantified by Combination of Theoretical and Experimental
+Methods. PLoS One 2012, 7 (10), e46032.
+(59) Mishra, S. K.; Koča, J. Assessing the Performance of MM/
+PBSA, MM/GBSA, and QM-MM/GBSA Approaches on Protein/
+Carbohydrate Complexes: Effect of Implicit Solvent Models, QM
+Methods, and Entropic Contributions. J. Phys. Chem. B 2018, 122
+(34), 8113−8121.
+
+6291
+
+https://doi.org/10.1021/acs.jctc.1c00645
+J. Chem. Theory Comput. 2021, 17, 6281−6291

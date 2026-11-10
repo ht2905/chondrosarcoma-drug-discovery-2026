@@ -1,0 +1,2958 @@
+--- Page 1 ---
+Letters
+https://doi.org/10.1038/s42255-020-0224-7
+
+Selenium detoxification is required for cancer-cell
+survival
+Anne E. Carlisle 1,4, Namgyu Lee1,4, Asia N. Matthew-Onabanjo1, Meghan E. Spears 1, Sung Jin Park2,
+Daniel Youkana 1, Mihir B. Doshi1, Austin Peppers1, Rui Li 1, Alexander B. Joseph1, Miles Smith 3,
+Karl Simin 1, Lihua Julie Zhu 1, Paul L. Greer2, Leslie M. Shaw1 and Dohoon Kim 1 ✉
+The micronutrient selenium is incorporated via the selenocysteine biosynthesis pathway into the rare amino acid selenocysteine, which is required in selenoproteins such as glutathione
+peroxidases and thioredoxin reductases1,2. Here, we show that
+selenophosphate synthetase 2 (SEPHS2), an enzyme in the
+selenocysteine biosynthesis pathway, is essential for survival
+of cancer, but not normal, cells. SEPHS2 is required in cancer
+cells to detoxify selenide, an intermediate that is formed during selenocysteine biosynthesis. Breast and other cancer cells
+are selenophilic, owing to a secondary function of the cystine/
+glutamate antiporter SLC7A11 that promotes selenium uptake
+and selenocysteine biosynthesis, which, by allowing production of selenoproteins such as GPX4, protects cells against
+ferroptosis. However, this activity also becomes a liability for
+cancer cells because selenide is poisonous and must be processed by SEPHS2. Accordingly, we find that SEPHS2 protein
+levels are elevated in samples from people with breast cancer, and that loss of SEPHS2 impairs growth of orthotopic
+mammary-tumour xenografts in mice. Collectively, our results
+identify a vulnerability of cancer cells and define the role of
+selenium metabolism in cancer.
+Altered metabolism is a hallmark of cancer3, and enzymes that
+produce metabolites required by cancer cells are attractive targets
+for therapy. However, targeting these enzymes may have limited
+efficacy when the same metabolites are available in the tumour
+environment, or can be produced through alternative routes4. As an
+alternative therapeutic approach, we sought to identify metabolic
+enzymes that may be required in cancer cells to prevent the buildup
+of toxic metabolites (Fig. 1a). To first identify endogenously produced toxic metabolites, we cross-examined the metabolites in the
+human metabolic network with toxicological data from the NIH
+Toxicology Data Network (TOXNET)5. The enzymes that use these
+toxic metabolites as substrates according to the Kyoto Encyclopedia
+of Genes and Genomes (KEGG)6 were designated as putative detoxifying enzymes, and a panel of these were examined for their role in
+cell viability (Extended Data Fig. 1).
+CRISPR–Cas9-based gene disruption7 of several of these
+enzymes impaired cell viability in one or more of the tested cell lines
+(Fig. 1b). Loss of SEPHS2 was particularly detrimental, causing a
+loss of viability of over 40% in 6 of the 11 cell lines tested, including the breast-cancer line MDAMB231 and the glioma line U251
+(Extended Data Fig. 2a). We designated SEPHS2 as a candidate
+detoxifier because its annotated substrate is selenide (H2Se), a compound that has been reported to be toxic in accidental industrial- or
+
+laboratory-exposure cases8,9. After expanding our testing to additional cancer lines and to non-transformed cells, we found that
+SEPHS2 knockout (KO) was toxic to 12 of 22 cancer cell lines
+but none of the 7 tested normal lines (Fig. 1c and Supplementary
+Table 2). SEPHS2 KO in cancer cells induced loss of cell proliferation
+(Extended Data Fig. 2a), loss of colony-forming capacity (Fig. 1e)
+and cell death (Extended Data Figs. 2b and 3a–d). Notably, loss of
+SEPHS2 was non-toxic to all normal (non-transformed immortalized or primary) lines that we tested, such as the mammary epithelial lines MCF10A and MCF12A, as well as primary lung and colon
+fibroblasts (Fig. 1d), despite efficient KO (Extended Data Fig. 9a).
+Furthermore, MCF10CA1h cells, which are HRAS-transformed,
+phenotypically malignant versions of MCF10A cells10, are sensitive
+to SEPHS2 KO (Extended Data Figs. 2c and 9a), providing an isogenic model for SEPHS2 dependency in transformation and malignant progression. Importantly, overexpression of a mutant form of
+SEPHS2 (SEPHS2-U60C) that is resistant to one of the guide RNAs
+(guide 1, g1) rescued cells from the toxic effects of SEPHS2 KO from
+the corresponding gRNA, demonstrating that the observed toxicity
+was not due to off-target effects of CRISPR (Fig. 1e and Extended
+Data Fig. 2d,e). Furthermore, we verified that SEPHS1 does not
+carry out an analogous function to that of SEPHS2 (Extended Data
+Fig. 2i,j), as has been previously indicated11. Thus, SEPHS2 is an
+enzyme that is essential for survival in many cancer cells, but is surprisingly dispensable in normal cells.
+To validate these findings in vivo, we disrupted SEPHS2 in an
+orthotopic xenograft model for breast carcinoma. Loss of SEPHS2
+resulted in a substantial improvement in tumour-free survival of the
+host (Fig. 1f), which appeared to be due to a combination of reduced
+tumour formation (Fig. 1g) and average tumour weight and volume
+(Extended Data Fig. 2f,g). The few SEPHS2-KO tumours that did
+form showed varying expression of SEPHS2 protein levels, suggesting both an expansion of cells that escaped KO and adaptation of
+KO cells to allow survival (Extended Data Fig. 2h). Meta-analyses
+of SEPHS2 gene expression in cancer and normal tissues revealed
+that SEPHS2 was overexpressed at the messenger-RNA level
+across many types of tumours, including breast cancer, relative to
+its expression in their normal tissue counterparts (Extended Data
+Fig. 4a–c). SEPHS2 protein was also substantially upregulated
+in human breast-cancer tissues compared with its that in normal
+breast tissue (Fig. 1h,i). Notably, SEPHS2 expression was associated with poor survival in people with breast cancer (Fig. 1j). These
+results demonstrate that SEPHS2 is an enzyme that is both overexpressed in and required for the survival of breast-cancer cells.
+
+Department of Molecular, Cell and Cancer Biology, University of Massachusetts Medical School, Worcester, MA, USA. 2Program in Molecular Medicine,
+University of Massachusetts Medical School, Worcester, MA, USA. 3Environmental Testing and Research Laboratories, Leominster, MA, USA. 4These authors
+contributed equally: Anne E. Carlisle, Namgyu Lee. ✉e-mail: Dohoon.Kim@umassmed.edu
+1
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 2 ---
+Letters
+
+NATurE METABoLISm
+
+1.2
+
+0.5
+
+1
+
+SEPHS2 (g1)
+
+1
+
+0.8
+0.6
+0.4
+
+LF
+
+LS
+M
+
+LE
+2
+TH
+
+O
+
+T1
+a
+
+18
+C
+
+PN
+
+F1
+2A
+C
+
+D
+C
+
+C
+
+25
+1
+
+F1
+0A
+M
+
+M
+
+C
+
+D
+
+U
+
+A2
+31
+
+0
+
+Normal
+cell lines
+
+M
+
+A489
+
+Cancer
+cell lines
+
+MDA231
++SEPHS2-U60C MCF10A
+(g1 resistant) (non-cancer)
+
+Control
+
+P = 0.024
+
+SW620
+
+Huh7
+
+CAKI1
+
+U251
+
+U2OS
+
+Producing enzyme
+
+MDA231
+
+0.2
+
+A2058
+
+Detoxifying enzyme
+
+SEPHS2 (g2)
+
+SEPHS2 (g1)
+
+1.4
+
+0
+LN229
+
+Metabolite
+Toxic metabolite
+
+MDA231
+
+C
+
+MDA415
+
+C
+
+HT1080
+
+B
+
+B
+
+e
+CTRL
+
+1.5
+Viability (relative to CTRL)
+
+ADO
+ADSS
+ALOX15B
+COMT
+DUT
+GDPD5
+GRHPR
+IMPDH2
+NAMPT
+PGP
+RDH8
+SEPHS2
+
+d
+
+SEPHS2 (g2)
+
+A
+
+A
+
+c
+
+Relative viability
+
+Viability (relative to CTRL)
+
+b
+
+<0.6
+0.6–0.7
+0.7–0.8
+0.8–0.9
+0.9–1.1
+1.1–1.2
+1.2–1.3
+1.3–1.4
+>1.4
+
+a
+
+Normal cells
+
+h
+Tumour formation
+
+Control
+
+P = 0.02
+
+50
+Control
+
+SEPHS2
+KO
+
+Tumour-free survival (%)
+
+100
+
+SEPHS2 KO
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Control
+
+6 out of 7
+
+SEPHS2 KO
+
+2 out of 7
+
+Paired
+
+kDa N1 N2 N3 N4 T1 T2
+58
+*
+
+T3 T4
+
+T5 T6 T7
+
+Actin
+
+N5 N6 N7 N8 N9 T8 T9 T10 T11 T7 T13 T14
+
+*
+
+46
+
+7
+
+Weeks (after injection)
+
+j
+2.5
+
+* SEPHS2
+
+46
+
+58
+
+i
+
+N: non-tumour
+T: tumour
+
+SEPHS2
+
+1
+
+P = 0.02
+
+2
+
+Proportion surviving
+
+g
+
+Actin normalized
+SEPHS2 expression
+
+f
+
+1.5
+1
+
+P = 0.02
+
+0.8
+0.6
+0.4
+0.2
+
+0.5
+
+Actin
+
+SEPHS2 low (bottom 25%)
+SEPHS2 high (top 25%)
+
+0
+
+0
+Non-tumour Tumour
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+Months survival
+
+Fig. 1 | Identification of SEPHS2 as an enzyme that is selectively essential to cancer cells and is a potential therapeutic target. a, Toxic-metabolite
+poisoning strategy. If B is a toxic metabolite, and the downstream (detoxifying) enzyme is disrupted, toxic accumulation of B, rather than the loss of
+metabolite C, may cause toxicity. b, Heat map representing the impact of KO of each putative detoxifying enzyme (rows) on viability (measured as
+described in the Methods) of cancer cell lines (columns). Values are relative to expression of a non-targeting gRNA in cells from the same line (which was
+set at 1; see ‘Determining relative cell viability following CRISPR–Cas9 KO’ for more information); red indicates a decrease and blue indicates an increase
+in viability. Detoxifying enzyme information is in Extended Data Fig. 1. MDAMB231 is abbreviated to MDA231, and MDAMB415 to MDA415. c, Dot plot of
+effect of SEPHS2 KO on the viability of 22 cancer cell lines and 7 non-cancer cell (non-transformed and primary) lines of varying tissue origin, with each
+dot representing one cell line. Values are relative to expression of a non-targeting control gRNA (CTRL) in cells from the same line. Detailed information
+on cell lines and viability data for b and c are shown in Supplementary Table 2. SEPHS2_g1 and SEPHS2_g2 are two different gRNAs targeting SEPHS2.
+d, The viabilities of non-cancer lines following KO, with gRNAs against SEPHS2 (blue bars), for 9 d. Values are relative to expression of a non-targeting
+gRNA in cells from the same line (black bars). SEPHS2 KO efficiency for each line is shown in Extended Data Fig. 9. e, Crystal violet staining showing the
+colony-forming ability of MDAMB231 cells, MDAMB231 cells overexpressing g1-resistant SEPHS2-U60C and MCF10A cells, following SEPHS2 KO via g1
+and g2. f, Kaplan–Meier plot of tumour-free survival for mice orthotopically injected with SEPHS2 KO or control KO MDAMB231 cells. n = 7 mice for each
+condition. g, Tumour-formation data and ex vivo images of the tumours at the endpoint. h, SEPHS2 immunoblots from cancer tissue and normal breast
+tissue from people with breast cancer. Paired samples from the same person are indicated. Red asterisks indicate non-specific bands present in mammary
+tissue. i, Quantification of SEPHS2 band intensities from h, normalized to that of actin; each dot represents one sample from h. j, Overall survival estimates
+for people with breast carcinoma in TCGA based on SEPHS2 expression (SEPHS2 low, n = 180; SEPHS2 high, n = 191). For d, each point is an average from
+biological triplicates from an independent set. For c, d and i, error bars are s.e.m. P values were calculated using two-tailed Student’s t-test.
+
+Collectively, these findings indicate that SEPHS2 is a highly attractive
+target for cancer therapy, which may be druggable because SEPHS2
+is a metabolic enzyme with hydrophobic substrate pockets12.
+SEPHS2 is required for production of selenoproteins, a group
+of 25 proteins containing selenocysteine residues, which include
+antioxidant enzymes such as glutathione peroxidase 4 (GPX4) and
+thioredoxin reductase 1 (TXNRD1)1,2,11. Thus, it was surprising that
+SEPHS2 was not essential for the survival of normal cells. SEPHS2
+phosphorylates selenide to form selenophosphate, which serves as
+the selenium donor for the biosynthesis of selenocysteinyl transfer
+RNA by phosphoryl-tRNA kinase (PSTK) and O-phosphoserine
+tRNA-selenocysteine tRNA synthase (SEPSECS) (Fig. 2a).
+Disruption of any of these enzymes resulted in a dramatic decrease
+in selenoprotein levels (Fig. 2b), including that of SEPHS2 itself as
+it is also a selenoprotein. Strikingly, the non-transformed MCF10A
+cells subjected to SEPHS2 KO maintained their growth rate for 28 d,
+despite having lost SEPHS2 and the capacity to express selenoproteins (Fig. 2c,d). However, SEPHS2 KO in MDAMB231 cancer
+cells produced a severe reduction in growth rate, which ultimately
+recovered around day 20 (Fig. 2c). SEPHS2 and several selenoproteins were initially depleted in the population, but then recovered
+between days 16 and 20 (Fig. 2d). This indicated that SEPHS2 KO
+cells were strongly selected against and died out, with the population
+
+being replaced by wild-type cells which escaped CRISPR KO.
+Collectively, these results indicate that normal cells require neither
+SEPHS2 nor selenoprotein production for their survival and proliferation under basal conditions.
+As selenoprotein production by SEPHS2 per se was not essential for cell survival, we considered the hypothesis that cancer cells
+may have a selenium-detoxification demand that normal cells do
+not have. Interestingly, in the 1960s, it was observed that radioactive selenite (SeO32−), a common dietary form of selenium, preferentially accumulated in tumours, and this was briefly explored as
+a tumour-labelling strategy13,14. Therefore, we examined whether
+we could recapitulate this selenium uptake in cancer cell lines, as
+this may determine the detoxification requirement. As excessive
+selenite is toxic to cells15, we carried out a focused CRISPR screen
+to identify genes required for selenium import, assuming that KO
+of genes necessary for either selenite import or selenide production would prevent selenite toxicity. The 21 candidate genes were
+selected on the basis of a literature search and on homology from
+selenium transporters in other species (Extended Data Fig. 5a).
+KO of SLC7A11 and SLC3A2, the two components of the xCT
+cystine–glutamate antiporter16,17, ameliorated selenite sensitivity
+(Fig. 3a and Extended Data Fig. 5b,c), and SLC7A11 KO prevented
+selenium accumulation in cells treated with selenite (Fig. 3b).
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 3 ---
+Letters
+
+Selenite
+
+SEPHS2
+
+Se
+H
+
+kDa
+25
+
+H
+
+Selenophosphate
+
+SEPSECS_g2
+
+?
+
+CTRL
+
+O
+
+Selenide
+
+–
+
+CTRL
+
+Se
+
+PSTK_g2
+
+O
+
+O
+
+?
+
+PSTK_g1
+
+–
+
+CTRL
+
+–
+
+SEPHS2_g2
+
+b
+Selenite
+
+SEPHS2_g1
+
+a
+
+SEPSECS_g1
+
+NATurE METABoLISm
+
+GPX1
+
+22
+
+GPX4
+
+22
+
+SELS
+
+Selenide
+PSTK
+
+SEPSECS
+Se
+–
+
+Selenocysteinyl-tRNA
+
+O
+
+P
+O
+
+–
+
+O
+
+–
+
+GPX1
+
+TXNRD1
+
+SEPHS2
+
+GPX4
+
+SELH
+
+SELS
+
+c
+
+Actin
+
+d
+
+MDA231
+D4
+
+kDa
+
+16
+Growth rate (over 4 d)
+
+SEPHS2
+
+46
+
+MDA231
+
+18
+
+SELH
+
+58
+
+Selenophosphate
+
+Selenoproteins (25)
+
+17
+
+–
+
++
+
+–
+
++
+
+D12
+–
++
+
+D16
+–
++
+
+D20
+–
++
+
+D24
+–
++
+
+D28
+–
++
+
+58
+
+14
+12
+
+25
+
+GPX1
+
+22
+
+8
+6
+4
+
+*
+
+*
+
+CTRL
+SEPHS2 g1
+
+0
+Day 8
+
+Day 12
+
+Day 16
+
+Day 20
+
+Day 24
+
+Day 28
+
+SEPHS2 KO
+SEPHS2
+
+10
+
+2
+
+GPX4
+
+25
+
+SELS
+
+17
+
+SELH
+
+46
+
+Actin
+MCF10A
+
+MDF10A
+
+D4
+
+25
+
+kDa
+58
+
+–
+
+D8
++
+
+–
+
++
+
+D12
+–
++
+
+D16
+–
++
+
+D20
+–
++
+
+D24
+–
++
+
+D28
+–
++
+
+SEPHS2 KO
+SEPHS2
+
+20
+Growth rate (over 4 d)
+
+D8
+
+*
+
+25
+GPX1
+
+15
+22
+10
+CTRL
+SEPHS2 g1
+
+5
+
+25
+17
+46
+
+0
+Day 8
+
+Day 12
+
+Day 16
+
+Day 20
+
+Day 24
+
+Day 28
+
+GPX4
+SELS
+SELH
+Actin
+
+Fig. 2 | SEPHS2 is dispensable to non-transformed cells despite being required to produce selenoproteins. a, Diagram of selenocysteine biosynthesis
+pathway and chemical structure of selenite, selenide and selenophosphate. b, Immunoblots of selenoprotein expression in MDAMB231 cells subjected
+to CRISPR–Cas9-induced KO with gRNAs against genes encoding enzymes in the selenocysteine biosynthesis, SEPHS2, PSTK and SEPSECS, or
+control gRNAs for 11 d. c, Long-term monitoring of growth rates of MDA-MB-231 cells and MCF10A cells subjected to CRISPR–Cas9-induced KO with
+gRNAs against SEPHS2 or control, over the course of 28 d. Each point represents the fold change of growth over the previous 4 d. d, Immunoblots of
+selenoproteins expressed by MDAMB231 and MCF10A cells, taken at each time point from Fig. 2c. For c, n = 3 biological replicates; error bars are s.e.m.
+*P < 0.05 (two-tailed Student’s t-test).
+
+In examining a panel of breast-cancer and non-transformed lines,
+we found that cells that expressed elevated levels of SLC7A11 took
+up more selenium (that is, they were ‘selenophilic’) than did normal and cancer cells with little or no SLC7A11 (Fig. 3c,d). Thus,
+SLC7A11 is required for selenium import and for the toxic effects
+of selenite in cancer cells.
+It has been shown that import of cystine by xCT results in its intracellular reduction to cysteine and subsequent export; this increases
+extracellular reduction potential in the form of reduced thiol groups
+from cysteine, which may be involved in selenium uptake18. Indeed,
+Nature Metabolism | www.nature.com/natmetab
+
+selenophilic cells had increased extracellular thiols (Fig. 3e), and
+this was dependent on xCT (Fig. 3f and Extended Data Fig. 5d,e).
+xCT allowed selenium uptake via extracellular reduction of selenite,
+rather than by acting as its physical transporter, as providing extracellular thiols by adding glutathione to medium sensitized cells to
+selenite toxicity even in the absence of functional xCT (Fig. 3g). We
+hypothesized that the reduction of selenite to selenide through this
+mechanism would be sufficient for selenium import, as selenide
+is highly volatile. The reduction of selenite is key to its toxicity,
+as we could completely prevent or induce toxicity by modulating
+
+--- Page 4 ---
+Letters
+
+4
+3
+2
+
+4
+3
+2
+
+U
+
+C
+
+M
+
+Hs578T
+
+Hs578T
+
+CAL120
+
+MDA231
+
+MDA415
+
+MDA468
+
+MCF10A
+
+MCF12A
+
+Hs578T
+
+MDA231
+
+MDA415
+
+MDA468
+
+MCF12A
+
+MCF10A
+
+CAL120
+SLC7A11_g1
+
+SLC7A11_g2
+
+S
+
+H
+
+S
+
+S
+
+H
+
+H
+
+H
+
+Selenite
+
+Cystine Cystine Cystine
+
+GPX4
+SELS
+
+17
+
+SELH
+
+0.2
+
+46
+Selenite Selenite + GSH
+
+SLC7A11
+
+Actin
+MDA231
+
+GSH
+
+Cystine
+
+Selenide
+
+Cysteine
+
+CAL120
+
+TBH
+
++
+
+0.4
+0.2
+
+TBH
+
+–
+
++
+
+FSP1
+
+0.6
+55
+
+0.4
+0.2
+
+SEPHS2_g1
+
+FSP1 KO
+
+CTRL
+
+kDa
+43
+
+SEPHS2_g1
+
+***
+
+1
+0.8
+
+CTRL
+
+**
+
+0.6
+
+0
+
+–
+
+*
+
+SEPHS2
+Actin
+
+43
+MCF10A
+
+0
+
+2nd KO:
+
+1st KO:
+
+CTRL
+
+CTRL
+
+0.2
+
+*
+
+CTRL
+
+SEPHS2_g1
+
+0.4
+
+*
+
+CTRL
+
+0.6
+
+1
+0.8
+
+1.2
+
+SEPHS2_g1
+
+0.8
+
+Viability (relative to CTRL/CTRL)
+
+**
+
+1.2
+
+GPX4_g2
+
+**
+
+1
+
+*
+
+o
+
+MCF10A
+
+1.4
+
+GPX4_g1
+
+1.2
+
+0
+
+n
+1.4
+
+SEPHS2_g2
+
+Hs578T
+
+CAL120
+
+MDA231
+
+0
+
+m
+**
+
+CTRL
+
+0.4
+
+MCF12A
+
+100 µM TBH
+
+S H
+
+Cysteine
+
+SEPHS2_g1
+
+***
+
+0.6
+
+MCF10A
+
+Vehicle
+
+20
+
+S
+
+22
+
+1.4
+
+0.2
+0
+
+40
+
+i
+
+0.4
+
+l
+
+TBH
+High xCT cancer cells
+Normal cells
+
+0.2
+
+0.4
+
+60
+
+0
+
+0.6
+
+Vehicle
+
+80
+
+GPX1
+
+22
+
+CTRL
+
+0.6
+
+SLC3A2_g2
+
+Viability (relative to vehicle)
+
+*
+
+–
++
+SLC7A11_g1
+
+P = 0.49
+P = 0.67
+
+SEPSECS_g2
+
+1
+0.8
+
+High xCT cancer cells
+Low xCT cancer cells
+Normal cells
+
+kDa
+25
+
+0.8
+
+CTRL
+
+1
+
+Relative viability
+
+1.2
+
+Actin
+
+High xCT cancer cells
+Low xCT cancer cells
+Normal cells
+
+100
+
+SL
+C
+
+k
+0.8
+
+1.4
+
+SLC3A2_g1
+
+1
+
+SEPSECS_g1
+
+100 µM Ferr
+
+CAL120
+
+MDA231
+
+MDA415
+
+MDA468
+
+50 µM Ferr
+
+–
++
+CTRL
+
+***
+
+1.2
+
+0
+
+Viability (relative to vehicle)
+
+DMSO
+
+MCF12A
+
+UCM
+
+0
+
+0
+
+1.6
+Relative viability
+
+5
+
+1
+
+1.8
+
+46
+
+h
+1.4
+
+**
+
+6
+
+1
+
+j
+
+**
+
+Viability (relative to vehicle)
+
+5
+
+**
+
+7
+
+SLC7A11
+
+0.5
+
+0
+Selenite
+
+CTRL
+
+L
+7A
+SL 11_
+g1
+C
+7A
+11
+_g
+2
+
+Total thiols in medium
+(relative to UCM)
+
+6
+
+MCF10A
+
+Total thiols in medium
+(relative to UCM)
+
+8
+
+High xCT cancer cells
+Low xCT cancer cells
+Normal cells
+
+7
+
+1
+
+g
+
+C
+
+8
+
+kDa
+46
+
+2
+1.5
+
+CTRL
+
+f
+
+TR
+
+e
+
+CTRL
+
+0
+
+sgCTRL
+sgLACZ
+IMPDH1_g1
+DBH_g1
+SLC26A11_g1
+SLC26A11_g2
+SLC4A1_g1
+SLC4A1_g2
+SLC4A3_g1
+SLC4A3_g2
+SLC7A11_g1
+SLC7A11_g2
+SLC39A10_g1
+SLC39A10_g2
+SLC39A14_g1
+SLC39A14_g2
+SLC39A6_g1
+SLC39A6_g2
+SLC39A8_g1
+SLC39A8_g2
+SLC26A10_g1
+SLC26A10_g2
+SLC26A4_g1
+SLC26A4_g2
+SLC26A9_g1
+SLC26A9_g2
+SLC26A2_g1
+SLC26A2_g2
+SLC26A5_g1
+SLC26A5_g2
+SLC1A4_g1
+SLC1A4_g2
+STARD8_g1
+STARD8_g2
+SLC13A3_g1
+SLC13A3_g2
+GABRA3_g1
+GABRA3_g2
+KCNE4_g1
+KCNE4_g2
+ABCB4_g1
+ABCB4_g2
+SLC26A1_g1
+SLC26A1_g2
+SLC26A7_g1
+SLC26A7_g2
+
+0.2
+
+2.5
+
+CTRL
+
+0.4
+
+3
+
+SLC7A11_g2
+
+0.6
+
+d 120
+
+SLC7A11_g1
+
+Total intracellular selenium
+
+1
+0.8
+
+c
+
+4
+3.5
+
+PSTK_g2
+
+Viability (relative to untreated)
+
+**
+***
+
+1.2
+
+Total selenium (ng per mg cells)
+
+b
+
+1.4
+
+PSTK_g1
+
+a
+
+NATurE METABoLISm
+
+FSP1_g1
+
+Fig. 3 | SLC7A11-mediated reduction of selenite is the initial step of the selenocysteine biosynthesis pathway in cancer cells, and protects against
+ferroptosis. a, Viability of U251 cells subjected to KO with gRNAs against various control genes (dark grey bars) or against candidate selenium transporters,
+and then 48 h of treatment with 12 µM sodium selenite. Values are relative to viability of KO cells from the same line treated with vehicle. b, Selenium uptake
+in U251 cells either with or without SLC7A11 depletion. Total intracellular selenium was quantified following 12 µM selenite supplementation of for 2 h in U251
+cells. Values are relative to that in control cells from the same line treated with vehicle. c, Immunoblots of SLC7A11 in a panel of breast cancer and normal
+breast lines. Non-cancer lines are in blue, cancer lines with low SLC7A11 expression are in green and cancer lines with high SLC7A11 expression are in red
+here and in subsequent histograms. d, Selenium uptake in the same panel of cell lines. Total intracellular selenium levels were measured following treatment
+with 12 µM selenite for 2 h. e, Total thiol quantification of media from the panel, conditioned for 24 h. Each value was normalized to that of unconditioned
+medium (UCM) for every thiol-quantification assay. f, Total thiol quantification of media from control KO and SLC7A11-KO MDAMB231 cells that were
+conditioned for 24 h. g, Viability of control and SLC3A2-KO MDAMB231 cells treated with vehicle, 12 µM sodium selenite and/or 75 µM reduced l-glutathione
+(GSH) for 72 h. Values are relative to viability of cells from the same line treated with vehicle. h, Immunoblots of selenoproteins in triple-negative
+breast-cancer cells subjected to KO with gRNA against SLC7A11 for 11 d. i, Representation of the model revealed by the results in Fig. 3. j, Viability of MDA231
+cells pretreated with ferrostatin (Ferr) for 3 h and then with vehicle or 100 µM TBH for 48 h. Values are relative to viability of cells from the same line treated
+with vehicle. k, Viability of selenophilic cancer cell lines (red) and non-selenophilic normal lines (blue) treated with 100 µM TBH for 24 h. Values are relative
+to viability of cells from the same lines treated with vehicle. l, Viability of MDA231 cells subjected to KO with gRNAs against SEPSECS or PSTK for 5 d,
+then treated with vehicle or 50 µM TBH for 6 h. Values are relative to viability of cells from the same line treated with vehicle. m, Viability of MDA231 cells
+subjected to KO with gRNAs against SEPHS2 or GPX4 for 5 d and then treated with vehicle or 250 µM TBH for 24 h. Values are relative to viability of cells
+from the same line treated with vehicle. n, Viability of MCF10A cells subjected to sequential gene KO as shown. Values are relative to viability of cells from
+the same line subjected to CTRL KO and then to CTRL KO. o, Immunoblots of FSP1 and SEPHS2 from n. FSP1 expression did not substantially differ between
+SEPHS2-sensitive lines and SEPHS2-insensitive lines (Extended Data Fig. 6e). For a, d–g and j–n, n = 3 biological replicates; for b, n = 3 technical replicates;
+error bars are s.d. For d and e, although trends can be seen, statistical comparisons were not carried out owing to variability between cell lines. For all panels,
+the measure of centre is the mean. For all panels, *P < 0.05, **P < 0.01 and ***P < 0.001 (Student’s two-tailed t-test).
+
+extracellular thiol levels (Fig. 3a,g). Disruption of SLC7A11 resulted
+in reduced selenoprotein expression (Fig. 3h), demonstrating its role
+in promoting selenoprotein production. Collectively, these results
+show that SLC7A11 is involved in the following model (Fig. 3i):
+the elevated expression of SLC7A11 in selenophilic cancer cells
+results in increased cystine import, reduction of cystine to cysteine
+in the cell and export via an undetermined exporter. This results in
+the extracellular accumulation of thiols (from cysteine), which can
+reduce selenite to volatile selenide and can induce both its import
+into the cell and cellular toxicity. It has been known that upregulation of SLC7A11 results in increased glutathione production via
+
+cystine import in cancer19. The ‘moonlighting’ role of SLC7A11 and
+xCT in allowing selenium uptake and selenocysteine biosynthesis
+provides an elegant mechanism for the coordination of increased
+glutathione production with increased production of the selenoprotein enzymes (GPXs) that utilize it. Furthermore, this mechanism
+explains the decades-old observation of increased selenium uptake
+in cancer cells13,14 and suggests that selenium uptake has a role in
+cancer-cell biology, particularly involving the selenoproteins that
+are produced as a result. SLC7A11 is regulated by crucial cancer
+genes such as p53 (ref. 20), and we speculate that these canonical
+cancer pathways may thus affect selenocysteine biosynthesis.
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 5 ---
+NATurE METABoLISm
+Selenoproteins, such as GPX4, have been implicated in the protection of cancer cells against various insults, such as ferroptosis or
+chemotherapeutic drugs21,22, so we examined whether selenophilicity is associated with increased resistance to such insults. We found
+that selenophilic breast-cancer cells had increased resistance against
+the ferroptosis-inducing prooxidant tert-butyl hydroperoxide
+(TBH), as well as against nutrient starvation and hypoxia, in contrast to the non-selenophilic normal cells (Fig. 3j,k and Extended
+Data Fig. 6a,b). We did not note any association of SEPHS2 or GPX4
+expression with any tumour environmental features (Extended
+Data Fig. 7a–f) or with hypoxia in culture (Extended Data Fig. 7g).
+Knockout of SEPHS2 or GPX4 did not sensitize the selenophilic
+cancer cells to hypoxia or nutrient starvation, suggesting that other
+mechanisms downstream of SLC7A11 are involved in their protection against these insults (Extended Data Fig. 6c,d).
+In contrast, disruption of selenocysteine biosynthesis via
+SEPHS2, PSTK or SEPSECS KO, or KO of GPX4 itself, sensitized
+cells to TBH (Fig. 3i,m), suggesting a role for the selenocysteine biosynthesis pathway in protection against ferroptotic insults in selenophilic cancer cells. Furthermore, the cell death induced by SEPHS2
+KO was partially rescued by the ferroptosis inhibitors ferrostatin
+and liproxatin, suggesting that loss of GPX4 and sensitization to
+ferroptosis may facilitate the toxicity of SEPHS2 KO (Extended Data
+Fig. 3e). Recently, FSP1 was identified as an endogenous inhibitor
+of ferroptosis23,24. KO of FSP1 in the MCF10A cells, which were
+normally resistant to SEPHS2 KO toxicity, rendered them sensitive
+(Fig. 3n,o). The function of FSP1 explains how these cells can tolerate SEPHS2 KO, even though it results in loss of GPX4. Collectively,
+these results indicate that upregulation of the selenocysteine pathway is advantageous to cancer cells by protecting against ferroptosis,
+whereas its loss is tolerable to non-transformed cells owing to the
+presence of antiferroptotic mechanisms. Furthermore, the toxicity
+of SEPHS2 KO in cancer cells is facilitated by their hypersensitization to ferroptosis.
+SLC7A11-driven selenophilicity provides a protective advantage
+against ferroptosis through selenoprotein (GPX4) production, but
+we hypothesized that it will also introduce a requirement for the
+detoxification of selenium, in particular of the pathway intermediate selenide. Evidencing this double-edged aspect of selenium,
+increasing doses of selenite supplementation in the selenophilic
+MDA231 cells resulted in a dose-dependent increase in GPX4
+levels (Extended Data Fig. 8a). However, at higher doses, GPX4
+expression plateaued, along with the formation of reactive oxygen
+species (ROS), which is a predicted product of selenide in aqueous solutions25. Furthermore, overexpression of catalase (CAT),
+which decomposes one form of ROS (H2O2), partially rescued
+SEPHS2 toxicity (Extended Data Fig. 8c–e). These results suggest
+that SEPHS2 and the selenocysteine biosynthesis pathway sequesters free intracellular selenium (such as that in the form of selenide) to form beneficial selenoproteins, but beyond a threshold,
+the free intracellular selenium not incorporated into selenoprotein
+can harm cells via ROS formation. Further supporting this notion,
+selenium delivered via selenocysteine-containing peptides26 similarly induced GPX4 expression but did not induce ROS formation
+(Extended Data Fig. 8a,b).
+To directly examine whether SLC7A11 makes cells dependent
+on SEPHS2, we preemptively knocked out or pharmacologically
+inhibited SLC7A11 prior to SEPHS2 KO (Fig. 4a and Extended Data
+Fig. 5f–h). We found that not only could cells tolerate SLC7A11
+loss, but also this fully prevented the toxicity of subsequent SEPHS2
+KO, demonstrating that SLC7A11 directly causes a dependency on
+SEPHS2, and indicating a gain-of-function mode of toxicity.
+To further determine whether SEPHS2 has a function that is independent of its role in selenoprotein synthesis, we took advantage of
+the fact that KO of the other selenocysteine biosynthesis components
+PSTK or SEPSECS can also eliminate selenoprotein production,
+Nature Metabolism | www.nature.com/natmetab
+
+Letters
+including that of SEPHS2. We constructed a mutant SEPHS2
+(SEPHS2-U60C) with a selenocysteine-to-cysteine mutation that
+is predicted to decrease, but not eliminate, catalytic activity27 while
+allowing the protein to be expressed even when selenocysteine biosynthesis is halted owing to SEPSECS or PSTK KO. We demonstrated
+that this enzyme is functional, as it rescued SEPHS2 KO in our earlier
+experiment (Fig. 1e). Expression of this construct was found to rescue the toxicity of SEPSECS or PSTK KO despite the cells’ inability to
+express any other selenoprotein (Fig. 4b,c), which demonstrates that
+(1) SEPSECS and PSTK KO are toxic because of the loss of SEPHS2
+that they cause, and (2) SEPHS2 impacts viability even when all selenoprotein biosynthesis has ceased. The rescue was not complete,
+indicating that loss of other selenoprotein(s) such as GPX4 (ref. 27)
+may have partially contributed to the toxicity. Collectively, these data
+demonstrate that SEPHS2 is required in cancer cells for a reason
+other than production of selenoproteins.
+We next examined whether SEPHS2 is required in cancer cells
+to detoxify the selenide produced by the selenocysteine biosynthesis
+pathway. Supporting this model, overexpression of SEPHS2 protected
+cancer cells against the toxicity of selenite, whereas loss of SEPHS2
+created a synergistic effect with selenite (Fig. 4d,e). As selenide is
+volatile and cannot be detected by conventional liquid chromatography–mass spectrometry (LC–MS) methods28,29 nor treated as a conventional toxic drug, we had to develop a system for treating selenide
+to cells in a controlled manner, as well as a method for directly detecting selenide. First, we dissolved sodium selenide (Na2Se) in an acidic
+(3.7% HCl) solution, which is predicted to produce selenide (H2Se)
+via replacement reaction (Fig. 4f). To detect whether selenide gas
+was produced, we embedded silver nitrate or lead acetate, which have
+been shown to react with selenide in aqueous solution to produce
+dark brown metal–selenium compounds30, into polyvinylpirolidone
+(PVP) as an immobilizing matrix, and these spots were placed on
+the lid of 96-well plates at varying distances from the gas-producing
+compartment. A colour change was observed that directly correlated
+with distance, suggesting the capture of volatile selenide in these
+spots (Fig. 4f and Extended Data Fig. 10f). Importantly, inductively
+coupled plasma mass spectrometry (ICP-MS) of these spots indicated
+that selenium had a robust presence, verifying that we were capturing volatile selenide gas (Fig. 4g). When this reaction was conducted
+in the middle compartment of a 96-well plate confluent in each well
+with MDAMB231 cells, we observed toxicity that followed a radial
+pattern emanating from the gas source, with toxicity correlating with
+proximity (Fig. 4h and Extended Data Fig. 10g). Using this treatment
+system, we directly tested the effects of disrupting or overexpressing
+SEPHS2 on cells plated at equal distances from the source of selenide
+gas (Fig. 4i). Disruption of SEPHS2 sensitized cancer cells to selenide
+(Fig. 4j), and overexpression of SEPHS2 protected cancer cells against
+it (Fig. 4k). Therefore, these results clearly demonstrate that SEPHS2
+has a selenide-detoxification function.
+In summary, we have shown how selenium uptake and selenocysteine biosynthesis are aberrantly activated in a subset of cancer
+cells owing to SLC7A11/xCT, and how this necessitates selenide
+detoxification by SEPHS2. The identification of selenophilic subsets of cancer cells has important implications in cancer biology
+that future investigative efforts can address, as selenium uptake
+drives the expression of selenoproteins implicated in processes
+such as ferroptosis, drug resistance and endoplasmic-reticulum
+stress1,21,22. While upregulation of selenoprotein production via the
+SLC7A11–SEPHS2 axis is likely to impact various aspects of cancer biology, we demonstrate that the most urgent requirement in
+these cancer cells is the detoxification of selenide, an endogenously
+produced metabolite that shows high volatility and toxicity. Indeed,
+our functional demonstration of selenide as the toxic intermediate of selenocysteine biosynthesis explains the longstanding paradox of how selenium, an essential micronutrient, can be toxic and
+anticarcinogenic. Targeting the selenide detoxifier SEPHS2 allows
+
+--- Page 6 ---
+Letters
+
+0.64 0.67
+
+–
+
+SEPHS2_g2
+
+** **
+
+0.2
+
+Selenite
+
++
+
+ND
+
+ND
+–
+
++
+
+Lead
+acetate
+
+–
+
++
+Silver
+nitrate
+
+*
+**
+
+PbSe + 2CH3COOH
+
+CTRL
+SEPHS2 KO/OE
+
+***
+
+0.6
+0.4
+0.2
+0
+
+**
+
+1.5
+1
+0.5
+0
+
+MDA231
+
+SEPHS2 OE
+
+Colour- producing reactions:
+Ag2Se + 2HNO3
+H2Se + 2AgNO3
+
+0
+
+**
+
+0.8
+
+*
+
+2
+
+Vector
+
+*H2Se gas source
+H2Se gas-producing reaction:
+H2Se + 2NaCl
+Na2Se + 2HCL
+
+H2Se gas
+
+1
+
+1
+
+SEPHS2 OE
+
+Plate bottom
+
+2
+
+2.5
+
+1.2
+
+Vector
+
+*
+
+3
+
+k
+
+1.4
+
+Viability (relative to vector)
+
+Pb2+
+
+4
+
+j
+
+CTRL
+
+Total selenium (µg)
+
+*
+
+i Plate cover
+
+Vehicle
+
+5
+
+SEPHS2_g2
+
+h
+
+6
+
+SEPHS2_g1
+
+g
+2+
+
+H2Se + Pb(CH3COO)2
+
+Bliss independence
+values
+
+0.4
+
+0
+
+100 µM
+
+40 µM
+
+0.6
+
+CTRL
+
+g2
+
+g1
+
+0
+Selenite
+
+1
+0.8
+
+PS
+TK
+
+g2
+S
+
+SE
+PS
+EC
+
+PS
+TK
+
+L
+
+Rescued
+
+0.1
+
+1.2
+
+SEPHS2_g1
+
+Actin
+
+***
+
+SEPHS2_g2
+
+46
+
+0
+
+*
+
+0.2
+
+1.4
+
+CTRL
+
+0.2
+
+SEPHS2
+
+SEPHS2 OE
+
+SEPHS2_g1
+
+GPX4
+
+58
+
+Vector
+
+SEPHS2_g1
+
+f
+Ag
+
+*
+
+0.4
+
+C
+
+SLC7A11_g2
+
+CTRL
+
+SLC7A11_g1
+
+Dead
+
+*
+
+0.6
+
+SEPHS2 OE
+GPX1
+
+22
+
+e
+0.3
+
+CTRL
+
+CTRL
+
+C
+
+1
+0.8
+
+SEPSECS PSTK
+KO
+KO
+– +
+– +
+
+Viability (relative to CTRL)
+
+1st KO:
+
+SLC7A11_g2
+
+2nd KO:
+
+CTRL
+
+0
+
+C
+
+*
+
+TR
+
+0.2
+
+1.2
+
+kDa
+25
+
+d
+CTRL
+– +
+
+Viability (relative to vehicle)
+
+0.4
+
+SEPHS2 OE
+
+g1
+
+0.6
+
+B
+
+Vector
+
+1.4
+
+S
+
+B
+
+0.8
+
+c
+
+1.6
+
+SE
+PS
+EC
+
+*
+
+1
+
+A
+
+A
+
+*
+
+Viability (relative to CTRL)
+
+1.2
+
+Viability (relative to vehicle)
+
+b
+
+1.4
+
+SLC7A11_g1
+
+Viability (relative to CTRL/CTRL)
+
+a
+
+NATurE METABoLISm
+
+CAL120
+
+Fig. 4 | Essentiality of SEPHS2 in cancer cells is due to its role as a selenide-detoxifying enzyme. a, Viability of MDAMB231 cells subjected to sequential
+gene KO as shown, demonstrating that preemptive loss of SLC7A11 renders SEPHS2 dispensable. Values were normalized to those of cells from the
+same line subjected to CTRL KO and then subjected to CTRL KO. b, Viability of U251 cells overexpressing (OE) blank vector or SEPHS2-U60C that were
+subjected to KO with gRNAs against SEPSECS or PSTK for 11 d. c, Immunoblot of selenoproteins in U251 cells overexpressing blank vector or SEPHS2-U60C
+and subjected to KO with gRNAs against SEPSECS or PSTK for 11 d. d, Viability of U251 cells overexpressing blank vector or SEPHS2-U60C and treated with
+sodium selenite for 48 h. Values are relative to that of cells from the same line treated with vehicle. e, Viability of U251 cells subjected to KO with gRNAs
+against SEPHS2 or controls and then treated with 12 µM sodium selenite for 72 h. Bliss independence values were calculated with the formula EC = EA + EB
+– EA × EB, for which a value below 1.0 indicates a synergistic effect. f, Scanned image of the polystyrene microplate cover spotted with PVP embedded with
+silver nitrate or lead acetate, used as a non-contact selenide-gas indicator, after selenide-gas exposure for 1 min. g, Selenium quantification, measured by
+ICP-MS, of the spots of PVP embedded with silver nitrate or lead acetate, demonstrating the capture of volatile selenide. Four spots that were equidistant
+from the selenide source were measured. ND, not determined. h, Scanned image of crystal violet staining of the remaining MDAMB231 cells following
+vehicle or selenide-gas exposure for 24 h. For f and h, the asterisk indicates the location of selenide-gas production. i, Experimental layout for comparing
+sensitivity to selenide gas, via equidistant cell plating. Similar browning of silver nitrate–PVP spots indicates similar exposure levels to selenide gas.
+j, Viability of SEPHS2-KO or control MDAMB231 cells under selenide-gas exposure for 24 h. Values are normalized to the viability of cells transduced
+with non-targeting gRNAs. k, Viability of MDAMB231 cells overexpressing SEPHS-U60C or blank vector under selenide-gas exposure for 48 h. Values
+are normalized to the viability of empty-vector-transduced cells. For a and b and d and e, n = 3 biological replicates; for j and k, n = 4 biological replicates;
+for g, n = 4 technical replicates; error bars are s.d. For all panels, the measure of centre is the mean. For a and c–k, *P < 0.05, **P < 0.01 and ***P < 0.001
+(two-tailed Student’s t-test). For b, *P < 0.05 (two-tailed paired Student’s t-test).
+
+us to kill cancer cells with efficacy and precise selectivity, serving as
+a blueprint for future studies to exploit other pathways containing
+toxic metabolites.
+
+Methods
+
+Materials used. Details for all chemicals, DNA constructs, antibodies and other
+materials are provided in Supplementary Table 3. Details for all cell lines are
+provided in Supplementary Table 2.
+Cell lines and cell culture. All cell lines were cultured at 37 °C under 5%
+CO2 and atmospheric oxygen. The cell lines used in this paper are listed in
+Supplementary Table 2 along with information on their media and sources.
+Short tandem repeat (STR)-based cell-line verification information is also
+provided in Supplementary Table 2.
+Molecular cloning of expression constructs. SEPHS2 was PCR-amplified from
+complementary DNA produced from WM115 cells, using forward and reverse
+primers containing BamH1 and NOT1 sites, respectively. The verified amplicon
+sequence corresponded exactly to the published consensus sequence for SEPHS2
+(CDS ID: CCDS42150.1). The amplicon was cloned into pLV-EF1α-IRES-Blast
+vector. SEPHS2-U60C was constructed with a region (c.180A>C for p.U60C,
+and 5′-GGAGGGACGGCAGTGACCGGTGG-3′ (616–638 bp) was replaced by
+5′-GGAGGGACCGCCGTTACTGGTGG-3′ for SEPHS2 CRISPR g1 resistance)
+mutated by site-directed mutagenesis for CRISPR resistant SEPHS2-U60C.
+Wild-type SEPHS2 has a UGA codon (amino-acid position 60), which acts to
+encode selenocysteine due to the presence of a stem-loop structure in the 3′
+untranslated region called the selenocysteine insertion sequence (SECIS). In our
+SEPHS2-U60C construct, the codon is mutated to cysteine and the SECIS removed
+to allow expression independently of selenocysteinyl-tRNA availability, and four
+
+silent mutations are present in the guide-recognition site for SEPHS2_g1. All
+primer sequences are described in Supplementary Table 1.
+Lentivirus production and CRISPR–Cas9-mediated genome editing in cell
+lines. Optimal gRNA sequences were obtained from a published guide sequence
+library31. Pseudotyped lentivirus was produced by cotransfecting pLentiCRISPR
+v2-containing guide sequences of interest7 with the VSV-G envelope plasmid and
+the Delta-Vpr packaging plasmids into HEK293T cells using X-tremeGENE 9
+Transfection Reagent (Roche). Lentivirus-containing supernatant was collected
+at 24 h after replacement with fresh medium. The virus was directly used without
+being concentrated. Target cells were infected with freeze and thawed viral
+supernatant in the presence of 10 µg ml–1 polybrene for 24 h and then replaced
+in medium with puromycin (typically at 1 µg ml–1) or blasticidin (typically, 20 µg
+ml–1) to select for transduced cells. All guide sequences are listed in Supplementary
+Table 1. The titre for each virus was determined, and cells were infected at sub-one
+multiplicity of infection to prevent non-specific toxicity that can occur from
+superinfection leading to excessive expression of Cas9 and guide.
+Determining relative cell viability following CRISPR–Cas9 KO. Varying
+numbers of cells for each cell line (between 1,000 and 5,000 cells per well in
+each 96-well plate) were plated, and 1 d after plating, cells were infected with
+lentivirus and polybrene. As the cell lines have differing growth rates, infectivity to
+pseudotyped lentivirus and sensitivity to puromycin, each of these parameters had
+to be optimized for each cell line. Briefly, the goal was to adjust the starting number
+of cells and the amount of virus for each cell line such that, after 3 d of puromycin
+selection, roughly 100–200 infected cells survived selection and were visible in the
+well. This low number ensured a low multiplicity of infection, and that cells did not
+reach confluency before the end of the experiment, which would introduce noise.
+For each CRISPR guide–cell line combination, we measured cell viability (using
+CellTiter-Glo) at two points following infection and selection (day 5 and day 9).
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 7 ---
+NATurE METABoLISm
+For each combination, the relative growth, as measured by fold-change increase of
+CellTiter-Glo signal between these two time points, was calculated and compared
+with the growth rate of that cell line transduced with non-targeting (CTRL) guide.
+For example, if U2OS cells grew by 5-fold under CTRL gRNA between day 4
+and day 9 and U2OS cells grew by 2.5-fold under guide X, then guide X would
+have a relative viability score of 0.5. This system allowed us to precisely control
+for both the different growth rates and infectivity of different cell lines, as well as
+variabilities in starting number of infected cells, which arise even with titered virus.
+In this manner, the effects of KO for each of the 12 candidate detoxifying enzymes,
+3 guides each, were determined across 11 different cells lines for the initial analyses
+(Fig. 1b). As we expanded to examine SEPHS2 KO effect in more cell lines (Fig. 1c),
+we utilized two guides (SEPHS2_g1 and SEPHS_g2). The individual guides are
+averaged to represent SEPHS2 effect.
+Monitoring of long-term growth of MDAMB231 and MCF10A CRISPR–Cas9
+KO lines. MDAMB231 and MCF10A cells were infected with lentivirus to
+transduce them with CRISPR–Cas9 gRNAs against CTRL or SEPHS2 (guide 1),
+each in a 10-cm dish. The day after infection was counted as day 1. Every 4 d,
+cell counts were obtained and recorded, and 500,000 cells were replated onto a
+new 10-cm dish, to have sufficient cells to continue the experiment and to allow
+monitoring of the growth rate of these 500,000 cells over the next 4 d. Leftover cells
+that were not replated were lysed for western blot analyses as shown in Fig. 2d. This
+step was repeated every 4 d to continually monitor the growth rate of each cell line.
+Colony-formation assay. MDAMB231 cells expressing SEPHS2-U60C or
+blank vector, and MCF10A cells were infected with SEPHS2 KO or CTRL virus.
+After 6 d of selection, the cells were seeded at a density of 2,000 MDAMB231
+cells or 500 MCF10A cells per well in 6-well plates with 2 ml medium; MCF10A
+cells were plated at a lower density because of their higher proliferation rate. Five
+hundred microlitres of medium was added in each well every 4 d without medium
+change. Nine days after the initial cell seeding, cells were washed with PBS, and
+stained for 1 h with 0.5% crystal violet in 25% methanol/75% PBS solution. Plates
+were then washed twice with PBS to remove excess dye and were scanned.
+Western blot analysis. Briefly, cells were quickly washed with cold PBS and lysed
+in cold RIPA lysis buffer freshly supplemented with protease inhibitor (Roche).
+Supernatant was collected after centrifugation at 13,000g at 4 °C for 10 min. Protein
+concentration was determined by Bradford assay. Proteins were denatured in 6×
+Laemmli buffer (Boston Bioproducts) and boiled at 90 °C for 5 min. We found that
+not boiling the sample was required for SLC7A11 detection. Equal amounts of total
+protein (typically, 15–25 µg depending on the experiment) were loaded per lane on
+a polyacrylamide gel and analysed by standard immunoblotting. Primary antibody
+dilutions are provided in the Reporting Summary. Immunoblot signals were
+detected by ECL, Pico or diluted Femto substrate (Pierce).
+Cell-viability assay. Cell viability was measured by CellTiter-Glo Luminescent
+Assay (Promega) using a Beckman Coulter DTX880 Multimode plate reader.
+Luminescence capture was set at 1 s. Crystal violet staining was performed to
+visualize surviving cells following exposure to hydrogen-selenide gas in a 96-well
+plate (Fig. 4h). Briefly, 8,000 cells were plated in two 96-well plates. The next day,
+the reaction mixture, which produced hydrogen-selenide gas, was placed in the
+centre of the plate, and the plate was tightly sealed in the plastic bag. The plate
+sealed in the plastic bag was placed in the CO2 incubator. After 24 h of incubation,
+cells were washed with PBS, and stained for 1 h with 0.5% crystal violet in 25%
+methanol/75% PBS solution. Plates were then washed twice with PBS to remove
+excessive dye and scanned.
+Medium thiol quantification. Cells were washed once with phenol-red-free
+growth medium, and 10,000 cells were plated with the 100 µl of phenol-red-free
+growth medium in a 96-well plate. One hundred microlitres of conditioned
+medium was collected and directly mixed with 50 µl of 10 mM DTNB
+(5,5′-dithiobis-(2-nitrobenzoic acid)) dissolved in DMSO after 24 h of
+conditioning. Absorbance at 450 nm was measured spectrophotometrically in
+5 min (DTX880, Beckman Coulter). The remaining cells in the same plate were
+subjected to CellTiter-Glo assay for normalization. The absorbance value of the
+blank was subtracted as background, and values were normalized to total viable
+cells as determined by CellTiter-Glo. Owing to the masking effect of phenol red on
+DTNB absorbance, created by reacting with thiols, phenol-red-free medium was
+used for all thiol quantifications.
+Production of selenide. Selenide gas was formed by mixing sodium selenide, at a
+final 50 mM concentration, into 3.7% hydrochloric acid solution. Because selenide
+gas is volatile, 100 µl of the mixture was added into the centre of the 96-well plate
+immediately after mixing the sodium selenide with hydrochloride. Immediately
+following this, the plate was tightly sealed in the plastic bag. All procedures were
+performed in the safety hood because of the toxic and volatile nature of the
+selenide that was produced.
+Selenide detection. PVP (5% wt/vol) solution was mixed with 1 M silver nitrate
+or lead acetate at a ratio of 9:1, yielding final concentrations of 100 mM of silver
+Nature Metabolism | www.nature.com/natmetab
+
+Letters
+nitrate or lead acetate, and 4.5% PVP. Reagents were freshly prepared for each
+experiment. The solutions were mixed well by pipetting. Next, 15 µl of metal–PVP
+mixture was carefully spotted on the inside of the cover of a 96-well plate. The
+cover was dried at room temperature for at least 1 h, to form a coating membrane.
+This cover containing the ‘detector spots’ was placed above the wells, in which
+selenide gas was produced in the centre of the plate. Upon immediate reaction
+with the selenide gas, the spots produced silver selenide or lead selenide, which are
+brown in colour whereas the original spot was clear. Spots were developed for up
+to 1 min. The plate was imaged, and the spots were subjected to acid digestion for
+further ICP-MS analysis.
+Total selenium measurement by ICP-MS analysis. Cells were plated into 15-cm
+dishes, and medium was changed at 75% confluency and treated with 12 µM
+selenite 24 h after medium change. Cells were collected at 2 h after selenite
+treatment, washed 3 times in cold PBS and weighed to a total cellular mass of
+80–100 mg. The cell pellets were treated with 500 µl 1:1 H2O2/HNO3 and were
+allowed to stand for 12 h at room temperature with periodic venting. The samples
+were then sonicated at 35 kHz and 40 °C for 1 h with periodic venting. The contents
+of the Eppendorf tube were transferred to a glass digestion tube with ASTM type
+I water (2 × 1 ml). The tubes were sealed and heated at 140 °C for 2 h, cooled and
+diluted to 5 ml with ASTM type I water for analysis.
+All analyses were carried out with an Agilent 7500 A ICP-MS system fitted
+with a standard concentric nebulizer, a Peltier-cooled double-pass Scott-type spray
+chamber, a torch shield and standard Ni interface cones. The peristaltic pump was
+set to deliver 10 g l–1 yttrium as an internal standard, and masses at 77–78, 82, 83
+and 89 were scanned using a spectrum analysis with 20 points per mass, with 3
+repetitions. Interference correction was conducted on the mass at 82 amu using
+standard environmental correction for bromine (82 = 82–83). Following each
+analytical sample, the probe-sample introduction system was rinsed with 10%
+nitric acid for 1 min to minimize carry-over. Calibration curves were prepared
+using standard solutions of Se (Ultra Scientific) and quality-control samples using
+a multielement standard from Environmental Express. In addition, mock samples
+were prepared for each calibration level and subjected to the sample preparation
+described previously to assure adequate recovery. In all cases, the recoveries were
+100 ± 10% (data not shown). The calibration solutions were analysed without
+background subtraction using the 89 internal standard peak. In all cases, the linear
+regression afforded an r ≥ 0.996. The relative concentrations based on the use of
+the 77 and 82 isotopes were examined and found to agree within ±10%, so the
+average concentration was reported.
+Measurement of selenium uptake by fluorometric assay. Total selenium
+content was measured via fluorometric assay32. Cells were plated into 10-cm
+dishes, medium was changed at 75% confluency and was treated with vehicle
+or 12 µM selenite at 24 h after medium change. Cells were collected 2 h after
+selenite treatment, washed three times in cold PBS, and counted to 5 million
+then resuspended in 100 µl MiliQ H2O and added to borosilicate glass tubes.
+Then, 500 µl of a 4:1 mixture of HNO3 and HClO4 was added to the glass tube
+and incubated on a heat block overnight at 130 °C. Next, 500 µl of HCl was then
+added and incubated at 130 °C for 1 h. Tubes were removed and allowed to cool
+to room temperature before addition of 2 ml of 2.5 mM ETDA, 500 µl of 6.3 mM
+2,3-diaminonapthalene-HCl in ultrapure water and 1 ml of cyclohexane. Tubes
+were capped and incubated for 30 min at 60 °C. Samples were placed in a shaker
+for 5 min, and then 150 µl of the upper phase was aliquoted in technical triplicates
+into a 96-well plate. The plate was read for fluorescence emission on a DTX880
+(Beckman Coulter) plate reader with excitation at 360 nm and emission at
+528 nm. Values for selenite-supplemented cells were normalized to basal values of
+intracellular selenium, giving a relative selenium-uptake measurement.
+Orthotopic xenograft studies. Eight-week-old female wild-type nude athymic
+nu–/nu– mice were purchased from Charles River Laboratories and raised in
+an animal facility at University of Massachusetts Medical School (UMMS).
+Littermate controls were not used. To compare tumour growth between control
+and SEPHS2-KO cell lines in vivo, at 10 d after viral transduction, the cells (1 × 106)
+were resuspended in 1× PBS with Matrigel basement membrane matrix at a 1:1
+ratio (total volume, 35 µl) and were subcutaneously injected into the area between
+the upper right second and third mammary fat pads of the nude mice. Tumour
+sizes were measured using a Vernier caliper, and volumes were determined
+according to the formula 4/3π × ((L × W × D)/2), where L is the measurement
+parallel to the midline of the supine animal and W is perpendicular to the midline,
+and D is the distance from chest to the top of the tumour. Mice were euthanized
+at 7 weeks after injection, and the solid tumours were isolated. Mouse orthotopic
+xenografts were set up with 7 mice per cohort, as we have previously obtained
+statistically significant results with this number of mice using this cell-line
+model in previous experiments that projected a >50% difference in cell viability.
+Mice were randomly assigned to be injected with SEPHS2 KO MDAMB231
+cells or CTRL KO MDAMB231 cells. The researchers who carried out injection
+and tumour measurements were blinded to groups (SEPHS2 KO versus CTRL
+KO tumours). Our experiments complied with all ethical regulations and were
+approved by the Institute Animal Care and Use Committee (IACUC) of University
+of Massachusetts Medical School.
+
+--- Page 8 ---
+Letters
+Processing of human breast tissues for SEPHS2 protein quantification.
+All human breast-cancer samples and normal breast tissues were obtained
+with informed consent from the University of Massachusetts Medical School
+Biorepository and Tissue Bank using procedures conducted under an Institutional
+Review Board (IRB)-approved protocol. After their surgical removal, fresh tumours
+and normal tissues were partly snap-frozen in liquid nitrogen immediately and
+stored at −80 °C. The frozen section was homogenized in RIPA buffer with
+complete protease inhibitor cocktail, and was then centrifuged at 13,000g at 4 °C
+for 10 min. Then SDS–polyacrylamide gel electrophoresis was performed as
+described in the ‘Western blot analysis’ section. A strong non-specific band that
+appeared in breast tissues required the use of a 10% gel and long electrophoresis to
+separate SEPHS2 protein from the non-specific band (labelled with an asterisk in
+Fig. 1h). Protein levels of SEPHS2 and actin were quantified using ImageJ. Scanned
+films were inverted, and the intensity of each band was measured, and then the
+background value was subtracted. The intensity value of the SEPHS2 protein band
+for each sample was normalized to the intensity value for actin protein.
+Survival analysis. Kaplan–Meier curves was used to analyse tumour-free survival
+in mouse experiments and for overall survival of human participants. The R
+survival package33,34 was used to generate Kaplan–Meier survival plots and to
+compare the survival distributions of people with low SEPHS2 and those with
+high SEPHS2. The survival data ‘brca_tcga_pub2015_all’35 was downloaded from
+cBioportal36. People were divided into high and low groups on the basis of their
+SEPHS2 expression level (top 25% or bottom 25% in the cohort).
+Transporter CRISPR screen. We infected U251 cells with two CRISPR guides for
+each transporter target. Cells were replated in 12 µM selenite medium after full
+selection of the CRISPR guides, typically for 5 d. We measured cell viability (using
+CellTiter-Glo) at 3 points post selenite treatment: 24, 48 and 72 h. For each guide,
+the relative growth was measured by fold-change increase of CellTiter-Glo signal
+between selenite-treated cells and untreated controls.
+Double-KO rescue assay. MDAMB231 cells were infected with pLentiCRISPR
+V2-based lentivirus to deliver the first KO (CTRL, SLC7A11_g1, SLC7A11_g2)
+and were selected with puromycin. Cells were secondarily infected with pMD154
+lentivirus to allow expression of the second gRNAs (CTRL or SEPHS2_g1) 6–7 d
+after initial infection, and were subsequently selected with 500 µg ml–1 hygromycin.
+These cells were selected for 5 d before being plated in triplicate in 96-well plates,
+with 200 cells per well and with duplicate plates. One plate was assayed for viability
+after overnight incubation, and the second plate was read after 5 d of growth to
+determine the relative growth rate of double-KO cells in comparison to controls.
+Immunohistochemistry. Immunohistochemical detection of CD31, Ki67, CA9
+and GPX4 in serial tumour samples was performed using formalin-fixed and
+paraffin-embedded tissue sections. After deparaffinization in xylene for 20 min,
+rehydrated tissue sections were subjected to antigen retrieval by boiling in Borg
+Decloaker solution (Biocare Medical) for 5 min. Slides were blocked with 5% horse
+serum and then incubated with antibodies for 1 h at room temperature. After
+incubation, biotinylated secondary antibodies plus streptavidin were used to stain
+the samples, with DAB chromogen as substrate, and haematoxylin solution for
+nuclear counterstaining. The section samples were imaged by QCapture
+Suite 2.98.2.
+Immunocytochemistry. Cell were seeded on cover slips coated with poly-d-lysine
+and collagen, fixed with 4% paraformaldehyde in PBS, permeabilized by
+incubation with 0.1% Triton X-100 in PBS and subsequently blocked with 1% BSA
+in PBS for 1 h. To quantify the level of cells expressing cleaved ecaspase-3, the cells
+were incubated with a rabbit antibody against cleaved caspase-3 (Asp175) (Cell
+Signaling, 9664) in the cold room overnight. The cells were washed with PBS 3
+times and were incubated with anti-rabbit Alexa Fluor 488 (Invitrogen) for 1 h at
+room temperature in the dark. The cells were subsequently washed with PBS, and
+mounted with Gold Antifade Reagent with DAPI (Invitrogen, P36935).
+RNAscope in situ hybridization. For SEPHS2 mRNA staining, fluorescent
+RNAscope in situ hybridization (ISH) was performed on the paraffin-embedded
+serial tumour sections using the RNAscope protocol (Advanced Cell Diagnostics,
+RNAscope Multiplex Fluorescent Reagent Kit v2 Assay User Manual, document
+number; 323100-USM); all reagents were provided by the RNAscope fluorescent
+reagent kit (Supplementary Table 3). After deparaffinization in xylene for 20 min
+and rehydration with serial 100%, 95% and 70% ethanol for 5 min each, tissue
+sections were treated with hydrogen peroxide for 10 min and heated at 99 °C in
+target-retrieval solution for 20 min. After target retrieval, sections were treated with
+protease plus at 40 °C in the hybridization oven for 30 min and hybridized with
+3-plex positive control RNA probe, 3-plex negative control RNA probe and SEPHS2
+RNA probe for 2 h at 40 °C in the oven. The section samples were incubated with 3
+different amplifiers, AMP1 (30 min), AMP2 (30 min) and AMP3 (15 min), at 40 °C
+to amplify hybridization signals. After amplification steps, sections were treated
+with horse radish peroxidase C1 for 15 min at 40 °C and incubated with diluted TSA
+plus fluorescein (1:50 in TSA buffer) for 30 min at 40 °C in the oven. The section
+
+NATurE METABoLISm
+samples were counterstained and mounted with Vectashield antifade mounting
+medium with DAPI and were imaged by Lionheart LX Automated microscope
+(BioTek). Images were processed by Gen5 software (BioTek).
+Cell-death analysis. Cell death was measured using a FITC Annexin V Detection
+Kit (BD Biosciences, 556547). Cell lines treated with selected concentrations of
+sodium selenite or cell lines following KO with guides against SEPHS2 were stained
+with propodium iodide and annexin V–FITC. The stained cells were analysed
+using the BD LSR II flow cytometer (BD Biosciences). The data were analysed by
+FlowJo 10. The gating and quadrant strategy for FACS measurement is provided in
+Extended Data Fig. 10.
+Detection of ROS. ROS were detected using DCFDA Cellular ROS Detection
+Assay Kit (Abcam, ab113851). MDAMB231 cells were seeded at 2,000 cells per
+well, and 24 h later were stained with DCF reagent and then treated with various
+selenite concentrations for 45 min. For SeCys peptide treatment, MDAMB231
+cells were seeded at 2,000 cells per well and, 24 h later, were treated with various
+concentrations of SeCys peptide for 24 h before DCF staining. Fluorescence was
+measured using 485-nm excitation and 535-nm emission filters with a Beckman
+Coulter DTX880 Multimode plate reader. Values were normalized to those of DCF
+background and vehicle treatment.
+Medium conditioning, selenide uptake and ferroptosis. We have established that
+selenite uptake is highly reliant on the presence of extracellular thiols (Fig. 3d–i).
+Therefore, we observe that the toxicity of selenite treatment is highly modulated
+by whether the medium has been preconditioned for a period of time, which
+increases toxicity, or whether selenite has been added along with a fresh medium
+change, which conversely requires a longer time for selenium uptake and toxicity
+to occur. We note that in the experiments for Figs. 3b,d and 4d,e and Extended
+Data Fig. 5f,g, selenite was added to the medium that had already been conditioned
+since the seeding of the cells; in Fig. 3a and Extended Data Fig. 8a, selenite was
+added along with fresh medium. Owing to the need to prestain cells for the
+DCFDA assay in Extended Data Fig. 8b, selenite was added with 75 µM reduced
+glutathione in assay buffer to provide reduced thiols because conditioned medium
+could not be used for this assay.
+We found that a second factor that affected toxicity in some of our experiments
+was whether the virally transduced cells were ‘in place’ for the duration of the
+experiment, or for practical reasons if trypsin detached and then reattached during
+the experiment, for example when cells were virally transduced and selected in
+6-well format and then replated in 96-well format for CellTiter-Glo assays. In the
+latter case, we found that disruption of selenocysteine biosynthesis pathway (such
+as via SEPHS2 KO) did induce a small degree of toxicity even in the insensitive
+cells, which we think was due to detachment and reattachment being a mild
+ferroptotic stimulus. The MCF10A cells from Fig. 3n and Extended Data Fig. 2c
+show this effect, compared with the same cells in Fig. 1d, which were not detached
+and reattached.
+Statistics and reproducibility. Tumour-free survival in mice was compared
+between CTRL and SEPHS2-KO groups using the Kaplan–Meier method, and
+significant differences in curves were assessed using the log-rank test. Results of
+the viability assay and Ellman’s test and total selenium measurement were analysed
+using a two-tailed Student’s t-test. P < 0.05 was considered statistically significant,
+and data marked with one (*), two (**) or three (***) asterisks indicate P values
+of < 0.05, < 0.01 and < 0.001, respectively. All experiments were repeated at least
+three times with the following exceptions: focused candidate detoxifying-enzyme
+screen was carried out in 11 cell lines in Fig. 1b, effects of SEPHS2 KO on tumour
+growth (Fig. 1f,g and Extended Data Fig. 2f,g), focused screen for selenium=uptake
+mediator (Fig. 3a), SEPHS2 protein measurements in tumours versus normal
+tissues (Fig. 1h,i), imaging for cleaved caspase-3 in SEPHS2 KO cells (Extended
+Data Fig. 3c,d), selenium ICP-MS quantification of captured spots (Fig. 4g),
+validation of SEPHS2 expression KO (Extended Data Fig. 9) and validations of
+drug efficacy (Fig. 3j and Extended Data Fig. 8c), which were performed once.
+The following experiments were repeated twice: SEPHS2 KO in multiple cell lines
+(Fig. 1c, d), SEPHS1 KO in multiple cell lines (Extended Data Fig. 2i), SEPHS2/
+GPX4/SEPSECS KO cell treatment with hypoxia and nutrient starvation (Extended
+Data Fig. 6c,d) and erastin treatment of SEPHS2 KO (Extended Data Fig. 5h). In all
+experiments, all attempts at replication were successful.
+Bliss independence values (Fig. 4e) were calculated using standard formula
+of EC = EA + EB – EA × EB. EA is the effect of SEPHS2 KO alone, EB is the effect
+of selenite treatment alone, and EC is the expected theoretical combination of
+SEPHS2 KO and selenite treatment. A Bliss independence score of <1 indicates a
+synergistic effect.
+Reporting Summary. Further information on research design is available in the
+Nature Research Reporting Summary linked to this article.
+
+Data availability
+
+All raw data that support the findings of this study are available from the
+corresponding author upon request. Source data are provided with this paper.
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 9 ---
+Letters
+
+NATurE METABoLISm
+Received: 27 November 2019; Accepted: 28 May 2020;
+Published: xx xx xxxx
+
+References
+
+1. Labunskyy, V. M., Hatfield, D. L. & Gladyshev, V. N. Selenoproteins:
+molecular pathways and physiological roles. Physiol. Rev. 94, 739–777 (2014).
+2. Burk, R. F. & Hill, K. E. Regulation of selenium metabolism and transport.
+Annu. Rev. Nutr. 35, 109–134 (2015).
+3. Hanahan, D. & Weinberg, R. Hallmarks of cancer: the next generation. Cell
+144, 646–674 (2011).
+4. Amoedo, N. D., Obre, E. & Rossignol, R. Drug discovery strategies in the
+field of tumor energy metabolism: limitations by metabolic flexibility and
+metabolic resistance to chemotherapy. Biochim. Biophys. Acta Bioenerg. 1858,
+674–685 (2017).
+5. Wexler, P. TOXNET: an evolving web resource for toxicology and
+environmental health information. Toxicology 157, 3–10 (2001).
+6. Kanehisa, M. & Goto, S. KEGG: kyoto encyclopedia of genes and genomes.
+Nucleic Acids Res. 28, 27–30 (2000).
+7. Sanjana, N. E., Shalem, O. & Zhang, F. Improved vectors and genome-wide
+libraries for CRISPR screening. Nat. Methods 11, 783–784 (2014).
+8. Banerjee, B. D., Dwivedi, S. & Singh, S. Acute hydrogen selenide gas
+poisoning admissions in one of the hospitals in Delhi, India: case report.
+Hum. Exp. Toxicol. 16, 276–278 (1997).
+9. Schecter, A., Shanske, W., Stenzler, A., Quintilian, H. & Steinberg, H. Acute
+hydrogen selenide inhalation. Chest 77, 554–555 (1980).
+10. Strickland, L. B., Dawson, P. J., Santner, S. J. & Miller, F. R. Progression of
+premalignant MCF10AT generates heterogeneous malignant variants with
+characteristic histologic types and immunohistochemical markers. Breast
+Cancer Res. Treat 64, 235–240 (2000).
+11. Xu, X. M. et al. Selenophosphate synthetase 2 is essential for selenoprotein
+biosynthesis. Biochem. J. 404, 115–120 (2007).
+12. Noinaj, N. et al. Structural insights into the catalytic mechanism of
+Escherichia coli selenophosphate synthetase. J. Bacteriol. 194, 499–508 (2012).
+13. Cavalieri, R. R., Scott, K. G. & Sairenji, E. Selenite (75Se) as a
+tumor-localizing agent in man. J. Nucl. Med. 7, 197–208 (1966).
+14. Cavalieri, R. R. & Scott, K. G. Sodium selenite Se 75. A more specific agent
+for scanning tumors. JAMA 206, 591–595 (1968).
+15. Jiang, C., Wang, Z., Ganther, H. & Lu, J. Distinct effects of methylseleninic
+acid versus selenite on apoptosis, cell cycle, and protein kinase pathways in
+DU145 human prostate cancer cells. Mol. Cancer Ther. 1, 1059–1066 (2002).
+16. Sato, H. et al. Redox imbalance in cystine/glutamate transporter-deficient
+mice. J. Biol. Chem. 280, 37423–37429 (2005).
+17. Sato, H., Tamba, M., Ishii, T. & Bannai, S. Cloning and expression of a
+plasma membrane cystine/glutamate exchange transporter composed of two
+distinct proteins. J. Biol. Chem. 274, 11455–11458 (1999).
+18. Olm, E. et al. Extracellular thiol-assisted selenium uptake dependent on the
+x(c)- cystine transporter explains the cancer-specific cytotoxicity of selenite.
+Proc. Natl Acad. Sci. USA 106, 11400–11405 (2009).
+19. Kim, J. Y. et al. Human cystine/glutamate transporter: cDNA cloning and
+upregulation by oxidative stress in glioma cells. Biochim. Biophys. Acta 1512,
+335–344 (2001).
+20. Jiang, L. et al. Ferroptosis as a p53-mediated activity during tumour
+suppression. Nature 520, 57–62 (2015).
+21. Hangauer, M. J. et al. Drug-tolerant persister cancer cells are vulnerable to
+GPX4 inhibition. Nature 551, 247–250 (2017).
+22. Yang, W. S. et al. Regulation of ferroptotic cancer cell death by GPX4. Cell
+156, 317–331 (2014).
+23. Doll, S. et al. FSP1 is a glutathione-independent ferroptosis suppressor.
+Nature 575, 693–698 (2019).
+24. Bersuker, K. et al. The CoQ oxidoreductase FSP1 acts parallel to GPX4 to
+inhibit ferroptosis. Nature 575, 688–692 (2019).
+25. Spallholz, J. E. On the nature of selenium toxicity and carcinostatic activity.
+Free Radic. Biol. Med. 17, 45–64 (1994).
+
+Nature Metabolism | www.nature.com/natmetab
+
+26. Alim, I. et al. Selenium drives a transcriptional adaptive program to block
+ferroptosis and treat stroke. Cell 177, 1262–1279 e1225 (2019).
+27. Ingold, I. et al. Selenium utilization by GPX4 is required to prevent
+hydroperoxide-induced ferroptosis. Cell 172, 409–422 e421 (2018).
+28. Delafiori, J., Ring, G. & Furey, A. Clinical applications of HPLC-ICP-MS
+element speciation: A review. Talanta 153, 306–331 (2016).
+29. Suzuki, K. T. & Ogra, Y. Metabolic pathway for selenium in the body:
+speciation by HPLC-ICP MS with enriched Se. Food Addit. Contam. 19,
+974–983 (2002).
+30. Dauplais, M., Lazard, M., Blanquet, S. & Plateau, P. Neutralization by metal
+ions of the toxicity of sodium selenide. PLoS One 8, e54353 (2013).
+31. Wang, T., Wei, J. J., Sabatini, D. M. & Lander, E. S. Genetic screens in human
+cells using the CRISPR–Cas9 system. Science 343, 80–84 (2014).
+32. Sheehan, T. M. & Gao, M. Simplified fluorometric assay of total selenium in
+plasma and urine. Clin. Chem. 36, 2124–2126 (1990).
+33. A Package for Survival Analysis in S. Version 2.38 (2015); http//cran.r-project.
+org/package=survival
+34. Harrington, D. P. & Fleming, T. R. A class of rank test procedures for
+censored survival data. Biometrika 69, 553–566 (1982).
+35. Ciriello, G. et al. Comprehensive molecular portraits of invasive lobular
+breast. Cancer Cell 163, 506–519 (2015).
+36. Cerami, E. et al. The cBio cancer genomics portal: an open platform for
+exploring multidimensional cancer genomics data. Cancer Discov. 2,
+401–404 (2012).
+
+Acknowledgements
+
+We thank M. Green, E. Baehrecke, A. Mercurio, D. Sabatini, C. Haynes, D. Guertin,
+B. Bible, K. Krupczak, K. Luk, C. Brown, A. Jaferi and S. Deibler for advice, assistance
+and feedback. We thank D. Sabatini, S. Wolfe, M. Lee, A. Mercurio and K. -Y. Choi for
+materials including vectors and cell lines. We thank O. Kwon for illustrations, and
+C. -C. Hsieh for assistance with statistics. This work was supported by the Suh Kyungbae
+Foundation (SUHF) Young Investigator Award to D.K.; NIH T32 CA130807-8 to M.E.S.;
+Searle Scholars Program, Rita Allen Foundation, Whitehall Foundation, Smith Family
+Foundation, and NIH/NIA DP2 AG067490-01 to P.L.G; and R01 CA229910 to L.M.S.
+
+Author contributions
+
+A.E.C. and D.K. conceived the project; A.E.C., N.L. and D.K. designed the research.
+A.E.C. and N.L. performed most of the experiments with assistance from A.N.M.-O.,
+M.E.S., M.B.D., D.Y., A.B.J. and A.P. In situ hybridization and immunohistochemistry
+experiments were carried out by S.J.P., N.L. and P.L.G. ICP-MS-based experiments for
+selenite measurements were conducted by M.S. R.L., N.L., M.B.D. and L.J.Z. conducted
+mining and analyses of TCGA and other large-scale datasets. A.N.M.-O. and L.M.S.
+assisted with mouse xenograft studies. K.S. assisted with human sample studies. A.E.C.,
+N.L. and D.K. wrote the manuscript with consultation from all of the authors.
+
+Competing interests
+
+A.E.C., N.L. and D.K. are listed as the authors on a patent application filed by
+University of Massachusetts Medical School on targeting SEPHS2 in cancer therapy,
+and on the methodology for hydrogen-selenide detection. All other authors declare no
+competing interests.
+
+Additional information
+
+Extended data is available for this paper at https://doi.org/10.1038/s42255-020-0224-7.
+Supplementary information is available for this paper at https://doi.org/10.1038/
+s42255-020-0224-7.
+Correspondence and requests for materials should be addressed to D.K.
+Peer review information Primary Handling Editor: Elena Bellafante.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+© The Author(s), under exclusive licence to Springer Nature Limited 2020
+
+--- Page 10 ---
+Letters
+
+NATurE METABoLISm
+
+Extended Data Fig. 1 | Panel of toxic metabolites and putative detoxifying enzymes tested. A panel of metabolites that have documented toxic
+properties, and the downstream enzymes which use them as substrates, designated as ‘detoxifiers’, are listed. Chemical structures and PMID of references
+which document the toxicity of each metabolite as a compound are shown.
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 11 ---
+NATurE METABoLISm
+
+Letters
+
+Extended Data Fig. 2 | Further details of effects of SEPHS2 KO and overexpression in cells and in the MDA231 orthotopic xenograft. a, Viability of
+cell lines following KO with guides against SEPHS2 for 9 days. Values are relative to the same cell lines expressing nontargeting (CTRL) guide (=1.0),
+(b) Light microscope images of MDAMB231 and MCF10A cells subjected to CTRL or SEPHS2 KO. Scale bar=25μm. c, Viability of cell lines following KO
+with guides against SEPHS2 for 11 days. Values are relative to the same cell lines expressing nontargeting guide (=1.0). d, Map of wild type SEPHS2 and
+CRISPR resistant mutant SEPHS2_U60C. Details of features are provided in Methods. e, Viability of vector and SEPHS2_U60C overexpressing cell lines
+subjected to CTRL and SEPHS2 g1 KO. f, Weight measurements for ex vivo CTRL and SEPHS2 KO MDAMB231 orthotopic xenograft tumors. g, In vivo
+tumor volume measurements for CTRL and SEPHS2 KO MDAMB231 orthotopic xenograft tumors. For f and g, if no tumor has formed, tumor weight
+and volume was designated 0 for CTRL, n = 6 and for SEPHS2 KO n = 2. h, Immunoblot of SEPHS2 in CTRL and SEPHS2 KO MDAMB231 orthotopic
+xenograft tumors. Number is an animal identifier number. For a,c,e, n = 3 biological replicates; error bars are S.D. Number is an animal identifier number.
+i, Viabilities of noncancer (immortalized) and cancer lines following KO with guides against SEPHS1 (blue bars) for 9 days. Values are relative to the
+same cell lines expressing nontargeting guide (black bars), set at 1.0. j, Immunoblots of selenoprotein expression in MCF10A and MDAMB231 cells
+subjected to (CRISPR/Cas9-induced) KO with guides against SEPHS1, SEPHS2, or control guides for 11 days. For a,c,e and i, n = 3 biological replicates;
+error bars are S.D. For all panels, the measure of center is mean. *p > 0.05, **p < 0.01 (student’s two-tailed t test).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 12 ---
+Letters
+
+NATurE METABoLISm
+
+Extended Data Fig. 3 | Induction of cell death by SEPHS2 KO in cancer cells. a, Raw flow cytometry of PI and Annexin V double-stained U251 and
+MDAMB231 cells following KO with guides against SEPHS2 at 10 days after viral infection. Gating strategy is outlined in Extended Data Fig. 10a–e
+b, Percentages of Annexin V + /PI- and Annexin V + /PI + cells. c, Cleaved caspase 3 (CC3) staining in MDAMB231 and U251cells following KO with guides
+against SEPHS2 at 10 days after viral transduction. Scale bar=20μm. d, Quantification of CC3 positive cells over total cells in CTRL and SEPHS2 deficient
+MDAMB231 and U251. Counts are from random fields. e, Viability of control and SEPHS2 deficient U251 and MDAMB231 cells treated with vehicle or the
+indicated drugs for 4 days. Values are relative to the cell lines expressing nontargeting (CTRL) guide, set at 1.0. For e, n = 3 biological replicates; error bars
+are S.D. For all panels, the measure of center is mean. For all panels, *p < 0.05, **p < 0.01, and ***p < 0.001 (student’s two-tailed t test).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 13 ---
+NATurE METABoLISm
+
+Letters
+
+Extended Data Fig. 4 | Expression of SEPHS2 in various types of tumor and normal tissues. a, Expression profiles of SEPHS2 in 28 types of normal and
+tumor tissues. Normalized mRNA-Seq expression profile data from patient tumor tissues and normal tissues was obtained from GEPIA (Tang, Z. et al.
+(2017) GEPIA: a web server for cancer and normal gene expression profiling and interactive analyses. Nucleic Acids Res, 10.1093/nar/gkx247). Tumor
+subtypes having over 2-fold SEPHS2 expression in tumor than normal and q-value less than 0.01 indicated with red. q values are have been determined by
+ANOVA and adjusted for FDR (false discovery rate). (b and c) Box plots of SEPHS2 mRNA expression levels in patient tumors and normal breast tissue.
+SEPHS2 expression was compared in tumor and normal breast samples from TCGA b, and METABRIC (c) datasets. For panel b, minimum is non-tumor
+(-0.239), tumor (-0.6386), maximum is non-tumor (0.1874), tumor (1.0702) and median is non-tumor (0.0014), tumor (0.1402). For panel c, minimum is
+non-tumor (1.10097), tumor (1.26305), maximum is non-tumor (3.85158), tumor (5.67272), and median is non-tumor (1.941515), tumor (2.86621).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 14 ---
+Letters
+
+NATurE METABoLISm
+
+Extended Data Fig. 5 | Candidate transporters tested and xCT functional characterization. a, A list of selenium transporter candidates examined in
+the focused screen, rationale for candidacy, and references. b, Viability of control and SLC7A11 KO U251 cells treated with 12 µM of sodium selenite for
+48 hr. Values are relative to that of the same cells treated with vehicle (=1.0). c, Viability of control and SLC3A2 KO U251 cells treated with 12 µM of
+sodium selenite for 48 hr. Values are relative to that of the same cells treated with vehicle (=1.0). d, Total thiol quantification of 24 hr conditioned media
+from control and SLC7A11 KO U251 cells. e, Total thiol quantification of 24 hr conditioned media from control and SLC3A2 KO U251 cells. Each value was
+normalized to that of unconditioned medium. f, Viability of U251 cells treated with vehicle, 12 µM sodium selenite, and/or 10 µM Erastin for 72 hr. Values
+are relative to the cells treated with vehicle (=1.0). g, Viability of control and SLC7A11 KO U251 cells treated with vehicle or 12 µM sodium selenite for 72 hr.
+Values are relative to the control cells treated with vehicle (=1.0). h, Viability of control and SEPHS2 KO CAL120 cells treated with vehicle or indicated
+doses of Erastin for 4 days. Values are relative to each untreated cells (=1.0). For b-h, n = 3 biological replicates; error bars are S.D. For all panels, the
+measure of center is mean. For all panels, *p < 0.05, **p < 0.01, and ***p < 0.001 (student’s two-tailed t test).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 15 ---
+NATurE METABoLISm
+
+Extended Data Fig. 6 | See next page for caption.
+
+Nature Metabolism | www.nature.com/natmetab
+
+Letters
+
+--- Page 16 ---
+Letters
+
+NATurE METABoLISm
+
+Extended Data Fig. 6 | Effects of hypoxia or nutrient-starved stresses on normal and selenophilic cancer cells. a, Viability of non-transformed (blue
+bars) and selenophilic cancer (red bars) cells under hypoxia (1% O2) for 48 hr. Values are relative to cells cultured under normoxic condition (20% O2),
+set at 1.0. b, Viability of non-transformed (blue bars) and selenophilic cancer (red bars) cells under nutrient starved conditions (10% or 20% growth
+media) for 48 hr. Values are relative to cells cultured in 100% growth media, set at 1.0. c, Viability of control, SEPHS2, GPX4, and SEPSECS deficient
+MDAMB231 cells after being cultured in hypoxic condition (1% O2) for 48 hr. Values are relative to the cells cultured in normoxic condition (20% O2), set
+at 1.0. d, Viability of control, SEPHS2, GPX4, and SEPSECS deficient MDAMB231 cells under nutrient starved conditions (10% growth media) for 48 hr.
+Values are relative to the cells cultured in 100% growth media, set at 1.0. e, Immunoblot of FPS1 and catalase in SEPHS2 KO sensitive and in sensitive
+cell lines. For a,b, n = 3 biological replicates; error bars are S.D. For c,d n = 3 independent experiments; error bars are S.D. For b, while trends can be seen,
+statistical comparisons were not carried out due to variability between cell lines. For all panels, the measure of center is mean. For all panels, *p < 0.05
+(student’s two-tailed t test).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 17 ---
+NATurE METABoLISm
+
+Letters
+
+Extended Data Fig. 7 | SEPHS2 and GPX4 expression in tumor microenvironments. a, Validation of SEPHS2 RNA probe by RNAscope in situ hybridization
+in MDA231 cell pellet block samples. Scale bar=100μm. b, Validation of specificity of GPX4 antibody in CTRL and SEPHS2 KO MDAMB231 cell pellet
+block by immunohistochemistry. c, SEPHS2 immunoblots from the cells used in b. (d and e) Micrographs of serial xenograft tumor sections stained with
+CA9, GPX4, KI67 antibodies and in situ hybridized with SEPHS2 RNA probe. The right hand panels are magnifications of the regions outlined by the white
+square. d, shows a hypoxic region as indicated by membrane staining of CA9, and with a low Ki67 index. e, shows a nonhypoxic region (as indicated
+by only background nonspecific stain in CA9) with a high Ki67 index. Scale bar is 100μm. f, Micrographs of serial human tumor sections stained with
+CD31 antibody and in situ hybridized with SEPHS2 RNA probe, showing vasculature. Scale bar is 100μm. g, Immunoblots of GPX4, SEPHS2 and Hif1a in
+MDAMB231 cells subjected to hypoxia (1% O2) for 48hrs.
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 18 ---
+Letters
+
+NATurE METABoLISm
+
+Extended Data Fig. 8 | See next page for caption.
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 19 ---
+NATurE METABoLISm
+
+Letters
+
+Extended Data Fig. 8 | Reactive oxygen species production by excess selenium, and implications in SEPHS2 KO toxicity. a, Selenoprotein immunoblots
+of MDAMB231 cells at 24 hr recovery after 2 hr sodium selenite treatment or treated with 2-selenocysteine-containing peptide for 24 hr. b, ROS
+quantification of cells treated with indicated concentrations of sodium selenite or 2xselenocysteine containing peptide, 250 µM TBH, or 500μM H2O2
+for 45 mins. c, Viability of U251 cells overexpressing vector or CAT treated with vehicle or H2O2 for 48 hr. d, Viability of U251, and MDAMB231 cells
+overexpressing blank vector or CAT and subjected to KO with guides against SEPHS2 for 9 days. e, Immunoblots of CAT and SEPHS2 in U251 and
+MDAMB231 cells overexpressing blank vector or CAT and subjected to KO with guides against SEPHS2 for 9 days. For b, n = 3 independent experiments;
+error bars are S.D. For c,d n = 3 biological replicates; error bars are S.D. For all panels, the measure of center is mean. For all panels, *p < 0.05 and **p < 0.01
+(student’s two-tailed t test).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 20 ---
+Letters
+
+NATurE METABoLISm
+
+Extended Data Fig. 9 | Confirmation of gene knockout or overexpression after lentiviral transduction. a, Immunoblots of SEPHS2 in 5 non-transformed
+(blue) and 5 transformed (black) cell lines transduced with Cas9/sgRNAs against SEPHS2, and control (non-targeting sgRNA). b, Immunoblots of SEPHS2
+in cells transduced with CRISPR resistant SEPHS2_U60C and control (empty vector). c, Immunoblots of SLC7A11 in cells transduced with Cas9/sgRNAs
+targeting SLC7A11 or non-targeting sgRNA. d, Immunoblots of SLC3A2 in cells transduced as indicated e, Immunoblots of PSTK in cells transduced as
+indicated. f, Immunoblots of SEPHS1 in 2 non-transformed and 2 cancer cells transduced as indicated. g, Immunoblots of GPX4 in cells transduced as
+indicated. h, Immunoblots of FSP1 in cancer cells transduced as indicated. All samples were lysed between 7~8 days after viral transduction.
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 21 ---
+NATurE METABoLISm
+
+Letters
+
+Extended Data Fig. 10 | Supporting data for flow cytometry and gas toxicity system. a–e, Representative flow cytometry data to address gating and
+quadrant strategy for FACS measurement of dying/dead cells. MDAMB231 cells were stained with Annexin V-FITC and propidium iodide (PI). The X-axis
+and y-axis of Flow cytometry density plots were designated as Annexin V-FITC and PI, respectively. The left lower quadrant represents Annexin V negative
+and PI negative live cells. The right lower quadrant represents Annexin V positive and PI negative early dying cells. The right upper quadrant represents
+Annexin V positive and PI positive late dying/dead cells. Staining is as follows: (a) unlabeled, (b) PI, (c) Annexin V, (d) Annexin V and PI, (e) Annexin V
+and PI stained cells treated with 50 µM H2O2 for 24 hr. f, Scanned image of a polystyrene microplate cover with PVP spots embedded with silver nitrate or
+lead acetate. The plate cover was scanned before (upper panel) and after (lower panel) selenide gas exposure for one min. g, Viability of MDAMB231 cells
+in the numbered spots outlined on the 96 well plate, exposed to selenide gas. For g, n = 4 independent experiments; values are normalized to untreated
+cells (=1.0). For all panels, the measure of center is mean. For all panels **p < 0.01, and ***p < 0.001 (student’s two-tailed t test).
+
+Nature Metabolism | www.nature.com/natmetab
+
+--- Page 22 --- [OCR]
+natureresearch
+
+Last updated by author(s): May 12, 2020
+
+Reporting Summary
+
+Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency
+in reporting. For further information on Nature Research policies, see Authors & Referees and the Editorial Policy Checklist.
+
+Statistics
+
+For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.
+Confirmed
+
+The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement
+
+A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly
+
+The statistical test(s) used AND whether they are one- or two-sided
+Only common tests should be described solely by name; describe more complex techniques in the Methods section.
+
+A description of all covariates tested
+A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons
+
+A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient)
+AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)
+
+For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted
+Give P values as exact values whenever suitable.
+
+For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings
+
+For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes
+
+XXX O O00O00dddds
+OO0 X X XX X XX
+
+Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated
+
+Our web collection on statistics for biologists contains articles on many of the points above.
+
+Software and code
+
+Policy information about availability of computer code
+
+Data collection Beckman Coulter DTX880 Multimode Detection Software version 1.0 was used to measure CellTiterGlo-based cell viability and ROS
+detection in 96 well plates; Thermo Scientific Nanodrop 2000 V1.0 was used in nucleic acid measurement; Gen5 version 3.03: BioRad
+Image Lab Version 6.0.1 was used for scanning western immunoblots; BD LSR Il flow cytometer was used in Annexin V and P| double
+stain; Lionheart LX (Serial 1710281) Automated microscope was used for taking images of immunocytochemistry and RNA scope.
+
+Data analysis Microsoft Excel for Microsoft 365 MSO (16.0.12730.20188), Graphpad PRISM version 8, ImageJ version 1.520, FLOWJO version 10,
+ChemDraw Professional version 18.0, and survival package (v2.42-6) in R 3.5.3 were used for data analysis, statistical data analysis, or for
+making of chemical structures.
+
+For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors/reviewers.
+We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.
+
+Data
+
+Policy information about availability of data
+All manuscripts must include a data availability statement. This statement should provide the following information, where applicable:
+
+- Accession codes, unique identifiers, or web links for publicly available datasets
+- Alist of figures that have associated raw data
+- A description of any restrictions on data availability
+
+All raw data that support the findings of this study are available from the corresponding author upon request.
+
+>
+Q
+—
+<
+=
+()
+=5
+(]
+[
+D
+Q
+=
+(@)
+>
+=
+(D
+O
+o
+=
+=t
+>
+(@]
+%)
+C
+Q
+=
+e
+
+8107 4290120
+
+--- Page 23 --- [OCR]
+Field-specific reporting
+
+Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.
+
+Life sciences [ ] Behavioural & social sciences [ | Ecological, evolutionary & environmental sciences
+
+For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf
+
+Life sciences study design
+
+All studies must disclose on these points even when the disclosure is negative.
+
+Sample size Most experiments, in particular experiments involving CellTiterGlo-based viability were carried out in triplicate which we have found in our
+previous studies to be sufficient for determining effects of pLentiCRISPR-based genetic perturbations and drug treatments on cell viability in
+cancer cell lines. Mouse orthotopic xenografts were set up with 7 mice per cohort as we have previously obtained statistically significant
+results with this number of mice using this cell line model in previous experiments that projected a >50% difference in cell viability. Numbers
+of cancer cell lines and normal cell lines for comparing SEPHS2 effect in cancer vs normal lines were determined by availability of cell lines that
+were infectable and able to be selected using antibiotics. Human breast tumor and normal breast samples were based on sample availability.
+Experiments involving volatile selenite gas toxicity were in sets of 4 which were based on convenient equidistant plating in a 96 well format.
+
+>
+Q
+—
+e
+=
+()
+=
+[
+%
+D
+Q
+=
+(@)
+>
+=3
+(D
+O
+[©]
+=
+=
+>
+(e}
+%)
+C
+Q
+=
+e
+
+Data exclusions  No data was excluded.
+
+Replication All experiments were repeated at least three times with the following exceptions: Focused candidate detoxifying enzyme screen carried out in
+11 cell lines in Fig 1b, effects of SEPHS2 KO on tumor growth (Fig 1f,g and Extended Data Fig 2f,g), focused screen for selenium uptake
+mediator (Fig 3a), SEPHS2 protein measurements in tumors vs normal tissues (Fig 1h,i), imaging for cleaved caspase 3 in SEPHS2 KO cells
+(Extended Data Fig 3c,d), selenium ICP/MS quantification of captured spots (Fig 4g), validation of SEPHS2 expression knockout (Extended Data
+Fig 9), and validations of drug efficacy (Fig 3j and Extended Data Fig 8c) which were performed once. The following experiments were
+repeated twice: SEPHS2 KO in multiple cell lines (Fig 1c and d), SEPHS1 KO in multiple cell lines (Extended Data Fig 2i), SEPHS2/GPX4/SEPSECS
+KO cell treatment with hypoxia and nutrient starvation (Extended Data Fig 6¢,d) and erastin treatment of SEPHS2 KO (Extended Data Fig 5h).
+In all experiments, all attempts at replication were successful.
+
+Randomization For xenograft tumor experiments, Nu-/nu- athymic mice were randomly assighed to be injected with SEPHS2 KO MDAMB231 cells or CTRL KO
+MDAMB231 cells.
+
+Blinding For xenograft tumor experiments, the researchers carrying out injection and tumor measurements were blinded to which group were which
+(SEPHS2 KO vs CTRL KO tumors).
+
+Reporting for specific materials, systems and methods
+
+We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material,
+system or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response.
+
+Materials & experimental systems Methods
+Involved in the study n/a | Involved in the study
+Antibodies |Z |:| ChlIP-seq
+Eukaryotic cell lines |:| & Flow cytometry
+Palaeontology |:| MRI-based neuroimaging
+
+Animals and other organisms
+
+Human research participants
+
+XOOXOO =
+OXXOXKX
+
+Clinical data
+
+Antibodies
+
+Antibodies used Antibodies for WB
+Rabbit polyclonal anti-SEPHS2 (dilution-1:1000), Sigma-Aldrich, Cat#SAB2700271, Lot#GT39876
+Rabbit polyclonal anti-PSTK (dilution-1:1000), Invitrogen, Cat#PA5-58101, Lot#TL2685284
+Rabbit monoclonal anti-GPX4 (dilution 1:1000), Abcam, Cat#ab125066, Lot#GR3229900-6
+Rabbit polyclonal anti-GPX1 (dilution 1:500), Abcam, Cat#ab22604, Lot#GR3185180-1
+Rabbit monoclonal anti-xCT/SLC7A11 (dilution-1:1000), Cell signaling Technology, Cat#12691, Lot#1
+Rabbit polyclonal anti-SLC3A2 (dilution-1:2000), Sigma-Aldrich, Cat#HPA017980, Lot#A115302
+Rabbit polyclonal anti-SELS (VIMP) (dilution 1:500), Sigma-Aldrich, Cat#HPA048362, Lot#A101692
+Rabbit polyclonal anti-SELH (C110RF31) (dilution-1:1000), Sigma-Aldrich, Cat#HPA010025, Lot#R58332
+Rabbit monoclonal anti-Catalase (D4P7B) (dilution-1:1000), Cell signaling Technology, Cat#12980T, Lot#2
+Mouse monoclonal anti-SEPHS1 (F-6) (dilution-1:200), Santa Cruz, Cat#sc-365945, Lot#D1718
+
+8107 4290120
+
+--- Page 24 --- [OCR]
+Mouse monoclonal anti-AMID (B-6) (dilution-1:200), Santa Cruz, Cat#sc-377120, Lot#A2419
+
+Mouse monoclonal anti-B-Actin (dilution-1:5000), Sigma-Aldrich, Cat#A2228, Lot#026M4780V
+
+Rabbit monoclonal anti-B-Actin (13E5) (dilution-1:2000), Cell signaling Technology, Cat#4970, Lot#18
+Antibodies for ICC
+
+Rabbit polyclonal anti-Cleaved Caspase-3 (Asp175) (dilution-1:200), Cell signaling Technology, Cat#9661, Lot#45
+Goat anti-Rabbit IgG H&L (Alexa Fluor® 488) (dilution-1:200), Abcam, Cat#ab150077, LotHGR3280242-1
+
+Rabbit monoclonal anti-GPX4 (dilution-1:200), Abcam, Cat#ab125066, Lot# GR3229900-6
+
+Rabbit polyclonal Anti-CA9 (dilution-1:200), Sigma-Aldrich, Cat#HPAO55207, Lot#000000565
+
+Mouse monoclonal PECAM-1 Antibody (10G9) (dilution-1:200), Santa Cruz, Cat#sc-13537, Lot#A0716
+
+Mouse monoclonal anti-MKI67 (dilution-1:200), Sigma-Aldrich, CatHAMAB90870, Lot#02780
+
+Validation Most of the antibodies listed above were validated by CRISPR KO or target gene OE to compare bands from lysates with and
+without the protein. Such KO validation data (i.e. loss of predicted bands in the KO cells) is shown in the manuscript for SEPHS2,
+PSTK, GPX4, xCT/SLCL7A11, SLC3A2, FSP1 and SEPHS1, in human cells for immunoblots. KO validation for GPX1, SELS and SELH is
+not shown in the manuscript data. Overexpression validation for anti-Catalase antibody is in the manuscript. The anti-Actin
+antibody used as loading control is widely used and validated in the research community. The anti-CA9, anti-PECAM-1 and anti-
+MKI67 antibodies are widely used and validated in the research community as markers for hypoxic, endothelial, and proliferating
+cells, respectively; these showed the expected staining pattern in human paraffin section IHCs. The anti-cleaved caspase 3
+antibody is widely used as a marker for imaging of apoptotic cells, and showed the expected staining pattern in
+immunocytochemistry of human cells.
+
+>
+Q
+—
+e
+=
+()
+=
+[
+%
+D
+Q
+=
+(@)
+>
+=3
+(D
+O
+[©]
+=
+=
+>
+(e}
+%)
+C
+Q
+=
+e
+
+Eukaryotic cell lines
+
+Policy information about cell lines
+
+Cell line source(s) LF and LSM primary lines were obtained from ATCC. THLE2, CCD18CO, MCF10A, and HUH7 were a kind gift from the Kwan
+Yong Choi lab (POSTECH, KOREA). PNT1A were a kind gift from the Arthur Mercurio lab (UMMS, USA). MCF12A and
+MCF10CA1h were a kind gift from the Michael Green lab (UMMS, USA). U20S, U251, LN229, CAL120, MDAMBA415,
+MDAMB468, MDAMB231, HS578T, SW620, HT1080, A498, CAKI1, A2058, A549, WM115 and DU145 were a kind gift from the
+David Sabatini lab. U118/138 were a kind gift from Matija Snuderl (NYU, USA). SUM159 were a kind gift from the Leslie Shaw
+lab (UMMS, USA). MDAMB157, HCC1395, and MDAMB436 were a kind gift from the Michael Lee lab (UMMS, USA).
+
+Authentication Please refer to Table S2 in the manuscript for a detailed list. All the cell lines used in the study were authenticated via STR
+profiling of 6 loci with the exception of LF and LSM (purchased from ATCC in December 2018) and Sum159, MDAMB436, and
+HCC1395 (not profiled). Additionally, in the PNT1A cell line 4/4 loci matched but reference data was not available for other
+loci that we tested. STR profiling was performed at the Duke University DNA Facility for all cell lines except U20S, CAL120,
+HS578T, A498 and A2058, WM115, A549 which were previously STR validated in the lab from which we obtained them
+(Sabatini lab).
+
+Mycoplasma contamination MDAMB231, U251, LN229, HT29, MCF12A, and CCD18CO cell lines were confirmed to be mycoplasma negative using e-Myco
+Mycoplasma PCR Detection Kit, catalog number 25235 from iNtRON Bio. Other cell lines have not been tested for
+mycoplasma.
+
+Commonly misidentified lines  oOne of the lines U118, glioma line, is thought to be the same line as another glioma line (U138) used in the research
+
+(See ICLAC register) community. We have STR validated this as being U118/138 and this does not impact our findings in any way. We note this
+feature of U118 in Supplemental Table 2.
+
+Animals and other organisms
+
+Policy information about studies involving animals; ARRIVE guidelines recommended for reporting animal research
+
+Laboratory animals 8-week-old female athymic nu-/nu- mice (mus musculus)
+
+Wild animals The study did not involve wild animals.
+
+Field-collected samples The study did not involve samples collected from the field.
+
+Ethics oversight Institutional Animal Care and Use Committee (IACUC) at University of Massachusetts Medical School
+
+Note that full information on the approval of the study protocol must also be provided in the manuscript.
+
+Human research participants
+
+Policy information about studies involving human research participants
+
+Population characteristics Frozen breast cancer tumor and matched normal adjacent breast tissues were obtained from female patients, ranging in age
+from 46 to 74 years old. Further deidentified details can be provided upon request.
+
+8107 4290120
+
+Recruitment Samples were harvested during tumor resection at the clinical partner of the University of Massachusetts Medical School, UMass
+Memorial Health Care in Worcester, Massachusetts.
+
+--- Page 25 --- [OCR]
+Ethics oversight The samples were collected in accordance with ethical approval by the UMass Medical School Institutional Review Board (Docket
+#H-11731).
+
+Note that full information on the approval of the study protocol must also be provided in the manuscript.
+
+Flow Cytometry
+
+Plots
+
+Confirm that:
+& The axis labels state the marker and fluorochrome used (e.g. CD4-FITC).
+
+& The axis scales are clearly visible. Include numbers along axes only for bottom left plot of group (a 'group' is an analysis of identical markers).
+& All plots are contour plots with outliers or pseudocolor plots.
+
+A numerical value for number of cells or percentage (with statistics) is provided.
+
+Methodology
+
+Sample preparation Sample preparation follows FITC Annexin V Apoptosis Detection Kit (BD Pharmingen, Cat#556547). Briefly, cells were washed
+with cold PBS and resuspended in 1X binding buffer with Annexin V-FITC and propidium iodide (Pl) at room temperature for 15
+min, and then analyzed immediately.
+
+Instrument BD LSR Il flow cytometer was used.
+Software BD FACSDiva program was used for data collection and FLOWJO 10 was used for data analysis.
+
+Cell population abundance  Around 90% cells were gated as a single cells without the cell debris from the full population. Around 10000 single cells were
+used to sort and analysis.
+
+Gating strategy FSC-A and SSC-A gating strategy was used to eliminate the cell debris. FSC-H and FSC-A subgating strategy was used to identify
+single cell population.
+For Annexin V-FITC positive and Annexin V-FITC/PI positive cells were gated for early and late dying/dead cells.
+
+Tick this box to confirm that a figure exemplifying the gating strategy is provided in the Supplementary Information.
+
+>
+Q
+—
+e
+=
+()
+=
+[
+%
+D
+Q
+=
+(@)
+>
+=3
+(D
+O
+[©]
+=
+=
+>
+(e}
+%)
+C
+Q
+=
+e
+
+8107 4290120

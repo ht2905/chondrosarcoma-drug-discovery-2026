@@ -1,0 +1,563 @@
+--- Page 1 ---
+Biochem. J. (2007) 404, 115–120 (Printed in Great Britain)
+
+115
+
+doi:10.1042/BJ20070165
+
+Selenophosphate synthetase 2 is essential for selenoprotein biosynthesis
+Xue-Ming XU*, Bradley A. CARLSON*, Robert IRONS*, Heiko MIX†, Nianxin ZHONG*, Vadim N. GLADYSHEV†
+and Dolph L. HATFIELD*1
+*Molecular Biology of Selenium Section, Laboratory of Cancer Prevention, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892,
+U.S.A., and †Department of Biochemistry, University of Nebraska, Lincoln, NE 68588, U.S.A.
+
+Selenophosphate synthetase (SelD) generates the selenium donor
+for selenocysteine biosynthesis in eubacteria. One homologue
+of SelD in eukaryotes is SPS1 (selenophosphate synthetase 1)
+and a second one, SPS2, was identified as a selenoprotein in
+mammals. Earlier in vitro studies showed SPS2, but not SPS1,
+synthesized selenophosphate from selenide, whereas SPS1 may
+utilize a different substrate. The roles of these enzymes in
+selenoprotein synthesis in vivo remain unknown. To address their
+function in vivo, we knocked down SPS2 in NIH3T3 cells using
+small interfering RNA and found that selenoprotein biosynthesis
+was severely impaired, whereas knockdown of SPS1 had no effect.
+
+Transfection of SPS2 into SPS2 knockdown cells restored selenoprotein biosynthesis, but SPS1 did not, indicating that SPS1
+cannot complement SPS2 function. These in vivo studies indicate
+that SPS2 is essential for generating the selenium donor for
+selenocysteine biosynthesis in mammals, whereas SPS1 probably
+has a more specialized, non-essential role in selenoprotein
+metabolism.
+
+INTRODUCTION
+
+Initially, the selenocysteine to cysteine mutant of SPS2 was found
+to have low enzyme activity [10,11,14] and this mutant form
+also complemented SelD in E. coli cells transfected with the
+mammalian mutant protein [11,14]. SelD− E. coli cells could
+also be complemented with SPS1 and SPS2, but the results
+suggested that SPS2 was involved in the de novo synthesis of
+selenophosphate, whereas SPS1 may have a role in recycling
+selenocysteine by a selenium salvage system [15]. We recently
+demonstrated that SPS2 synthesizes selenophosphate in vitro
+and that this compound is the active donor for making selenocysteine; we also showed that SPS1 does not synthesize
+selenophosphate [8]. However, these studies were done in vitro
+and, most importantly, the phenotypic analysis of mammalian
+cells in which SPS1 and SPS2 have been targeted for removal,
+and the complementation of such cells with SPS1 and SPS2, have
+not been carried out. In the present study, we therefore examined
+the effect of the knockdown of SPS1 and SPS2 in NIH3T3
+cells on selenoprotein synthesis and have complemented SPS2
+knockdown cells with SPS1 and SPS2. The results of the present
+study demonstrate that the role of SPS2 is to provide the active
+selenium donor for selenocysteine synthesis in mammals and that
+SPS1 must have another role in selenium metabolism, which does
+not involve monoselenophosphate synthesis.
+
+Selenocysteine (Sec) is the 21st amino acid in the genetic code
+[1,2] and, unlike other amino acids, the biosynthesis of selenocysteine occurs on its tRNA [3,4]. Selenocysteine tRNA is initially
+aminoacylated with serine by seryl-tRNA synthetase and is therefore designated selenocysteine tRNA[Ser]Sec . Although the biosynthetic pathway of selenocysteine was established in eubacteria
+in the early 1990s [5], little was known about the biosynthesis of
+this amino acid in eukaryotes and archaea until recently. The
+biosynthetic pathway in eukaryotes and archaea was found to
+have an extra step compared with eubacteria and proceeds from
+seryl-tRNA[Ser]Sec to phosphoseryl-tRNA[Ser]Sec , which is catalysed
+by phosphoseryl-tRNA[Ser]Sec kinase [6], and then to selenocysteyltRNA[Ser]Sec , which is catalysed by selenocysteine synthase [7,8].
+In eubacteria, the pathway proceeds from seryl-tRNA[Ser]Sec to selenocysteyl-tRNA[Ser]Sec and a single selenocysteine synthase, designated SelA (Escherichia coli selenocysteine synthase),
+carries out this step [5]. The active donor of selenium that
+makes selenocysteyl-tRNA[Ser]Sec from the intermediate generated
+by SelA in bacteria is monoselenophosphate [9], which is
+synthesized by selenophosphate synthetase from selenite and
+ATP. Selenophosphate appears to be the universal donor in the
+biosynthesis of this amino acid [8,9]. Selenophosphate synthetase
+is designated SelD in bacteria and SPS2 (selenophosphate
+synthetase 2) in mammals. Interestingly, in mammals, SPS2 is a
+selenoprotein, which suggests that SPS2 can be an auto-regulator
+as well as a regulator of selenoprotein synthesis as a whole [10,11].
+In addition to SPS2, another protein, SPS1, was also originally
+thought to have a role in selenophosphate synthesis [10–13].
+Complementation studies with SPS1 and SPS2 in E. coli cells,
+however, suggested that these proteins might have different roles.
+
+Key words: RNA interference, selenocysteine, selenocysteine
+synthesis, selenoprotein, selenoprotein synthesis, selenophosphate synthetase.
+
+EXPERIMENTAL
+Materials
+
+[75 Se]Selenium (specific activity 1000 Ci/mmol) was purchased
+from the Research Reactor Facility (University of Missouri,
+Columbia, MO, U.S.A.), in the form of selenious acid and
+
+Abbreviations used: DMEM, Dulbecco’s modified Eagle’s medium; FBS, fetal bovine serum; GAPDH, glyceraldehyde-3-phosphate dehydrogenase;
+GPx1, glutathione peroxidase 1; HRP, horseradish peroxidase; mSPS, mouse selenophosphate synthetase; mSPS2-Cys, mSPS2 containing a
+selenocysteine (UGA) to cysteine (UGC) mutation; RT, reverse transcription; SelA, Escherichia coli selenocysteine synthase; SelD, Escherichia coli
+selenophosphate synthetase; SelT, selenoprotein T; siRNA, small interfering RNA; SPS, selenophosphate synthetase; TR1, thioredoxin reductase 1.
+1
+To whom correspondence should be addressed (email hatfield@mail.nih.gov).
+ The Authors Journal compilation c
+ 2007 Biochemical Society
+c
+
+--- Page 2 ---
+116
+
+X.-M. Xu and others
+
+neutralized with NaOH before use. [α-32 P]dCTP (specific activity
+approx. 6000 Ci/mmol) and [α-32 P]ATP (specific activity approx.
+3000 Ci/mmol) were from NEN Corporation, and 3 H-serine
+(specific activity 29 Ci/mmol) and Hybond Nylon N+ membranes
+were from Amersham Biosciences. NuPage 10 % (w/v) polyacrylamide gels, PVDF membranes, Superscript II reverse transcriptase, cell culture FBS (fetal bovine serum), DMEM (Dulbecco’s
+modified Eagle’s medium), LipofectamineTM 2000, TRIzol®
+reagent and Hygromycin B were purchased from Invitrogen. DNA
+polymerase I large Klenow fragment was from New England
+BioLabs, pET and pTriEx-4-Hygro vectors were from Novagen
+and SuperSignal West Dura Extended Duration Substrate from
+Pierce. Anti-His-tag antibodies were obtained from Qiagen, HRP
+(horseradish peroxidase)-conjugated secondary antibodies from
+Sigma and QuikChange® II Site-Directed Mutagenesis kits
+from Stratagene. All other chemicals and reagents were obtained
+commercially and were of the highest grade available.
+
+(v/v) formaldehyde and resolved by electrophoresis. The RNA
+was then transblotted onto a nylon membrane, the membrane
+hybridized with the appropriate [α-32 P]dCTP-labelled probe and
+analysed with a PhosphorImager for Northern blot analysis
+as described previously [18]. The SPS1, SPS2 and GAPDH
+(glyceraldehyde-3-phosphate dehydrogenase) probes were generated by either PCR or RT (reverse transcription)-PCR using
+Superscript II reverse transcriptase and Universal Reference RNA
+[18]. The sizes of all the probes generated by RT-PCR were
+in the 500–1200 bp range. To detect an array of mRNAs on
+the same membrane, the membranes, after an initial probing
+for Sps1 mRNA, were stripped in boiling buffer [0.1 × SSC
+(1×SSC is 0.15 M NaCl/0.015 M sodium citrate) and 0.1 % SDS]
+before being hybridized with a second probe, using successively
+labelled SPS1, SPS2 or GAPDH cDNA probes. The hybridized
+membranes were exposed to Phosphor screens and the screens
+were then scanned using a Storm Image System (Molecular
+Dynamics).
+
+Mammalian cell culture and transfection
+
+Mouse embryonic fibroblast (NIH3T3) cells were obtained from
+A.T.C.C. and cultured in DMEM supplemented with 10 % (v/v)
+FBS. Transfections were carried out using LipofectamineTM 2000
+according to the manufacturer’s instructions. The medium of the
+cells grown in the presence of selenium was supplemented with
+200 nM sodium selenite or selenocysteine.
+Generation of SPS siRNA (small interfering RNA) constructs
+
+The Tet-on U6 vector used for expressing siRNA constructs
+was prepared using the pU6-m4 Hygro vector [16] as the backbone. Two O2-type tet operators [17] were placed flanking
+the TATA-box of the U6 promoter using QuikChange II sitedirected mutagenesis. This modified vector was designated as
+pU6-TetO4m4.
+For knocking down the expression of Sps1 (NM 175400)
+and Sps2 (NM 009266), five separate 19 nt sequences (Sps1:
+nucleotides 119–137, 418–436, 694–712, 1179–1197 and 1396–
+1414; Sps2: nucleotides 567–585, 830–848, 1265–1283, 1684–
+1702 and 1852–1870) were selected from each cDNA as being
+unique to the respective gene using the online service, siDESIGN,
+of Dharmacon Research. The corresponding siRNA constructs
+within the pU6-TetO4m4 vector were prepared as described
+previously [16]. The sequences of each SPS siRNA construct were
+verified by sequencing, and the five constructs encoding the SPS
+siRNA constructs and the pU6-TetO4m4 empty vector control
+were transfected separately into NIH3T3 cells. After stabilizing
+the transfected cells with 0.8 mg/ml of hygromycin, Sps1 and Sps2
+mRNA levels were determined by Northern blot hybridization as
+described below. On the basis of the knockdown of mRNA levels,
+the best siRNA target sequence for each mRNA was identified
+as 5 -GACGTAGAGTTGGCATACC-3 (nucleotides 694–712)
+in Sps1 and 5 -GGAACGAGAGAAGGTGACA-3 (nucleotides
+567–585) in Sps2 and these SPS siRNA constructs, designated
+siSPS1 and siSPS2 respectively, were used in subsequent
+experiments. The control vector, pU6-TetO4m4, was designated
+pU6Tet control and it consisted of the same construct minus the
+target sequence.
+Northern blot analyses
+
+Total RNA was isolated from various transfected cells using
+TRIzol® reagent. Equal amounts of RNA (15 µg) from the different cells was loaded onto 1.2 % (w/v) agarose gels with 4 %
+ The Authors Journal compilation c
+ 2007 Biochemical Society
+c
+
+SPS gene cloning
+
+Mouse Sps1 (NM 175400) and Sps2 (NM 009266), and E. coli
+SelD (M30184) cDNA were amplified using RT-PCR as described
+previously [8], and then cloned into the pTriEx-4 Hygro vector for
+expression in mammalian cells. The SPS2-Cys [SPS2 containing
+a selenocysteine (UGA) to cysteine (UGC) mutation] mutant was
+generated as described previously [8]. Each gene contained a
+His-tag on either the N- or C- terminus for easy detection by
+Western blot analyses. To knock-in the selenocysteine (UGA) to
+cysteine (UGC) mutant of mSPS2 (mouse SPS2), four degenerate
+base mutations at nucleotides 570 (A → G), 573 (A → C), 576
+(G → A) and 582 (G → C) in the 3 -position of each codon within
+the siRNA target region that still encoded the same amino acids
+of mSPS2 were carried out using QuikChange II site-directed
+mutagenesis. The sequence was confirmed by DNA sequencing.
+Selenoprotein labelling
+
+To label the selenoprotein population in NIH3T3 cells, the
+cells were grown overnight in DMEM with 10 % (v/v) FBS
+and 50 µCi/ml of [75 Se]. After incubation, the labelled cells
+were harvested, then washed in PBS, resuspended in 1 × SDS
+loading buffer [4 ×:1 M Tris/HCl, pH 8.5, 8 % (v/v) SDS, 40 %
+(v/v) glycerol, 1.6 mM EDTA, 0.075 % Serva Blue G250 and
+0.025 % Phenol Red] and electrophoresed on NuPage 10 % (w/v)
+polyacrylamide gels (along with standard molecular mass markers
+for assessing labelled selenoprotein sizes). After electrophoresis,
+the gels were stained with Coomassie Blue, then dried before
+being exposed to Phosphor screens, and the screens were scanned
+using a Storm Image (PhosphorImager) system as described
+previously [18].
+Western blot analyses
+
+For Western blot analyses, NIH3T3 cells were harvested,
+resuspended in 1 × SDS loading buffer and the lysates were
+ultrasonicated using a Sonic Dismembrator 550 (Fisher Scientific)
+on power setting 5, with two 10 s pulses with a 2 min pause
+inbetween to shear the genomic DNA. Aliquots (50 µg) of
+proteins from cell lysates were electrophoresed on NuPage
+10 % (w/v) polyacrylamide gels and transferred to PVDF
+membranes as described previously [18]. The membranes were
+incubated with rabbit-anti-mouse GPx1 (glutathione peroxidase
+1; diluted 1:1000), SelT (selenoprotein T; diluted 1:2000), TR1
+
+--- Page 3 ---
+Selenophosphate synthetase 2
+
+117
+
+when the constructs were induced with 5 µg/ml of doxycycline
+for 3 days (Figure 1A, lanes 2 and 4). There did not appear to
+be cross-knockdown of mRNA between the two SPS siRNAs.
+Some leakiness apparently occurred in siSPS1 expression without
+induction with doxycycline in the knockdown of SPS1, as the
+amount of mRNA was less than that in the control (Figure 1A,
+compare lane 1 with lanes 5 and 6).
+Effect of siSPS1 and siSPS2 on selenoprotein expression
+
+Figure 1
+
+Knockdown of SPS1 and SPS2 in NIH3T3 cells
+
+NIH3T3 cells were stably transfected with the siSPS1, siSPS2 and pU6Tet control constructs,
+and the cells grown in the presence (lanes 2, 4 and 6) or absence (lanes 1, 3 and 5) of doxycycline
+for 3 days. (A) Northern blot analysis of RNA was performed on extracts of siSPS1 (lanes 1
+and 2) and siSPS2 (lanes 3 and 4) knockdown cells, and pU6Tet control cells (lanes 5 and 6).
+The level of GAPDH mRNA was analysed as a loading control. (B) Upper panel, [75 Se]-labelled
+cell extracts were examined to evaluate selenoprotein synthesis in siSPS1 (lanes 1 and 2) and
+siSPS2 (lanes 3 and 4) knockdown cells, and control cells (lanes 5 and 6). Molecular masses
+are shown in kDa (KD). Coomassie Blue staining of the gel is shown as a protein loading control
+in the lower panel.
+
+(thioredoxin reductase 1; diluted 1:1000), β-tubulin (diluted
+1:2000) or anti-His-tag (diluted 1:2000) antibodies, and HRPconjugated secondary antibodies (diluted 1:15 000) were then
+applied. The membranes were then washed with Tris-buffered saline with Tween 20 (30 mM Tris/HCl, pH 7.4, 150 mM NaCl and
+0.1 % Tween 20), incubated in SuperSignal West Dura Extended
+Duration Substrate and exposed to X-ray film as described previously [18].
+
+RESULTS
+siSPS1 and siSPS2 target their respective mRNAs
+
+Northern blot analysis was used to document the effect of
+siSPS1 and siSPS2 by reducing the steady-state levels of the
+corresponding gene expression following transfection of NIH3T3
+cells with the appropriate construct. Both SPS siRNAs knocked
+down their corresponding mRNA in NIH3T3 cells effectively
+
+To examine the effect of the siSPS knockdown constructs on
+selenoprotein expression, NIH3T3 cells stably transfected with
+the siRNA or control constructs were grown in the presence or
+absence of 5 µg/ml of doxycycline for 3 days and then labelled
+with 50 µCi/ml of [75 Se] for 16 h (Figure 1B). Clearly, inducing
+siSPS2 had a pronounced effect on selenoprotein synthesis
+(Figure 1B, lane 4), whereas inducing siSPS1 had no apparent
+affect (Figure 1B, lane 2). Protein loading of each lane was
+shown by Coomassie Blue staining (Figure 1B, lower panel).
+We also labelled cells stably transfected with another siSPS2
+construct that was found to be effective in knocking down SPS2
+mRNA (target region, nucleotides 1684–1702). This construct
+manifested the same effect on selenoprotein synthesis when grown
+under identical conditions as the corresponding construct shown
+in Figure 1 (results not shown), which provided strong evidence
+that the phenotype resulting from the siSPS2 construct used
+throughout this study is not the result of off-target effects.
+We next examined whether selenoprotein synthesis could be
+rescued in SPS2 knockdown cells by SPS1, SPS2 and/or SelD.
+NIH3T3 cells that were stably transfected with the siSPS2
+construct were grown in the presence or absence of doxycycline
+for 3 days and then transfected with expression vectors encoding
+mSPS1, mSPS2, mSPS2-Cys, SelD or the pTri-Ex4 control
+vector. Several mutations were made within the siRNA target
+site in the mSPS2 and mSPS2-Cys constructs, as described in the
+Experimental section, to circumvent being targeted for removal
+in the siSPS2 stably transfected cells. After 48 h of transfection
+with the expression constructs, the cells were labelled with
+50 µCi/ml of [75 Se] for 16 h. mSPS2, mSPS2-Cys and SelD
+restored selenoprotein synthesis, whereas mSPS1 did not
+(Figure 2A). The protein loading of each lane was shown by Coomassie Blue staining (Figure 2A, lower panel). Western blot analysis using the anti-His-tag antibody showed that the expression
+levels of the transfected mSPS1 and mSPS2-Cys were many
+times higher than the expression of transfected mSPS2 and SelD
+in siSPS2 stably transfected cells (Figure 2B, lanes 1 and 2).
+However, mSPS2 and SelD were expressed in similar amounts in
+cells transfected with the corresponding expression constructs
+(Figure 2B, lanes 3 and 4). Even the elevated expression of
+mSPS1 could not compensate for the loss of endogenous SPS2 in
+mammalian cells.
+Effect of selenium, siSPS1 and siSPS2 on selenoprotein expression
+
+To assess the effect of the SPS siRNA constructs on selenoprotein
+expression and, in addition, to examine the role that selenium
+may have on selenoprotein expression in the knockdown cells,
+NIH3T3 cells stably transfected with either the siSPS1, siSPS2
+or control construct were grown in medium with or without
+selenite or selenocysteine, and three individual selenoproteins
+were examined by Western blot analysis (Figure 3). TR1, GPx1
+and SelT were poorly expressed in SPS2 knockdown cells and
+there did not appear to be any change in the expression of these
+selenoproteins in cells grown in the presence or absence of selenite
+or in selenocysteine-supplemented medium, with the possible
+ The Authors Journal compilation c
+ 2007 Biochemical Society
+c
+
+--- Page 4 ---
+118
+
+X.-M. Xu and others
+
+Figure 3
+
+Western blot analysis of siSPS1 and siSPS2 knockdown cells
+
+NIH3T3 cells were stably transfected with the siSPS1 construct (lanes 1–3), the siSPS2 construct
+(lanes 4–6) or the pU6Tet control construct (lanes 7–9), grown in the presence of doxycycline
+for 3 days and then grown either in the absence (lanes 1, 4 and 7) or presence of 200 nM selenite
+(lanes 2, 5 and 8) or 200 nM selenocysteine reduced from selenocystine (lanes 3, 6 and 9)
+for an additional 2 days. The cell lysates of each transfected cell line were used for Western
+blotting of TR1, GPx1 and SelT as described in the Experimental section. Western blot analysis
+of β-tubulin was used as a loading control.
+
+Effect of siSPS1 on selenoprotein turnover
+
+To assess whether the knockdown of SPS1 may affect the turnover
+of selenoproteins, NIH3T3 cells stably transfected with the siSPS1
+construct or the control vector were grown in the presence
+of 5 µg/ml of doxycycline for 3 days and then labelled with
+50 µCi/ml of [75 Se] for 16 h. The cells were washed to remove
+the remaining [75 Se] in the medium and then expanded in fresh
+medium in 6-well plates with doxycycline, and the cells harvested
+at 0, 8, 24, 32, 48, 56 and 72 h. The decline of [75 Se] label in
+selenoproteins over the 72 h period is shown in Figure 4. There
+was no significant difference observed in the loss of [75 Se] in
+selenoproteins in the SPS1 knockdown cells and in the control
+cells. This result indicates that the targeted removal of SPS1 did
+not affect recycling of [75 Se] in selenoprotein synthesis in NIH3T3
+cells.
+
+Figure 2
+
+Rescue of selenoprotein synthesis in SPS2 knockdown cells
+
+NIH3T3 cells were stably transfected with the siSPS2 construct and grown in the presence
+(lanes 1–5) or absence (lanes 6) of doxycycline for 3 days and then transiently transfected
+with the mSPS1 (lanes 1), mSPS2-Cys (lanes 2), mSPS2 (lanes 3), SelD (lanes 4) or pU6Tet
+control constructs (lanes 5 and 6). The cells, 48 h after transfection, were labelled overnight
+with [75 Se] and cell lysates electrophoresed on polyacrylamide gels for radiography or Western
+blot analysis as described in the Experimental section. (A) Upper panel, [75 Se] labelling of
+transfected NIH3T3 cells is shown from each extract as indicated. Molecular masses are shown
+in kDa (KD). Coomassie Blue staining of the gel is shown in the lower panel as a protein loading
+control. (B) Western blot analysis of His-tagged proteins from each transfected NIH3T3 cell line
+is shown as indicated. The amount of extract loaded onto gels in lanes 1–2 was 10-fold less
+than in lanes 3–6.
+
+exception of SelT, which manifested a slight induction in the
+presence of either selenium source (Figure 3, lanes 4–6). TR1 was
+expressed in SPS1 knockdown cells grown in medium without
+a selenium source and the level of this protein was elevated
+in the presence of selenite or selenocysteine (Figure 3, lanes
+1–3). GPx1 and SelT were poorly expressed in the absence of
+selenium and the levels of these selenoproteins were increased in
+response to selenite or selenocysteine. The pattern of expression
+of each selenoprotein was similar in the control cells to that
+observed in the SPS1 knockdown cells, with the exception of
+TR1, which appeared to be slightly higher in the presence and
+absence of selenium or selenocysteine in the SPS1 knockdown
+cells (Figure 3, compare lanes 7–9 with lanes 1–3).
+ The Authors Journal compilation c
+ 2007 Biochemical Society
+c
+
+DISCUSSION
+
+The characterization of the pair of SPSs in mammals remained
+enigmatic in spite of numerous previous studies as discussed
+in the Introduction. We have demonstrated recently that SPS2,
+but not SPS1, can synthesize selenophosphate in vitro [8].
+Furthermore, this earlier study used selenophosphate as the
+substrate in the biosynthesis of selenocysteine to demonstrate
+unequivocally that this compound is the active selenium donor
+(see [8] and references therein). The emphasis of the present
+study was to assess the consequences of removal of SPS1 and
+SPS2 in a cell culture model. The reduction in the expression of
+SPS2 inhibited selenoprotein expression, whereas the reduction
+in SPS1 expression had no effect. In addition, SPS2, as well
+as E. coli SelD, but not SPS1, complemented SPS2 knockdown
+in cells by restoring selenoprotein synthesis. It would seem that
+SPS2-generated selenophosphate must therefore be the sole donor
+for selenocysteine synthesis from selenite in mammals, since
+SPS2 and SelD synthesize selenophosphate and these proteins
+complement SPS2-deficient cells.
+Selenium is known to regulate selenoprotein expression
+(reviewed in [1,2]) and some selenoproteins are more responsive
+to changes in selenium status than others. For example, GPx1
+is poorly expressed when selenium levels are low and elevates
+dramatically when selenium levels are increased. In liver, levels
+of GPx1 may change by over 100-fold in response to selenium
+status. TR1 is also regulated by selenium, but its level changes
+only slightly. These data are consistent with the idea that there is a
+
+--- Page 5 ---
+Selenophosphate synthetase 2
+
+119
+
+the biosynthesis of selenocysteine [21], which suggests that it
+has a role in some aspect of selenium metabolism. However,
+this role is clearly different from that previously suspected for
+this protein based on its homology to other members of the SPS
+family, and future studies will be required to establish its function
+in selenoprotein synthesis.
+
+This research was supported by the Intramural Research Program of the National Institutes
+of Health, National Cancer Institute, and Center for Cancer Research and by grants
+GM061603 and GM065204 to V. N. G.
+
+REFERENCES
+
+Figure 4
+cells
+
+Loss of [75 Se]-labelling in selenoproteins in SPS1 knockdown
+
+NIH3T3 cells were stably transfected with the siSPS1 construct (lanes 2, 4, 6, 8, 10, 12 and 14)
+or pU6Tet control construct (lanes 1, 3, 5, 7, 9, 11 and 13), grown in the presence of doxycycline
+for 3 days and then labelled overnight with [75 Se]. The cells were washed thoroughly to remove
+[75 Se], grown for 0 (lanes 1 and 2), 8 (lanes 3 and 4), 24 (lanes 5 and 6), 32 (lanes 7 and
+8), 48 (lanes 9 and 10), 56 (lanes 11 and 12) and 72 h (lanes 13 and 14) and cell lysates
+electrophoresed on polyacrylamide gels as described in the Experimental section. Molecular
+masses are shown in kDa (KD) to the right-hand side of the upper panel. Coomassie Blue
+staining of the gel is shown in the lower panel as a protein loading control.
+
+hierarchy in selenoprotein expression with some selenoproteins,
+such as GPx1, having low priority, and others, such as TR1,
+having high priority for selenium supply [19,20]. In the present
+study, supplementation of the media of control, SPS1 and
+SPS2 knockdown cells with selenite or selenocysteine revealed
+regulation of selenoprotein expression by both compounds. SPS1
+knockdown cells manifested virtually the same response to
+medium supplementation with selenium as control cells, with
+the possible exception that TR1 may have been slightly overexpressed compared with the control cells. Furthermore, SPS1
+did not appear to have a role in the turnover of selenoproteins, as
+the knockdown of this component did not affect selenoproteins
+over a 72 h period following the labelling of the cells with
+[75 Se].
+The role of SPS2 is clearly defined as the catalyst for generating
+selenophosphate that is specifically used for selenoprotein synthesis (see the present study, [8] and references therein). What
+then is the role of SPS1? It belongs to the SPS protein family and
+is highly homologous to SPS2 (see [8] and references therein),
+but apparently has little or no affect on selenoprotein synthesis.
+A previous report indicated that mammalian SPS1 might have
+a role in recycling selenocysteine as tested in E. coli [15]. Our
+results, as shown in Figures 3 and 4, however, suggested that
+SPS1 is not involved in selenocysteine recycling in mammalian
+cells. SPS1 forms a complex with several proteins involved in
+
+1 Driscoll, D. M. and Copeland, P. R. (2003) Mechanism and regulation of selenoprotein
+synthesis. Annu. Rev. Nutr. 23, 17–40
+2 Hatfield, D. L., Carlson, B. A., Xu, X. M., Mix, H. and Gladyshev, V. N. (2006)
+Selenocysteine incorporation machinery and the role of selenoproteins in development
+and health. Prog. Nucleic Acid Res. Mol. Biol. 81, 97–142
+3 Leinfelder, W., Stadtman, T. C. and Bock, A. (1989) Occurrence in vivo of
+selenocysteyl-tRNA(SERUCA) in Escherichia coli : effect of sel mutations. J. Biol. Chem.
+264, 9720–9723
+4 Lee, B. J., Worland, P. J., Davis, J. N., Stadtman, T. C. and Hatfield, D. L. (1989)
+Identification of a selenocysteyl-tRNA(Ser) in mammalian cells that recognizes the
+nonsense codon, UGA. J. Biol. Chem. 264, 9724–9727
+5 Forchhammer, K. and Bock, A. (1991) Selenocysteine synthase from Escherichia coli :
+analysis of the reaction sequence. J. Biol. Chem. 266, 6324–6328
+6 Carlson, B. A., Xu, X. M., Kryukov, G. V., Rao, M., Berry, M. J., Gladyshev, V. N. and
+Hatfield, D. L. (2004) Identification and characterization of phosphoseryl-tRNA[Ser]Sec
+kinase. Proc. Natl. Acad. Sci. U.S.A. 101, 12848–12853
+7 Yuan, J., Palioura, S., Salazar, J. C., Su, D., O’donoghue, P., Hohn, M. J., Cardoso, A. M.,
+Whitman, W. B. and Soll, D. (2006) RNA-dependent conversion of phosphoserine forms
+selenocysteine in eukaryotes and archaea. Proc. Natl. Acad. Sci. U.S.A. 103,
+18923–18927
+8 Xu, X. M., Carlson, B. A., Mix, H., Zhang, Y., Kazima, S., Glass, R. S., Berry, M.,
+Gladyshev, V. N. and Hatfield, D. L. (2007) Biosynthesis of selenocysteine on its tRNA in
+eukaryotes. PloS Biol. 5, 96–105
+9 Glass, R. S., Singh, W. P., Jung, W., Veres, Z., Scholz, T. D. and Stadtman, T. C. (1993)
+Monoselenophosphate: synthesis, characterization, and identity with the prokaryotic
+biological selenium donor, compound SePX. Biochemistry 32, 12555–12559
+10 Guimaraes, M. J., Peterson, D., Vicari, A., Cocks, B. G., Copeland, N. G., Gilbert, D. J.,
+Jenkins, N. A., Ferrick, D. A., Kastelein, R. A., Bazan, J. F. and Zlotnik, A. (1996)
+Identification of a novel selD homolog from eukaryotes, bacteria, and archaea: is there an
+autoregulatory mechanism in selenocysteine metabolism? Proc. Natl. Acad. Sci. U.S.A.
+93, 15086–15091
+11 Kim, I. Y., Guimaraes, M. J., Zlotnik, A., Bazan, J. F. and Stadtman, T. C. (1997) Fetal
+mouse selenophosphate synthetase 2 (SPS2): characterization of the cysteine mutant
+form overproduced in a baculovirus-insect cell system. Proc. Natl. Acad. Sci. U.S.A. 94,
+418–421
+12 Kim, I. Y. and Stadtman, T. C. (1995) Selenophosphate synthetase: detection in extracts of
+rat tissues by immunoblot assay and partial purification of the enzyme from the archaean
+Methanococcus vannielii . Proc. Natl. Acad. Sci. U.S.A. 92, 7710–7713
+13 Low, S. C., Harney, J. W. and Berry, M. J. (1995) Cloning and functional characterization
+of human selenophosphate synthetase, an essential component of selenoprotein
+synthesis. J. Biol. Chem. 270, 21659–21664
+14 Kim, T. S., Yu, M. H., Chung, Y. W., Kim, J., Choi, E. J., Ahn, K. and Kim, I. Y. (1999) Fetal
+mouse selenophosphate synthetase 2 (SPS2): biological activities of mutant forms in
+Escherichia coli . Mol. Cell 9, 422–428
+15 Tamura, T., Yamamoto, S., Takahata, M., Sakaguchi, H., Tanaka, H., Stadtman, T. C. and
+Inagaki, K. (2004) Selenophosphate synthetase genes from lung adenocarcinoma cells:
+Sps1 for recycling L-selenocysteine and Sps2 for selenite assimilation. Proc. Natl.
+Acad. Sci. U.S.A. 101, 16162–16167
+16 Xu, X. M., Mix, H., Carlson, B. A., Grabowski, P. J., Gladyshev, V. N., Berry, M. J. and
+Hatfield, D. L. (2005) Evidence for direct roles of two additional factors, SECp43 and
+soluble liver antigen, in the selenoprotein synthesis machinery. J. Biol. Chem. 280,
+41568–41575.
+17 Lin, X., Yang, J., Chen, J., Gunasekera, A., Fesik, S. W. and Shen, Y. (2004) Development
+of a tightly regulated U6 promoter for shRNA expression. FEBS Lett. 577, 376–380
+ The Authors Journal compilation c
+ 2007 Biochemical Society
+c
+
+--- Page 6 ---
+120
+
+X.-M. Xu and others
+
+18 Carlson, B. A., Xu, X. M., Gladyshev, V. N. and Hatfield, D. L. (2005) Selective rescue of
+selenoprotein expression in mice lacking a highly specialized methyl group in
+selenocysteine tRNA. J. Biol. Chem. 280, 5542–5548
+19 Behne, D., Hilmert, H., Scheid, S., Gessner, H. and Elger, W. (1988) Evidence for
+specific selenium target tissues and new biologically important selenoproteins.
+Biochim. Biophys. Acta 966, 12–21
+Received 30 January 2007/9 February 2007; accepted 14 February 2007
+Published as BJ Immediate Publication 14 February 2007, doi:10.1042/BJ20070165
+
+ The Authors Journal compilation c
+ 2007 Biochemical Society
+c
+
+20 Hill, K. E., Lyons, P. R. and Burk, R. F. (1992) Differential regulation of rat liver
+selenoprotein mRNAs in selenium deficiency. Biochem. Biophys. Res. Commun. 185,
+260–263
+21 Small-Howard, A., Morozova, N., Stoytcheva, Z., Forry, E. P., Mansell, J. B., Harney, J. W.,
+Carlson, B. A., Xu, X. M., Hatfield, D. L. and Berry, M. J. (2006) Supramolecular
+complexes mediate selenocysteine incorporation in vivo . Mol. Cell Biol. 26, 2337–2346

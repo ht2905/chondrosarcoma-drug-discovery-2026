@@ -1,0 +1,768 @@
+--- Page 1 ---
+Leukemia (2001) 15, 1633–1640
+ 2001 Nature Publishing Group All rights reserved 0887-6924/01 $15.00
+www.nature.com/leu
+
+Sulfasalazine, a potent suppressor of lymphoma growth by inhibition of the x⫺
+c
+cystine transporter: a new action for an old drug
+PW Gout1, AR Buckley2, CR Simms1 and N Bruchovsky1
+1
+Department of Cancer Endocrinology, BC Cancer Agency, Vancouver, BC, Canada; and 2College of Pharmacy, University of Cincinnati
+Medical Center, Cincinnati, OH, USA
+
+Although cyst(e)ine is nutritionally a non-essential amino acid,
+lymphoid cells cannot synthesize it, rendering their growth
+dependent on uptake of cyst(e)ine from their microenvironment. Accordingly, we previously suggested that the
+x⫺
+c plasma membrane cystine transporter provided a target for
+lymphoid cancer therapy. Its inhibition could lead to cyst(e)ine
+deficiency in lymphoma cells via reduction of both their cystine
+uptake and cysteine supply by somatic cells. In this study,
+using rat Nb2 lymphoma cultures, drugs were screened for
+growth arrest based on x⫺
+c inhibition. Sulfasalazine was fortuitously found to be a novel, potent inhibitor of the x⫺
+c transporter. It showed high rat lymphoma growth-inhibitory and lytic
+activity in vitro (IC50 ⴝ 0.16 mM), based specifically on inhibition
+of x⫺
+c -mediated cystine uptake, in contrast to its colonic metabolites, sulfapyridine and 5-aminosalicylic acid. Sulfasalazine
+was even more effective against human non-Hodgkin’s lymphoma (DoHH2) cultures. In rats (n ⴝ 13), sulfasalazine (i.p.)
+markedly inhibited growth of well-developed, rapidly growing
+rat Nb2 lymphoma transplants without apparent side-effects.
+Reduced, macrophage-mediated supply of cysteine was probably involved. In five rats, 90–100% tumor growth suppression,
+relative to controls, was obtained. The x⫺
+c cystine transporter
+represents a novel target for sulfasalazine-like drugs with high
+potential for application in therapy of lymphoblastic and other
+malignancies dependent on extracellular cyst(e)ine. Leukemia
+(2001) 15, 1633–1640.
+Keywords: sulfasalazine; x−c cystine transporter; Nb2 lymphoma;
+anticancer agent
+
+Introduction
+In past decades, signiﬁcant advances have been made in the
+treatment of lymphomas and leukemias, primarily as a result
+of combination chemotherapy. A cure for these malignancies,
+however, has not yet been accomplished.1 To identify new
+therapeutic targets and potentially useful drugs for treatment
+of these diseases, we developed an experimental in vitro and
+in vivo model for lymphoblastic cancers as they progress
+toward greater malignancy.2 The model consists of a rat preT ‘Nb2 lymphoma’ cell line at an early stage of malignant
+progression and sublines representing different stages of
+advanced progression, including growth factor autonomy and
+increased metastatic ability.2,3 In view of the origin and cytokine dependence of the parental line, the Nb2 lymphoma cell
+lines may serve as a model for lymphoblastic non-Hodgkin’s
+lymphoma (NHL) and childhood acute lymphoblastic
+leukemia (ALL).1,2
+Our research focused on a speciﬁc growth and viability
+requirement of lymphoid cells. L-cystine, or its reduced form,
+L-cysteine, is nutritionally a non-essential amino acid since it
+can be generated in the body from L-methionine. However,
+
+Correspondence: PW Gout, Department of Cancer Endocrinology, BC
+Cancer Agency, 600 West 10th Avenue, Vancouver, BC, Canada V5Z
+4E6; Fax: (604) 877–6011
+Received 9 February 2001; accepted 25 May 2001
+
+mammalian cells of lymphoid origin, including human leukemic cells, are unable to synthesize cyst(e)ine from methionine, rendering the cells critically dependent on uptake of the
+amino acid from their micro-environment.4 Nb2 lymphoma
+cell lines are also dependent on extracellular cyst(e)ine for
+growth.5 Lymphoid cells typically exhibit a low uptake capability for cystine as distinct from cysteine which they take up
+readily.6 In culture medium, cystine is the predominant form
+of the amino acid due to rapid oxidation of cysteine.7 Consequently, lymphoid cell cultures generally require addition of
+a cystine uptake enhancer such as 2-mercaptoethanol (2-ME)
+or elevated levels of cystine in the medium.5,7 Alternatively,
+the cultures can be maintained using feeder layers of macrophages which provide the lymphoid cells with cysteine.8 This
+phenomenon is based on the ability of macrophages to take
+up extracellular cystine via a plasma membrane cystine transporter (x−c ), reduce the amino acid intracellularly and secrete
+it as cysteine.8,9 This mechanism is apparently also used by
+macrophages in vivo to supply lymphocytes with cysteine to
+induce their activity.10,11
+Recently, we showed that the malignant progression of the
+Nb2 lymphoma was associated with expression by Nb2SFJCD1 subline cells of an active x−c cystine transporter, as
+used by macrophages. This acquired property enhanced the
+growth autonomy of these subline cells, enabling them to take
+up extracellular cystine in contrast to other Nb2 cell lines.5
+The studies led to the suggestion that the x−c cystine transporter
+provided a potentially useful target for therapy of lymphoblastic malignancies. Its inhibition in vivo would not only inhibit
+cystine uptake by lymphoma cells expressing an x−c cystine
+transporter, but also reduce cystine uptake by macrophages
+and hence interfere with the maintenance of cysteine levels
+in the circulation.5 The latter effect could lead to a marked
+decrease in plasma cysteine levels since cysteine has a short
+half-life.7 It was envisioned that a short-term inhibition of the
+x−c cystine transporter, as induced by a drug, could promote
+elimination of relatively fast growing lymphoma cells by cysteine starvation without major side-effects to the host.
+In the present study, a number of clinically useful drugs was
+screened for inhibition of the x−c cystine transporter. It was
+found that sulfasalazine, an immunosuppressant, is a novel
+and potent inhibitor of this transporter. In vitro, sulfasalazine
+at therapeutic levels markedly inhibited lymphoma cell replication, in contrast to its colonic metabolites sulfapyridine and
+5-aminosalicylic acid, an effect based speciﬁcally on inhibition of x−c -mediated cystine uptake. Intraperitoneal administration of sulfasalazine to rats led to a high reduction in growth
+of lymphoma transplants without major toxicity to the hosts,
+indicating that this drug has a high potential for application
+in therapy of lymphoblastic malignancies, as outlined in a preliminary account.12
+
+--- Page 2 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+1634
+
+Materials and methods
+
+Materials
+All drugs, compounds, solvents or culture media were
+obtained from Sigma-Aldrich Canada Ltd, Oakville, ON,
+Canada, unless otherwise indicated.
+
+Cell cultures
+Nb2-SFJCD1 cells were cultured as suspensions in Fischer’s
+medium (FM) supplemented with 10% horse gelding serum
+(lactogen-deﬁcient; one batch, ICN Biomedicals, Aurora, OH,
+USA), penicillin (50 U/ml) and streptomycin (50 ␮g/ml), as
+previously described.2,5 FM is cysteine-free but contains cystine at 84 ␮M. The supplemented culture medium supports
+proliferation of Nb2-SFJCD1 cells in absence of cystine uptake
+enhancers such as 2-ME by virtue of their x−c transporter.5 Nb2U17 cells were cultured in FM, supplemented with 10% fetal
+bovine serum (Gibco-BRL, Burlington, ON, Canada), antibiotics and 2-ME (60 ␮M).2,5 DoHH2 lymphoma cells13 were
+cultured in FM, or RPMI-1640 (Stem Cell Technologies, Vancouver, BC, Canada), supplemented with 5% horse serum, 5%
+fetal bovine serum and antibiotics.
+
+In vitro drug testing
+Drugs were tested for culture growth-inhibitory properties as
+solutions in culture medium with the pH adjusted to 7.5–7.7.
+Indomethacin, piroxicam, ibuprofen and aspirin were solubilized in dimethylsulfoxide and tested as solutions containing
+0.2% of the vehicle, a concentration which did not interfere
+with culture growth. Solubilization of sulfasalazine and sulfapyridine involved use of 0.1 N NaOH and adjustment of the
+pH using 1 N HCl, which was added slowly to the solutions
+swirled by a magnetic stirrer to avoid precipitation of the compounds. Drug and vehicle solutions were prepared and
+assayed under subdued light conditions. For the assays, Nb2SFJCD1 cells from log phase cultures (doubling time = 13 h)
+were centrifuged (3.5 min at 350 g) and resuspended in fresh
+FM containing 10.0% horse serum and antibiotics. Aliquots
+(1.80 ml) were distributed in 12-well tissue culture plates
+(Linbro, Flow Laboratories, Mississauga, ON, Canada) and
+preincubated for 2–5 h at 37°C in a water-saturated 5%
+CO2/air atmosphere. Solutions of the drugs at a range of concentrations (200 ␮l portions; in triplicate) were then added to
+the cultures for a 45 h incubation (Cin = 1.0 × 105 cells/ml).
+Cell populations were determined using an electronic counter
+(Coulter Electronics, Hialeah, FL, USA). Culture growth inhibitions were calculated from the cell number increases found
+at hour 45 in drug-treated cultures and their controls. Percent
+inhibition = 100 − (increasedrug-treated/increasecontrol) × 100.
+Assays using Nb2-U17 cells were carried out with their maintenance medium (doubling time = 20 h); Cin = ca. 1.5 × 105
+cells/ml. Assays using DoHH2 cells were performed with FM,
+or RPMI-1640, containing fetal bovine serum (5.0%), horse
+serum (5.0%) and antibiotics (doubling time = 22 and 19 h,
+respectively); Cin = ca. 1.5 × 105 cells/ml.
+
+Cellular uptake of 35S-L-cystine
+Cultures of Nb2-SFJCD1 log phase cells suspended in Ca- and
+Mg-free Hanks’ balanced salt solution containing 10% horse
+Leukemia
+
+serum and 10 mM Hepes (N-[2-hydroxyethyl]piperazine-N⬘[2-ethanesulfonic acid]), pH 7.2 (ca. 107 cells/ml) were preincubated with drugs for ca. 20 min. They were then further
+incubated for 15 min with 35S-L-cystine (Amersham Canada,
+Oakville, ON, Canada; 10.7 ␮Ci/ml, 57 ␮M) and cellassociated radioactivity processed as previously described.5
+Brieﬂy, ice-cooled 200 ␮l aliquots of cell suspension were layered on to 200 ␮l aliquots of a mixture of mineral oil and di-nbutyl phtalate (10:90, v:v) in Eppendorf centrifuge tubes and,
+following centrifugation and aspiration of the supernatants,
+the tips of the centrifuge tubes were cut off and the cell pellets
+solubilized for counting in a liquid scintillation counter.5
+
+Northern blot analysis
+Total RNA was isolated from 2 × 107 log phase cells using
+RNAzol-B (Tel-Test, Friendswood, TX, USA) and quantiﬁed
+spectrophotometrically. The RNA was denatured in formaldehyde and fractionated on 1% agarose gels and then transferred to GeneScreen Plus (DuPont, Wilmington, DE, USA).
+Equal loading per lane was veriﬁed by ethidium bromide
+staining of 18S and 28S ribosomal RNA, which was visualized
+and photographed under UV illumination. Analysis was carried out using macrophage-derived 4F2hc and xCT cDNA
+probes (kindly provided by Dr S Bannai, University of Tsukuba, Ibaraki, Japan), labeled with 32P. Labeling, hybridization
+and washing procedures were conducted as previously
+described.14
+
+Testing of sulfasalazine efﬁcacy in vivo
+Rats were used from a colony of Noble rats maintained by
+random litter-mate breeding in micro-isolator cages in the BC
+Cancer Research Centre.2 Tolerated dosages of sulfasalazine
+were established using non-tumor-bearing animals. For drug
+efﬁcacy studies, approximately equal portions of minced Nb2U17 tumor tissue, developed in a rat following subcutaneous
+(s.c.) injection of Nb2-U17 cells, were injected by trocar s.c.
+in the nape of the neck of groups of male rats (one injection
+per rat), that had been lightly anesthetized with isoﬂurane
+(Abbott Laboratories, Montreal, Canada).2 When the single
+tumors reached a measurable size (ca. 1 cm3), therapy of the
+animals (350–400 g) was started using intraperitoneal (i.p.)
+injections at a site remote from the transplant at approximately
+12 h intervals. Fresh sulfasalazine solutions were prepared
+every day in 0.1 n NaOH subsequently adjusted with 1 n HCl
+to a pH of about 8. Phosphate-buffered saline was used for
+controls. Drug preparation and administration were carried
+out under subdued light conditions. Food and water were provided ad libitum. Tumor size, body weight and general health
+of the rats were monitored daily. Tumor size was measured
+using calipers and expressed in grams using the formula: ␲/6
+× length × width × height in cm.15 Animals were killed by
+carbondioxide asphyxiation as required by the protocol or as
+soon as they showed signs of stress. Tissue sectioning and histologic analysis were carried out by Criterion Service Laboratory, Vancouver, BC, Canada (pathologist: Dr Jean leRiche,
+BC Cancer Agency). Animal care and experiments were carried out in accordance with the guidelines of the Canadian
+Council on Animal Care.
+
+--- Page 3 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+Results
+
+Sulfasalazine
+
+Screening of non-steroidal anti-inﬂammatory drugs
+(NSAIDs) for x−c inhibition
+
+Following the lack of success in identifying a speciﬁc x−c
+inhibitor, further research focused initially on the salicylates.
+With regard to sodium salicylate, it may be noted that its lymphoma growth-inhibitory activity was apparently not based on
+inhibition of cyclooxygenase (COX-1) activity. Thus, the
+growth-inhibitory potency of salicylate was signiﬁcantly
+greater than that of aspirin, by a factor of 1.7 (Table 1A),
+whereas aspirin has a ⬎20-fold higher anti-COX-1 activity
+than salicylate, as reported.17 With regard to aspirin it appears
+likely that its lymphoma growth-inhibitory activity was
+mediated by salicylate, a major metabolite of aspirin.22 Salicylates are known to inhibit activation of NFkappaB, a transcription factor important in regulation of inﬂammatory
+responses.24 On the off-chance that their lymphoma growthinhibitory activities were based on inhibition of NFkappaB
+activation, we extended our studies to include sulfasalazine,
+a salicylate derivative reported to be a potent inhibitor of
+NFkappaB activation.25 Sulfasalazine was ﬁrst synthesized in
+the 1940s as a combination of sulfapyridine, an antibiotic, and
+5-aminosalicylic acid, an anti-inﬂammatory agent, linked by
+an azo bridge. It is commonly used to treat chronic inﬂammatory diseases such as inﬂammatory bowel (Crohn’s) disease
+and rheumatoid arthritis.25 Sulfasalazine is usually administered orally and approximately 70% of the drug is degraded
+by colonic bacteria via azo cleavage to sulfapyridine and 5aminosalicylic acid, compounds with different modes of
+action. In Crohn’s disease, 5-aminosalicylic acid and sulfasalazine appear to have equivalent activity, each superior to that
+of sulfapyridine, whereas, in rheumatoid arthritis, sulfapyridine is the active moiety.25 The mechanism of action of sulfasalazine per se is still unclear, but the drug has been demonstrated to inhibit a number of immunological processes,
+including interleukin-2 synthesis and lymphocyte proliferation, as well as interleukin-1 production by monocytes.26 In
+addition to its inhibitory effect on NFkappaB activation,25 sulfasalazine has been reported to inhibit glutathione-Stransferases;27 it is not classiﬁed as an NSAID.26 In studying
+sulfasalazine, we found that it potently inhibited Nb2-SFJCD1
+culture growth, exhibiting an IC50 of 0.16 mM (Table 1B). This
+raised the possibility that the drug had potential as a chemotherapeutic agent, since sulfasalazine levels in plasma from
+children as high as 70.7 ␮g/ml (0.18 mM) have been
+reported.28
+
+A literature search indicated that certain NSAIDs inhibited the
+x−c cystine transporter16 with a potency roughly similar to their
+prostaglandin
+synthesis
+(cyclooxygenase-1)
+inhibitory
+activity.17 Moreover, some NSAIDs exhibit anticancer
+activity.18 A study was therefore initiated to determine
+whether such drugs could arrest growth of Nb2 lymphoma
+cell cultures by inhibition of x−c -mediated cystine uptake. Nb2SFJCD1 subline cultures were used in which cell proliferation
+critically depended on uptake of cystine via the x−c transporter.5 A variety of clinically useful NSAIDs, spanning a
+range of anti-inﬂammatory potency, was tested, including
+indomethacin, a potent inhibitor of prostaglandin synthesis,
+and sodium salicylate, a much weaker NSAID.17 The drugs
+were assayed at a range of concentrations spanning their
+‘therapeutic serum/plasma levels’, as reported for patients
+undergoing treatment for inﬂammatory diseases. It was found
+that all the NSAIDs tested were able to abrogate population
+growth in a concentration-dependent fashion. Table 1A shows
+the IC50s obtained for selected NSAIDs, presented in order of
+decreasing anti-cyclooxygenase activity17 vs their therapeutic
+levels in the circulation.19–22 In general, the growth-inhibiting
+potency of the drugs declined with decreasing anti-cyclooxygenase activity. However, the IC50s of indomethacin, piroxicam
+and ibuprofen markedly exceeded their therapeutic levels, in
+contrast to the IC50s of the salicylates, aspirin (acetylsalicylic
+acid) and sodium salicylate, which were in the same range as
+their therapeutic levels. This suggested that, of the NSAIDs
+studied, only the salicylates had therapeutic potential. However, in no case could NSAID-induced growth arrest be substantially reduced by supplying the cells with cysteine via
+addition of 2-ME (ca. 60 ␮M), a thiol which allows cellular
+uptake of cystine via the leucine transporter23 (data not
+shown). (This procedure had previously been used to overcome highly speciﬁc, monosodium glutamate-induced inhibition of the x−c transporter.5) Taken together, the results indicate that the observed culture growth-inhibitory activities of
+the NSAIDs were not based on major inhibition of the x−c cystine transporter, but involved different mechanisms of action.
+Table 1
+Growth-inhibitory activities of NSAIDs and sulfasalazine
+in Nb2-SFJCD1 cultures (IC50s)a vs their reported therapeutic levels in
+human serum/plasma
+
+Drug
+
+IC50 (mM)
+average ± s.d.
+
+Therapeutic drug
+levels (mM)b
+
+A
+Indomethacin
+Piroxicam
+Ibuprofen
+Acetylsalicylic acid
+Salicylate, sodium
+
+0.15 ± 0.01
+0.30 ± 0.02
+0.43 ± 0.01
+3.09 ± 0.28
+1.82 ± 0.12
+
+0.005–0.0219
+0.015–0.0320
+0.05–0.121
+1–322
+1–322
+
+B
+Sulfasalazine
+
+0.16 ± 0.01
+
+0.08–0.228
+
+a
+Cultures of Nb2-SFJCD1 rat lymphoma cells in Fischer’s medium,
+containing 10% horse serum and antibiotics, were incubated for
+45 h with a drug at a range of concentrations; growth inhibitions
+were calculated from cell number increases relative to controls.
+b
+As reported in the literature for patients/controls undergoing treatment.
+
+1635
+
+Effects of sulfasalazine and its colonic metabolites on
+lymphoma culture growth
+The effect of sulfasalazine on growth of Nb2-SFJCD1 cultures
+is shown in Figure 1a. At 0.3 mM it induced severe cell lysis
+commencing after approximately 24 h and resulting in near
+total cell death; microscopic observation showed that cell
+numbers at hour 45 essentially represented lysing cells. However, even after 17 h of incubation with sulfasalazine at such
+a lytic concentration, cells fully recovered following resuspension in drug-free medium (data not shown). This suggests that
+continuous exposure to the drug is required for complete
+elimination of the cells.
+A comparison of growth-inhibitory activities of sulfasalazine
+and its colonic metabolites (Figure 1b) showed that whereas
+0.1–0.3 mM sulfasalazine was effective, both sulfapyridine
+and 5-aminosalicylic acid were without any inhibitory activity
+in this concentration range which exceeded their therapeutic
+Leukemia
+
+--- Page 4 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+1636
+
+Figure 1
+(a) Effect of sulfasalazine (SASP) on the growth of Nb2SFJCD1 lymphoma cell cultures. Points represent means ± s.d.; the
+error bars are in most cases covered by the symbols. Results are representative of two experiments. (b) Growth-inhibitory activity in Nb2SFJCD1 cell cultures of sulfasalazine as distinct from its components,
+sulfapyridine and 5-aminosalicylic acid. Columns and error bars represent means ± s.d. Results are representative of three experiments.
+
+plasma levels (0.08–0.2 mM29 and ca. 0.01 mM30 for sulfapyridine and 5-aminosalicylic acid, respectively). These results
+suggest that the observed growth-inhibitory activity of sulfasalazine reﬂected action of the intact molecule and was not
+based on a metabolite such as sulfapyridine, responsible for
+the activity of sulfasalazine in rheumatoid arthritis.25
+
+Inhibitory effect of sulfasalazine on growth of human
+NHL cell cultures
+Sulfasalazine also markedly inhibited proliferation of the B
+cell type, non-Hodgkin’s DoHH2 lymphoma cell line.13 As
+shown in Figure 2a, these human lymphoblastic cells were
+much more sensitive to sulfasalazine than the rat Nb2-SFJCD1
+cells when compared under similar conditions, ie suspended
+in Fischer’s medium. Severe lysis of DoHH2 cells was
+observed at concentrations as low as 0.15 mM sulfasalazine.
+
+Sulfasalazine action based on inhibition of the x−c
+cystine transporter
+A comparison of the growth-inhibitory potencies of sulfasalazine in cultures of Nb2-SFJCD1 and Nb2-11 subline cells
+showed that the efﬁcacy of the drug was substantially lower
+in the Nb2-11 cell cultures (data not shown). This unexpected
+ﬁnding raised the possibility that the growth-inhibitory activity
+of sulfasalazine could be overcome by 2-ME, a growth
+requirement of Nb2-11 cultures as distinct from Nb2-SFJCD1
+cultures.5 As shown in Figure 2b, the presence of 2-ME
+(60 ␮M) in Nb2-SFJCD1 cultures indeed reduced the very high
+growth inhibitions induced by 0.2 mM and 0.3 mM sulfasalazine by ca. 90% and 80%, respectively. Furthermore, increasing cystine levels in Fischer’s medium from 84 ␮M to ca.
+230 ␮M also reduced the efﬁcacy of the drug, evidence that
+the action of 2-ME was based on enhanced uptake of cystine
+(data not shown). Consistent with the latter is the much lower
+growth inhibition by sulfasalazine in DoHH2 cultures suspended in RPMI-1640, containing 207 ␮M cystine, compared
+to DoHH2 cultures in Fischer’s medium containing only
+84 ␮M cystine (Figure 2a). In this regard, it is notable that the
+concentration of cystine in Fischer’s medium approximates
+Leukemia
+
+Figure 2
+(a) Inhibitory effects of sulfasalazine (SASP) on growth of
+human DoHH2 and rat Nb2-SFJCD1 cell cultures in Fischer’s medium
+(FM) containing 10% horse serum; reduced sensitivity of DoHH2 cells
+in RPMl-1640 as distinct from FM. Columns and error bars represent
+means ± s.d. Results are representative of three experiments. (b)
+Reduction by 2-ME (60 ␮M) of SASP-induced inhibition of Nb2SFJCD1 culture growth; relative insensitivity of Nb2-U17 cells to
+SASP. Columns and error bars represent means ± s.d. Results are representative of three experiments.
+
+the levels of cyst(e)ine in human plasma.31 It may also be
+noted that sulfasalazine at relatively high concentrations (0.3
+and 0.4 mM) had only minor inhibitory effects on the proliferation of parental Nb2-U17 cells propagated in the presence
+of 60 ␮M 2-ME (Figure 2b).
+As previously reported, uptake of extracellular cystine by
+Nb2-SFJCD1 cells in vitro is primarily mediated by the x−c cystine transporter,5 a cystine/glutamate antiporter system.9 This
+had been demonstrated by an 85% inhibition of 35S-L-cystine
+uptake induced by 10 mM monosodium glutamate in a highly
+speciﬁc and Na+-independent fashion.5 In the present study,
+0.3 mM sulfasalazine inhibited uptake of 35S-L-cystine by Nb2SFJCD1 cells to the same extent as 10 mM monosodium glutamate (Figure 3). Sulfasalazine, however, did not appear to
+interfere with 2-ME-enhanced uptake of 35S-L-cystine which
+presumably proceeds via the leucine transporter23 (Figure 3).
+Taken together, the results in Figures 2a, b and 3 show that
+the growth-inhibitory activity of sulfasalazine in the lymphoma cell cultures was based on a potent and highly speciﬁc
+inhibition of the x−c cystine transporter leading to intracellular
+depletion of cyst(e)ine. Furthermore, the action of the drug
+may be based on competitive inhibition, since the efﬁcacy of
+
+--- Page 5 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+1637
+
+Figure 3
+Uptake of 35S-L-cystine by Nb2-SFJCD1 cells as affected
+by sulfasalazine (SASP) and monosodium glutamate (MSG), a speciﬁc
+inhibitor of the x−c cystine transporter.5 Cultures were preincubated for
+ca. 20 min with medium (no drug), SASP (0.3 mM), 2-ME (60 ␮M) and
+MSG (10 mM) in the combinations indicated. The samples were then
+further incubated for 15 min with 35S-L-cystine (10.7 ␮Ci/ml, 57 ␮M)
+for determination of cell-associated radioactivity (Materials and
+methods). Columns and error bars represent means ± s.d.
+
+the drug was reduced by increasing the levels of cystine in
+the medium.
+
+Expression of the x−c cystine transporter in cell lines
+Recently, the x−c cystine transporter was cloned by Sato and
+co-workers.32 It was found to be a protein heterodimer consisting of 4F2hc, a common component of amino acid transporters, and xCT, which provides speciﬁcity for cystine.32
+Using macrophage-derived 4F2hc and xCT cDNA probes, we
+found that each of four examined lymphoma cell lines
+expressed 4F2hc mRNA. In contrast, the 12 kb xCT transcript
+was not found in Nb2-U17 or Nb2–11 cells, but only in Nb2SFJCD1 and DoHH2 cells (Figure 4). The absence of an x−c
+cystine transporter in Nb2-U17 and Nb2-11 cells is consistent
+with their growth requirement for cystine uptake enhancement
+by 2-ME when cultured in Fischer’s medium which contains
+relatively low cystine levels.5 The expression of the transporter
+in Nb2-SFJCD1 and DoHH2 cells is in agreement with their
+ability to proliferate in such medium in the absence of cystine
+uptake enhancers.5
+
+Suppression of tumor growth in rats by sulfasalazine
+The effect of sulfasalazine on tumor growth was evaluated
+using Noble rats, each carrying a single, well-developed, rapidly growing, subcutaneous rat lymphoma transplant. Parental, cyst(e)ine-dependent Nb2-U17 tumors were utilized
+since they are non-metastatic, in contrast to Nb2-SFJCD1
+tumors.2,5 Use of non-metastatic tumors would avoid dissemination of cells from the tumor which would interfere with the
+use of tumor mass as a measure of drug-induced tumor growth
+inhibition. In preliminary experiments, oral administration of
+sulfasalazine had a minor tumor growth-arresting effect. This
+led to a more comprehensive study in which sulfasalazine was
+
+Figure 4
+Expression of 4F2hc and xCT mRNA in rat Nb2 lymphoma and human DoHH2 non-Hodgkin’s cells. Northern blot analysis of total RNA from log phase cells (20 ␮g/lane) was conducted using
+32
+P-labeled mouse, macrophage-derived complementary DNA
+probes. Equal loading of RNA was veriﬁed by ethidium bromidestained 18S and 28S ribosomal RNA (rRNA).
+
+administered (1) intraperitoneally, to avoid its degradation in
+the gut and concomitant loss of growth-inhibitory activity, and
+(2) at 12 h intervals, in an attempt to maintain elevated levels
+of the drug in the circulation. As shown in Figure 5, tumor
+transplants in saline-treated control rats (n = 6) grew rapidly
+from 0.95 g (range 0.30–1.76 g) to 12.60 g (10.59–16.12 g) in
+7 days, consistent with rapid growth of Nb2-U17 transplants
+observed in previous studies.2 In contrast, tumor growth was
+substantially inhibited in the two groups of rats treated with
+sulfasalazine (total n = 13). Sulfasalazine at a dose of
+200 mg/kg body weight, twice a day (n = 8) reduced tumor
+growth by nearly 80% on average as indicated by an increase
+in tumor mass from an average of 0.93 g (0.45–1.84 g) to only
+3.43 g (1.18–6.59 g). Similar results were obtained with the
+higher sulfasalazine dosage. It is notable that sulfasalazine
+inhibited tumor growth in ﬁve of the 13 rats by 90–100%
+when compared with the average increase in tumor mass of
+the controls. It is not known if the lower tumor growth suppressions reﬂect temporary decreases in the levels of circulating sulfasalazine which could have been avoided by administering the drug at shorter intervals.
+At necropsy there was no evidence of metastatic spread of
+the sulfasalazine-treated tumors to liver, spleen and kidney,
+target tissues for metastatic Nb2 lymphoma cell lines.2 Histological analysis (n = 4) of these tissues conﬁrmed this observation, indicating that the suppressive effect of sulfasalazine
+on the Nb2-U17 tumors was not the result of drug-induced
+dissemination of tumor cells from the transplant site, but
+reﬂected tumor growth inhibition. Importantly, at the dosages
+used, sulfasalazine caused no apparent toxicity to the host, as
+indicated by the good general health of the tumor-bearing rats
+(n = 13) during treatment and by the necropsy results. Control,
+non-tumor-bearing animals (n = 5) receiving an identical 7day treatment with the drug and followed over a 3–6 month
+period, showed good health with only a temporary halt in
+Leukemia
+
+--- Page 6 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+1638
+
+Figure 5
+Effect of 7 days of treatment with sulfasalazine (SASP) on
+the growth of well-developed, rapidly growing, subcutaneous Nb2U17 lymphoma transplants in Noble rats. Starting on day 0, groups
+of male rats (350–400 g), each carrying a single tumor in the nape of
+the neck (range 0.3–1.8 g), received i.p. injections, at 12 h intervals,
+of saline (controls, n = 6; open bars), SASP at 200 mg/kg body weight
+(n = 8; hatched bars) or SASP at 250 mg/kg body weight (n = 5; black
+bars). Tumor mass (g) was calculated from the length, width and
+height of the tumors in cm.15 Each bar of the ‘day 0’ group, and the
+corresponding bar in the ‘day 7’ group, represent the mass of
+one particular tumor at the beginning and end of the treatment,
+respectively.
+
+their weight gain; scar tissue at the sites of injections disappeared within a few weeks. Taken together, the results of these
+in vivo studies demonstrate that sulfasalazine was highly
+effective at inhibiting growth of transplanted Nb2-U17 lymphomas without signiﬁcantly affecting the health of the hosts.
+Discussion
+The present study has identiﬁed, for the ﬁrst time, that sulfasalazine is a potent inhibitor of the x−c cystine transporter. This
+fortuitously discovered property of sulfasalazine was demonstrated by its marked inhibition of the uptake of 35S-L-cystine
+by Nb2-SFJCD1 cells, a process which is mediated by the x−c
+transporter5 (Figure 3). The inhibition of the x−c transporter
+appears to be primarily responsible for the lymphoma growthinhibitory activity of sulfasalazine in vitro (Figures 1a, b and
+2a), since growth arrest could be largely prevented by addition
+of 2-ME which enhances cystine uptake via a different route,
+ie the leucine transporter23 (Figure 2b). The in vitro growthinhibitory activity of sulfasalazine is not based on its components, sulfapyridine or 5-aminosalicylic acid (Figure 1b), in
+contrast to its anti-inﬂammatory activity in rheumatoid arthritis
+and Crohn’s disease, and in this regard resembles its inhibitory
+effect on NFkappaB activation.25 It is notable that there is
+apparently no correlation between inhibition of NFkappaB
+activation, as induced by salicylates, and inhibition of cell
+proliferation.24 Subsequent studies are needed to determine
+Leukemia
+
+the relationship between the inhibitory effect of sulfasalazine
+on cystine uptake and its inhibition of NFkappaB activation.
+It is not yet clear how sulfasalazine-induced cyst(e)ine starvation caused death of the lymphoma cells in vitro. However,
+it has been reported that incubation of human Jurkat T leukemic cells in cystine- and glutathione-free medium led to a
+build-up of intracellular peroxides and cell death by apoptosis
+within 18–24 h.33 It is likely that sulfasalazine-induced cell
+lysis in Nb2-SFJCD1 and DoHH2 cultures (Figures 1a and 2a)
+developed along similar lines. The observed 24-h interval
+prior to the onset of lysis of Nb2-SFJCD1 cells incubated with
+0.3 mM sulfasalazine (Figure 1a) is consistent with a gradual
+intracellular depletion of cyst(e)ine. The latter would naturally
+lead to a decrease in the intracellular levels of glutathione,
+a major free radical-scavenger with a short half-life which is
+generated from cysteine, leaving the cells less protected
+against oxidative stress.33 The ﬁnding that continuous
+exposure to the drug is needed to induce cell lysis is also consistent with a starvation process. The reported inhibitory effect
+of sulfasalazine on glutathione-S-transferases, enzymes
+involved in protection of cells from oxidative stress,27 together
+with depletion of glutathione,33 would facilitate lysis of the
+tumor cells by metabolism-generated peroxides. Furthermore,
+inhibition by sulfasalazine of NFkappaB activation25 would
+prevent cells from expressing anti-apoptotic genes as a
+protective response against injury.34
+In analyzing the suppression by sulfasalazine of lymphoma
+growth in the animal, one has to take into account that, in
+vivo, the lymphoma cells are exposed not only to cystine, but
+also to cysteine which they can take up readily.6,8 This implies
+that cyst(e)ine starvation of the lymphoma cells in vivo cannot
+be achieved by a direct sulfasalazine–tumor cell interaction
+leading to inhibition of cystine uptake, unless there is a concomitant reduction in the supply of plasma cysteine. In the
+case of the Nb2-U17 tumor transplants (Figure 5), the lymphoma cells did not possess an x−c cystine transporter (Figure
+4). Furthermore, Nb2-U17 cell proliferation in vitro was not
+greatly affected by sulfasalazine, even at 0.4 mM, when 2-ME
+was present allowing pick up of extracellular cystine (Figure
+2b). The latter condition closely resembles an in vivo situation, in which lymphoma cells have access to circulating
+cysteine. It appears therefore that the suppression of Nb2-U17
+lymphoma growth by sulfasalazine (Figure 5) was not due to
+a direct drug–tumor cell interaction, but involved an indirect
+effect of the drug. As a potent inhibitor of the x−c cystine transporter, sulfasalazine probably interfered with secretion of cysteine by somatic cells (eg macrophages), described by
+Gmünder et al,11 in which the generation of cysteine is dependent on x−c -mediated uptake of cystine. The reduction in cysteine delivery to the tumor cells could have caused a decrease
+in their intracellular cyst(e)ine levels below a critical threshold
+leading to inhibition of growth. An inhibitory effect of sulfasalazine on somatic cell-mediated supply of cysteine could also
+underlie some of its immunosuppressive actions in vivo,
+including its inhibition of lymphocyte proliferation.26
+The present study indicates that sulfasalazine, a drug commonly used for treatment of severe inﬂammatory diseases,
+could also be useful as an anticancer agent based on its inhibition of the x−c cystine transporter. The marked suppression
+by sulfasalazine of rat Nb2 pre-T cell lymphoma growth in
+vivo without major toxicity to the host (Figure 5), together with
+its efﬁcacy against human DoHH2 B-cell lymphoma cells in
+vitro (Figure 2a), suggest that sulfasalazine has potential application in clinical treatment of cancers dependent on extracellular cyst(e)ine for growth and viability. Such malignancies
+
+--- Page 7 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+would include lymphoblastic leukemias and lymphomas (eg
+NHL) of both B and T cell origin. Since the oncolytic activity
+of sulfasalazine is apparently based on cyst(e)ine depletion
+within target cells, associated with loss of protection against
+oxidative stress, it appears advantageous to utilize sulfasalazine in combination with oxidative stress-causing drugs (eg
+alkylating agents). Furthermore, since the colonic metabolites
+of sulfasalazine have no growth-inhibitory activity (Figure 1b),
+the drug should not be administered via the Gl tract.
+Cancer treatment using sulfasalazine would resemble use of
+asparaginase, commonly applied in combination chemotherapy of acute lymphocytic leukemia, aimed at depletion
+of circulating asparagine, an essential amino acid for certain
+leukemic cells.35 Attempts to develop therapy for leukemias
+on the basis of cyst(e)ine depletion have been reported.36
+Notably, a differential growth response between normal and
+certain leukemic cells was observed in culture. Whereas both
+types of cells required cyst(e)ine for growth, the normal cells
+could replicate in the absence of the amino acid if Lcystathionine, a precursor of L-cysteine, was supplied in the
+medium, whereas the leukemic cells could not. The latter was
+due to reduced levels in the leukemic cells of ␥-cystathionase
+required for the generation of L-cysteine by cleavage of Lcystathionine.36 These ﬁndings raise the possibility that
+administration of L-cystathionine during sulfasalazine therapy
+of ␥-cystathionase-deﬁcient cancers could have a protective
+effect on normal lymphoid tissue. Short-term exposure to cystathionine may be well tolerated since treatment with cystathionine has been used to protect rats from acute gastric
+mucosal injury37 and extremely elevated levels of cystathionine have been observed in sera from patients with eg folate
+deﬁciency.38
+Sulfasalazine may also be useful for treatment of malignancies other than lymphoblastic cancers. Human lymphocytic4 and myelocytic36 leukemia cells, and cells from solid
+cancers such as melanoma,36 neuroblastoma,36 and glioma39
+have been reported to be dependent on extracellular
+cyst(e)ine. Cystine deprivation in vitro has also led to death
+of lung ﬁbroblasts40 and preoligodendrocytes.41
+In conclusion, the present study has demonstrated that the
+x−c cystine transporter provides a useful target for therapy of
+cancers which are dependent on extracellular cyst(e)ine for
+growth and viability. The ﬁnding that sulfasalazine is a powerful inhibitor of this transport system may lead to the development of a new class of chemotherapeutic, sulfasalazine-like
+compounds.
+Acknowledgements
+Dr CT Beer and Dr MC Robertson (BC Cancer Agency,
+Canada) are thanked for helpful discussions, and DJ Buckley
+(Cincinnati Medical Center, USA) for preparing the northern
+blots. Dr S Bannai (University of Tsukuba, Ibaraki, Japan) is
+thanked for providing the 4F2hc and xCT cDNA probes, and
+the Department of Advanced Therapeutics of the BC Cancer
+Agency for supplying DoHH2 cells. This study was supported
+by the BC Cancer Foundation, with core support from the BC
+Cancer Agency (PWG), and in part by NIH grant No.
+DK53452 and the Ohio Cancer Research Associates (ARB).
+References
+1 Poplack DG, Kun LE, Magrath IT, Pizzo PA. Leukemias and lymphomas of childhood. In: DeVita VT Jr, Hellman S, Rosenberg SA
+
+(eds). Cancer: Principles and Practice of Oncology, 4th edn. JB
+Lippincott: Philadelphia, 1993, pp 1792–1818.
+2 Gout PW, Horsman DE, Fox K, de Jong G, Ma S, Bruchovsky N.
+The rat Nb2 lymphoma: a novel model for tumor progression.
+Anticancer Res 1994; 14: 2485–2492.
+3 Heppner GH, Miller FR. The cellular basis of tumor progression.
+Int Rev Cytol 1998; 177: 1–56.
+4 Iglehart JD, York RM, Modest AP, Lazarus H, Livingston DM. Cystine requirement of continuous human lymphoid cell lines of normal and leukemic origin. J Biol Chem 1977; 252: 7184–7191.
+5 Gout PW, Kang YJ, Buckley DJ, Bruchovsky N, Buckley AR.
+Increased cystine uptake capability associated with malignant progression of Nb2 lymphoma cells. Leukemia 1997; 11: 1329–1337.
+6 Gmünder H, Eck H-P, Dröge W. Low membrane transport activity
+for cystine in resting and mitogenically stimulated human lymphocyte preparations and human T cell clones. Eur J Biochem 1991;
+201: 113–117.
+7 Broome JD, Jeng MW. Promotion of replication in lymphoid cells
+by speciﬁc thiols and disulﬁdes in vitro. J Exp Med 1973; 138:
+574–592.
+8 Ishii T, Hishinuma I, Bannai S, Sugita Y. Mechanism of growth
+promotion of mouse lymphoma L1210 cells in vitro by feeder layer
+or 2-mercaptoethanol. J Cell Physiol 1981; 107: 283–293.
+9 Bannai S. Exchange of cystine and glutamate across plasma membrane of human ﬁbroblasts. J Biol Chem 1986; 261: 2256–2263.
+10 Watanabe H, Bannai S. Induction of cystine transport activity in
+mouse peritoneal macrophages. J Exp Med 1987; 165: 628–640.
+11 Gmünder H, Eck H-P, Benninghoff B, Roth S, Dröge W. Macrophages regulate intracellular glutathione levels of lymphocytes.
+Evidence for an immunoregulatory role of cysteine. Cell Immunol
+1990; 129: 32–46.
+12 Gout PW, Buckley AR, Simms CR, Bruchovsky, N. Novel lymphoma growth-inhibitory activity of the immunosuppressant, sulfasalazine. Proc 11th Int Congress Endocrinology, Sydney, Australia, October 29–November 2, 2000, p 313, No. P873 (Abstr.).
+13 Kluin-Nelemans HC, Limpens J, Meerabux J, Beverstock GC,
+Jansen JH, de Jong D, Kluin PM. A new non-Hodgkin’s B-cell line
+(DoHH2) with a chromosomal translocation t(14;18)(q32;q21).
+Leukemia 1991; 5: 221–224.
+14 Krumenacker JS, Buckley DJ, Leff MA, McCormack JT, de Jong
+G, Gout PW, Reed JC, Miyashita T, Magnuson NS, Buckley AR.
+Prolactin-regulated apoptosis of Nb2 lymphoma cells: pim-1, bcl2 and bax expression. Endocrine 1998; 9: 163–170.
+15 Tomayko MM, Reynolds CP. Determination of subcutaneous
+tumor size in athymic (nude) mice. Cancer Chemother Pharmacol
+1989; 24: 148–154.
+16 Bannai S, Kasuga H. Anti-inﬂammatory drug inhibition of transport
+of cystine and glutamate in cultured human ﬁbroblasts. Biochem
+Pharmacol 1985; 34: 1852–1854.
+17 Riendeau D, Charleson S, Cromlish W, Mancini JA, Wong E, Guay
+J. Comparison of the cyclooxygenase-1 inhibitory properties of
+nonsteroidal anti-inﬂammatory drugs (NSAIDs) and selective
+COX-2 inhibitors, using sensitive microsomal and platelet assays.
+Can J Physiol Pharmacol 1997; 75: 1088–1095.
+18 Ding XZ, Tong WG, Adrian TE. Blockade of cyclooxygenase-2
+inhibits proliferation and induces apoptosis in human pancreatic
+cancer cells. Anticancer Res 2000; 20: 2625–2631.
+19 Emori HW, Paulus H, Bluestone R, Champion GD, Pearson C.
+Indomethacin serum concentrations in man. Ann Rheum Dis
+1976; 35: 333–338.
+20 Kurowski M, Dunky A. Transsynovial kinetics of piroxicam in
+patients with rheumatoid arthritis. Eur J Clin Pharmacol 1988; 34:
+401–406.
+21 Slattery JT, Levy G. Effect of ibuprofen on protein binding of warfarin in human serum. J Pharm Sci 1977; 66: 1060.
+22 Insel PA. Analgesic-antipyretic and antiinﬂammatory agents and
+drugs employed in the treatment of gout. In: Hardman JG, Goodman Gilman A, Limbird LE (eds). Goodman and Gilman’s The
+Pharmacological Basis of Therapeutics, 9th edn. McGraw-Hill:
+New York, 1996, pp 617–657.
+23 Ishii T, Bannai S, Sugita Y. Mechanism of growth stimulation of
+L1210 cells by 2-mercaptoethanol in vitro. Role of the mixed disulﬁde of 2-mercaptoethanol and cysteine. J Biol Chem 1981; 256:
+12387–12392.
+
+1639
+
+Leukemia
+
+--- Page 8 ---
+Inhibition of lymphoma growth by sulfasalazine
+PW Gout et al
+
+1640
+
+Leukemia
+
+24 Kopp E, Ghosh S. Inhibition of NF-kappa B by sodium salicylate
+and aspirin. Science 1994; 265: 956–959.
+25 Wahl C, Liptay S, Adler G, Schmid RM. Sulfasalazine, a potent
+and speciﬁc inhibitor of nuclear factor kappa B. J Clin Invest 1998;
+101: 1163–1174.
+26 Hoult JR. Pharmacological and biochemical actions of sulphasalazine. Drugs 1986; 32 (Suppl. 1): 18–26.
+27 Bach MK, Brashler JR, Johnson MA. Inhibition by sulfasalazine of
+LTC synthetase and of rat liver glutathione S-transferases. Biochem
+Pharmacol 1985; 34: 2695–2704.
+28 Guastavino E, Litwin NH, Heffes Nahmod L, Licastro R. Ulcerative
+colitis in children. Levels of salicylazosulfapyridine and sulfapyridine during treatment. Acta Gastroenterol Latinoam 1988; 18:
+107–113.
+29 Rahav G, Zylber-Katz E, Rachmilewitz D, Levy M. Relationship
+between the acetylator phenotype, plasma sulfapyridine levels
+and adverse effects during treatment with salicylazosulfapyridine
+in patients with chronic bowel diseases. Isr J Med Sci 1990; 26:
+31–34.
+30 Almer S, Norlander B, Strom M, Osterwald H. Steady-state pharmacokinetics of a new 4-gram 5-aminosalicylic acid retention
+enema in patients with ulcerative colitis in remission. Scand J Gastroenterol 1991; 26: 327–335.
+31 Chawla RK, Lewis FW, Kutner MH, Bate DM, Roy RGB, Rudman
+D. Plasma cysteine, cystine, and glutathione in cirrhosis. Gastroenterology 1984; 87: 770–776.
+32 Sato H, Tamba M, Ishii T, Bannai S. Cloning and expression of a
+plasma membrane cystine/glutamate exchange transporter composed of two distinct proteins. J Biol Chem 1999; 274: 11455–
+11458.
+33 Iwata S, Hori T, Sato N, Hirota K, Sasada T, Mitsui A, Hirakawa
+
+T, Yodoi J. Adult T cell leukemia (ATL)-derived factor/human
+thioredoxin prevents apoptosis of lymphoid cells induced by Lcystine and glutathione depletion. J Immunol 1997; 158: 3108–
+3117.
+34 Wang CY, Guttridge DC, Mayo MW, Baldwin Jr AS. NF-kappaB
+induces expression of the Bcl-2 homologue A1/Bﬂ-1 to preferentially suppress chemotherapy-induced apoptosis. Mol Cell Biol
+1999; 19: 5923–5929.
+35 Keating MJ, Holmes R, Lerner S, Ho DH. L-Asparaginase and PEG
+asparaginase – past, present and future. Leuk Lymphoma 1993;
+10: 153–157.
+36 Uren JR, Lazarus H. L-Cyst(e)ine requirements of malignant cells
+and progress toward depletion therapy. Cancer Treat Rep 1979;
+63: 1073–1079.
+37 Wada K, Kamisaki Y, Kitano M, Nakamoto K, Itoh T. Protective
+effect of cystathionine on acute gastric mucosal injury induced by
+ischemia-reperfusion in rats. Eur J Pharmacol 1995; 294: 377–382.
+38 Stabler SP, Lindenbaum J, Savage DG, Allen RH. Elevation of
+serum cystathionine levels in patients with cobalamin and folate
+deﬁciency. Blood 1993; 81: 3404–3413.
+39 Kato S, Negishi K, Mawatari K, Kuo CH. A mechanism for glutamate toxicity in the C6 glioma cells involving inhibition of cystine
+uptake leading to glutathione depletion. Neuroscience 1992; 48:
+903–914.
+40 Aoshiba K, Yasui S, Nishimura K, Nagai A. Thiol depletion induces
+apoptosis in cultured lung ﬁbroblasts. Am J Respir Cell Mol Biol
+1999; 21: 54–64.
+41 Back SA, Gan X, Li Y, Rosenberg PA, Volpe JJ. Maturation-dependent vulnerability of oligodendrocytes to oxidative stress-induced
+death caused by glutathione depletion. J Neurosci 1998; 18:
+6241–6253.

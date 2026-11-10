@@ -1,0 +1,959 @@
+--- Page 1 ---
+doi:10.1016/j.jmb.2009.05.032
+
+J. Mol. Biol. (2009) 390, 747–759
+
+Available online at www.sciencedirect.com
+
+Crystal Structures of Catalytic Intermediates of Human
+Selenophosphate Synthetase 1
+Kai-Tuo Wang 1 †, Juan Wang 1 †, Lan-Fen Li 1 and Xiao-Dong Su 1,2 ⁎
+1
+
+National Laboratory of Protein
+Engineering and Plant Genetic
+Engineering, College of Life
+Sciences, Peking University,
+Beijing, 100871, P.R. China
+2
+
+Peking University Shenzhen
+Graduate School, Shenzhen
+518055, P.R. China
+Received 7 March 2009;
+received in revised form
+9 May 2009;
+accepted 16 May 2009
+Available online
+25 May 2009
+
+Selenophosphate synthetase catalyzes the synthesis of the highly active
+selenium donor molecule selenophosphate, a key intermediate in selenium
+metabolism. We have determined the high-resolution crystal structure of
+human selenophosphate synthetase 1 (hSPS1). An unexpected reaction
+intermediate, with a tightly bound phosphate and ADP at the active site has
+been captured in the structure. An enzymatic assay revealed that hSPS1
+possesses low ADP hydrolysis activity in the presence of phosphate. Our
+structural and enzymatic results suggest that consuming the second highenergy phosphoester bond of ATP could protect the labile product
+selenophosphate during catalytic reaction. We solved another hSPS1
+structure with potassium ions at the active sites. Comparing the two
+structures, we were able to define the monovalent cation-binding site of the
+enzyme. The detailed mechanism of the ADP hydrolysis step and the exact
+function of the monovalent cation for hSPS1 catalytic reaction are proposed.
+© 2009 Elsevier Ltd. All rights reserved.
+
+Keywords: SPS1; SelD; selenocysteine; PurM superfamily
+
+Edited by G. Schulz
+
+Introduction
+Specific incorporation of the essential trace element
+selenium into selenium-containing proteins and
+RNAs requires the participation of selenophosphate
+synthetase (SPS),1 which catalyzes the formation of
+the highly active selenium donor selenophosphate
+(SeP).2 SPS is best characterized in prokaryotes.
+Escherichia coli SPS catalyzes the synthesis of SeP,
+AMP and orthophosphate with a 1:1:1 stoichiometry
+from selenide and ATP.2
+ATP þ selenide þ waterYSeP þ AMP þ Pi
+Reaction 1
+The γ-phosphate group of ATP is transferred to
+selenide, while the β-phosphate group is released as
+inorganic phosphate. Both monovalent cation, K+,
+and divalent cation, Mg2+, are required for enzymatic
+activity.3,4 Among the three products listed above,
+⁎Corresponding author. E-mail address:
+xdsu@pku.edu.cn.
+† These authors contributed equally to this work.
+Abbreviations used: SPS, selenophosphate synthetase;
+SeP, selenophosphate; Sec, selenocysteine; SecS,
+selenocysteine synthase; pg-phosphate,
+pseudo-γ-phosphate.
+
+AMP is the only effective inhibitor for the reaction,
+which indicate that the reaction might utilize a multistep mechanism.4 Positional isotope exchange experiments suggest that a phosphorylated enzyme intermediate is involved in the catalytic mechanism.5
+Moreover, it was demonstrated that SPS was able to
+catalyze the exchange of [8-14C]ADP with unlabeled
+ATP, which supports the suggestion that ADP is an
+intermediate of the reaction.6 However, numerous
+attempts to trap or detect a phosphorylated enzyme
+intermediate were unsuccessful.5,6
+Cys17 of E. coli SPS in the N-terminal Gly-rich loop
+is essential for its activity.7 On the basis of sequence
+variations at this position, SPS enzymes are divided
+into two groups. The members of one group, which
+contain cysteine or selenocysteine (Sec) at this position, catalyze SeP formation in vitro from selenide,7–9
+whereas the other group lack a Cys/Sec residue at the
+corresponding position. 10,11 Animals, including
+human, have two SPS paralogues: one has a Sec
+residue at the Cys17 corresponding site and is named
+SPS2, while the other has other residues at this
+position and is named SPS1. It has been hypothesized
+that SPS2 functions in the de novo synthesis of SeP
+from selenite, whereas SPS1 is involved in a selenium
+salvage pathway that recycles selenocysteine.12
+SPS has a unique catalytic mechanism and belongs
+to the PurM (aminoimidazole ribonucleotide synthetase) superfamily.13 In contrast to all other PurM
+
+0022-2836/$ - see front matter © 2009 Elsevier Ltd. All rights reserved.
+
+--- Page 2 ---
+748
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+family members that hydrolyze ATP to ADP,14 SPS
+consumes both high-energy phosphoester bonds of
+ATP to produce AMP and orthophosphate.4 Moreover, unlike pyruvate phosphate dikinase, SPS1
+does not involve a pyrophosphoryl-enzyme
+intermediate.15 Although there have been many
+biochemical studies, and structural data for SPS
+from the hyperthermophilic bacterium Aquifex
+aeolicus was published recently,16 it is still unclear
+why and how SPS consumes both high-energy
+phosphoester bonds of ATP and phosphorylates
+selenide and water simultaneously.
+One interesting feature of SPS is its monovalent
+cation requirement; the potassium ion (K+) is required
+for SPS activity, and the sodium ion (Na+) is not as
+effective, and both Li+ and Na+ are inhibitory for SPS
+activity in the presence of K+. However, the mechanism involved in this activation process is poorly
+understood.4
+Here, we report the first structural data of a
+eukaryotic selenophosphate synthetase, human selenophosphate synthetase 1, and biochemical studies of
+this enzyme. The hSPS1 structure showed an unexpected ADP-binding state, which was suggested to
+mimic an intermediate state between selenium
+phosphorylation and SeP delivery. Another structure
+of hSPS1 complexed with AMPCP and K+ elucidated
+the detailed mechanism of ADP hydrolysis and the
+function of the catalytically essential monovalent
+cation.3
+
+Results
+Structure determination and refinement
+The hSPS1-ADP crystal belongs to symmetry group
+P4 or P422 with cell dimensions a = 67.62 Å,
+Table 1. Data collection and refinement statistics
+A. Data collection
+Space group
+Unit cell dimensions
+a (Å)
+b (Å)
+c (Å)
+Resolution (Å)
+Rmerge, (%)
+I/σ
+Completeness (%)
+B. Refinement
+Refinement
+Resolution (Å)
+Rcryst (%)
+Rfree (%
+RMSD from ideal
+geometry
+Bond lengths (Å)
+Bond angles (°)
+Twinning fraction
+Twinning operator
+
+hSPS1-ADP
+
+hSPS1-AMPCP
+
+P43
+
+P43
+
+67.62
+67.62
+182.55
+50–2.00 (2.03–2.00)
+6.4 (18.5)
+10.8 (2.8)
+94.2 (71.4)
+
+66.73
+66.73
+181.17
+50–1.90 (1.93–1.90)
+9.1 (48.7)
+25.2 (2.3)
+98.0 (89.5)
+
+15–2.00 (2.03–2.00)
+
+15-1.90 (1.93–1.90)
+
+13.3 (16.3)
+19.5 (25.9)
+
+14.0 (23.0)
+19.5 (22.5)
+
+0.010
+1.313
+0.498
+h, –k, –l
+
+0.009
+1.305
+0.501
+h, –k, –l
+
+The values in parentheses are for the highest-resolution shell.
+
+b = 67.62 Å, and c = 182.55 Å. The symmetry group
+was initially set to P422, which had only one molecule
+per asymmetric unit with a solvent content of 47.1%
+(v/v). Data analysis using the program phenix.
+xtriage17 indicated twinning in the data set but there
+was no twinning operator in the P422symmetry
+group. We tried to index the crystal into space
+group P43 with two molecules per asymmetric unit
+and with a twinning operator of h, –k, –l. This
+treatment of the data set with twinning and lower
+symmetry did not affect structure determination by
+molecular replacement. The twinning refinement
+with the program phenix.refine using twinning
+operator h, –k, –l reduced the R-factor dramatically.
+The final twinning fractions in both structures refined
+to about 50% (Table 1).
+The overall structure of hSPS1-ADP
+The final model of hSPS1 consists of two monomers related by non-crystallographic symmetry
+forming a homodimer similar to other PurM superfamily members.18 Each monomer is composed of
+two domains linked by a hinge-like loop (Fig. 1a).
+Both the N- and C-terminal domains (designated as
+N-domain and C-domain) adopt a mixed α/β-fold.
+The N-domain contains a five-stranded β-sheet
+ordered as b1Ab2zb5Ab3zb4z and is flanked on
+one side by three long α-helices and two short 310helices. The C-domain has a six-stranded β-sheet
+with topology of b7zb9Ab6zb10Ab8zb11z. This
+β-sheet is flanked on both sides by seven α-helices
+and two 310-helices (Fig. 1b). The primary interactions between the two monomers are located
+in the N-domain with strands β2-β5 coming together to form an eight-stranded barrel-like structure (Fig. 1c). The interface is stabilized through
+hydrophobic interactions and the packing of βstrands against each other. Ligands that interact
+with both monomers seem to enhance dimer interface interactions.
+The active sites
+The SPS1 dimer has two active sites located
+symmetrically in a deep cleft at the dimer interfaces
+around the central barrel (Fig. 1c). ATP was added to
+the protein solution during crystallization, but the
+final model contains only ADP, phosphate, and
+coordinated metal ions at the active site (Fig. 2a).
+The two active sites are identical except for a slight
+rotation of the β-phosphate group.
+The turn region before strand β1 (residues 64–70),
+called the prior-β1 turn, is important for ADP binding
+(see below). The adenine base of ADP binds in a
+conserved hydrophobic pocket, formed by α1 and the
+prior-β1 turn on one side and β3⁎, β4⁎ on the other
+side, where the asterisk indicates the non-crystallographic symmetry-related monomer. Adenosine
+specificity is provided by hydrogen bonding between
+the hydroxyl group of Thr164⁎ and the adenine ring,
+and the hydrophobic environment around the ADP
+
+--- Page 3 ---
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+749
+
+Fig. 1. Overall structure of hSPS1. (a) Ribbon diagram of the monomer colored by secondary structure. All structural
+figures were generated using PyMOL (http://pymol.sourceforge.net/). (b) Topology diagram of hSPS1. The N-domain
+and the C-domain are shown separately. (c) Ribbon diagram of the dimer. N-domains are colored yellow and orange,
+C-domains are colored cyan and light blue. ADP and phosphate are shown as green sticks. Magnesium and sodium
+ions are shown as red and purple balls, respectively. The black line at the left represents the dimer interface.
+
+C-2 position. The 2′-hydroxyl group of the ribose
+sugar forms hydrogen bonds to backbone amide of
+Gly162, while the 3′-hydroxyl group bonds to backbone atoms of Gly67 and Met68 at the prior-β1 turn.
+The phosphate-binding region is formed by the priorβ1 turn, β2, α2, and β8. One remarkable feature of this
+site is the high acidity provided by four highly
+conserved Asp residues (Asp69, Asp87, Asp110, and
+
+Asp265), which is observed also in the A. aeolicus SPS
+structure (Fig. 2b).16
+In our crystal structure, ATP is unexpectedly
+hydrolyzed to ADP and orthophosphate but the
+hydrolyzed γ-phosphate is immobilized at the active
+site rather than diffusing away. This phosphate is
+called a pseudo-γ-phosphate (pg-phosphate). The α,
+β, and pg-phosphates are arranged in a triangle state,
+
+--- Page 4 ---
+750
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+Fig. 2. Ligand-binding pocket. (a) Stick representation of ADP and phosphate molecules. Magnesium and sodium ions
+are shown as spheres and colored green and purple, respectively. |Fo – Fc| omit electron density map was calculated with
+the hSPS1-ADP model, excluding ligands and metal ions and contoured at 4.0 σ. (b) Ligand-binding pocket electrical
+potential representation. N-terminal residues 6 – 45 are shown as a yellow ribbon. (c) LIGPLOT43 schematic
+representation of the interaction network. Hydrogen bonds are depicted as broken lines labeled with distances. (d) and (e)
+Interactions between the pg-phosphate and enzyme residues. The monomer chains are shown in ribbon mode and
+colored yellow and purple, respectively. The pg-phosphates are highlighted with green.
+
+coordinated with three Mg2+ (Fig. 2a). All three Mg2+
+(Mg1–Mg3) are in the standard six-coordinated,
+octahedral geometry. Mg1 binds to the β-phosphate
+group, Asp69, Asp110, Asp265, and two water
+molecules. Mg2 also has six ligands: β-phosphate,
+pg-phosphate, Asp110 and three water molecules,
+while Mg3 binds α-, β-, and pg-phosphate groups,
+Gln163⁎ and one water molecule (Fig. 2c).
+The captured pg-phosphate is an intriguing finding
+in these structures. This phosphate contacts six very
+
+well conserved residues, Lys32, Asp87, Asn106,
+Thr267, Gly268 and Gln163⁎ (Figs. 2d and e, and 7).
+These six residues form the ring-like structure of the
+ligand-binding pocket. The radius of this ring is so
+small that the trapped pg-phosphate is not able to
+pass through. The pg-phosphate interacts also with
+the ADP phosphate groups through two Mg2+. The
+small space formed between the six conserved
+residues and the ADP molecule is perfect both in
+size and interaction network for the pg-phosphate.
+
+--- Page 5 ---
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+Monovalent cation-binding site and
+hSPS1-AMPCP structure
+Four ion densities that are much greater than water
+are found in one active site. Both divalent and
+monovalent ions are known to be essential for SPS
+activity.3 Besides the three Mg2+ densities mentioned
+above, an additional ion density was found forming
+a nonstandard penta-coordinate state with the βphosphate group, Thr85, backbone carbonyl O of
+Asp69 and two water molecules at both active sites.
+We tentatively interpreted this ion to be Na+ due to
+its presence in the crystallization conditions. To
+elaborate on this hypothesis and to understand the
+function of monovalent cation during catalysis, we
+have crystallized and solved the structure of hSPS1AMPCP in the presence of K+ instead of Na+, using
+the non-hydrolysable ADP analogue AMPCP and
+inorganic phosphate to simulate the hydrolyzed ATP
+molecule at the active site. In this structure, the
+overall architecture and active sites are very similar
+to those found in hSPS1-ADP structure (Fig. 3a and
+b). At the position of the Na+ in the hSPS1-ADP
+structure, the electron density clearly indicated a
+
+751
+heavier atom and it was interpreted as K+ (Fig. 3c
+and d). Comparing the two structures, we concluded
+that this position is the monovalent cation-binding
+site.
+In the A. aeolicus SPS structure, it was predicted that
+a water molecule held by two Mg2+, Asp219 and
+Thr221 could be the nucleophilic water involved in
+ADP hydrolysis.16 Similar water molecules could be
+found in our structures held by Mg1 and Mg2,
+Asp110, Asp265 and Thr267. The proton of the water
+molecule could be accepted by the side chain of the
+Asp residues, making this water molecule a good
+nucleophile. In our hSPS1-ADP structure, this water
+molecule is about 3.8 Å from the phosphorus atom of
+the β-phosphate group (PB). The water-PB-O3A
+angles at both active sites are 157° and 114°,
+respectively (Fig. 3e). Whereas in the hSPS1-AMPCP
+structure, the water molecules at both active sites are
+re-positioned by the larger K+ at more favorable
+states, forming a straight line for a potential nucleophilic attack, and the water molecules are only 3.4 Å
+from the PB groups, in a perfect configuration for an
+in-line attack with the α-phosphate positioned on the
+opposite side (Fig. 3e).
+
+Fig. 3. Comparison of hSPS1-ADP and hSPS1-AMPCP structures. (a) Overall alignment of the two structures. Peptide
+chains are shown in ribbon representation and ligand molecules are shown as sticks. Chains in the hSPS1-ADP structure
+are colored yellow and those in the hSPS1-AMPCP structure are colored green. (b) The four active sites from the two
+structures are superimposed. Coordinated ions and predicted nucleophilic water are shown as small spheres. (c) and (d)
+Comparing the sizes of metal ion densities in two structures. The |Fo – Fc| omit electron density map was calculated with
+refined structures, excluding metal ions, and contoured at 8.0 σ. c, hSPS1-ADP and d, hSPS1-AMPCP; ADP, AMPCP and
+phosphate are shown as sticks and metal ions are shown as small spheres. (e) Distances and angles for the in-line
+nucleophile water attacking the ADP/AMPCP β-phosphate. The top two diagrams are from both active sites in the
+hSPS1-ADP structure, and the bottom two are from both active sites in the hSPS1-AMPCP structure.
+
+--- Page 6 ---
+752
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+Selenide-free ADPase activity of hSPS1
+
+Selenophosphate delivering tunnel
+
+It was shown earlier that E. coli SPS is able to
+hydrolyze ADP in the absence of selenide.6 In the
+present structures, pg-phosphate at the active site
+indicates that this hydrolyzed γ-phosphate will not be
+released until ADP hydrolysis. If this hypothesis is
+true, the hSPS1 ADPase activity should be selenophosphate/phosphate-dependent. We thus determined
+the ADPase activity of hSPS1 in the absence of
+selenide.
+In an earlier study, the extremely slow ADP
+hydrolysis catalyzed by E. coli SPS was self-accelerating and never became linear, which was not explained
+well at the time. 6 This phenomenon could be
+explained by the hypothesis that phosphate is
+required as a cofactor for the ADP hydrolysis. A
+trace amount of phosphate is always present as a
+product of ADP hydrolysis and phosphate generated
+at the beginning will further accelerate this reaction.
+We have determined the ADP hydrolysis rate
+catalyzed by hSPS1 at different concentrations of
+phosphate. The same phenomenon was found in our
+experiments with a phosphate-free reaction mixture.
+Phosphate at a concentration of 1.0 mM accelerated
+the reaction rate dramatically and made it appear
+linear. Phosphate at a concentration of 5.0 mM made
+the reaction faster at the beginning until the ADP was
+fully consumed (Fig. 4a). To understand the function
+of the catalytic essential monovalent cation, we found
+that the ADPase activity in the presence of K+ is more
+than double that with Na+ in the buffer. Mutation of
+the monovalent cation-binding residue Thr85 to Ala
+decreased the ADP hydrolysis rate dramatically (Fig.
+4b). Furthermore, in the crystallization trials, we
+could not get hSPS1 crystals in complex with ADP in
+the presence of K+, presumably due to the faster
+hydrolysis of ADP. The human SPS2 Sec/Cys mutant
+enzyme (hSPS2Cys) was able to hydrolyze ADP in a
+manner similar to that of hSPS1. The phosphatedependent ADPase activity of hSPS2Cys is threefold
+greater than that of hSPS1 (Fig. 4c).
+
+The molecular tunnels often present in enzymes
+with multiple catalytic sites protect unstable intermediates and improve the catalytic efficiency.19
+Although hSPS1 does not have multiple active sites,
+the existence of an hSPS1/SecS complex,20 and the
+instability of SeP,21 seemingly make the existence of a
+molecular tunnel beneficial. A molecular tunnel is
+present in the hSPS1 structure between the pgphosphate and the surface (Fig. 5). This tunnel is
+formed by residues within one monomer has a length
+of 15 Å and is composed mainly of nonpolar and
+acidic residues, coincident with the fact that SeP is
+more stable under acidic conditions than it is under
+alkaline conditions.22
+
+Discussion
+Structural comparison with the A. aeolicus SPS
+structure
+The first SPS structural data from the hyperthermophilic bacterium A. aeolicus were published recently.16
+The level of sequence identity between hSPS1 and A.
+aeolicus SPS is 32%, and the overall structure and
+dimer organization of the two proteins are quite
+similar with a root-mean-square deviation (RMSD) of
+2.3 Å. The important residues arranged near the active
+sites are highly conserved among all SPS enzymes
+from various species (Fig. 6).
+The most striking differences between our structures and the A. aeolicus SPS structure are the bound
+nucleotides. A. aeolicus SPS binds the unhydrolysable
+ATP analogue AMPCPP but our structures have ADP
+(or the ADP analogue AMPCP) and inorganic
+phosphate at the active site. However, the residues
+for ligand binding are all well conserved, especially
+those that bind to the phosphate moiety (Fig. 6).
+Comparing our structures with that of A. aeolicus SPS,
+we suggest that the A. aeolicus SPS structure and ours
+
+Fig. 4. Selenide-free ADPase assay. (a) ADP hydrolysis by hSPS1 at different concentrations of phosphate. (b) ADPase
+activity of native and T85A mutant hSPS1 under different monovalent cation conditions. (c) Different ADP hydrolysis
+rates between hSPS1 and hSPS2Cys at various concentrations of phosphate. V is the average velocity in the first 3 h.
+
+--- Page 7 ---
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+753
+
+Fig. 5. The SeP delivering tunnel. The top diagram represents the surface of the whole structure. Two enlarged
+continuous cross-sections at the bottom represent the shape and surface potential of the SeP delivery tunnel.
+
+represent two different states in the SPS catalytic
+reaction. The A. aeolicus SPS structure is in the initial
+state before the reaction and ours mimics an
+intermediate state between selenium phosphorylation and SeP release. This hypothesis is consistent
+with the finding that the SPS catalytic reaction utilizes
+a multistep mechanism.4
+Function of the N-terminal Gly-rich loop and
+possible substrate of hSPS1
+The true function of hSPS1 is still a subject of debate.
+It was demonstrated that hSPS1 cannot synthesize SeP
+using inorganic selenide as selenium source,23 and
+that knockdown of hSPS1 had no effect on selenoprotein biosynthesis in vivo.24 Comparing the sequences
+
+and available structures, the only difference between
+two groups of SPS is the important Sec/Cys residue in
+the N-terminal Gly-rich loop. It has been suggested
+that the important Sec/Cys in the N-terminal Gly-rich
+loop would not function directly in catalysis.12,25
+Instead, this residue has been hypothesized for
+selenium delivery in the form of protein perselenide
+(E-S-Se- or E-Se-Se- ).26 Sequence and structural
+similarities between the two types of SPS suggest
+that hSPS1 also possesses SeP synthesis activity
+toward appropriate substrate.
+Other indirect evidence supports the ideas
+described above. First, overproduced hSPS1 could
+weakly complement E. coli sps lesion strain and
+transfection of the gene into mammalian cells resulted
+in an increased 75Se-labeling of mammalian selenium-
+
+--- Page 8 ---
+754
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+Fig. 6. Structure-based sequence alignment. Strictly conserved residues are highlighted with a red background, and
+the less conserved residues are shown in red letters. The N-terminal Gly-rich loop and the preceding β1 loop are labeled
+below the sequence. Conserved residues that bind the pg-phosphate in the structure are labeled with a filled star (★), and
+four completely conserved Asp residues at the active site are labeled with a filled upright triangle (▴).
+
+dependent deiodinase.10 Second, hSPS1 interacts with
+SecS both in vivo and in vitro, and hSPS1 is part of the
+supramolecular complexes that mediate the incorporation of selenocysteine.20 Third, the gene expression pattern27 reveals that hSPS1 is highly expressed
+
+in the thyroid where selenoprotein iodothyronine
+deiodinases are synthesized.28
+SeP formation requires selenium to be delivered to
+the active site. For SPS2, the Sec residue in the Nterminal Gly-rich loop might work as an effective
+
+--- Page 9 ---
+755
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+selenide delivery site. In A. aeolicus SPS structures,
+both “open” and “closed” forms of the N-terminal
+Gly-rich loop have been observed. Sec residues in this
+mobile loop are able to point both outward for
+accepting selenide and inward to deliver selenide in
+perselenide form (Sec-Se-Se-) for the SeP generation.16
+However, it is unlikely that selenide is the substrate of
+SPS in vivo, considering the Km value of selenide,
+7.3 μM for E. coli SPS,4 is on the edge of the toxic range
+for many organisms.29 A NifS-like protein has been
+shown to deliver selenide lysed from selenocysteine
+to SPS in vivo.12,16 Although a NifS-SPS complex was
+not observed directly,30 the docking model of A.
+aeolicus SPS and E. coli Nifs-like protein CsdB (PDB ID
+1KMK)31 exhibit high levels of complementarity.16 In
+this docking model, A. aeolicus SPS's Sec/Cys13 with
+the N-terminal loop in the open conformation can
+reach the selenosulfide group formed on Cys364 in
+the CsdB cleft.
+In the absence of the important Sec/Cys residue in
+the N-terminal Gly-rich loop, hSPS1 may use other
+substrates in vivo. Human selenocysteine lyase (SCLY)
+is the human homologue of the Nifs-like protein.32
+The structure of SCLY was solved by Collins et al.
+from the Structural Genomic Consortium (PDB ID
+3GZC unpublished), which has an RMSD of 3.3 Å
+when compared with the E. coli CsdB structure. The
+Cys388 residue of SCLY corresponding to Cys364 in
+CsdB is located in a very flexible loop region (residue
+386–393 with an average B-factor of 56.43 Å2; overall
+B-factor 26.70 Å2), and we expect a protein perselenide intermediate may be carried by this flexible loop,
+as was observed in the E. coli CsdB protein.31 The Nterminal Gly-rich loop in our structure participates in
+the formation of the SeP-conducting tunnel. Although
+no obvious conformational change was were
+observed in our structures, we suggest that the Gly
+residues would make this loop flexible, as was
+observed in A. aeolicus SPS.16 The flexibility of the
+perselenide-carrying loop in SCLYand the N-terminal
+Gly-rich loop in SPS,16 permit the large conformational changes needed for direct transfer of perselenide on SCLY Cys388 to the SPS active site.
+Alternatively, the second conserved Cys residue in
+the N-terminal Gly-rich loop (Cys31 in hSPS17) might
+act as an intermediate residue. However, identification of the true substrate of hSPS1 requires further
+study. The initial attempts to detect other potential
+selenium delivery proteins gave some clues but no
+direct evidence.26,33,34
+The SeP formation step
+According to Itoh et al.,16 there are three possible
+mechanisms for the SPS catalytic reaction. Our
+assumption that the N-terminal Gly-rich loop is
+involved in selenide delivery is not compatible with
+a mechanism in which the important Sec/Cys residue
+is the phosphorylation site. First of all, another
+selenide-binding site required by this mechanism is
+not observed in our structures, and it has been
+demonstrated that the Sec residue is not directly
+catalytic.25
+
+A phosphorylated enzyme intermediate has been
+proposed to be involved in the mechanism of SeP
+synthesis, but such intermediates were never directly
+detected or trapped.5,6 Alternatively, a direct nucleophilic attacking mechanism cannot be excluded by
+comparison of the other PurM superfamily protein
+structures.18,35 Further studies are required to elucidate the detailed mechanism for the SeP generation
+step.
+The ADP hydrolysis step and monovalent
+cation-binding site
+In the absence of selenide, SPS is able to catalyze
+ATP hydrolysis to produce AMP and phosphate,4
+which is the side-reaction using water instead of
+selenide (HSe-) to attack ATP.
+ATP þ water ðinstead of selenideÞ þ water
+YPiðgÞ þ AMP þ PiðbÞ
+Reaction 2
+Comparing reactions 1 and 2, the hydrolyzed pgphosphate in our structures should mimic the SeP
+molecule synthesized in reaction 1. Considering the
+chemical similarity between phosphate and SeP, we
+expect the synthesized SeP molecule is also retained in
+place by the enzyme in a manner similar to that of the
+pg-phosphate observed in our structures and this
+captured SeP is not released until ADP hydrolysis.
+SeP, the active form of selenium, is toxic, labile and
+highly reactive.21,22 Thus, it is unlikely that SeP will
+diffuse freely to SeP utilizing enzymes such as
+selenocysteine synthase (SecS) in vivo. Our enzymatic
+assays have confirmed that phosphate is able to
+accelerate ADP hydrolysis, which might support this
+hypothesis.
+In our experiments, the T85A mutation eliminated
+the ADPase activity almost completely, which confirms the importance of the monovalent cation for
+catalysis. It seems that the monovalent cation K+
+functions to restrict the β-phosphate group at the
+right position for nucleophilic attack by an activated
+water molecule. Despite only small differences in size,
+it is proposed that substitution of K+ by Na+ does not
+promote ADP hydrolysis. Since the enzyme could
+only start the next round of the reaction after SeP is
+released, ADP hydrolysis should be the rate-limiting
+step for the overall reaction. Our calculated ADP
+hydrolysis rate for hSPS2Cys (38 nmol min–1 mg–1 of
+protein) is comparable with previously reported E.
+coli SPS activity (83 nmol min–1 mg–1 of protein).4 It
+should be emphasized that the residues around the
+monovalent cation-binding site and the residues
+holding the nucleophilic water to attack ADP are
+well conserved both sequentially and structurally
+(Figs. 6 and 7b and c).
+In conclusion, a lock-and-key model is proposed for
+the ADP hydrolysis step in the SPS catalytic reaction:
+newly synthesized SeP is “locked” in a delicate “cage”
+structure formed by the SPS dimer with the ADP
+molecule and bound ions serving as a “lock”. A water
+
+--- Page 10 ---
+756
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+Fig. 7. Several important conserved residues in the hSPS1-AMPCP structure and in the A. aeolicus SPS structure (PDB
+ID 2YYE). (a) Residues near pg-phosphate. (b) Residues near the monovalent cation-binding site. K+ in the hSPS1-AMPCP
+structure is shown as magenta balls. (c) Residues that hold the nucleophilic water molecule. The nucleophilic water is
+shown as a red ball and the magnesium ion is shown in cyan. Peptide chains are shown in ribbon representation. Ligand
+molecules and conserved residues are shown as sticks. Carbon atoms in the hSPS1-AMPCP structure are colored green
+and those in PDB 2YYE are colored yellow. The corresponding residues of A. aeolicus SPS are within the bracket.
+
+molecule held by two magnesium ions and the
+conserved Asp and Thr residues acts as the “key”
+for opening this lock. The potassium ion bound to the
+residue Thr85 might put the lock in a ready-to-open
+state. The synthesized SeP molecule will not be
+released until ADP hydrolysis (Fig. 8).
+Possible protein–protein interaction network
+A docking model of A. aeolicus SPS and E. coli CsdB
+(PDB ID: 1KMK) was made and analyzed earlier.16
+The protein molecular surfaces surrounding the
+
+active site exhibit a high degree of complementarity,
+and a possible inter-enzyme product/substrate handover was predicted from the Nifs-like protein to
+SPS.16 In the selenoprotein synthesis machinery, SecS
+accepts the SeP synthesized by SPS to catalyze the
+formation of selenocysteinyl-tRNA Sec . 36, 37 The
+hSPS1/SecS complex was observed both in vitro and
+in vivo.20 It is interesting to note that SecS and the Nifslike protein both belong to the fold type I, PLPdependent enzyme superfamily. Considering the
+toxicity and lability of SeP,21,22 we suggest that direct
+inter-enzyme product/substrate handover of SeP
+from hSPS1 to SecS might exist. The direct handover
+of selenium-containing molecules including selenide
+and SeP in the Nifs-like protein-SPS-SecS network
+might allow the cell to conquer the toxicity of
+selenium.22,38 However, this hypothesis needs to be
+tested.
+Why does SPS transform ATP to AMP?
+In contrast to all other PurM family members that
+hydrolyze ATP to ADP,14 SPS consumes both highenergy phosphoester bonds of ATP to produce AMP
+and orthophosphate.4 The present work indicates that
+SPS might consume the second high-energy phosphoester bond to protect the labile selenophosphate
+product during catalytic reaction. According to this
+scheme, the overall reaction catalyzed by SPS can be
+divided into two parts:
+ATP þ Selenide in perselenide form
+Mg2þ
+
+Y ADP þ SeP bound to enzyme
+Fig. 8. A schematic representation of the “lock-andkey” model of the ADP hydrolysis step. The potassium ion
+put the ADP molecule in a ready-to-open state for water
+attack. After ADP hydrolysis, SPS1 dimer breaks and SeP
+is released. The sodium ion cannot replace potassium to
+promote ADP hydrolysis as efficient as potassium.
+
+ADP þ water þ SeP bound to enzyme
+Mg2þ ;Kþ
+
+Y AMP þ Pi þ released SeP
+At all stages of the catalysis, the selenium compounds remain bound to the proteins and are
+
+--- Page 11 ---
+757
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+
+transferred directly between enzymes. In this way, the
+cell could overcome the toxicity of selenide and
+selenophosphate.
+
+Materials and Methods
+Protein preparation
+The E. coli strain Rosetta (DE3) was transformed with the
+hsps1gene cloned in a pET28a vector. The over-expression of
+the hSPS1 protein was induced by 0.5 mM isopropyl-dthiogalactopyranoside at 18 °C for 20 h. The harvested cells
+were suspended in lysis buffer (20 mM Tris–HCl pH 7.5,
+500 mM NaCl). After sonication and centrifugation to
+remove debris, the supernatant was loaded onto a Nichelating column. The bound protein was eluted with a
+50 mM – 500 mM gradient of imidazole. The peak fractions
+were concentrated and diluted several times with lysis
+buffer to minimize the concentration of imidazole. Digestion
+with thrombin was done at 16 °C overnight, and the
+digested protein was loaded onto a Ni-chelating column
+again to remove the tag and uncleaved fusion protein. The
+flow-through fraction was further purified by gel-filtration
+chromatography with a column equilibrated with elution
+buffer (20 mM Hepes–NaOH pH 7.5, 200 mM NaCl, 1.0 mM
+dithiothreitol). The purified protein was concentrated to
+10.0 mg/ml using a Millipore centrifugal filter device. The
+SPS1 and SPS2 mutant proteins were purified by the same
+protocol.
+Crystallization, data collection, structure
+determination and refinement
+Initial crystal screening was performed with the hanging-drop, vapor-diffusion method using an Index crystal
+screening kit (Hampton Research, USA). After optimization, crystals used for data collection were obtained by
+mixing 1 μl of protein containing 4.0 mM ATP with 1 μl of
+reservoir solution (100 mM Hepes–NaOH pH 7.0, 50 mM
+MgCl2, 30% (w/v) PEGMME550), and equilibrated against
+500 μl of reservoir solution at 20 °C. Crystals suitable for
+diffraction appeared within two days. The hSPS1-AMPCP
+crystals were obtained by replacement of Na+ with K+ in
+the protein buffer using gel-filtration, and modification of
+the reservoir conditions to100 mM Hepes-KOH pH 7.0,
+50 mM MgCl2, 30% PEGMME550, and 5 mM K2HPO4/
+KH2PO4 pH 7.0. Both data sets were collected on in-house
+rotating anode X-ray generators. The diffraction data of
+hSPS1-ADP were collected on a Bruker MicroSTAR-H
+system equipped with a Smart 6000 CCD detector and
+processed with the PROTEUM software available online.
+The diffraction data of hSPS1-AMPCP were collected on a
+MAR345 image plate detector mounted on a Rigaku
+MicroMax-007 microfocus generator and processed with
+the program HKL2000.39
+The structure of hSPS1-ADP was solved by molecular
+replacement, using one monomer from A. aeolicus SPS
+structure (PDB ID 2YYE) as the search model. Molecular
+replacement and initial model-building were done with the
+PHENIX program suite.40 The final model completion and
+refinement was done with the program Coot,41 and
+refinements were done with the phenix.refine program. In
+the later stages of refinement, monomer chains were refined
+as individual TLS groups.42 The hSPS1-AMPCP structure
+was determined using the previously refined hSPS1-ADP
+model.
+
+Selenide-free ADPase assay
+The reaction mixture (100 μl) contained 50 mM HepesNaOH pH 7.0, 10 mM MgCl2, 20 mM KCl or NaCl, 0–4 mM
+K2HPO4/KH2PO4 pH 7.0, 2.0 mM ADP, and 20 μg of
+purified protein. Incubation was done at 37 °C. Reactions
+were stopped by freezing the reaction mixture in liquid
+nitrogen followed by storage at –80 °C. An HPLC method
+utilizing reverse-phase chromatography to separate different nucleotides was developed and evaluated for the in vitro
+assay of SPS.34 We have modified this method by using an
+anion-exchange column (Mono Q, Pharmacia/GE Healthcare, USA) for nucleotide separation. ADP and AMP were
+eluted using a linear gradient of NaCl from 0 to 500 mM. UV
+absorption at 254 nm was monitored and each the area of
+each peak was integrated and compared with standard
+curves to quantify the amount of nucleotides.
+Protein Data Bank accession numbers
+The atomic coordinates and structure factors have been
+deposited in the Protein Data Bank‡ with these accession
+numbers: hSPS1-ADP, 3FD6; hSPS1-AMPCP, 3FD5.
+
+Acknowledgements
+We thank Professor Yu-Hui Dong and Dr ZengQiang Gao at the Institute of High Energy Physics,
+Chinese Academy of Sciences for help with data
+collection. This work was supported by grants from
+Chinese Ministry of Science and Technology (MOST)
+National High Technology and Development Program of China (863 program, no. 2006AA02A317)
+and 973 program (no. 2006CB806504). X.-D.S. is a
+recipient of the National Science Fund for Distinguished Young Scholars (30325012).
+
+References
+1. Leinfelder, W., Forchhammer, K., Veprek, B., Zehelein,
+E. & Böck, A. (1990). In vitro synthesis of selenocysteinyl-tRNA (UCA) from seryl-tRNA (UCA): involvement and characterization of the selD gene product.
+Proc. Natl Acad. Sci. USA, 87, 543–547.
+2. Veres, Z., Tsai, L., Scholz, T. D., Politino, M., Balaban,
+R. S. & Stadtman, T. C. (1992). Synthesis of 5methylaminomethyl-2-selenouridine in tRNAs: 31P
+NMR studies show the labile selenium donor synthesized by the selD gene product contains selenium
+bonded to phosphorus. Proc. Natl Acad. Sci. USA, 89,
+2975–2979.
+3. Kim, I. Y. & Stadtman, T. C. (1994). Effects of
+monovalent cations and divalent metal ions on
+Escherichia coli selenophosphate synthetase. Proc.
+Natl Acad. Sci. USA, 91, 7326–7329.
+4. Veres, Z., Kim, I. Y., Scholz, T. D. & Stadtman, T. C.
+(1994). Selenophosphate synthetase. Enzyme properties
+and catalytic reaction. J. Biol. Chem. 269, 10597–10603.
+‡ www.pdb.org
+
+--- Page 12 ---
+758
+5. Mullins, L. S., Hong, S. B., Gibson, G. E., Walker, H.,
+Stadtman, T. C. & Raushel, F. M. (1997). Identification
+of a phosphorylated enzyme intermediate in the
+catalytic mechanism for selenophosphate synthetase.
+J. Am. Chem. Soc. 119, 6684–6685.
+6. Walker, H., Ferretti, J. A. & Stadtman, T. C. (1998).
+Isotope exchange studies on the Escherichia coli
+selenophosphate synthetase mechanism. Proc. Natl
+Acad. Sci. USA, 95, 2180–2185.
+7. Kim, I. Y., Veres, Z. & Stadtman, T. C. (1992).
+Escherichia coli mutant SELD enzymes. The cysteine
+17 residue is essential for selenophosphate formation
+from ATP and selenide. J. Biol. Chem. 267, 19650–19654.
+8. Guimarães, M. J., Peterson, D., Vicari, A., Cocks, B. G.,
+Copeland, N. G., Gilbert, D. J. et al. (1996). Identification of a novel selD homolog from Eukaryotes,
+Bacteria, and Archaea: is there an autoregulatory
+mechanism in selenocysteine metabolism? Proc. Natl
+Acad. Sci. USA, 93, 15086–15091.
+9. Wilting, R., Schorling, S., Persson, B. C. & Böck, A.
+(1997). Selenoprotein synthesis in archaea: identification of an mRNA element of Methanococcus jannaschii
+probably directing selenocysteine insertion. J. Mol.
+Biol. 266, 637–641.
+10. Low, S. C., Harney, J. W. & Berry, M. J. (1995). Cloning
+and functional characterization of human selenophosphate synthetase, an essential component of selenoprotein synthesis. J. Biol. Chem. 270, 21659–21664.
+11. Persson, B. C., Böck, A., Jäckle, H. & Vorbrüggen, G.
+(1997). SelD homolog from Drosophila lacking selenide-dependent monoselenophosphate synthetase
+activity. J. Mol. Biol. 274, 174–180.
+12. Tamura, T., Yamamoto, S., Takahata, M., Sakaguchi,
+H., Tanaka, H., Stadtman, T. C. & Inagaki, K. (2004).
+Selenophosphate synthetase genes from lung adenocarcinoma cells: Sps1 for recycling l-selenocysteine
+and Sps2 for selenite assimilation. Proc. Natl Acad. Sci.
+USA, 101, 16162–16167.
+13. Li, C., Kappock, T. J., Stubbe, J. A., Weaver, T. M. &
+Ealick, S. E. (1999). X-ray crystal structure of aminoimidazole ribonucleotide synthetase (PurM), from the
+Escherichia coli purine biosynthetic pathway at 2.5 Å
+resolution. Structure, 7, 1155–1166.
+14. Anand, R., Hoskins, A. A., Stubbe, J. & Ealick, S. E.
+(2004). Domain organization of Salmonella typhimurium formylglycinamide ribonucleotide amidotransferase revealed by X-ray crystallography. Biochemistry,
+43, 10328–10342.
+15. Milner, Y. & Wood, H. G. (1976). Steady state and
+exchange kinetics of pyruvate, phosphate dikinase
+from Propionibacterium shermanii. J. Biol. Chem. 251,
+7920–7928.
+16. Itoh, Y., Sekine, S. I., Matsumoto, E., Akasaka, R.,
+Takemoto, C., Shirouzu, M. & Yokoyama, S. (2008).
+Structure of selenophosphate synthetase essential for
+selenium incorporation into proteins and RNAs. J. Mol.
+Biol. 385, 1456–1469.
+17. Zwart, P., Grosse-Kunstleve, R. & Adams, P. (2005).
+Xtriage and Fest: automatic assessment of X-ray data and
+substructure structure factor estimation. CCP4 Newsletter, Winter.
+18. Morar, M., Anand, R., Hoskins, A. A., Stubbe, J. &
+Ealick, S. E. (2006). Complexed structures of formylglycinamide ribonucleotide amidotransferase from
+Thermotoga maritima describe a novel ATP binding
+protein superfamily. Biochemistry, 45, 14880–14895.
+19. Raushel, F. M., Thoden, J. B. & Holden, H. M. (2003).
+Enzymes with molecular tunnels. Acc. Chem. Res. 36,
+539–548.
+
+Selenophosphate Synthetase 1 Catalytic Intermediates
+20. Small-Howard, A., Morozova, N., Stoytcheva, Z.,
+Forry, E. P., Mansell, J. B., Harney, J. W. et al. (2006).
+Supramolecular complexes mediate selenocysteine
+incorporation in vivo. Mol. Cell. Biol. 26, 2337–2346.
+21. Kamiński, R., Glass, R. S., Schroeder, T. B., Michalski,
+J. & Skowrońska, A. (1997). Monoselenophosphate: its
+hydrolysis and its ability to phosphorylate alcohols
+and amines. Bioorg. Chem. 25, 247–259.
+22. Mizutani, T. (1999). Selenophosphate as a substrate for
+mammalian selenocysteine synthase, its stability and
+toxicity. BioFactors, 9, 27–36.
+23. Xu, X., Carlson, B., Mix, H., Zhang, Y., Saira, K., Glass,
+R. et al. (2007). Biosynthesis of Selenocysteine on Its
+tRNA in Eukaryotes. PLoS Biol. 5, 0096–0105.
+24. Xu, X. M., Carlson, B. A., Irons, R., Mix, H., Zhong, N.,
+Gladyshev, V. N. & Hatfield, D. L. (2007). Selenophosphate synthetase 2 is essential for selenoprotein
+biosynthesis. Biochem. J. 404, 115–120.
+25. Lacourciere, G. M. & Stadtman, T. C. (1999). Catalytic
+properties of selenophosphate synthetases: comparison of the selenocysteine-containing enzyme from
+Haemophilus influenzae with the corresponding
+cysteine-containing enzyme from Escherichia coli.
+Proc. Natl Acad. Sci. USA, 96, 44–48.
+26. Ogasawara, Y., Lacourciere, G. & Stadtman, T. C. (2001).
+Formation of a selenium-substituted rhodanese by
+reaction with selenite and glutathione: possible role of
+a protein perselenide in a selenium delivery system.
+Proc. Natl Acad. Sci. USA, 98, 9494–9498.
+27. Su, A., Wiltshire, T., Batalov, S., Lapp, H., Ching, K.,
+Block, D. et al. (2004). A gene atlas of the mouse and
+human protein-encoding transcriptomes. Proc. Natl
+Acad. Sci. USA, 101, 6062–6067.
+28. Larsen, P. R. (1997). Update on the human iodothyronine selenodeiodinases, the enzymes regulating the
+activation and inactivation of thyroid hormone.
+Biochem. Soc. Trans. 25, 588–592.
+29. Lacourciere, G. M. (1999). Biosynthesis of selenophosphate. BioFactors, 10, 237–244.
+30. Lacourciere, G. M., Mihara, H., Kurihara, T., Esaki, N.
+& Stadtman, T. C. (2000). Escherichia coli NifS-like
+proteins provide selenium in the pathway for the
+biosynthesis of selenophosphate. J. Biol. Chem. 275,
+23769–23773.
+31. Lima, C. (2002). Analysis of the E. coli NifS CsdB protein
+at 2.0 Å reveals the structural basis for perselenide and
+persulfide intermediate formation. J. Mol. Biol. 315,
+1199–1208.
+32. Daher, R. & Van Lente, F. (1992). Characterization of
+selenocysteine lyase in human tissues and its relationship to tissue selenium concentrations. J. Trace Elem.
+Electrolytes Health Dis. 6, 189–194.
+33. Lacourciere, G. M., Levine, R. L. & Stadtman, T. C.
+(2002). Direct detection of potential selenium delivery
+proteins by using an Escherichia coli strain unable to
+incorporate selenium from selenite into proteins. Proc.
+Natl Acad. Sci. USA, 99, 9150–9153.
+34. Ogasawara, Y., Lacourciere, G. M., Ishii, K. & Stadtman,
+T. C. (2005). Characterization of potential seleniumbinding proteins in the selenophosphate synthetase
+system. Proc. Natl Acad. Sci. USA, 102, 1012–1016.
+35. McCulloch, K. M., Kinsland, C., Begley, T. P. & Ealick,
+S. E. (2008). Structural studies of thiamin monophosphate kinase in complex with substrates and products. Biochemistry, 47, 3810–3821.
+36. Leinfelder, W., Zehelein, E., MandrandBerthelot, M. &
+Böck, A. (1988). Gene for a novel tRNA species that
+accepts L-serine and cotranslationally inserts selenocysteine. Nature, 331, 723–725.
+
+--- Page 13 ---
+Selenophosphate Synthetase 1 Catalytic Intermediates
+37. Yuan, J., Palioura, S., Salazar, J., Su, D., O'Donoghue,
+P., Hohn, M. et al. (2006). RNA-dependent conversion of phosphoserine forms selenocysteine in
+eukaryotes and archaea. Proc. Natl Acad. Sci. USA,
+103, 18923–18927.
+38. Olson, O. (1986). Selenium toxicity in animals with
+emphasis on man. Int. J. Toxicol. 5, 45–70.
+39. Otwinowski, Z. & Minor, W. (1997). Processing of X-ray
+diffraction data collected in oscillation mode. Methods
+Enzymol. 276, 307–326.
+40. Adams, P. D., Grosse-Kunstleve, R. W., Hung, L. W.,
+Ioerger, T. R., McCoy, A. J., Moriarty, N. W. et al.
+(2002). PHENIX: building new software for auto-
+
+759
+mated crystallographic structure determination. Acta
+Crystallogr. D, 58, 1948–1954.
+41. Emsley, P. & Cowtan, K. (2004). Coot: model-building
+tools for molecular graphics. Acta Crystallogr. D, 60,
+2126–2132.
+42. Winn, M. D., Isupov, M. N. & Murshudiv, G. N.
+(2001). Use of TLS parameters to model anisotropic
+displacements in macromolecular refinement. Acta
+Crystallogr. D, 57, 122–133.
+43. Wallace, A. C., Laskowski, R. A. & Thornton, J. M.
+(1995). LIGPLOT: a program to generate schematic
+diagrams of protein-ligand interactions. Protein Eng.
+Des. Sel. 8, 127–134.

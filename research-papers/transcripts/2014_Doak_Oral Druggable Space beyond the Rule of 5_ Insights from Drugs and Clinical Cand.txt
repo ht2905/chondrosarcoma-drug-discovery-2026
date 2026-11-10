@@ -1,0 +1,2357 @@
+--- Page 1 ---
+Chemistry & Biology
+
+Review
+Oral Druggable Space beyond the Rule of 5:
+Insights from Drugs and Clinical Candidates
+Bradley Croy Doak,1 Bjӧrn Over,2 Fabrizio Giordanetto,3 and Jan Kihlberg1,*
+1Department of Chemistry, BMC, Uppsala University, Box 576, 751 23 Uppsala, Sweden
+2CVMD iMed, AstraZeneca R&D Mölndal, 431 83 Mölndal, Sweden
+3Medicinal Chemistry, Taros Chemicals GmbH & Co. KG, Emil-Figge-Strasse 76a, 44227 Dortmund, Germany
+*Correspondence: jan.kihlberg@kemi.uu.se
+http://dx.doi.org/10.1016/j.chembiol.2014.08.013
+
+The rule of 5 (Ro5) is a set of in silico guidelines applied to drug discovery to prioritize compounds with an
+increased likelihood of high oral absorption. It has been influential in reducing attrition due to poor pharmacokinetics over the last 15 years. However, strict reliance on the Ro5 may have resulted in lost opportunities,
+particularly for difficult targets. To identify opportunities for oral drug discovery beyond the Ro5 (bRo5),
+we have comprehensively analyzed drugs and clinical candidates with molecular weight (MW) > 500 Da.
+We conclude that oral drugs are found far bRo5 and properties such as intramolecular hydrogen bonding,
+macrocyclization, dosage, and formulations can be used to improve bRo5 bioavailability. Natural products
+and structure-based design, often from peptidic leads, are key sources for oral bRo5 drugs. These insights
+should help guide the design of oral drugs in bRo5 space, which is of particular interest for difficult targets.
+In spite of huge advances in science and technology, research
+and development (R&D) costs per new molecular entity have
+increased dramatically in preceding decades (Bunnage, 2011;
+Kinch et al., 2014; Paul et al., 2010). This decline in efficiency
+has been attributed to a number of underlying problems that
+have affected the pharmaceutical industry during this time
+frame, as recently reviewed (Scannell et al., 2012). Hence, an
+increasing number of therapeutic indications are now managed
+with established drugs, driving R&D toward complex, hard-totreat diseases. In addition, regulatory agencies are less tolerant
+to risk, in particular for diseases in which safe drugs already
+exist. This translates into more costly and lengthier clinical trials
+for broad indications due to the larger patient populations
+required, which has induced several companies to focus on
+narrow indications or diseases currently without therapeutics.
+Overestimation of the ability of new technologies to impact
+drug discovery and the trend for ever-increasing resources
+were also identified as contributing to declining R&D efficiency.
+As a potential consequence of some of these problems, the quality of target selection has been poor, contributing to low success
+rates in phase II due to lack of efficacy (Bunnage, 2011). While
+success rates related to target selection remain to be improved,
+compound attrition due to poor bioavailability and pharmacokinetics (PK) has undergone significant improvements. In 1991,
+attrition due to poor bioavailability and PK was responsible for
+39% of compounds being halted in clinical studies (Kola and
+Landis, 2004). This led to an altered perception of the importance
+of investigating PK in early drug discovery and formulation of the
+rule of 5 (Ro5), also known as Lipinski’s rules, for in silico assessment of PK (Lipinski et al., 1997). By 2000, attrition due to PK
+had already been reduced to 8%, whereas attrition due to
+toxicity had increased to 19% and the lack of efficacy remained
+relatively constant at 24% (30% in 1991) (Kola and Landis, 2004).
+An analysis of attrition in the last decade revealed similar rates
+and reasons for attrition as in 2000 (Hay et al., 2014). Despite
+this reduction of attrition originating from poor PK, a number of
+
+commentaries questioning the strict implementation of the Ro5
+have emerged, arguing that this may have resulted in lost opportunities (Abad-Zapatero, 2007; Walters, 2012; Zhang and Wilkinson, 2007). In order to examine opportunities for discovery of oral
+and cell-permeable drugs beyond the Ro5 (bRo5), we have performed an extensive analysis of all known drugs and clinical candidates in this chemical space. Our analysis is focused on how
+oral bioavailability bRo5 is related to the physicochemical properties and in vitro cell permeability of compounds in this space.
+We have chosen not to include discussions of potency, or related
+metrics such as ligand efficiency (LE) (Hann and Keserü, 2012),
+to maintain focus on bRo5 PK within the context of this review,
+although it is worth mentioning that all compounds discussed
+here displayed sufficient potency to be taken into the clinic or
+to be marketed as drugs.
+Oral Drug Delivery
+Oral delivery has many advantages in comparison to other
+noninvasive delivery methods, such as buccal, nasal, and transdermal, when systemic exposure of a drug is desired. These
+include increased reliability of exposure, ability to deliver large
+variations in dosage, and potentially greater stability in storage
+of solid forms compared with liquids and suspensions (Smith,
+2010). Intracellular targets also require cell permeability, which
+is expected for orally absorbed drugs. Oral drug delivery is
+also the patient preferred method of drug delivery; for instance,
+it is preferred by 54%–89% of oncology patients (Verbrugghe
+et al., 2013). In particular, for chronic diseases, quality of life
+for patients is increased dramatically compared with intravenous
+(i.v.) therapy due to the ability to noninvasively self-administer at
+home (O’Neill and Twelves, 2002). It should be pointed out that in
+oncology, where i.v. administration predominates, 70%–74% of
+patients would not compromise on efficacy for oral dosage (Liu
+et al., 1997). While this may be an extreme scenario due to the
+terminal nature of the illness, it can be expected that there is a
+tradeoff between convenience of delivery and efficacy in other
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1115
+
+--- Page 2 ---
+Chemistry & Biology
+
+Review
+therapeutic areas. Systemic oral dosage, however, remains the
+preferred delivery method for the vast majority of drug therapies,
+and oral bioavailability represents a major hurdle in drug development (Thomas et al., 2006).
+Absorption after Oral Dosage
+Systemic oral dosage requires compound properties that allow
+for dissolution and stability in the gastrointestinal (GI) tract,
+including the acidic environment of the stomach (pH 1–2 in
+fasted state, 3–7 in fed state) and the close to neutral environment (pH 4.4–6.6) of the small intestine (Kerns and Di, 2008;
+Smith, 2010; Smith et al., 2006). The majority of compounds
+are absorbed in the first section of the small intestine, called duodenum, by specialized epithelial cells, enterocytes. Absorption
+can be separated into three categories, paracellular (between
+enterocytes), transcellular (passive diffusion through enterocytes), and active transport (utilizing transporter proteins) (Artursson et al., 2012; Smith, 2010). Paracellular absorption is
+limited to small hydrophilic compounds having molecular weight
+(MW) < 350 Da and a low lipophilicity (LogD(7.4) < 0), which can
+pass through the restrictions of tight junctions between enterocytes. Active uptake is also known to occur for only a small proportion of drugs (DeGorter et al., 2012; Giacomini et al., 2010;
+Sugano et al., 2010; Varma et al., 2010), requiring recognition
+by native transporter proteins. Hence, active uptake is usually
+limited to analogs of peptides, amino acid, lipids, and sugars.
+Transcellular transport is the most common route for drug
+absorption and requires passive diffusion through the apical membrane, facing the GI tract, into the enterocyte, followed by diffusion
+across the cell and through the basolateral membrane into the
+blood. Enterocytes have a number of efflux transporters such as
+P-glycoprotein (Pgp) (Lin and Yamazaki, 2003) that actively transport compounds from the blood into the enterocyte or enterocyte
+into the GI tract (DeGorter et al., 2012; Giacomini et al., 2010).
+Throughout this absorptive process, enzymes in the GI tract, enterocyte, blood, and lymph may metabolize drugs to less active
+and less permeable species. Once in the blood, drugs travel via
+the portal vein to the liver and undergo hepatic metabolism before
+reaching the systemic circulatory system (Smith et al., 2006). The
+overall metabolism during absorption and the first liver passage is
+referred to as ‘‘first-pass metabolism’’; hence, oral bioavailability
+(F%) constitutes the fraction of the oral dose that reaches the systemic circulation after absorption and first-pass metabolism as
+compared with i.v. administration.
+Passive diffusion through a cell membrane is a key element of
+transcellular absorption. Compounds must be able to partition
+into the membrane after desolvation from the polar aqueous
+GI tract and then diffuse across the nonpolar membrane and resolvate upon exit at the other side. This process is difficult to
+study in vivo but can be assessed using in vitro model systems.
+The most widely used model is human colorectal carcinoma
+(Caco-2) cells grown in a layer that allows measurement of
+permeability (Papp) in the apical to basolateral (AB) direction (Artursson et al., 2012). Caco-2 cells also express a number of
+endogenous transporters, and measuring Papp in the basolateral
+to apical (BA) direction allows for calculation of the efflux ratio
+(ER = PappBA/PappAB), representing the involvement of efflux
+transporters (Zhang et al., 2003). Madin-Darby canine kidney
+cell systems (Irvine et al., 1999) and the parallel artificial mem-
+
+brane permeability assay (Kansy et al., 1998) are also used for
+assessing passive permeability. The three methods provide
+somewhat different permeabilities (Nozinic et al., 2010) and
+have different advantages and disadvantages (Avdeef, 2012; Balimane et al., 2006).
+Influence of Physicochemical Properties on Oral
+Absorption
+The processes of desolvation, diffusion, and resolvation required
+for passive permeability across a cell membrane are function of a
+few fundamental properties of a compound: size, polarity, lipophilicity, and conformational dynamics (Guimarães et al., 2012;
+Smith, 2010). In order for a compound to be orally bioavailable,
+these properties need to be balanced; for example, highly polar
+compounds fail to desolvate and enter the membrane, whereas
+highly lipophilic compounds may not dissolve in the GI tract or
+fail to partition out of the membrane (Wils et al., 1994; Yang
+et al., 2012). Absorption is thus a complex process, and in 1997,
+Lipinski et al. reported a simple rule of thumb that allowed
+in silico prediction of whether a compound falls into chemical
+space where solubility and permeability are likely to allow oral
+absorption. According to the Ro5, z90% of oral compounds
+pass three of four of the following rules: MW % 500 Da,
+calculated LogP (cLogP) % 5 and R 0, hydrogen bond acceptors
+(HBAs) % 10, and hydrogen bond donors (HBD) % 5 (Lipinski
+et al., 1997, 2001). Subsequently, additional in silico properties
+such as polar surface area (PSA % 140 Å2), the number of rotatable bonds (NRotBs % 10–20), and more complex 3D properties
+have been added, thereby expanding the correlations with
+absorption, distribution, metabolism, excretion, and toxicity
+(ADMET) parameters (Egan et al., 2000; Ghose et al., 2012; Gleeson, 2008; Guimarães et al., 2012; Johnson et al., 2009; Lajiness
+et al., 2004; Meanwell, 2011; Veber et al., 2002; Wager et al., 2010;
+Waring, 2009; Yang et al., 2012). The Ro5 and later additions are
+used ubiquitously in early stages of drug discovery to identify oral
+‘‘drug-like’’ compounds in the pharmaceutical industry (Lipinski,
+2004), to an extent where the Ro5 has come to be known as
+‘‘commandments’’ (Abad-Zapatero, 2007). However, overinterpretation and misuse of the guidelines, for example, requiring all
+guidelines to be met at hard cutoffs (Lipinski, 2012) and the fact
+that a number of orally bioavailable drugs exist far beyond these
+boundaries, have led to commentaries questioning the application of the guidelines and their value to the industry (Abad-Zapatero, 2007; Bennani, 2011; Lipinski, 2012; Medina-Franco et al.,
+2014; Terrett, 2013; Walters, 2012; Zhang and Wilkinson, 2007).
+Recently, there has been a focus on decreasing the emphasis of
+hard-cutoff, rule-based classification of compounds, and continuous scales such as the quantitative estimate of drug-likeness
+(QED) (Bickerton et al., 2012) have been introduced.
+Opportunities with bRo5 Compounds
+Analyses of average ligand properties (such as MW and cLogP)
+by target class reveal that highly explored classes such as ligand
+gated ion channels (MW 359 Da, cLogP 3.0) and aminergic
+G-protein-coupled receptors (GPCRs) (MW 378 Da, cLogP 3.8)
+have ligands with lower MWs and/or more appropriate lipophilicity compared with classes such as peptidic GPCRs (MW 514 Da,
+cLogP 4.3), nuclear hormone receptors (MW 398 Da, cLogP 5.1),
+and serine proteases (MW 467 Da, cLogP 2.7) (Morphy, 2006;
+
+1116 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 3 ---
+Chemistry & Biology
+
+Review
+Paolini et al., 2006; Vieth and Sutherland, 2006). Therefore,
+finding high-affinity orally available ligands for these difficult
+target classes and for protein-protein interactions (Surade and
+Blundell, 2012) may be enhanced if ligands with physicochemical properties at the borders or beyond Ro5 were explored to
+a larger extent. Recent approximations suggest that there
+are z1033 compounds <500 Da (heavy atom count [HAC] <
+36) compared with z1078 compounds with a MW < 1,000 Da
+(HAC < 72) (Polishchuk et al., 2013). Hence, there is potential
+for higher degrees of novelty, diversity, and complexity in bRo5
+compounds. Although it is also true that we have yet to comprehensively sample Ro5 space (Ruddigkeit et al., 2012; Virshup
+et al., 2013), there is room for further expansion if bRo5 compounds are considered. Strategies for lead generation such as
+natural-product-derived approaches (Li and Vederas, 2009;
+Newman, 2008), diversity-oriented synthesis (DOS) (Kesavan
+and Marcaurelle, 2013; O’Connor et al., 2012; Schreiber,
+2000), and macrocycles (Driggers et al., 2008; Giordanetto and
+Kihlberg, 2014; Mallinson and Collins, 2012; Marsault and Peterson, 2011; Yu and Sun, 2013) all constitute steps toward capitalizing on opportunities in bRo5 space.
+So far, bRo5 chemical space remains relatively unexplored,
+most likely due to the perceived non-oral properties, increased
+complexity of compounds in this space, and the synthetic chemistry challenges associated with its navigation. We therefore set
+out to analyze approved drugs and clinical candidates that belong
+to bRo5 space, with emphasis on finding the current limits of oral
+bioavailability and identification of what allows compounds close
+to the limits to be orally deliverable. In this context, it should also
+be pointed out that compounds that are delivered orally should
+also be expected to be cell permeable and thus useful for manipulation of intracellular targets. No agreed definition of bRo5 space
+exists, but in order to capture the majority of compounds, we used
+MW > 500 Da as the criteria to mine databases for bRo5 compounds and also imposed an upper limit (MW < 3,000 Da) to
+remove large biologics such as insulin, heparin, and large polypeptides from the data set. Many of the oral drugs and clinical
+candidates in the resulting data set clustered into what can be
+considered an extension of Ro5 space. We therefore conducted
+a deeper analysis of a significant subset of compounds that reside
+in chemical space close to the limits of oral bioavailability; for the
+purpose of this review, ‘‘bRo5’’ refers to this subset, although
+other publications may refer to bRo5 as compounds breaking
+one or more of Lipinski’s guidelines.
+Mapping bRo5 Space
+The data set of marketed drugs was compiled using the GVK-BIO
+online structure-activity database as described in our recent review of macrocyclic drugs and clinical candidates (Giordanetto
+and Kihlberg, 2014; GOSTAR, 2013). Compounds in phases I, II,
+and III clinical trials and in the preregistration phase were retrieved
+from the Pharmaprojects database (Pharmaprojects, 2013) and
+Thomson Reuters Integrity (Thomsonreuters, 2013). In cases of
+missing structure, these were supplemented from Chemistry Connect (Muresan et al., 2011) or the primary literature. Compounds for
+which structures could not be found were excluded from the data
+set. Filtering out veterinary products, contrast agents, mixtures
+(with the major component of mixtures chosen if it accounted for
+>75% of the mixture), biologics (MW > 3,000 Da), and counterions
+
+for salts gave a list of compounds for further annotation. Each compound was then categorized with regards to the route of administration, as oral or parenteral. Agents acting locally in the GI tract
+that had low systemic bioavailability, e.g., antibiotics for GI tract infections, were classed as parenterals. In addition, each compound
+was classified by indication (chosen based on the disease areas
+with the most advanced clinical trials and the highest activity if a
+compound was progressed for several indications) and into one
+of four chemical classes (peptides and peptidomimetics, natural
+products and derivatives, de novo designed, or prodrugs). Classification into each chemical class was based on the origin and
+largest motif of the compounds. Where available, the year of
+approval, average dose for an adult (mg/day), permeability in the
+Caco-2 cell line in the AB direction (PappAB, 3 106 cm/s) and
+bioavailability (F%) in humans or preclinical species were
+extracted from the literature. To the largest extent possible, chemical structures and all other data were retrieved from the primary
+literature or from multiple quality databases (ClinicalTrials.gov,
+Micromedex 2.0, Food and Drug Administration [FDA], DailyMed).
+These efforts resulted in a data set of 485 annotated compounds.
+The percentage of drugs approved that had MW > 500 Da was
+calculated by comparison to data from the literature (Mullard,
+2013). Statistics were calculated in Graphpad Prism v.5.00.
+Prediction of physicochemical properties and relevant 3D
+conformations is not straightforward, especially in bRo5 space
+where higher molecular size and flexibility increase complexity
+and requires more accurate methods. However, by comparing
+multiple, widely used, and well-established methods, as described in the following, we sought to minimize any potential
+bias linked to the arbitrary choice of a single tool. Physicochemical properties were predicted using Instant J Chem 6.2.1
+(ChemAxon, 2014), as it is freely available for academics and
+provides access to an array of standard computed properties
+for analysis. However, the predictions are not entirely accurate
+and in some cases are far from the experimentally determined
+values. For example, posaconazole has cLogP of 5.4, while the
+experimentally determined LogP is 2.4 (Saha and Kou, 2000),
+illustrating the need to interpret the predictions with caution.
+Different LogP predictors (such as MlogP, AlogP, XlogP) (Mannhold et al., 2009) were evaluated but did not significantly alter the
+overall conclusions and outcome of the present analysis. In order
+to allow comparisons and to facilitate use in prospective design,
+we have chosen to use cLogP rather than experimental LogP in
+the following discussions of compounds bRo5. QED was calculated according to the literature (Bickerton et al., 2012). 3D structures were generated in Omega 2.5.1.4 (OpenEye, 2014), Instant
+J Chem 6.2.1 (ChemAxon, 2014), and Corina (Sadowski et al.,
+1994). Normalized principal molecular moments of inertia (PMI)
+were calculated according to the literature (Sauer and Schwarz,
+2003); however, the average normalized PMI of up to 100 structures found within 2 kcal/mol of the identified minima was used in
+our analysis. No distinct differences in the overall distributions of
+normalized PMI were found using the different software for
+conformation generation. Herein, PSA refers to the topological
+PSA (Ertl et al., 2000). As compounds increase in size and
+complexity, greater differences in 3D and topological PSA occur
+(Guimarães et al., 2012); however, the widespread use of topological PSA and difficulty in accurately predicting 3D conformations of larger bRo5 compounds led us to use topological PSA.
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1117
+
+--- Page 4 ---
+Chemistry & Biology
+
+Review
+A
+
+C
+
+B
+
+D
+
+Figure 1. Distribution of Approved Drugs and Clinical Candidates Having MW > 500 Da
+(A) Across therapeutic indications and by route of administration.
+(B) Across chemical classes and by route of administration.
+(C) Year of approval for oral drugs >500 Da from different chemical classes.
+(D) Fraction of drugs approved by the FDA having MW >500 Da.
+
+As the experimental data analyzed here were extracted from
+multiple literature sources, our analysis will be affected by discrepancies caused by differing protocols and experimental inconsistencies, and conclusions must therefore be judged with
+appropriate caution. In order to mitigate some of these concerns,
+average values or comparisons from the same source were used
+where possible. Caco-2 permeability (PappAB) is known to vary
+between sources (Artursson et al., 2012), and our classification
+of poor/low and good/high was defined as <1 3 106 and
+>10 3 106 cm/s, respectively. These cutoff values define the region where oral bioavailability shifts from consistently low to
+consistently high values (Balimane et al., 2006; Li et al., 2007;
+Veber et al., 2002).
+General Overview of All Drugs and Clinical Candidates
+with MW > 500
+Database mining gave a set of 182 approved drugs and 303
+compounds currently being evaluated in clinical trials that had
+a MW > 500 Da. Oncology, infection, and cardiovascular indications accounted for the majority of these compounds (n = 157,
+32%; n = 136, 28%, and n = 62, 13%, respectively; Figure 1A).
+Each of the remaining indications does not exceed 4% of the
+data set. Forty percent of the approved drugs (n = 73) and
+
+50% of clinical candidates (n = 153) are administered orally,
+but the split between orals and parenterals varies significantly
+between the therapeutic indications (Figure 1A). Among the
+three major indications, oncology relies mainly on parenteral
+administration of drugs and clinical candidates (62%), whereas
+infection and cardiovascular see a larger proportion of orally
+administered compounds (60% and 63%, respectively). Interestingly, clinical candidates in oncology are increasingly being
+evaluated for oral administration (44% versus 16% for approved
+oncology drugs). Only three CNS-approved drugs were found in
+the current data set, all of which are administered parenterally,
+but it is interesting to note that six of eight compounds in clinical
+trials are orals.
+The drugs and clinical candidates analyzed here can be classified into three main chemical classes: peptides and peptidomimetics, natural products and derivatives, and de novo designed
+compounds. There is also a minor class of prodrugs (Figure 1B).
+De novo designed compounds constitute the majority of the
+compounds in the data set (n = 210, 43%), followed by equal
+numbers of natural products (n = 124, 26%) and peptides and
+mimetics (n = 125, 26%). The majority of de novo designed compounds are orally administered (64%), whereas, in line with expectations, peptides and natural products are mainly parenteral
+
+1118 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 5 ---
+Chemistry & Biology
+
+Review
+A
+
+B
+
+C
+
+D
+
+E
+
+Figure 2. Physicochemical Property Space of Drugs and Clinical Candidates Having a MW > 500 Da
+Approved oral drugs are in dark blue. Oral clinical candidates are in light blue. Oral clinical candidates for CNS are in yellow, and parenteral drugs and clinical
+candidates in red. Extended Lipinski’s Ro5 space (solid box, 62% of oral compounds) and limits of oral bRo5 space (dashed box, 93% of compounds) are
+indicated. The graph limits have been set so as to include all orals in the data set, resulting in an upper MW cut off at 1,600 Da and a number of parenterals fall
+outside of the limits.
+(A) cLogP as a function of MW.
+(B) Number of HBDs as a function of MW.
+(C) PSA as a function of MW.
+(D) NRotBs as a function of MW.
+(E) Physicochemical property distribution of chemical classes with mean (95% CI of mean) of MW, cLogP, HBD, number of hydrogen bond donors (HBD) and
+acceptors (HBA), PSA, NRotB, and Fsp3 carbons.
+
+(80% and 59%, respectively; Figure 1B). These trends are
+consistent across drugs and clinical candidates and highlight
+that oral compounds can be designed in chemical space close
+to the borders or bRo5 with adequate chemical manipulation.
+As is discussed further below, at least part of the difference between the chemical classes may be explained by oral de novo
+designed compounds being closer to Ro5 chemical space
+than oral peptides and natural products (cf. Figure 2E). It should
+also be mentioned that de novo designed compounds dominate
+among oral drugs and clinical candidates in the cardiovascular
+and oncology indications (72% and 73% of orals in their therapeutic indication, respectively). Among peptides and mimetics,
+all peptidomimetics are oral, providing further evidence of the
+
+ability of medicinal chemists to design orally administered compounds with high MW. In contrast, all peptides are administered
+parenterally with the exception of a few cyclic peptides, consisting of cyclosporin A and derivatives thereof.
+Analysis of the year of approval for oral drugs with MW >
+500 Da reveals that approvals increased in the early 1990s,
+peaked between 1996 and 1998, and then stabilized at a somewhat lower level in the 2000s (Figure 1C). An increasing number
+of oral de novo designed drugs have been approved in the past 2
+decades, whereas natural products featured more prominently
+prior to 1995. Moreover, when considering the fraction of FDA
+drug approvals that originate from MW > 500 Da compounds,
+the past 2 decades have seen a constant or slow increase in
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1119
+
+--- Page 6 ---
+Chemistry & Biology
+
+Review
+introduction of orals, while the total share with MW > 500 Da has
+increased steadily (Figure 1D).
+Extent of Oral Druggable Space for Drugs and Clinical
+Candidates with MW > 500 Da
+Whereas Lipinski’s rules delineates chemical space with compounds ‘‘more likely to be orally absorbed,’’ we were interested
+in defining a more lenient ‘‘possible to be orally absorbed’’
+space. An understanding of the approximate limits of this chemical space should help to guide the design of cell permeable and
+orally available ligands for less tractable targets, where working
+within the Ro5 is less likely to be successful. As a first step toward establishing this insight, the present data set of drugs
+and clinical candidates with MW > 500 Da were analyzed with
+respect to calculated physicochemical parameters (Figure 2).
+Of the 226 orally administered drugs and clinical candidates in
+this study, a large proportion (62%, n = 141) cluster into what
+can be considered as an extension of Ro5 space and a natural
+tail of the distribution of compounds based on Ro5 properties
+(Figure 2, solid boxes mark extended Ro5 space; MW % 700,
+0 % cLogP % 7.5, HBD % 5, PSA % 200 Å2, NRotB % 20). No
+clear and agreed definition of bRo5 chemical space exists, but
+for the purpose of this review, ‘‘bRo5 space’’ refers to chemical
+space outside the extended Ro5 space that clearly deviates from
+the Ro5 model. When applying the QED score (Bickerton et al.,
+2012), compounds within the extended Ro5 space had a mean
+QED score of 0.31 (95% confidence interval [CI] of mean 0.29–
+0.32, SD 0.11) while compounds bRo5 displayed a significantly
+lower mean of 0.16 (95% CI of mean 0.14–0.17, SD 0.07). The
+QED scores of these two data sets are significantly lower than
+the mean QED of 0.49 (SD 0.23) for compounds classified as
+‘‘unattractive compounds’’ by medicinal chemist (Bickerton
+et al., 2012), which further confirms both data sets. The majority
+of orals in the data set (93%, n = 211/226; Figure 2, dashed
+boxes) possess physicochemical properties defined by MW %
+1000 Da, 2 % cLogP % 10, HBD % 6, HBA % 15, PSA %
+250 Å2, and NRotB % 20. Even though these cutoffs are somewhat arbitrary, we propose that this defines the current outer
+limits of physicochemical space where orally absorbed compounds may have a reasonable chance of being designed. Limits
+for size (MW) and lipophilicity (cLogP) as compared with Ro5
+have increased by a factor of two (MW: 1,000 Da versus 500
+and cLogP: 10 versus 5), while the number of HBDs has only
+increased by factor of 1.2 (HBD: 6 versus 5). The cutoff for
+PSA has increased by a factor of 1.8, from a value of 140 to
+250 Å2 (Palm et al., 1997); this could be expected based on the
+correlation of PSA to size. The increase in PSA is mainly due to
+an increased number of HBAs, and not HBDs. Because of the
+correlation of PSA with size, scaling PSA by calculating PSA/
+MW revealed no difference between compounds <700 Da
+(95% have PSA/MW 0.10–0.35) and those >700 Da (92% have
+PSA/MW 0.15–0.30). CNS penetration typically requires more
+stringent properties, for example, PSA % 90 Å2, MW % 450
+Da, HBD % 3 (Ghose et al., 2012; Wager et al., 2010). Only six
+oral CNS compounds are found within the full data set; it is therefore not surprising that all of them are in clinical trials. Four of
+these compounds are close to Ro5 space being relatively small
+and nonpolar. The remaining two compounds despite being
+larger in size (735–771 Da) remain nonpolar (PSA 54–95 Å2,
+
+0 HBD) and lipophilic (cLogP 5.4–8.1). These results clearly indicate that there are substantial opportunities for design of nonCNS targeted orally available drugs both in extended and in
+bRo5 chemical space, as long as the number of HBDs is kept
+under control. CNS-targeted compounds, however, will be
+much more difficult to design in extended and bRo5 space.
+Nevertheless, it is noteworthy to point out that none of the
+calculated molecular descriptors are able to clearly delineate
+oral and parenteral property space. For example, a large number
+of parenterals are found within the extended Ro5 space (Figures
+2A–2D). However, when the data set is analyzed based on
+mean property values (95% CIs of mean), significant differences
+between orals and parenterals are found. Oral compounds are
+smaller, more lipophilic, have fewer polar atoms, and are less
+flexible (Figure 2E). These trends are generally maintained within
+classes; however, the ranges differ depending on class. Oral de
+novo designed compounds are significantly smaller and have
+lower HBD, HBA, and PSA than oral peptides and natural
+products. Furthermore, de novo designed compounds and natural products have a similar NRotB, which could be interpreted
+as a similar molecular flexibility in spite of the significant difference in MW. However, the flexibility of natural products is probably higher than the NRotB suggests, as macrocyclic bonds,
+frequently found in natural products, are not counted as rotatable in this context. Additionally, lipophilicity, as measured by
+cLogP, is the property that varies the least across oral chemical
+classes, thus confirming its relevance to oral absorption, as previously noted by several others (Egan et al., 2000; Gleeson, 2008;
+Veber et al., 2002). Fraction of sp3 carbons (Fsp3) increases
+progressively from de novo designed to peptides to natural
+products, and oral natural products have a higher Fsp3 than
+parenteral natural products. Prodrugs, however, show less significant differences between oral and parenteral. Physicochemical-driven design can therefore be used for optimization of
+compounds in extended Ro5 and bRo5 space, preferably within
+the limits indicated by the dashed boxes in Figures 2A–2D.
+As previously discussed, calculated physicochemical descriptors are useful but have limitations in their ability to predict
+oral bioavailability. However, passive permeability across a cell
+membrane is inversely proportional to the compounds hydrodynamic radius; i.e., it depends on the size and shape of the
+compound (Guimarães et al., 2012). The distribution of molecular shape, approximated by the normalized PMI (Sauer and
+Schwarz, 2003), was therefore investigated for the compounds
+in the current data set. The drugs and clinical candidates were
+found to predominantly populate rod- and disk-like shapes,
+notably due to de novo designed compounds. Peptides and
+natural products in the data set displayed a higher proportion
+of sphere-like shapes. However, no significant distinction in
+shape could be found between oral and parenteral compounds.
+Apart from the physicochemical and shape characteristics, the
+administered dose could affect oral absorption of compounds that
+are substrates for efflux transporters as these become saturated
+at moderate to high doses (Padovan et al., 2012). Information
+about both human oral bioavailability and therapeutic doses in humans was found for 61 of the drugs and clinical candidates in the
+data set, but were not correlated (rs 0.04). Interestingly, close to
+half of the studied oral compounds (42%, n = 74/175 compounds
+with oral dosage data) require only low doses (<50 mg/day) to be
+
+1120 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 7 ---
+Chemistry & Biology
+
+Review
+orally efficacious. Furthermore, anti-infectives displayed the highest doses, some of which were R1 g/day, most likely due to the
+concentrations required to obtain satisfactory efficacy and the
+greater therapeutic window often found for anti-infectives. From
+the compiled Caco-2 data, 57% (n = 37) of oral compounds with
+MW > 500 Da had poor permeability (PappAB < 1 3 106 cm/s),
+and only 9% of compounds had good permeability (PappAB >
+10 3 106 cm/s). Oral bioavailability was found for 76 compounds
+>500 Da and was low (F% % 30) for 54%, similar to results from
+poor permeability; however, the two were not correlated
+(rs 0.14). Thus, oral bioavailability was not found to be correlated
+to dose, nor to cell permeability, for the current data set.
+Analysis of Oral Compounds in bRo5 Chemical Space
+As discussed above, almost two thirds of the 226 orally administered drugs and clinical candidates in our data set cluster in what
+we considered as an extended Ro5 space (Figure 2, compounds
+within solid boxes). The remaining 85 oral compounds are found
+in what we refer to as bRo5 chemical space; i.e., they have at least
+one calculated physicochemical property within the following
+ranges: MW > 700 Da, cLogP < 0 or > 7.5, HBD > 5, HBA > 10,
+PSA > 200 Å2, or NRotB > 20. This set of bRo5 compounds
+resides in chemical space close to the limits of oral bioavailability,
+and a comprehensive analysis of their properties was undertaken
+in order to provide knowledge that can be of use for design of
+orally available and cell-permeable compounds bRo5. Additional
+information on absorption, transporter-mediated efflux, and uptake, as well as use of formulations to enhance oral uptake for
+these compounds, was therefore compiled and analyzed.
+Cardiovascular, infection, and oncology are still the major indications within this set of 85 oral bRo5 compounds, but the proportion of anti-infectives (58%, n = 49) has increased significantly
+as compared with the orals in the data set as a whole (36%, n =
+81). When considering chemical class, a lower proportion of de
+novo designed compounds (19%, n = 16) and higher proportions
+of natural products (40%, n = 34) were observed in oral bRo5
+space. This originates from oral de novo designed compounds
+being on average closer to Ro5 space than natural product and
+peptide classes (Figure 1). Macrocycles are more prominent
+among oral bRo5 (38%, n = 32) than in the full oral data set
+(15%, n = 34) and full >500 Da set (25%, n = 126), in line with previous observations (Giordanetto and Kihlberg, 2014). Additionally, native or modified sugars are also present in 21% (n = 18)
+of oral bRo5 compared with 8% (n = 19) of all oral compounds
+and 11% (n = 52) of all >500 Da compounds. A closer examination
+of the bRo5 data set revealed that the majority of compounds
+could be classified as belonging to a few specific chemical classes or by being directed to certain targets (cf. Figure 9). Hence,
+our subsequent analysis of the oral bRo5 will review compounds
+by class. The analysis will focus on the trends observed within
+and between classes, with higher emphasis being put on phase
+III and approved drugs. This differentiation is due to more data,
+in particular human bioavailability and established dose in the
+public domain for phase III and approved drugs and expected
+attrition of compounds in early development.
+Erythronolides
+The erythronolides are broad-spectrum antibacterial agents
+that inhibit bacterial polypeptide synthesis via binding to the
+
+50S bacterial ribosome. They are 14- to 15-membered macrocyclic macrolide natural products and have MW > 700 Da and
+HBA > 10, often in combination with a PSA > 200 Å2 (Figure 3).
+Erythromycin, telithromycin, azithromycin, clarithromycin, and
+roxithromycin constitute the most studied drugs in this class.
+Development of analogs has focused on increased acid stability
+by modifications at C6, C9, C11, and C12 and decreased metabolism by modifications of C8 and C2, which ultimately lead to
+improved pharmacokinetic properties, particularly less variable
+bioavailability (Omura et al., 2002; Zhanel et al., 2001). Removal
+of the C3 L-cladinose as in telithromycin and solithromycin
+improves stability and activity against bacterial efflux-mediated
+resistance (Zhanel et al., 2001).
+Erythronolides generally have poor to moderate oral bioavailabilities (10%–57%), except for roxithromycin, which is 78%
+orally bioavailable (Giordanetto and Kihlberg, 2014; Nozinic
+et al., 2010). The Caco-2 cell permeability in the AB direction
+(PappAB) is low or at best moderate, but as erythronolides
+are substrates of the efflux protein Pgp (Muni
+c et al., 2010;
+Nozinic et al., 2010), they have a higher permeability in the
+BA direction (PappBA 6.4–16 3 106 cm/s). In line with these observations, erythronolides display a concentration dependency
+in their PappAB, which is proposed to occur via saturation of
+efflux transporters such as Pgp at clinically relevant concentrations (Pachot et al., 2003; Padovan et al., 2012). This concentration dependency is particularly relevant as erythronolides are
+given at high doses, and saturation of intestinal efflux may therefore account for oral bioavailability higher than predicted from
+PappAB values. In addition, erythronolides have been linked to
+hepatic organic anion transporting polypeptide (OATP) 1A2,
+1A4, 1B1, 1B2, 1B3 and organic anion transporter (OAT) 5
+(Franke et al., 2008; Garver et al., 2008; Lam et al., 2006; Lan
+et al., 2009; Seithel et al., 2007). Finally, erythronolides have
+high volumes of distribution and an uneven tissue distribution.
+They accumulate in lung fluid, possibly due to Pgp efflux (Rodvold et al., 2011; Togami et al., 2012), and are also enriched in
+phagocytic cells, presumed due to accumulation in lysosomes
+(Ahmad et al., 2010; Bosnar et al., 2005; Wildfeuer et al., 1996),
+both of which lead to higher concentrations at their sites of
+action.
+Leucomycins
+The leucomycin macrolides are 16-membered macrocycles
+that are analogs to the erythronolides that have a high MW,
+PSA, and HBA (Figure 3). Just as the erythronolides, their antibacterial activity involves inhibiting the 50S bacterial ribosome.
+Less information is available regarding the PK of leucomycins
+than for the erythronolide antibiotics. However, in spite of the
+high MW and large PSA, josamycin has an excellent human
+bioavailability, whereas spiramycin is only moderate (Brook,
+1998; Giordanetto and Kihlberg, 2014). Spiramycin is also
+known to have a large volume of distribution, similar to that
+of the erythronolides, and has higher accumulation in lung fluid
+than erythromycin (Brook, 1998). A number of transporters are
+associated with leucomycin PK, including Pgp, multidrug resistance-associated protein (MRP) 2, and OATP2 (Ito et al., 2007;
+Tian et al., 2007); however, high dosage of leucomycins likely
+results in saturation of intestinal efflux and contributes to oral
+bioavailability.
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1121
+
+--- Page 8 ---
+Chemistry & Biology
+
+Review
+
+(legend on next page)
+
+1122 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 9 ---
+Chemistry & Biology
+
+Review
+Rifamycins
+Rifamycins are macrocyclic ansamycin natural product antibacterials with high MW, HBA, HBD, and PSA (Figure 3). They bind to
+bacterial DNA-dependent RNA polymerase and prevent RNA
+synthesis via occlusion of the elongating RNA strand (Selva
+and Lancini, 2010). All four rifamycins are derivatives of the natural product rifamycin B/SV, which has poor cell-based activity
+and pharmacokinetic properties (Sensi, 1983). The ansa bridge,
+i.e., the aliphatic portion of rifamycins, particularly C21 and C23
+as well as the napthoquinone C1 and C8 polar groups, was found
+to be important for antibacterial activity, whereas derivatization
+at C3 and C4 can be used to modulate PK to allow oral administration (Selva and Lancini, 2010).
+Despite their in silico properties, the three approved rifamycins
+have good oral bioavailability (50%–70%), although the literature
+reports a large variability in bioavailability (Blaschke and Skinner,
+1996; Burman et al., 2001; Ellard and Fourie, 1999; Loos et al.,
+1985; Rothstein et al., 2006; Selva and Lancini, 2010). In line
+with this, moderate to high permeabilities (PappAB) have been reported for the three drugs (Gertz et al., 2010; Gonçalves et al.,
+2012; Ranaldi et al., 1992). Intramolecular hydrogen bonds
+(IMHBs) between the substituents on C1–C8 and C21–C23
+have been reported (Agrawal et al., 2004; Bacchi et al., 1998;
+Brufani et al., 1964, 1967; Casey and Whitlock, 1975), with rifampicin and rifapentine having also been postulated to make
+C4–C11 substituent and N14–N39 hydrogen bonds (Pyta et al.,
+2012). Formation of these IMHB will reduce polarity and
+contribute to rifamycin’s surprisingly good epithelial cell permeability and oral bioavailability considering their high MW and polarity. Rifamycins have been linked to Pgp efflux with Caco-2 ERs
+of 3.3–6 (Gertz et al., 2010), but as dosage is high (300–750 mg/
+day), efflux may be saturated and therefore have low impact on
+bioavailability. Inhibition of hepatic transporters OATP1B1 and
+OATP1B3 (Williamson et al., 2013) as well as induction of higher
+expression levels of Pgp, MRP1, MRP2, and CYP3A4 also occurs. These interactions may be the source of the numerous
+drug-drug interactions (Baciewicz et al., 2013), variable bioavailability, and decreases in bioavailability during chronic dosage
+that have been reported for rifamycins (Blaschke and Skinner,
+1996; Ellard and Fourie, 1999; Loos et al., 1985). Higher concentrations of the rifamycins also occur in the lungs (Hosoe et al.,
+1996; Selva and Lancini, 2010) and macrophages (Mor et al.,
+1995), aiding their therapeutic potential for tuberculosis, a common indication for these antibacterial agents.
+HCV NS3/4A Protease Inhibitors
+The hepatitis C virus (HCV) NS3/4A protease is a chymotrypsinlike serine protease that is essential for the cleavage of the viral
+polyprotein during the HCV replication process. It has also been
+shown to mediate viral evasion of the host immune system by
+cleavage of key proteins in the innate immune system. The
+NS3/4A protease has a shallow and extended substrate-binding
+cleft that most likely explains why all ten inhibitors in clinical
+studies, as well as the recently launched simeprevir, have
+
+MW > 700 Da (Figure 4). NS3/4A inhibitors were designed starting from a weak hexapeptide lead (Lamarre et al., 2003), and
+extensive structure and property-based optimization has led
+to both linear and macrocyclic peptidomimetics. Macrocyclization has been achieved either between P1–P3 (cf. simeprevir)
+or P2–P4 (cf. vaniprevir). Interestingly, a comparative study of
+some linear and macrocyclic inhibitors revealed that macrocycles were generally more potent than linear compounds (Ali
+et al., 2013). In addition, P1–P3 macrocyclic inhibitors were
+found to be less susceptible to drug resistance compared with
+linear and P2–P4 macrocyclic inhibitors.
+A moderate (41%) oral bioavailability in humans has been reported for narlaprevir (Gao et al., 2011). Similarly, most of the
+other NS3/4A protease inhibitors in phase II and III, as well as
+the recently launched simeprevir (Rosenquist et al., 2014),
+display either low or moderate bioavailabilities in preclinical species (Arasappan et al., 2010; Duan et al., 2012; Jiang et al., 2014;
+Liverton et al., 2010; Scola et al., 2014; Sheng et al., 2012;
+Summa et al., 2012). Caco-2 cell permeabilities (PappAB) are
+also low to moderate (Duan et al., 2012; Jiang et al., 2014;
+McPhee et al., 2012; Rosenquist et al., 2014; Sheng et al.,
+2012). Significant efflux has been reported for asunaprevir
+(McPhee et al., 2012), danoprevir (Jiang et al., 2014), and vedroprevir (Sheng et al., 2012), the three inhibitors having low PappAB
+values, and this was linked to Pgp for asunaprevir. As doses of
+HCV protease inhibitors are moderate to high in order to sustain
+low viral loads, it can be speculated that efflux transporters in the
+intestinal lumen will be saturated and that absorption will not
+be affected by efflux to a large extent (Bergström et al., 2009).
+Significant accumulation in the liver, with liver/plasma ratios
+typically ranging from 30-fold to several hundred fold have
+been reported for almost all of the inhibitors in preclinical species, which is important, because the liver is the organ affected
+by the HCV virus (Duan et al., 2012; Jiang et al., 2014; Liverton
+et al., 2010; Rosenquist et al., 2014; Scola et al., 2014; Summa
+et al., 2012; Yang et al., 2014). For several of the inhibitors, i.e.,
+simeprevir, faldaprevir (Ramsden et al., 2014), danoprevir (Jiang
+et al., 2014), and MK 5172 (Summa et al., 2012), accumulation
+has been linked to uptake by OATPs such as 1B1 (Kalliokoski
+and Niemi, 2009). OATP-mediated uptake is likely to affect
+many NS3/4A inhibitors, particularly due to the carboxylic acid
+(faldaprevir) or bioisosteric cyclopropanesulfonamide in all but
+narlaprevir. Another consequence of this active uptake is that
+oral bioavailabilities are most likely low to moderate because
+of significant first-pass clearance to the liver.
+HCV NS5A Inhibitors
+NS5A is essential for the HCV replication cycle, but its precise
+function is unknown (Manns and von Hahn, 2013). As a consequence, the mode of action of NS5A inhibitors is also unclear.
+However, as first demonstrated by daclatasvir, NS5A inhibitors provide a rapid decline in viral load and development of
+resistance to them has been mapped to NS5A (Gao et al.,
+2010). Leads for development of inhibitors of NS5A have been
+
+Figure 3. Structures, Calculated Physicochemical Properties, and Data of Relevance for Oral Administration of Erythronolide, Leucomycin,
+and Rifamycin Antibiotics
+
+Dose, F, and Papp are average adult dosage in mg/day, oral bioavailability in human or preclinical species (p), and Caco-2 AB permeability in 106 cm/s where
+found.
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1123
+
+--- Page 10 ---
+Chemistry & Biology
+
+Review
+
+(legend on next page)
+
+1124 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 11 ---
+Chemistry & Biology
+
+Review
+discovered using high-throughput phenotypic screens, and optimization revealed that symmetry is important for potent antiviral
+activity. All five NS5A inhibitors in the oral bRo5 set have high
+MWs and PSA with their structures characterized by a rigid linear
+aromatic core that has derivatives of the dipeptide Val-Pro
+attached at both ends (Figure 5).
+Daclatasvir was found to have good human oral bioavailability
+(66%–79%) (Jiang et al., 2012), while the other four NS5A
+inhibitors all displayed bioavailabilities that ranged from low to
+moderate in preclinical species (Coburn et al., 2013; DeGoey
+et al., 2014; Kazmierski et al., 2014; Link et al., 2014). In line with
+the observed bioavailability, daclatasvir has intermediate Caco-2
+permeability (PappAB) and a moderate ER of 5.8 (Bilello et al.,
+2011). A recent study indicates that an IMHB is formed between
+the imidazole NH and the carbamate carbonyl group in each of
+the dipeptidic parts of daclatasvir in nonpolar environments
+(Wakenhut et al., 2014). Identical or similar IMHB could also be
+formed for the other four NS5A inhibitors and may contribute to
+increasing their membrane permeability and oral bioavailability.
+HIV-1 Protease Inhibitors and Related
+Pharmacoenhancers
+Inhibitors of HIV type-1 (HIV-1) protease represent an important
+component of successful antiretroviral therapies for HIV
+infections. These inhibitors are normally coadministered with
+pharmacoenhancers (additional compound/s to improve the
+pharmaceutical properties of the parent drug) to maximize their
+therapeutic efficacy. Because of the structural requirements
+imposed by the HIV-1 protease active site, all HIV-1 protease
+inhibitors have MW > 500 Da. The two HIV protease inhibitors
+atazanavir and TMC-310911 and two pharmacoenhancers
+ritonavir and cobicistat stand out by having MW > 700 Da
+(Figure 5).
+While no pharmacokinetic information has been disclosed
+for TMC-310911, atazanavir is reported to have a good oral
+bioavailability in the range of 60%–68% (Hsu et al., 1998; Kis
+et al., 2013; Le Tiec et al., 2005; Patel et al., 2004). Because of
+its limited and pH-dependent solubility, atazanavir absorption
+can be enhanced by coadministration with food, but absorption
+is significantly reduced by proton pump inhibitors (Kiser et al.,
+2006; Luber et al., 2007; Tomilo et al., 2006). Atazanavir’s cellular
+permeability is greatly affected by transporters and metabolizing
+enzymes, and it has been reported to interact with Pgp, MRPs,
+breast cancer resistance protein (BCRP), OATPs, CYP3A, and
+UDP glucuronosyltransferase (UGT) 1A1 in vitro (Bousquet
+et al., 2008; Kis et al., 2013; Perloff et al., 2005; Zhang et al.,
+2005a). Because of its broad transporter profile and transporter
+activity saturation, atazanavir’s permeability is highly concentration dependent (Kis et al., 2013). Atazanavir has been identified
+as a compound that can form IMHBs in nonpolar solvents; this
+property may also contribute to epithelial cell permeability and
+thereby to oral absorption (Alex et al., 2011).
+Ritonavir and cobicistat are mechanism-based CYP3A inhibitors that may be administered to enhance the pharmacokinetic
+
+profile of drugs metabolized by these enzymes. While ritonavir
+also displays intrinsic HIV-1 protease inhibition, cobicistat is
+devoid of anti-HIV activity (Xu et al., 2010). The absorption profile
+of both drugs is modulated by several transporters, including
+Pgp, BCRP, and OATPs (Alsenz et al., 1998; Annaert et al.,
+2010; Lepist et al., 2012; Profit et al., 1999). Accordingly, saturation of transporters resulting in disproportional absorption has
+been observed (Parker and Houston, 2008). Based on the
+observed biological profiles at transporters and metabolizing
+enzymes, HIV protease inhibitors and associated pharmacoenhancers display a high tendency for additional drug-drug interactions, requiring careful coadministration monitoring (Chauvin
+et al., 2013; Deeks, 2014; Fukuda et al., 2013; von Hentig, 2008).
+Ascomycins and Rapamycins
+The three rapamycins (sirolimus, everolimus, and ridaforolimus)
+and the ascomycin tacrolimus are macrolides that have high
+MW, HBA, and PSA (Figure 6). They are immunosuppressants
+primarily used to reduce rejections after organ transplants.
+Tacrolimus (FK-506) binds to the immunophilin FK506 binding
+protein 12 (FKBP12), creating a new complex that binds to
+calcium, calmodulin, and calcineurin, thus inactivating the phosphatase activity of calcineurin and activation of T cells (Patel et al.,
+2012; Pirsch et al., 1997; Tada et al., 2005). The rapamycins, however, inhibit mammalian target of rapamycin (mTor) through formation of a complex with FKBP12, arresting T lymphocyte growth
+(Kirken and Wang, 2003; Sehgal, 2003). Rapamycins also have
+application in cancer therapy through inhibition of the PI3K/akt/
+mTor signaling pathway, which regulates cell proliferation, survival, and angiogenesis (Dancey, 2010; Gabardi and Baroletti,
+2010). Everolimus and ridaforolimus are derivatives of sirolimus
+at position 40, developed to improve the PK, particularly solubility
+and oral bioavailability (Kirchner et al., 2004).
+Tacrolimus has variable and low bioavailability partly due to its
+low solubility; therefore, several formulation approaches such as
+oil solutions, solid dispersions, complexation with cyclodextrins,
+and liposomes have been investigated (Patel et al., 2012), as well
+as prodrugs such as temsirolimus. Tacrolimus is also known to
+interact with Pgp, BCRP, and MRP-1 (Pawarode et al., 2007).
+Rapamycins have low bioavailability (14%–20%), and Caco-2
+studies of sirolimus and everolimus indicate moderate PappAB
+with saturation of efflux at higher concentrations (Lamoureux
+et al., 2012). Sirolimus and everolimus are substrates of Pgp
+and inhibitors of OATP1A2, OATP1B1, and OATP1B3 which
+are expressed in the intestine and liver (Picard et al., 2011).
+Rapamycins are administered at low doses; hence, efflux is unlikely to be saturated and will play a role in their absorption from
+the intestine. They are also enriched in the liver via Pgp, and there
+are speculations of additional involvement of transporters
+(Lamoureux et al., 2012).
+Cyclosporins
+Cyclosporin A is an 11-residue cyclic peptide immunosuppressant and the only approved cyclic peptide drug that is
+
+Figure 4. Structures, Calculated Physicochemical Properties, and Data of Relevance for Oral Administration of HCV NS3/4A Protease
+Inhibitors
+
+Dose, F, and Papp are average adult dosage in mg/day, oral bioavailability in human or preclinical species (p), and Caco-2 AB permeability in 106 cm/s where
+found.
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1125
+
+--- Page 12 ---
+Chemistry & Biology
+
+Review
+
+Figure 5. Structures, Calculated Physicochemical Properties, and Data of Relevance for Oral Administration of Inhibitors of HCV NS5A
+Inhibitors and HIV Protease Inhibitors and Related Pharmacoenhancers
+
+Dose, F, and Papp are average adult dosage in mg/day, oral bioavailability in human or preclinical species (p), and Caco-2 AB permeability in 106 cm/s where
+found.
+
+administered orally. Cyclosporins bind to cyclophilin, the
+complex of which then inhibits calcineurin, which inhibits
+T cell activation. Elongation of the original (4R)-4-[(E)-2butenyl]-4,N-dimethyl-L-threonine residue at position 1 of cyclosporin A by one carbon atom to give a terminal diene
+yields voclosporin, a significantly more potent immunosuppressive agent (Aspeslet et al., 2001; Giordanetto and Kihlberg,
+
+2014) (Figure 6). In contrast to cyclosporin A and voclosporin,
+SCY 635 and alisporivir are not immunosuppressive, but are
+potential treatments for hepatitis C due to their inhibitory effect
+on cyclophilin (Flisiak et al., 2012; Hopkins et al., 2010; Watashi, 2010). All four cyclosporins have a very high MW, HBA,
+and PSA and have only minor variations at amino acids 1, 3,
+and 4.
+
+1126 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 13 ---
+Chemistry & Biology
+
+Review
+
+Figure 6. Structures, Calculated Physicochemical Properties, and Data of Relevance for Oral Administration of Ascomycins, Rapamycins,
+and Cyclosporins
+
+Dose, F, and Papp are average adult dosage in mg/day, oral bioavailability in human or preclinical species (p), and Caco-2 AB permeability in 106 cm/s where
+found.
+
+Cyclosporin A is a well-known substrate of Pgp; however, it
+also interacts with a number of additional efflux transporters
+such as MRP-1 and BCRP and consequently has a highly variable oral bioavailability (Fahr, 1993; Pawarode et al., 2007;
+Ptachcinski et al., 1985). The ERs for the analogs can be substantially lower, as demonstrated for SCY 635 (ER = 16.5)
+compared with cyclosporin A (ER = 279), indicating that SCY
+635 is transported less efficiently (Hopkins et al., 2010). When
+considering its MW and polarity, cyclosporin A has an unexpectedly high permeability and bioavailability. Extensive nuclear magnetic resonance (NMR), small molecule X-ray, and
+computational studies indicate that these properties originate
+from conformational flexibility that allows formation of IMHBs
+that shield polarity during passage across nonpolar environments such as cell membranes (Alex et al., 2011; Augustijns
+et al., 1993; El Tayar et al., 1993; Khojasteh et al., 2011;
+Lown et al., 1997; Ptachcinski et al., 1985). The specific pattern
+of N-methylation of nonintramolecular hydrogen bonded amides has also been linked to reducing polarity in the intramolecular hydrogen bonded conformation. As voclosporin, SCY 635,
+and alisporivir are close analogs of cyclosporin A, it can be
+assumed that their cell permeability and oral bioavailability
+are also facilitated by the same type of IMHB (Giordanetto
+
+and Kihlberg, 2014). Various formulation strategies ranging
+from soft gelatine capsules, oral solutions (Sandimmune), a
+microemulsion (Neoral), topical emulsions, and inhaled forms
+have been employed to obtain more consistent plasma levels
+of cyclosporin A (Fatouros et al., 2007; Iacono and Bartley,
+2002).
+Azoles
+Azole antifungals inhibit lanosterol 14-a-demethylase, thereby
+inhibiting synthesis of ergosterol, an essential component of
+the fungal membrane (Maertens, 2004). The three azoles in the
+bRo5 data set all have MW > 700 Da, but isavuconazonium is
+an oral prodrug of ravuconazole with improved solubility and
+as such is not discussed further (Thompson and Wiederhold,
+2010) (Figure 7). A number of lower MW azole antifungals (MW
+< 500 Da), such as fluconazole and voriconazole, that have
+excellent bioavailability (>90%) exist on the market but have a
+reduced spectrum of activity (Li et al., 2010). Development of
+azole antifungals has centered on obtaining a broad spectrum
+of activity, reduced toxicity, and drug-drug interaction caused
+by binding to human CYP enzymes. For example, posaconazole
+has an improved spectrum of activity and reduced binding to human CYP enzymes compared with itraconazole, making it less
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1127
+
+--- Page 14 ---
+Chemistry & Biology
+
+Review
+
+Figure 7. Structures, Calculated Physicochemical Properties, and Data of Relevance for Oral Administration of Azole Antifungals, Taxanes,
+Prodrugs and Cardiac Glycosides
+
+Dose, F, and Papp are average adult dosage in mg/day, oral bioavailability in human or preclinical species (p), and Caco-2 AB permeability in 106 cm/s where
+found. The bioavailability is given for the cyclodextrin formulation of Ortataxel and Tesetaxel.
+
+prone to toxicity and drug-drug interactions (Lipp, 2010; Torres
+et al., 2005).
+The oral bioavailability of itraconazole capsules is variable with
+a mean of 55%, potentially due to poor solubility (Peeters et al.,
+2002) and dependence on dosage with food/gastric pH. Hence,
+an oral suspension with cyclodextrins was developed, which
+reduced variability and improved the mean bioavailability to
+72% (Prentice and Glasmacher, 2005). Posaconazole has a
+high permeability; however, it also suffers from poor solubility
+(Saha and Kou, 2000) and benefits from cyclodextrin formula-
+
+tion-improving oral bioavailability from 14% to 52% in monkeys
+(Courtney et al., 2003; Nomeir et al., 2000). Both itraconazole and
+posaconazole are substrates of Pgp (Keogh and Kunta, 2006; Li
+et al., 2010; Merck, 2006, NOXAFIL-posaconazole suspension
+label), but as doses of both compounds are high, it can be postulated that efflux does not have a major impact on oral absorption.
+Finally, itraconazole has a nonlinear dose dependency, postulated to be caused by saturation of liver metabolism, which contributes to its good oral bioavailability at the high dose given
+(Prentice and Glasmacher, 2005).
+
+1128 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 15 ---
+Chemistry & Biology
+
+Review
+Taxanes
+Paclitaxel is probably most well known for its semisynthetic
+method of production and the novel mechanism of anticancer
+activity, i.e., b tubulin binding and microtubule stabilization that
+prevents G2-M cell progression (Cragg, 1998) (Figure 7). It is
+administered intravenously, but suffers from poor solubility and
+requires long infusion times with Cremophor EL. Cremophore
+EL is an z3 kDa polyethylene glycol derivative used as a formulation aid for a number of drugs and is thought to cause toxicity
+and hypersensitivity reactions as well as nonlinear kinetics of
+paclitaxel (Gelderblom et al., 2001). Consequently, substantial
+effort has been placed on the development of analogs that are
+orally bioavailable and that also overcome drug resistance,
+mainly Pgp-mediated efflux and tubulin mutations (Ferlini et al.,
+2008). Three such taxanes with high MW (852–882 Da) and
+high PSA (203–246 Å2) are in phase II trials. Changes to the paclitaxel structure in positions C7, C10, C14, and C30 have been
+found to improve potency and/or modulate the Pgp-mediated
+efflux of taxanes (Jing et al., 2014). It is noteworthy that all three
+analogs have a somewhat increased cLogP (4.1–4.7 versus 3.5)
+as compared with paclitaxel and a reduced number of HBD
+(3 versus 4).
+The epithelial cell permeability (PappAB) of paclitaxel is low;
+however, to a large extent, this is due to Pgp-mediated efflux
+as demonstrated by an ER of 34 (Jing et al., 2014). The role
+of efflux is illustrated by the increase in oral bioavailability of
+paclitaxel from a low 6% to 47% when dosed with cyclosporin
+A, a Pgp inhibitor (Meerum Terwogt et al., 1999). Phase I/II clinical trials of paclitaxel codelivered with the Pgp inhibitor
+HM30181 are underway and may provide a viable oral delivery
+of paclitaxel. Ortataxel, in contrast, has z3-fold greater PappAB
+and a reduced ER z7 (Jing et al., 2014; Vredenburg et al., 2001),
+with a corresponding improvement in human oral bioavailability
+to 25%. TPI-287 has shown potential of blood-brain barrier
+penetration (Fitzgerald et al., 2012) and mouse oral bioavailability
+(McChesney et al., 2008); however, clinical trials currently focus
+on i.v. administration.
+Cardiac Glycosides
+Digoxin and ouabain are natural products and possibly endogenous hormones (Nicholls et al., 2009) acting as inotropic agents.
+They inhibit the membrane bound a-subunits of the Na+/K+ATPase, leading to an increased Ca2+ level in heart muscle cells,
+which ultimately results in stronger contractions of the heart
+(Schoner and Scheiner-Bobis, 2007). Digoxin is included in the
+bRo5 data set because of high MW, HBD, and PSA, whereas
+the cLogP remains acceptable despite the trisaccharide moiety.
+Oubain is smaller but highly polar (PSA = 207 Å2, HBD = 8) with a
+low cLogP (2.8) due to its polyhydroxylated nature.
+The oral bioavailability of ouabain is very low (1%) and varies
+between individuals and therefore oral treatment with ouabain
+is rare (Belz et al., 1984; Nordqvist et al., 2004). Digoxin has
+a higher and less variable bioavailability (Cohen et al., 1993;
+Ochs et al., 1981) and is still prescribed, although the identification of angiotensin-converting enzyme inhibitors, b-adrenergic
+blockers and angiotensin-receptor blockers has significantly
+reduced its clinical use. Digoxin is one of the best analyzed
+substrates of Pgp, as it is frequently used as reference compounds in transporter studies (Cavet et al., 1996; Xu et al.,
+
+2003). Digoxin is also described as a substrate of MDR1 and
+MDR2, but with contradictory information on effects on OATP
+transporters (Khojasteh et al., 2011; Taub et al., 2011). It is interesting to note that, in spite of Pgp-mediated efflux, low-dose and
+a low epithelial cell permeability the oral bioavailability of digoxin
+is still high.
+Prodrugs
+Six prodrugs are included in the oral bRo5 set, the majority due
+to a high NRotBs. Four of these conform to well-established
+ideas for improving solubility or providing extended release.
+However, the antiviral prodrugs brincidofovir (hexadecyloxypropyl-cidofovir, CMX-001) (Marty et al., 2013) and CMX-157
+(Lanier et al., 2010) (Figure 7) are lysophosphatidylcholine mimetics that are proposed to be absorbed through endogenous
+fatty acid uptake pathways to the blood or lymph (Painter and
+Hostetler, 2004).
+The oral bioavailability of brincidofovir is 88% in mice (Ciesla
+et al., 2003) compared with the parent drug, cidofovir, which
+is <5% in humans (Wachsman et al., 1996). Once absorbed
+into the bloodstream, brincidofovir and CMX-157 remain as
+the prodrug, thereby avoiding uptake in the kidneys by the organic
+anion transport protein hOAT1, which has been linked to the nephrotoxicity of cidofovir (Ciesla et al., 2003; Hostetler, 2010). Cellular
+uptake then occurs via endocytosis or with the aid of flippases in
+the membrane, followed by cleavage and phosphorylation to give
+the active, antiviral drug in cells (Hostetler, 2010). While not typical
+of the compounds in the oral bRo5 data set, these two prodrugs
+illustrate an interesting development in prodrug technology where
+rational design for incorporation into uptake pathways provides
+better oral absorption and decreased toxicity in spite of increasing
+the MW > 500 Da.
+Selected Compounds that Have No Analogs in the Oral
+bRo5 Data Set
+In addition to the classes of compounds discussed above, there
+are 26 compounds that have no close analogs in the oral bRo5
+data set. Analysis of these focuses on the eight approved drugs
+and the only compound in phase III, with illustrative points rather
+than detailed discussion of all (Figure 8). As less information is
+available for the compounds in phases I and II (phase I: 6, phase
+II: 11), these will not be covered here. The nine late-stage compounds have varying indications, and in some cases, their exact
+mechanism of action is poorly understood (e.g., Auranofin [Walz
+et al., 1983; Eisler, 2003]). Their physicochemical properties also
+differ with no common property leading to their inclusion in bRo5
+space (Figure 8). Bioavailabilities and Caco-2 permeability
+are low to moderate, i.e., similar to the other major classes of
+bRo5 drugs (ambenonium chloride [Havard and Fonseca,
+1990], amiodarone [Shukla et al., 1994], auranofin [Blocka,
+1983; Walz et al., 1983], dipyridamole [Bjornsson and Mahony,
+1983; Terhaag et al., 1986; Elsby et al., 2008; Zhang et al.,
+2005b], etoposide [Hande, 1998; Guo et al., 2002], ivermectin
+[Fox, 2006; Griffin et al., 2005], montelukast [Mougey et al.,
+2009],thiocolchicoside [Sandouk et al., 1994; Trellu et al.,
+2004], anacetrapib [Kumar et al., 2010; Tan et al., 2010]). Three
+also display highly variable bioavailability (amidoarone, dipyridamole, and etoposide). Some compounds have been linked
+to efflux transporters such as Pgp, BCRP, MRP1, and OATP
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1129
+
+--- Page 16 ---
+Chemistry & Biology
+
+Review
+
+Figure 8. Structures, Calculated Physicochemical Properties, and Data of Relevance for Oral Administration of Other Approved and Phase III
+Compounds in the Oral bRo5 Set
+
+Dose, F, and Papp are average adult dosage in mg/day, oral bioavailability in human or preclinical species (p), and Caco-2 AB permeability in 106 cm/s where
+found.
+
+(amiodarone [Segawa et al., 2013; Cermanova et al., 2010],
+etoposide [Stephens et al., 2002], and montelukast [Roy
+et al., 2009]). Of all the bRo5 compounds investigated, only montelukast has data suggesting that it is actively taken up in the intestine (Mougey et al., 2009; Mougey et al., 2011); however, conflicting data also exist (Chu et al., 2012; Kim et al., 2013). A
+number also display poor solubility and can benefit from alternate formulations or dosage with food (amiodarone [Meng
+et al., 2001], dipyridamol [Kostewicz et al., 2002], ivermectin
+[Edwards et al., 1988], montelukast [Okumu et al., 2008], anacetrapib [DiNunzio et al., 2012; Geers et al., 2011; Kumar et al.,
+2010]). From comparison to the avermectin B1a crystal structure
+(Springer et al., 1981), intramolecular hydrogen bonding has
+been suggested between O1 and O7 of ivermectin, but NMR
+does not support this (Neszmélyi et al., 1989). For thiocolchico-
+
+side, the glycoside itself is not detectable in blood; rather, the
+aglycone is found (which is Ro5 compliant) and thus may be
+the absorptive species (Sandouk et al., 1994; Trellu et al., 2004).
+The Landscape of bRo5 Space
+It has been argued that strict implementation of the Ro5
+may have resulted in lost opportunities in drug discovery
+(Abad-Zapatero, 2007; Walters, 2012; Zhang and Wilkinson,
+2007). As an extension of our previous review of macrocycles
+(Giordanetto and Kihlberg, 2014), we therefore performed an
+exhaustive review of all known drugs and clinical candidates
+having a MW > 500 Da. As discussed in greater detail in this
+section, our analysis of how oral bioavailability is related to the
+physicochemical properties and in vitro cell permeability of the
+compounds in the data set led to several key findings. First, it
+
+1130 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 17 ---
+Chemistry & Biology
+
+Review
+suggests that the limits for oral bioavailability extend to approximately MW % 1000 Da, 2 % cLogP % 10, HBD % 6, HBA %
+15, PSA % 250 Å2, and NRotB % 20 (Figure 9A). This represents
+a significant expansion of the traditional ‘‘likely to be oral’’ Ro5
+chemical space to a substantially larger ‘‘possible to be oral’’
+space. It should be pointed out that whereas most calculated
+physicochemical properties can be increased significantly as
+compared with the Ro5, this is not the case for the number of
+HBD. Consequently, HBA rather than HBD are largely responsible for the increased PSA of high-MW orally available compounds. Interestingly, there are still a few oral compounds that
+have properties outside the ‘‘possible to be oral’’ space, such
+as cyclosporin A and derivatives. Without doubt, additional compounds with properties far outside Ro5 space will therefore be
+discovered in the future and contribute to our understanding of
+the extent of oral druggable space.
+
+A
+
+B
+
+Figure 9. Overview of Chemical Space for Drugs and Clinical
+Candidates with MW > 500 Da and Trends Found for Orals bRo5
+(A) Oral and parenteral categories of drugs and clinical candidates having a
+MW > 500 Da and extent of ‘‘possible to be oral’’ chemical space.
+(B) Major classes of oral drugs and clinical candidates bRo5, common
+trends that affect oral bioavailability, and origin of leads for the different
+classes.
+
+was established that the chemical space where orally bioavailable compounds may be designed extends far bRo5. In addition,
+hits and leads for compounds currently found in this bRo5 space
+were found to predominantly originate from natural products and
+peptides, with several interesting approaches being explored
+preclinically. Opportunities to improve compound properties
+and thereby facilitate oral administration in design of compounds
+bRo5 were identified, e.g., intramolecular hydrogen bonding and
+tailor-made formulations. Finally, risks in this chemical space,
+such as efflux at the blood-brain barrier of compounds intended
+for CNS applications, are summarized.
+Extent of Chemical Space Where Oral Drugs Can Be
+Found
+Our analysis reveals that the proportion of approved drugs that
+have a MW > 500 Da has increased steadily during the last 2
+decades. This increase has mainly been driven by approval of
+increasing numbers of de novo designed compounds, whereas
+natural products previously dominated approvals in this chemical space. Even though ADMET may be a hurdle when molecular
+size and complexity increases, analysis of the current data set
+
+The Origin of Drugs and Clinical Candidates bRo5
+It is important to define the sources of hits and leads for drugs
+and clinical candidates close to the limits of oral bioavailability
+(Figure 9B). Traditionally, natural products have been a rich
+source of drugs in oral bRo5 space, with many being discovered
+over 2 decades ago. As the parent natural product often had
+nonoptimal ADME properties, modification was required to provide satisfactory oral bioavailability (cf. erythronolides, rifamycins, rapamycins, and taxanes). More recently, peptides have
+appeared as starting points for discovery of oral bRo5 compounds even though few have properties suitable for oral delivery, with cyclosporin A being a notable exception. However,
+optimization based on a combination of structure based design
+and use of peptidomimetics tactics to improve PK has led to the
+successful oral delivery of bRo5 compounds at the border of the
+peptidomimetic and de novo designed classes. HCV NS3/4A
+and HIV protease inhibitors are prominent examples of oral compounds in bRo5 space developed from peptides. For more
+peptidic compounds, formation of IMHBs and N-methylation of
+amide bonds has been demonstrated to be important for oral
+bioavailability (Rezai et al., 2006a; White et al., 2011). Highthroughput screening has also been applied to identify leads in
+bRo5 space, with HCV NS5A inhibitors originating from phenotypic screens. The azole antifungals exemplify how a continued
+development starting from the 1944 discovery that benzimidazole had antifungal activity may lead into bRo5 space.
+The recent advances in development of antivirals reveal that
+we are able to design oral compounds in bRo5 space from starting points other than natural products. Hence, the low proportion
+of de novo designed compounds bRo5 is likely a result of
+perceived ‘‘bad ADMET bRo5’’, which has led to less effort in
+this chemical space. Our understanding of ADMET has progressed substantially over the last 15 years; hence, the lack of
+de novo designed compounds bRo5 indicates a significant
+area of potential future growth. Success will partly rely on our
+ability to discover hits and leads that are substantially different
+from those originating from traditional small molecule screening
+collections. To facilitate this, several interesting approaches are
+already being explored, including use of small tethered oligopeptides (Terrett, 2010), larger cyclic peptides (Josephson et al.,
+2014; Obrecht et al., 2012), diversity-oriented synthesis (O’Connor et al., 2012; Schreiber, 2000), and a resurged interest in
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1131
+
+--- Page 18 ---
+Chemistry & Biology
+
+Review
+natural product derived approaches (Li and Vederas, 2009; Newman, 2008). Alternately, traditional small molecule screening collections may be used, provided that a significant change in the
+mindset and goals of the optimization is allowed.
+Intramolecular Hydrogen Bonding
+Formation of IMHBs is a structural feature that has been reported to contribute to improvement of cell permeability and
+oral bioavailability for several chemical classes in bRo5 space
+(Figure 9B). Incorporation of IMHB during design therefore represents an important opportunity to improve compounds properties bRo5. In the current data set, natural products such as
+cyclosporins, rifamycins, and ivermectin as well as de novo designed peptidomimetic HIV protease inhibitors and HCV NS5A
+inhibitors have been reported to form IMHB. Cyclosporins
+and rifamycins stand out due to their high calculated polarity
+(5–6 HBD, 12–15 HBA, and PSA >200 Å2) yet maintain moderate to good oral bioavailabilities of 30%–70%. For cyclosporin A, extensive investigations demonstrate formation of
+several IMHB in nonpolar solvents, effectively shielding polar
+groups, and improving cell permeability (Alex et al., 2011; El
+Tayar et al., 1993). Additionally and importantly, solubility is
+maintained as IMHB dissociate in aqueous environments
+exposing polar groups. Rifamycins have been less extensively
+investigated; however, studies indicate formation of two to
+four IMHB (Agrawal et al., 2004; Bacchi et al., 1998; Brufani
+et al., 1964, 1967; Casey and Whitlock, 1975). HIV protease
+and HCV NS5A inhibitors are less polar (3–5 HBD, 6–9 HBA,
+PSA 145–205 Å2), but formation of IMHB may also improve
+cell permeability and absorption for these drugs. It should
+also be noted that all 17 bRo5 compounds that may
+form IMHB have high MW (705–1,322 Da), but 11 maintain
+cLogP < 5, possibly indicating that larger compounds require
+more polar groups to maintain cLogP and subsequently form
+IMHB to reduce the number of exposed polar atoms when
+passing through a cell membrane.
+A number of studies describe design or investigations of
+IMHB in compounds for improved permeability, including linear
+and cyclic peptides (Beck et al., 2012; Bockus et al., 2013; Rafi
+et al., 2012; Rand et al., 2012; Rezai et al., 2006a; Rezai et al.,
+2006b; White et al., 2011), as well as drug discovery leads
+(Ashwood et al., 2001; Ettorre et al., 2011; McDonagh and
+Lightner, 2007; Over et al., 2014; Sasaki et al., 2003; Wu
+et al., 2001). This further demonstrates the opportunity of using
+IMHB to tune and improve compound properties during
+design. It also highlights the need for methods that can predict
+and identify IMHB (Goetz et al., 2014; Jansma et al., 2007; Shalaeva et al., 2013), particularly for compounds requiring CNS
+penetration or having a high HBD count. A systematic review
+of crystal structural data revealed a number of preferred
+IMHB geometries (Kuhn et al., 2010), which were dominated
+by flat 5- and 6-membered rings, that may be utilized in compound design. In addition to geometry, the use of different
+acceptors and donors should also be considered to adjust
+the strength of IMHB in order to provide compounds possessing appropriate properties (Desai et al., 2012). In such efforts,
+medicinal chemists can also draw on the understanding gained
+from intermolecular hydrogen bonding (Bissantz et al., 2010;
+Laurence et al., 2009).
+
+Macrocyclization
+Macrocyclization is another structural feature that has been
+highlighted to convey drug-like properties, including oral bioavailability, in bRo5 space (Brandt et al., 2010; Driggers et al.,
+2008; Giordanetto and Kihlberg, 2014; Mallinson and Collins,
+2012; Marsault and Peterson, 2011). This finding is further supported by the observation that macrocycles are enriched in
+oral bRo5 space (Figure 9B), with 38% (n = 32 of 85) found
+bRo5 as compared to 15% (n = 34 of 226) in the entire oral
+data set. Moreover, intramolecular hydrogen bonding in macrocycles such as cyclosporins is generally believed to improve
+absorption from the intestine. Improved diffusion coefficients
+across membranes have been demonstrated for macrocyclic
+model compounds compared to acyclic matched pairs (Bogdan
+et al., 2011; Rezai et al., 2006b). Generally, this is thought to
+be due to changes in conformation and shape; however, this
+remains to be proven experimentally. Additional advantages
+of macrocyclization have been postulated in drug discovery,
+including improved affinity for the target due to a reduction in
+the entropy of binding (Driggers et al., 2008; Mallinson and
+Collins, 2012). However, studies indicate that this relationship
+is complex and does not necessarily occur by default but requires careful design and screening of macrocycle linker types
+(Delorbe et al., 2010). Improved selectivity and reduced metabolism have also been reported for a number of specific examples (Driggers et al., 2008; Mallinson and Collins, 2012).
+Transporter-Mediated Efflux and Saturation
+The majority of the classes in bRo5 space have been linked to
+the Pgp efflux transporter, as either substrates or inhibitors.
+Interactions with additional transporters such as MRPs, BCRP,
+and OATPs also feature in several classes (Figure 9B). These
+transporters may reduce the oral bioavailability of low-dose
+drugs through efflux toward the GI tract, uptake into the liver,
+or excretion in the kidneys. As efflux transporters are saturable,
+the effect on efflux from the GI tract is commonly overcome by
+the high local concentration obtained in the intestine on administration of moderate to high doses. For instance, saturation of
+intestinal efflux has been suggested for erythronolides, HCV
+NS3/4A protease, and HIV protease inhibitors (Bergström
+et al., 2009; Padovan et al., 2012; Parker and Houston, 2008)
+and may also occur for a number of other bRo5 drugs. It is little
+surprise that 22 of 26 oral bRo5 drugs with high dosage are antiinfectives, as high dosage is often administered to prevent development of resistance. In addition, anti-infectives target proteins
+not found in humans, leading to large therapeutic windows and
+hence opportunities to administer high doses without toxicities.
+As noted above, there are few oral CNS-penetrant compounds in the data set. This is consistent with the conclusion
+that Pgp and other efflux transporters are much more important
+for CNS-targeted drugs as drug plasma concentrations rarely
+reach saturation levels at the blood-brain barrier (Desai et al.,
+2013; Hitchcock, 2012). Tumor, testis, placenta, and retina
+also express high levels of efflux transporters, and drugs targeting these organs/tissues may also have a greater dependence
+on efflux compared with drug targeting other organs/tissues.
+Efflux may also be taken advantage of to reduce CNS side effects, as seen with some classes of drugs (Chen et al., 2003;
+Hitchcock, 2012).
+
+1132 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 19 ---
+Chemistry & Biology
+
+Review
+While Pgp efflux has a limited impact on intestinal absorption,
+expanding the role of bRo5 drugs to CNS targets will require
+significant effort. Pgp has been extensively studied, and a number of in silico parameters are correlated to Pgp efflux, including
+increasing MW, HBA, HBD, PSA, and the most basic pKa (Desai
+et al., 2013; Hitchcock, 2012; Demel et al., 2008). Consequently,
+strategies that influence theses parameters can be used to
+overcome Pgp efflux at the blood-brain barrier and also in the intestine (Desai et al., 2013; Hitchcock, 2012). Another approach
+illustrated in the current data set involves administration of pharmacoenhancers, such as ritonavir and cobicistat. These act by
+inhibition of CYP3A4 metabolism and Pgp-mediated efflux and
+are administered to enhance the bioavailability of other antiHIV drugs. Coformulations of Pgp inhibitors with paclitaxel for
+improved bioavailability are also in development. However, in
+this context, it should be noted that saturation and inhibition of
+transporters and metabolism can have disadvantages, leading
+to potential drug-drug interactions complicating the therapy of
+patients on multiple medications. Our knowledge of the importance of transporters in ADMET is constantly growing (DeGorter
+et al., 2012; Giacomini et al., 2010; Sugano et al., 2010; Varma
+et al., 2010), and computational models for investigating the
+role and saturation of transporters have recently been disclosed
+(Fenu et al., unpublished data), both of which should also facilitate drug discovery bRo5.
+Active Uptake and Distribution Effects
+Active uptake from the intestine has been suggested only for
+montelukast among oral bRo5 drugs and clinical candidates
+(Mougey et al., 2009). This reveals that active uptake is not a
+common route to improved bioavailability for oral bRo5 compounds and indicates that it may be difficult to capitalize on in
+future drug discovery, a conclusion that is consistent with
+several other reviews (DeGorter et al., 2012; Giacomini et al.,
+2010; Sugano et al., 2010; Varma et al., 2010). Variable bioavailability caused by genetic and environmental variation in transporters is a noted disadvantage of reliance on active uptake.
+Interestingly, the two prodrugs Brincidofovir and CMX-157 that
+mimic the active absorption of lysophosphatidylcholine (Painter
+and Hostetler, 2004) could represent a more generally applicable
+method for introducing active uptake of drugs.
+The current bRo5 data set reveals that improved distribution
+to target organs through interaction with transporters is of
+greater importance than active drug uptake from the intestine.
+Erythronolides, leucomycins, and rifamycins accumulate in
+lung fluid, likely due to Pgp-mediated efflux for erythronolides
+and leucomycins (Brook, 1998; Rodvold et al., 2011; Togami
+et al., 2012). Erythronolides and rifamycins have also been
+noted to accumulate in phagocytic cells, thought to be due to
+accumulation of the cationic species in lysosomes (Ahmad
+et al., 2010; Bosnar et al., 2005; Mor et al., 1995; Wildfeuer
+et al., 1996). HCV NS3/4A inhibitors are enriched in the liver,
+which has been linked to uptake via OATP1B1 and a sodiumdependent uptake mechanism (Kalliokoski and Niemi, 2009).
+Transporters are found throughout the body, but given the prevalence of efflux transporters in the liver and kidneys, it is reasonable to speculate that compounds with sites of action in these
+organs may benefit from improved uptake by transporters
+such as OATP and Pgp.
+
+Formulation Improvements
+Improved formulations have been used for some of the drugs
+and clinical candidates in the oral bRo5 data set to overcome
+poor solubility resulting in low and variable bioavailability
+(Figure 9B). Thus, formulation of cyclosporin A and tacrolimus
+has been investigated extensively, resulting in major reductions
+in the variability of human plasma levels (Fatouros et al., 2007; Iacono and Bartley, 2002; Patel et al., 2012). Reformulation of the
+azole anti-infective itraconazole with cyclodextrin raised the oral
+bioavailability and reduced variability in humans; this was also
+achieved for administration of posaconazole to monkeys. For
+anacetrapib, the use of an optimized amorphous dispersion
+gave improved bioavailability (DiNunzio et al., 2012; Geers
+et al., 2011). A number of improved pharmacokinetic formulations are currently on the market for bRo5 drugs such as cyclosporin A (Neoral) and ritonavir (Norvir) employing lipid-based
+formulations (O’Driscoll and Griffin, 2008). In addition to use
+of pharmaceutical formulations, administration with or without
+food has long been recognized to effect bioavailability; often
+administration with food improves the solubility of a drug in the
+intestine, thereby enhancing bioavailability. However, food may
+also lead to competition with and/or upregulation of efflux transporters and metabolizing enzymes, which alters bioavailability.
+Similarly, the use of cyclodextrin formulations can cause undesired side effects (Stella and He, 2008). It can, however, be expected that the use of tailor-made formulations to improve low
+and/or variable bioavailability will become increasingly important
+for future development of drugs in bRo5 space.
+Risks with Compounds bRo5
+Working in bRo5 space will most likely result in increased risks,
+some of which have been mentioned above. Here we therefore
+endeavor to summarize and discuss risks often touted in the
+literature as being correlated to bRo5 properties. First, low solubility is correlated to increasing MW and cLogP, especially
+for uncharged compounds (Lipinski, 2000; Meanwell, 2011).
+While a number of compounds in the current oral bRo5 data
+set have poor solubility, intramolecular hydrogen bonding and
+formulation may compensate for this issue. In addition, natural
+products as well as drugs and clinical candidates have been
+found to have improved solubility if the proportion of saturated
+carbons (Fsp3) and the number of chiral centers is increased,
+i.e., they are made less flat (Lovering et al., 2009). Solubility
+may therefore be one reason why de novo designed compounds, which are commonly flatter than natural products and
+peptidomimetics, are predominantly found within the extended
+oral Ro5 space and less so in the oral bRo5 data set
+(cf. Figure 2E). However, with increasing complexity, synthetic
+tractability must also be considered, and systematic exploration
+of complex structures represents a challenge for medicinal
+chemistry in a drug discovery context. Poor permeability across
+intestinal epithelial cells has been correlated to increasing MW
+and polarity and to decreasing lipophilicity and reaches an optimum for cLogP between 0 and 5 (Guimarães et al., 2012; Johnson et al., 2009; Meanwell, 2011; Waring, 2009; Yang et al.,
+2012). The majority of bRo5 compounds in this analysis did
+display low to moderate permeability in the Caco-2 cell assay,
+but for the 28 drugs where human bioavailability and Caco-2
+cell permeability were available, no correlation was found
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1133
+
+--- Page 20 ---
+Chemistry & Biology
+
+Review
+between permeability and oral bioavailability. Most likely this
+finding is due to saturation of efflux transporters, as concentration-dependent Caco-2 cell permeability has been described for
+a number of these bRo5 drugs. The lack of correlation between
+permeability and oral bioavailability, in combination with the
+noted variability in the Caco-2 cell assay between laboratories
+(Artursson et al., 2012), indicates that prediction of oral bioavailability based on epithelial cell permeability data for bRo5
+compounds is currently poorly understood. Additionally, the
+multitude of membrane transporter interactions reported for
+bRo5 compounds might constitute a potential drug-drug interaction risk during the development of compounds for multidrug
+therapies. Issues related to metabolism have also been
+commonly associated with bRo5 compounds. A number of relationships between enzymes belonging to the CYP family and
+in silico compound properties have been published in the literature; the primary concern for bRo5 space is inhibition of
+CYP3A4, which is correlated to increasing MW and cLogP as
+well as decreasing Fsp3 (Gleeson, 2008; Johnson et al., 2009;
+Lovering, 2013; Meanwell, 2011). This may lead to issues with
+clearance as well as drug-drug interactions. Toxicity is also cited
+as a reason not to work in bRo5 space, predominantly because
+of increasing cLogP being correlated to toxicity and promiscuity
+(Hopkins et al., 2006; Leeson and Springthorpe, 2007; Meanwell, 2011; Price et al., 2009). Studies, however, show that as
+MW increases promiscuity decreases (Hopkins et al., 2006), in
+line with the idea that higher MW compounds are more complex
+and hence less likely to bind to multiple targets. Inhibition of the
+hERG ion channel is also correlated with increasing cLogP and
+with a larger value for the fraction of the molecular framework
+(number of atoms in the molecular framework divided by the total number of atoms in the molecule) (Yang et al., 2012). Hence,
+small lipophilic molecules are more likely to have off-target effects resulting in toxicity than larger complex ones. In summary,
+increased lipophilicity appears to be associated with greater
+risks than high MW in bRo5 chemical space. However, as molecular complexity usually increases for large compounds,
+higher lipophilicity may be more acceptable in bRo5 space
+than within Ro5 space; the finding that oral druggable space
+bRo5 may extend up to a cLogP of 10 provides some support
+for this speculation (cf. Figure 2A).
+Conclusions and Future Oulook
+Failure of clinical candidates because of lack of efficacy in phase
+II trials constitutes one of the current major problems in drug discovery and has been proposed to originate from poor target
+selection (Bunnage, 2011). In part, this might be due to the fact
+that effective drugs already exist for a number of diseases,
+necessitating expansion into new and higher risk therapeutic
+areas (Scannell et al., 2012). Lack of success in efforts to develop
+ligands for target classes, such as peptidic GPCRs, nuclear hormone receptors and proteases but also for protein-protein
+interactions may also contribute to these difficulties. We suggest
+that a too strict reliance on the Ro5 has led to reduced exploration of bRo5 space and subsequently to poor success in efforts
+to find ligands for such difficult targets. The observation that
+ligands for difficult targets have higher MW and greater lipophilicity than highly explored classes (Morphy, 2006; Paolini et al.,
+2006; Vieth and Sutherland, 2006) lends support to this hypoth-
+
+esis. As discussed herein, the existence of a significant number
+of orally bioavailable drugs and clinical candidates in this space
+further points to the opportunities bRo5. Moreover, the low-QED
+scores found for compounds bRo5 in our data set indicates that
+a change in mindset will be required for drug discovery in this
+chemical space.
+Discovery of oral drugs bRo5 remains largely uncharted territory and can be expected to be associated with increased
+risks. Problems with solubility, cell permeability, metabolism,
+and toxicity have all been correlated to increases in physicochemical properties. However, both low solubility and issues
+with toxicity have been observed to decrease with higher Fsp3,
+i.e., increasing molecular complexity, indicating that these problems may be less severe than otherwise expected. Synthetic
+chemistry and purification challenges associated with iterative
+and exhaustive modifications of complex molecules must also
+be considered, especially for natural product leads. Recent
+and future advances in synthetic methods may reduce this
+concern (Marsault and Peterson, 2011). Intestinal efflux can
+also be an issue, which can be overcome by appropriate dosage
+and formulations. However, as increased dosage will have little
+impact on CNS-targeted drugs, further strategies to overcome
+efflux are required (Hitchcock, 2012). Some drugs, however,
+benefit from efflux transporters, enabling increased distribution
+to specific organs such as the liver, kidneys, and lungs.
+The current analysis of drugs and clinical candidates contributes insight on how bRo5 space could be explored in the future.
+Hit finding strategies based on natural products, DOS, structurebased methods, macrocycles, and peptides are of high interest
+in order to provide starting points of sufficient diversity and
+complexity for oral bRo5 drug discovery. Moreover, our ability
+to design oral drugs bRo5 may not be limited to medicinal chemistry starting from bRo5 leads. Simply adjusting guidelines and
+metrics such as QED scores and LE, could allow projects originating from high-throughput screening and fragment-based
+lead discovery to progress into this space. Optimization, using
+structure-based design when possible, and based on our current
+understanding of ADMET bRo5, can then provide oral clinical
+candidates, even though this may be more challenging than
+in Ro5 space. Our analysis indicates that the number of HBD
+may increase only slightly on moving into bRo5 space, while a
+larger lipophilicity window appears to be available for optimization, and significant expansions in MW, PSA, and HBA are
+allowed. Use of intramolecular hydrogen bonding and macrocyclization to tune compound properties, or use of alternate
+formulations and moderate to high dosage to improve oral
+bioavailability are tactics that appear to be of particular value
+for drug discovery in this space.
+AUTHOR CONTRIBUTIONS
+All authors collated data and prepared the manuscript. J.K. and F.G. initially
+formulated the concept of the review.
+ACKNOWLEDGMENTS
+We thank Ann-Marie Ashton and Susanne Alenfalk for mining of the Pharmaprojects database and Thomson Reuter’s Integrity for clinical candidates having
+a MW > 500 Da. B.C.D. and B.O. were supported by postdoctoral fellowships
+funded by Uppsala University and AstraZeneca R&D Mölndal, respectively.
+
+1134 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 21 ---
+Chemistry & Biology
+
+Review
+REFERENCES
+
+peptide origin show satisfactory permeability across Caco-2 cells. Eur. J.
+Pharm. Sci. 38, 556–563.
+
+Abad-Zapatero, C. (2007). A sorcerer’s apprentice and The Rule of Five: from
+rule-of-thumb to commandment and beyond. Drug Discov. Today 12,
+995–997.
+Agrawal, S., Ashokraj, Y., Bharatam, P.V., Pillai, O., and Panchagnula, R.
+(2004). Solid-state characterization of rifampicin samples and its biopharmaceutic relevance. Eur. J. Pharm. Sci. 22, 127–144.
+Ahmad, S., Hunter, L., Qin, A., Mann, B.J., and van Hoek, M.L. (2010). Azithromycin effectiveness against intracellular infections of Francisella. BMC Microbiol. 10, 123.
+Alex, A., Millan, D.S., Perez, M., Wakenhut, F., and Whitlock, G.A. (2011). Intramolecular hydrogen bonding to improve membrane permeability and absorption in beyond rule of five chemical space. MedChemComm 2, 669–674.
+Ali, A., Aydin, C., Gildemeister, R., Romano, K.P., Cao, H., Ozen, A., Soumana,
+D., Newton, A., Petropoulos, C.J., Huang, W., and Schiffer, C.A. (2013). Evaluating the role of macrocycles in the susceptibility of hepatitis C virus NS3/4A
+protease inhibitors to drug resistance. ACS Chem. Biol. 8, 1469–1478.
+Alsenz, J., Steffen, H., and Alex, R. (1998). Active apical secretory efflux of the
+HIV protease inhibitors saquinavir and ritonavir in Caco-2 cell monolayers.
+Pharm. Res. 15, 423–428.
+Annaert, P., Ye, Z.W., Stieger, B., and Augustijns, P. (2010). Interaction of HIV
+protease inhibitors with OATP1B1, 1B3, and 2B1. Xenobiotica 40, 163–176.
+Arasappan, A., Bennett, F., Bogen, S.L., Venkatraman, S., Blackman, M.,
+Chen, K.X., Hendrata, S., Huang, Y., Huelgas, R.M., Nair, L., et al. (2010). Discovery of Narlaprevir (SCH 900518): a potent, second generation HCV NS3
+serine protease inhibitor. ACS Med Chem Lett 1, 64–69.
+Artursson, P., Palm, K., and Luthman, K. (2012). Caco-2 monolayers in experimental and theoretical predictions of drug transport. Adv. Drug Deliv. Rev. 64,
+280–289.
+Ashwood, V.A., Field, M.J., Horwell, D.C., Julien-Larose, C., Lewthwaite, R.A.,
+McCleary, S., Pritchard, M.C., Raphy, J., and Singh, L. (2001). Utilization of an
+intramolecular hydrogen bond to increase the CNS penetration of an NK(1) receptor antagonist. J. Med. Chem. 44, 2276–2285.
+Aspeslet, L., Freitag, D., Trepanier, D., Abel, M., Naicker, S., Kneteman, N.,
+Foster, R., and Yatscoff, R. (2001). ISA(TX)247: a novel calcineurin inhibitor.
+Transplant. Proc. 33, 1048–1051.
+Augustijns, P.F., Bradshaw, T.P., Gan, L.S.L., Hendren, R.W., and Thakker,
+D.R. (1993). Evidence for a polarized efflux system in CACO-2 cells capable
+of modulating cyclosporin A transport. Biochem. Biophys. Res. Commun.
+197, 360–365.
+Avdeef, A. (2012). Absorption and Drug Development: Solubility, Permeability,
+and Charge State, Second Edition. (Hoboken, NJ: John Wiley & Sons).
+Bacchi, A., Pelizzi, G., Nebuloni, M., and Ferrari, P. (1998). Comprehensive
+study on structure-activity relationships of rifamycins: discussion of molecular
+and crystal structure and spectroscopic and thermochemical properties of
+rifamycin O. J. Med. Chem. 41, 2319–2332.
+Baciewicz, A.M., Chrisman, C.R., Finch, C.K., and Self, T.H. (2013). Update on
+rifampin, rifabutin, and rifapentine drug interactions. Curr. Med. Res. Opin. 29,
+1–12.
+Balimane, P.V., Han, Y.H., and Chong, S. (2006). Current industrial practices of
+assessing permeability and P-glycoprotein interaction. AAPS J. 8, E1–E13.
+Beck, J.G., Chatterjee, J., Laufer, B., Kiran, M.U., Frank, A.O., Neubauer, S.,
+Ovadia, O., Greenberg, S., Gilon, C., Hoffman, A., and Kessler, H. (2012). Intestinal permeability of cyclic peptides: common key backbone motifs identified.
+J. Am. Chem. Soc. 134, 12125–12133.
+Belz, G.G., Matthews, J., Sauer, U., Stern, H., and Schneider, B. (1984). Pharmacodynamic effects of ouabain following single sublingual and intravenous
+doses in normal subjects. Eur. J. Clin. Pharmacol. 26, 287–292.
+
+Bickerton, G.R., Paolini, G.V., Besnard, J., Muresan, S., and Hopkins, A.L.
+(2012). Quantifying the chemical beauty of drugs. Nat. Chem. 4, 90–98.
+Bilello, J.P., Dousson, C.B., Colla, M.L., Chapron, C., Bhadresa, S., Camire,
+M., Serra, I., Gillum, J.M., Lallos, L.B., McCarville, J.F., et al. (2011). Antiviral
+and Preclinical Profiles of HCV NS5A Inhibitors IDX380 and IDX719. Proceedings of the 18th International Symposium on Hepatitis C Virus and Related
+Viruses, Seattle; September 8–12, 2011.
+Bissantz, C., Kuhn, B., and Stahl, M. (2010). A medicinal chemist’s guide to
+molecular interactions. J. Med. Chem. 53, 5061–5084.
+Bjornsson, T.D., and Mahony, C. (1983). Clinical pharmacokinetics of dipyridamole. Thromb. Res. 4, 93–104.
+Blaschke, T.F., and Skinner, M.H. (1996). The clinical pharmacokinetics of rifabutin. Clin. Infect. Dis. 22 (Suppl 1 ), S15–S21, discussion S21–S12.
+Blocka, K. (1983). Auranofin versus injectable gold. Comparison of pharmacokinetic properties. Am. J. Med. 75, 114–122.
+Bockus, A.T., McEwen, C.M., and Lokey, R.S. (2013). Form and function in cyclic peptide natural products: a pharmacokinetic perspective. Curr. Top. Med.
+Chem. 13, 821–836.
+Bogdan, A.R., Davies, N.L., and James, K. (2011). Comparison of diffusion
+coefficients for matched pairs of macrocyclic and linear molecules over a
+drug-like molecular weight range. Org. Biomol. Chem. 9, 7727–7733.
+, Z., Munic
+, V., Erakovic
+, V., and Parnham, M.J. (2005).
+Bosnar, M., Kelneric
+Cellular uptake and efflux of azithromycin, erythromycin, clarithromycin, telithromycin, and cethromycin. Antimicrob. Agents Chemother. 49, 2372–2377.
+Bousquet, L., Roucairol, C., Hembury, A., Nevers, M.C., Creminon, C., Farinotti, R., and Mabondzo, A. (2008). Comparison of ABC transporter modulation by atazanavir in lymphocytes and human brain endothelial cells: ABC
+transporters are involved in the atazanavir-limited passage across an in vitro
+human model of the blood-brain barrier. AIDS Res. Hum. Retroviruses 24,
+1147–1154.
+Brandt, W., Haupt, V.J., and Wessjohann, L.A. (2010). Chemoinformatic analysis of biologically active macrocycles. Curr. Top. Med. Chem. 10, 1361–1379.
+Brook, I. (1998). Pharmacodynamics and pharmacokinetics of spiramycin and
+their clinical significance. Clin. Pharmacokinet. 34, 303–310.
+Brufani, M., Fedeli, W., Giacomello, G., and Vaciago, A. (1964). The x-ray analysis of the structure of rifamycin B. Experientia 20, 339–342.
+Brufani, M., Fedeli, W., Giacomello, G., and Vaciago, A. (1967). The x-ray analysis of the structure of rifamycin Y. Experientia 23, 508–512.
+Bunnage, M.E. (2011). Getting pharmaceutical R&D back on target. Nat.
+Chem. Biol. 7, 335–339.
+Burman, W.J., Gallicano, K., and Peloquin, C. (2001). Comparative pharmacokinetics and pharmacodynamics of the rifamycin antibacterials. Clin. Pharmacokinet. 40, 327–341.
+Casey, M.L., and Whitlock, H.W. (1975). Determination of the solution conformation of rifamycin S and derivatives by nuclear magnetic resonance. J. Am.
+Chem. Soc. 97, 6231–6236.
+Cavet, M.E., West, M., and Simmons, N.L. (1996). Transport and epithelial
+secretion of the cardiac glycoside, digoxin, by human intestinal epithelial
+(Caco-2) cells. Br. J. Pharmacol. 118, 1389–1396.
+Cermanova, J., Fuksa, L., Brcakova, E., Hroch, M., Kucera, O., Kolouchova,
+G., Hirsova, P., Malakova, J., Staud, F., Martinkova, J., et al. (2010). Up-regulation of renal Mdr1 and Mrp2 transporters during amiodarone pretreatment in
+rats. Pharmacol. Res. 61, 129–135.
+
+Bennani, Y.L. (2011). Drug discovery in the next decade: innovation needed
+ASAP. Drug Discov. Today 16, 779–792.
+
+Chauvin, B., Drouot, S., Barrail-Tran, A., and Taburet, A.M. (2013). Drug-drug
+interactions between HMG-CoA reductase inhibitors (statins) and antiviral protease inhibitors. Clin. Pharmacokinet. 52, 815–831.
+
+Bergström, C.A.S., Bolin, S., Artursson, P., Rönn, R., and Sandström, A.
+(2009). Hepatitis C virus NS3 protease inhibitors: large, flexible molecules of
+
+ChemAxon (2014). Instant JChem 6.2.1, 2014, ChemAxon. http://www.
+chemaxon.com.
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1135
+
+--- Page 22 ---
+Chemistry & Biology
+
+Review
+Chen, C., Hanson, E., Watson, J.W., and Lee, J.S. (2003). P-glycoprotein limits
+the brain penetration of nonsedating but not sedating H1-antagonists. Drug
+Metab. Dispos. 31, 312–318.
+
+Egan, W.J., Merz, K.M., Jr., and Baldwin, J.J. (2000). Prediction of drug absorption using multivariate statistics. J. Med. Chem. 43, 3867–3877.
+Eisler, R. (2003). Chrysotherapy: a synoptic review. Inflamm. Res. 52, 487–501.
+
+Chu, X., Philip, G., and Evers, R. (2012). Comments on Mougey et al. (2009):
+absorption of montelukast is transporter mediated: a common variant of
+OATP2B1 is associated with reduced plasma concentrations and poor
+response. Pharmacogenet Genomics 19: 129-138. Pharmacogenet. Genomics 22, 319–322.
+Ciesla, S.L., Trahan, J., Wan, W.B., Beadle, J.R., Aldern, K.A., Painter, G.R.,
+and Hostetler, K.Y. (2003). Esterification of cidofovir with alkoxyalkanols increases oral bioavailability and diminishes drug accumulation in kidney. Antiviral Res. 59, 163–171.
+Coburn, C.A., Meinke, P.T., Chang, W., Fandozzi, C.M., Graham, D.J., Hu, B.,
+Huang, Q., Kargman, S., Kozlowski, J., Liu, R., et al. (2013). Discovery of MK8742: an HCV NS5A inhibitor with broad genotype activity. ChemMedChem 8,
+1930–1940.
+Cohen, A.F., Kroon, R., Schoemaker, H.C., Breimer, D.D., Van Vliet-Verbeek,
+A., and Brandenburg, H.C. (1993). The bioavailability of digoxin from three oral
+formulations measured by a specific h.p.l.c. assay. Br. J. Clin. Pharmacol. 35,
+136–142.
+Courtney, R., Pai, S., Laughlin, M., Lim, J., and Batra, V. (2003). Pharmacokinetics, safety, and tolerability of oral posaconazole administered in single and
+multiple doses in healthy adults. Antimicrob. Agents Chemother. 47, 2788–
+2795.
+Cragg, G.M. (1998). Paclitaxel (Taxol): a success story with valuable lessons
+for natural product drug discovery and development. Med. Res. Rev. 18,
+315–331.
+Dancey, J. (2010). mTOR signaling and drug development in cancer. Nat Rev
+Clin Oncol 7, 209–219.
+Deeks, E.D. (2014). Cobicistat: a review of its use as a pharmacokinetic
+enhancer of atazanavir and darunavir in patients with HIV-1 infection. Drugs
+74, 195–206.
+DeGoey, D.A., Randolph, J.T., Liu, D., Pratt, J., Hutchins, C., Donner, P.,
+Krueger, A.C., Matulenko, M., Patel, S., Motter, C.E., et al. (2014). Discovery
+of ABT-267, a pan-genotypic inhibitor of HCV NS5A. J. Med. Chem. 57,
+2047–2057.
+DeGorter, M.K., Xia, C.Q., Yang, J.J., and Kim, R.B. (2012). Drug transporters
+in drug efficacy and toxicity. Annu. Rev. Pharmacol. Toxicol. 52, 249–273.
+Delorbe, J.E., Clements, J.H., Whiddon, B.B., and Martin, S.F. (2010). Thermodynamic and structural effects of macrocyclization as a constraining method in
+protein-ligand interactions. ACS Med Chem Lett 1, 448–452.
+Demel, M.A., Schwaha, R., Krämer, O., Ettmayer, P., Haaksma, E.E., and
+Ecker, G.F. (2008). In silico prediction of substrate properties for ABC-multidrug transporters. Expert Opin. Drug Metab. Toxicol. 4, 1167–1180.
+Desai, P.V., Raub, T.J., and Blanco, M.J. (2012). How hydrogen bonds impact
+P-glycoprotein transport and permeability. Bioorg. Med. Chem. Lett. 22,
+6540–6548.
+Desai, P.V., Sawada, G.A., Watson, I.A., and Raub, T.J. (2013). Integration of
+in silico and in vitro tools for scaffold optimization during drug discovery: predicting P-glycoprotein efflux. Mol. Pharm. 10, 1249–1261.
+DiNunzio, J.C., Zhang, F., Martin, C., and McGinity, J.W. (2012). Melt extrusion. In Formulating Poorly Water Soluble Drugs, R.O. Williams, III, A.B. Watts,
+and D.A. Miller, eds. (New York: Springer), pp. 311–362.
+Driggers, E.M., Hale, S.P., Lee, J., and Terrett, N.K. (2008). The exploration of
+macrocycles for drug discovery—an underexploited structural class. Nat. Rev.
+Drug Discov. 7, 608–624.
+Duan, J., Yong, C.-L., Garneau, M., Amad, M., Bolger, G., De Marte, J., Montpetit, H., Otis, F., Jutras, M., Rhéaume, M., et al. (2012). Cross-species absorption, metabolism, distribution and pharmacokinetics of BI 201335, a
+potent HCV genotype 1 NS3/4A protease inhibitor. Xenobiotica 42, 164–172.
+Edwards, G., Dingsdale, A., Helsby, N., Orme, M.L., and Breckenridge, A.M.
+(1988). The relative systemic availability of ivermectin after administration as
+capsule, tablet, and oral solution. Eur. J. Clin. Pharmacol. 35, 681–684.
+
+El Tayar, N., Mark, A.E., Vallat, P., Brunne, R.M., Testa, B., and van Gunsteren,
+W.F. (1993). Solvent-dependent conformation and hydrogen-bonding capacity of cyclosporin A: evidence from partition coefficients and molecular dynamics simulations. J. Med. Chem. 36, 3757–3764.
+Ellard, G.A., and Fourie, P.B. (1999). Rifampicin bioavailability: a review of its
+pharmacology and the chemotherapeutic necessity for ensuring optimal absorption. Int. J. Tuberc. Lung Dis 3, S301–S308, discussion S317–S321.
+Elsby, R., Surry, D.D., Smith, V.N., and Gray, A.J. (2008). Validation and application of Caco-2 assays for the in vitro evaluation of development candidate
+drugs as substrates or inhibitors of P-glycoprotein to support regulatory submissions. Xenobiotica 38, 1140–1164.
+Ertl, P., Rohde, B., and Selzer, P. (2000). Fast calculation of molecular polar
+surface area as a sum of fragment-based contributions and its application to
+the prediction of drug transport properties. J. Med. Chem. 43, 3714–3717.
+Ettorre, A., D’Andrea, P., Mauro, S., Porcelloni, M., Rossi, C., Altamura, M.,
+Catalioto, R.M., Giuliani, S., Maggi, C.A., and Fattori, D. (2011). hNK2 receptor
+antagonists. The use of intramolecular hydrogen bonding to increase solubility
+and membrane permeability. Bioorg. Med. Chem. Lett. 21, 1807–1809.
+Fahr, A. (1993). Cyclosporin clinical pharmacokinetics. Clin. Pharmacokinet.
+24, 472–495.
+Fatouros, D.G., Karpf, D.M., Nielsen, F.S., and Mullertz, A. (2007). Clinical
+studies with oral lipid based formulations of poorly soluble compounds.
+Ther. Clin. Risk. Manag. 3, 591–604.
+Ferlini, C., Gallo, D., and Scambia, G. (2008). New taxanes in development.
+Expert Opin. Investig. Drugs 17, 335–347.
+Fitzgerald, D.P., Emerson, D.L., Qian, Y., Anwar, T., Liewehr, D.J., Steinberg,
+S.M., Silberman, S., Palmieri, D., and Steeg, P.S. (2012). TPI-287, a new taxane family member, reduces the brain metastatic colonization of breast cancer
+cells. Mol. Cancer Ther. 11, 1959–1967.
+Flisiak, R., Jaroszewicz, J., Flisiak, I., and qapi
+nski, T. (2012). Update on alisporivir in treatment of viral hepatitis C. Expert Opin. Investig. Drugs 21,
+375–382.
+Fox, L.M. (2006). Ivermectin: uses and impact 20 years on. Curr. Opin. Infect.
+Dis. 19, 588–593.
+Franke, R.M., Baker, S.D., Mathijssen, R.H., Schuetz, E.G., and Sparreboom,
+A. (2008). Influence of solute carriers on the pharmacokinetics of CYP3A4
+probes. Clin. Pharmacol. Ther. 84, 704–709.
+Fukuda, Y., Takenaka, K., Sparreboom, A., Cheepala, S.B., Wu, C.P., Ekins,
+S., Ambudkar, S.V., and Schuetz, J.D. (2013). Human immunodeficiency virus
+protease inhibitors interact with ATP binding cassette transporter 4/multidrug
+resistance protein 4: a basis for unanticipated enhanced cytotoxicity. Mol.
+Pharmacol. 84, 361–371.
+Gabardi, S., and Baroletti, S.A. (2010). Everolimus: a proliferation signal inhibitor with clinical applications in organ transplantation, oncology, and cardiology. Pharmacotherapy 30, 1044–1056.
+Gao, M., Nettles, R.E., Belema, M., Snyder, L.B., Nguyen, V.N., Fridell, R.A.,
+Serrano-Wu, M.H., Langley, D.R., Sun, J.H., O’Boyle, D.R., 2nd., et al.
+(2010). Chemical genetics strategy identifies an HCV NS5A inhibitor with a
+potent clinical effect. Nature 465, 96–100.
+Gao, L., Li, J., Kasserra, C., Song, Q., Arjomand, A., Hesk, D., and Chowdhury,
+S.K. (2011). Precision and accuracy in the quantitative analysis of biological
+samples by accelerator mass spectrometry: application in microdose absolute
+bioavailability studies. Anal. Chem. 83, 5607–5616.
+Garver, E., Hugger, E.D., Shearn, S.P., Rao, A., Dawson, P.A., Davis, C.B., and
+Han, C. (2008). Involvement of intestinal uptake transporters in the absorption
+of azithromycin and clarithromycin in the rat. Drug Metab. Dispos. 36, 2492–
+2498.
+Geers, S., Lowinger, M., Mckelvey, C.A., Meyer, R.F., and Zhang, D. October
+2011. Polymer formulations of CETP inhibitors. U.S. patent 8030359B2.
+
+1136 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 23 ---
+Chemistry & Biology
+
+Review
+Gelderblom, H., Verweij, J., Nooter, K., and Sparreboom, A. (2001). Cremophor EL: the drawbacks and advantages of vehicle selection for drug formulation. Eur. J. Cancer 37, 1590–1598.
+
+Hsu, A., Granneman, G.R., and Bertz, R.J. (1998). Ritonavir. Clinical pharmacokinetics and interactions with other anti-HIV agents. Clin. Pharmacokinet.
+35, 275–291.
+
+Gertz, M., Harrison, A., Houston, J.B., and Galetin, A. (2010). Prediction of
+human intestinal first-pass metabolism of 25 CYP3A substrates from in vitro
+clearance and permeability data. Drug Metab. Dispos. 38, 1147–1158.
+
+Iacono, A.T., and Bartley, G. January 2002. Use of aerosolized cyclosporine for
+prevention and treatment of pulmonary disease. U.S. patent 20020006901.
+
+Ghose, A.K., Herbertz, T., Hudkins, R.L., Dorsey, B.D., and Mallamo, J.P.
+(2012). Knowledge-based, central nervous system (CNS) lead selection and
+lead optimization for CNS drug discovery. ACS Chem. Neurosci. 3, 50–68.
+Giacomini, K.M., Huang, S.M., Tweedie, D.J., Benet, L.Z., Brouwer, K.L.R.,
+Chu, X., Dahlin, A., Evers, R., Fischer, V., Hillgren, K.M., et al.; International
+Transporter Consortium (2010). Membrane transporters in drug development.
+Nat. Rev. Drug Discov. 9, 215–236.
+Giordanetto, F., and Kihlberg, J. (2014). Macrocyclic drugs and clinical candidates: what can medicinal chemists learn from their properties? J. Med. Chem.
+57, 278–295.
+Gleeson, M.P. (2008). Generation of a set of simple, interpretable ADMET rules
+of thumb. J. Med. Chem. 51, 817–834.
+Goetz, G.H., Farrell, W., Shalaeva, M., Sciabola, S., Anderson, D., Yan, J., Philippe, L., and Shapiro, M.J. (2014). High throughput method for the indirect
+detection of intramolecular hydrogen bonding. J. Med. Chem. 57, 2920–2929.
+
+Irvine, J.D., Takahashi, L., Lockhart, K., Cheong, J., Tolan, J.W., Selick, H.E.,
+and Grove, J.R. (1999). MDCK (Madin-Darby canine kidney) cells: a tool for
+membrane permeability screening. J. Pharm. Sci. 88, 28–33.
+Ito, S., Nasu, R., Tsujimoto, M., Murakami, H., Ohtani, H., and Sawada, Y.
+(2007). Effect of macrolide antibiotics on uptake of digoxin into rat liver. Biopharm. Drug Dispos. 28, 113–123.
+Jansma, A., Zhang, Q., Li, B., Ding, Q., Uno, T., Bursulaya, B., Liu, Y., Furet, P.,
+Gray, N.S., and Geierstanger, B.H. (2007). Verification of a designed intramolecular hydrogen bond in a drug scaffold by nuclear magnetic resonance spectroscopy. J. Med. Chem. 50, 5875–5877.
+Jiang, H., Zeng, J., Li, W., Bifano, M., Gu, H., Titsch, C., Easter, J., Burrell, R.,
+Kandoussi, H., Aubry, A.F., and Arnold, M.E. (2012). Practical and efficient
+strategy for evaluating oral absolute bioavailability with an intravenous microdose of a stable isotopically-labeled drug using a selected reaction monitoring
+mass spectrometry assay. Anal. Chem. 84, 10031–10037.
+
+Gonçalves, J.E., Ballerini Fernandes, M., Chiann, C., Gai, M.N., De Souza, J.,
+and Storpirtis, S. (2012). Effect of pH, mucin and bovine serum on rifampicin
+permeability through Caco-2 cells. Biopharm. Drug Dispos. 33, 316–323.
+
+Jiang, Y., Andrews, S.W., Condroski, K.R., Buckman, B., Serebryany, V., Wenglowsky, S., Kennedy, A.L., Madduru, M.R., Wang, B., Lyon, M., et al. (2014).
+Discovery of danoprevir (ITMN-191/R7227), a highly selective and potent inhibitor of hepatitis C virus (HCV) NS3/4A protease. J. Med. Chem. 57, 1753–
+1769.
+
+GOSTAR (2013). About GOSTAR.
+HyperlinkDownloadPDF.pdf.
+
+https://gostardb.com/gostar/doc/
+
+Jing, Y.R., Zhou, W., Li, W.L., Zhao, L.X., and Wang, Y.F. (2014). The synthesis
+of novel taxoids for oral administration. Bioorg. Med. Chem. 22, 194–203.
+
+Griffin, J., Fletcher, N., Clemence, R., Blanchflower, S., and Brayden, D.J.
+(2005). Selamectin is a potent substrate and inhibitor of human and canine
+P-glycoprotein. J. Vet. Pharmacol. Ther. 28, 257–265.
+
+Johnson, T.W., Dress, K.R., and Edwards, M. (2009). Using the Golden Triangle to optimize clearance and oral absorption. Bioorg. Med. Chem. Lett. 19,
+5560–5564.
+
+Guimarães, C.R.W., Mathiowetz, A.M., Shalaeva, M., Goetz, G., and Liras, S.
+(2012). Use of 3D properties to characterize beyond rule-of-5 property space
+for passive permeation. J. Chem. Inf. Model. 52, 882–890.
+
+Josephson, K., Ricardo, A., and Szostak, J.W. (2014). mRNA display: from
+basic principles to macrocycle drug discovery. Drug Discov. Today 19,
+388–399.
+
+Guo, A., Marinaro, W., Hu, P., and Sinko, P.J. (2002). Delineating the contribution of secretory transporters in the efflux of etoposide using Madin-Darby
+canine kidney (MDCK) cells overexpressing P-glycoprotein (Pgp), multidrug
+resistance-associated protein (MRP1), and canalicular multispecific organic
+anion transporter (cMOAT). Drug Metab. Dispos. 30, 457–463.
+
+Kalliokoski, A., and Niemi, M. (2009). Impact of OATP transporters on pharmacokinetics. Br. J. Pharmacol. 158, 693–705.
+
+Hande, K.R. (1998). Etoposide: four decades of development of a topoisomerase II inhibitor. Eur. J. Cancer 34, 1514–1521.
+Hann, M.M., and Keserü, G.M. (2012). Finding the sweet spot: the role of
+nature and nurture in medicinal chemistry. Nat. Rev. Drug Discov. 11, 355–365.
+Havard, C.W., and Fonseca, V. (1990). New treatment approaches to myasthenia gravis. Drugs 39, 66–73.
+Hay, M., Thomas, D.W., Craighead, J.L., Economides, C., and Rosenthal, J.
+(2014). Clinical development success rates for investigational drugs. Nat. Biotechnol. 32, 40–51.
+Hitchcock, S.A. (2012). Structural modifications that alter the P-glycoprotein
+efflux properties of compounds. J. Med. Chem. 55, 4877–4895.
+Hopkins, A.L., Mason, J.S., and Overington, J.P. (2006). Can we rationally
+design promiscuous drugs? Curr. Opin. Struct. Biol. 16, 127–136.
+Hopkins, S., Scorneaux, B., Huang, Z., Murray, M.G., Wring, S., Smitley, C.,
+Harris, R., Erdmann, F., Fischer, G., and Ribeill, Y. (2010). SCY-635, a novel
+nonimmunosuppressive analog of cyclosporine that exhibits potent inhibition
+of hepatitis C virus RNA replication in vitro. Antimicrob. Agents Chemother. 54,
+660–672.
+Hosoe, K., Mae, T., Konishi, E., Fujii, K., Yamashita, K., Yamane, T., Hidaka, T.,
+and Ohashi, T. (1996). Pharmacokinetics of KRM-1648, a new benzoxazinorifamycin, in rats and dogs. Antimicrob. Agents Chemother. 40, 2749–2755.
+Hostetler, K.Y. (2010). Synthesis and early development of hexadecyloxypropylcidofovir: an oral antipoxvirus nucleoside phosphonate. Viruses 2, 2213–
+2225.
+
+Kansy, M., Senner, F., and Gubernator, K. (1998). Physicochemical high
+throughput screening: parallel artificial membrane permeation assay in the
+description of passive absorption processes. J. Med. Chem. 41, 1007–1010.
+Kazmierski, W.M., Maynard, A., Duan, M., Baskaran, S., Botyanszki, J.,
+Crosby, R., Dickerson, S., Tallant, M., Grimes, R., Hamatake, R., et al.
+(2014). Novel spiroketal pyrrolidine GSK2336805 potently inhibits key hepatitis
+C virus genotype 1b mutants: from lead to clinical compound. J. Med. Chem.
+57, 2058–2073.
+Keogh, J.P., and Kunta, J.R. (2006). Development, validation and utility of an
+in vitro technique for assessment of potential clinical drug-drug interactions
+involving P-glycoprotein. Eur. J. Pharm. Sci. 27, 543–554.
+Kerns, E.H., and Di, L. (2008). Drug-Like Properties: Concepts, Structure
+Design and Methods: From ADME to Toxicity Optimization. (Amsterdam, Boston: Academic Press).
+Kesavan, S., and Marcaurelle, L.A. (2013). Translational synthetic chemistry.
+Nat. Chem. Biol. 9, 210–213.
+Khojasteh, S.C., Wong, H., and Hop, C.E. (2011). Transporters. In Drug Metabolism and Pharmacokinetics Quick Guide, S.C. Khojasteh, H. Wong, and
+C.E.C.A. Hop, eds. (New York: Springer), pp. 57–72.
+Kim, K.A., Lee, H.M., Joo, H.J., Park, I.B., and Park, J.Y. (2013). Effects of polymorphisms of the SLCO2B1 transporter gene on the pharmacokinetics of
+montelukast in humans. J. Clin. Pharmacol. 53, 1186–1193.
+Kinch, M.S., Haynesworth, A., Kinch, S.L., and Hoyer, D. (2014). An overview of
+FDA-approved new molecular entities: 1827-2013. Drug Discov. Today. 19,
+1033–1039.
+Kirchner, G.I., Meier-Wiedenbach, I., and Manns, M.P. (2004). Clinical pharmacokinetics of everolimus. Clin. Pharmacokinet. 43, 83–95.
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1137
+
+--- Page 24 ---
+Chemistry & Biology
+
+Review
+Kirken, R.A., and Wang, Y.L. (2003). Molecular actions of sirolimus: sirolimus
+and mTor. Transplant. Proc. 35 (3 Suppl), 227S–230S.
+
+Li, Y., Theuretzbacher, U., Clancy, C.J., Nguyen, M.H., and Derendorf, H.
+(2010). Pharmacokinetic/pharmacodynamic profile of posaconazole. Clin.
+Pharmacokinet. 49, 379–396.
+
+Kis, O., Zastre, J.A., Hoque, M.T., Walmsley, S.L., and Bendayan, R. (2013).
+Role of drug efflux and uptake transporters in atazanavir intestinal permeability
+and drug-drug interactions. Pharm. Res. 30, 1050–1064.
+
+Lin, J.H., and Yamazaki, M. (2003). Role of P-glycoprotein in pharmacokinetics: clinical implications. Clin. Pharmacokinet. 42, 59–98.
+
+Kiser, J.J., Lichtenstein, K.A., Anderson, P.L., and Fletcher, C.V. (2006).
+Effects of esomeprazole on the pharmacokinetics of atazanavir and fosamprenavir in a patient with human immunodeficiency virus infection. Pharmacotherapy 26, 511–514.
+
+Link, J.O., Taylor, J.G., Xu, L., Mitchell, M., Guo, H., Liu, H., Kato, D., Kirschberg, T., Sun, J., Squires, N., et al. (2014). Discovery of ledipasvir (GS-5885): a
+potent, once-daily oral NS5A inhibitor for the treatment of hepatitis C virus
+infection. J. Med. Chem. 57, 2033–2046.
+
+Kola, I., and Landis, J. (2004). Can the pharmaceutical industry reduce attrition
+rates? Nat. Rev. Drug Discov. 3, 711–715.
+Kostewicz, E.S., Brauns, U., Becker, R., and Dressman, J.B. (2002). Forecasting the oral absorption behavior of poorly soluble weak bases using solubility and dissolution studies in biorelevant media. Pharm. Res. 19, 345–349.
+Kuhn, B., Mohr, P., and Stahl, M. (2010). Intramolecular hydrogen bonding in
+medicinal chemistry. J. Med. Chem. 53, 2601–2611.
+Kumar, S., Tan, E.Y., Hartmann, G., Biddle, Z., Bergman, A.J., Dru, J., Ho, J.Z.,
+Jones, A.N., Staskiewicz, S.J., Braun, M.P., et al. (2010). Metabolism and
+excretion of anacetrapib, a novel inhibitor of the cholesteryl ester transfer protein, in humans. Drug Metab. Dispos. 38, 474–483.
+Lajiness, M.S., Vieth, M., and Erickson, J. (2004). Molecular properties that influence oral drug-like behavior. Curr. Opin. Drug Discov. Devel. 7, 470–477.
+Lam, J.L., Okochi, H., Huang, Y., and Benet, L.Z. (2006). In vitro and in vivo correlation of hepatic transporter effects on erythromycin metabolism: characterizing the importance of transporter-enzyme interplay. Drug Metab. Dispos. 34,
+1336–1344.
+Lamarre, D., Anderson, P.C., Bailey, M., Beaulieu, P., Bolger, G., Bonneau, P.,
+Bös, M., Cameron, D.R., Cartier, M., Cordingley, M.G., et al. (2003). An NS3
+protease inhibitor with antiviral effects in humans infected with hepatitis C virus. Nature 426, 186–189.
+Lamoureux, F., Picard, N., Boussera, B., Sauvage, F.-L., and Marquet, P.
+(2012). Sirolimus and everolimus intestinal absorption and interaction with calcineurin inhibitors: a differential effect between cyclosporine and tacrolimus.
+Fundam. Clin. Pharmacol. 26, 463–472.
+Lan, T., Rao, A., Haywood, J., Davis, C.B., Han, C., Garver, E., and Dawson,
+P.A. (2009). Interaction of macrolide antibiotics with intestinally expressed human and rat organic anion-transporting polypeptides. Drug Metab. Dispos. 37,
+2375–2382.
+
+Lipinski, C.A. (2000). Drug-like properties and the causes of poor solubility and
+poor permeability. J. Pharmacol. Toxicol. Methods 44, 235–249.
+Lipinski, C.A. (2004). Lead- and drug-like compounds: the rule-of-five revolution. Drug Discov. Today. Technol. 1, 337–341.
+Lipinski, C. (2012). Chris Lipinski. Interview by Peter Kirkpatrick. Nat. Rev. Drug
+Discov. 11, 900–901.
+Lipinski, C.A., Lombardo, F., Dominy, B.W., and Feeney, P.J. (1997). Experimental and computational approaches to estimate solubility and permeability
+in drug discovery and development settings. Adv. Drug Del. Rev. 23, 3–25.
+Lipinski, C.A., Lombardo, F., Dominy, B.W., and Feeney, P.J. (2001). Experimental and computational approaches to estimate solubility and permeability
+in drug discovery and development settings. Adv. Drug Deliv. Rev. 46, 3–26.
+Lipp, H.P. (2010). Clinical pharmacodynamics and pharmacokinetics of the
+antifungal extended-spectrum triazole posaconazole: an overview. Br. J.
+Clin. Pharmacol. 70, 471–480.
+Liu, G., Franssen, E., Fitch, M.I., and Warner, E. (1997). Patient preferences for
+oral versus intravenous palliative chemotherapy. J. Clin. Oncol. 15, 110–115.
+Liverton, N.J., Carroll, S.S., Dimuzio, J., Fandozzi, C., Graham, D.J., Hazuda,
+D., Holloway, M.K., Ludmerer, S.W., McCauley, J.A., McIntyre, C.J., et al.
+(2010). MK-7009, a potent and selective inhibitor of hepatitis C virus NS3/4A
+protease. Antimicrob. Agents Chemother. 54, 305–311.
+Loos, U., Musch, E., Jensen, J.C., Mikus, G., Schwabe, H.K., and Eichelbaum,
+M. (1985). Pharmacokinetics of oral and intravenous rifampicin during chronic
+administration. Klin. Wochenschr. 63, 1205–1211.
+Lovering, F. (2013). Escape from Flatland 2: complexity and promiscuity. MedChemComm 4, 515–519.
+Lovering, F., Bikker, J., and Humblet, C. (2009). Escape from flatland:
+increasing saturation as an approach to improving clinical success. J. Med.
+Chem. 52, 6752–6756.
+
+Lanier, E.R., Ptak, R.G., Lampert, B.M., Keilholz, L., Hartman, T., Buckheit,
+R.W., Jr., Mankowski, M.K., Osterling, M.C., Almond, M.R., and Painter,
+G.R. (2010). Development of hexadecyloxypropyl tenofovir (CMX157) for treatment of infection caused by wild-type and nucleoside/nucleotide-resistant
+HIV. Antimicrob. Agents Chemother. 54, 2901–2909.
+
+Lown, K.S., Mayo, R.R., Leichtman, A.B., Hsiao, H.L., Turgeon, D.K.,
+Schmiedlin-Ren, P., Brown, M.B., Guo, W., Rossi, S.J., Benet, L.Z., and Watkins, P.B. (1997). Role of intestinal P-glycoprotein (mdr1) in interpatient variation in the oral bioavailability of cyclosporine. Clin. Pharmacol. Ther. 62,
+248–260.
+
+Laurence, C., Brameld, K.A., Graton, J., Le Questel, J.-Y., and Renault, E.
+(2009). The pK(BHX) database: toward a better understanding of hydrogenbond basicity for medicinal chemists. J. Med. Chem. 52, 4073–4086.
+
+Luber, A.D., Brower, R., Kim, D., Silverman, R., Peloquin, C.A., and Frank, I.
+(2007). Steady-state pharmacokinetics of once-daily fosamprenavir/ritonavir
+and atazanavir/ritonavir alone and in combination with 20 mg omeprazole in
+healthy volunteers. HIV Med. 8, 457–464.
+
+Le Tiec, C., Barrail, A., Goujard, C., and Taburet, A.M. (2005). Clinical pharmacokinetics and summary of efficacy and tolerability of atazanavir. Clin. Pharmacokinet. 44, 1035–1050.
+
+Maertens, J.A. (2004). History of the development of azole derivatives. Clin.
+Microbiol. Infect. 10 (Suppl 1 ), 1–10.
+
+Leeson, P.D., and Springthorpe, B. (2007). The influence of drug-like concepts
+on decision-making in medicinal chemistry. Nat. Rev. Drug Discov. 6,
+881–890.
+Lepist, E.I., Phan, T.K., Roy, A., Tong, L., Maclennan, K., Murray, B., and Ray,
+A.S. (2012). Cobicistat boosts the intestinal absorption of transport substrates,
+including HIV protease inhibitors and GS-7340, in vitro. Antimicrob. Agents
+Chemother. 56, 5409–5413.
+Li, J.W.H., and Vederas, J.C. (2009). Drug discovery and natural products: end
+of an era or an endless frontier? Science 325, 161–165.
+Li, C., Liu, T., Cui, X., Uss, A.S., and Cheng, K.C. (2007). Development of in vitro
+pharmacokinetic screens using Caco-2, human hepatocyte, and Caco-2/human hepatocyte hybrid systems for the prediction of oral bioavailability in
+humans. J. Biomol. Screen. 12, 1084–1091.
+
+Mallinson, J., and Collins, I. (2012). Macrocycles in new drug discovery. Future
+Med. Chem. 4, 1409–1438.
+Mannhold, R., Poda, G.I., Ostermann, C., and Tetko, I.V. (2009). Calculation of
+molecular lipophilicity: state-of-the-art and comparison of log P methods on
+more than 96,000 compounds. J. Pharm. Sci. 98, 861–893.
+Manns, M.P., and von Hahn, T. (2013). Novel therapies for hepatitis C—one pill
+fits all? Nat. Rev. Drug Discov. 12, 595–610.
+Marsault, E., and Peterson, M.L. (2011). Macrocycles are great cycles: applications, opportunities, and challenges of synthetic macrocycles in drug discovery. J. Med. Chem. 54, 1961–2004.
+Marty, F.M., Winston, D.J., Rowley, S.D., Vance, E., Papanicolaou, G.A., Mullane, K.M., Brundage, T.M., Robertson, A.T., Godkin, S., Momméja-Marin, H.,
+and Boeckh, M.; CMX001-201 Clinical Study Group (2013). CMX001 to
+
+1138 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 25 ---
+Chemistry & Biology
+
+Review
+prevent cytomegalovirus disease in hematopoietic-cell transplantation.
+N. Engl. J. Med. 369, 1227–1236.
+McChesney, J.D., Tapolsky, G., Emerson, D.E., Marshall, J., Ahmed, T., Cohn,
+A., Kurman, M., and Modiano, M. October 2008. Biologically active taxane analogs and methods of treatment by oral administration. U.S. patent
+WO2008121476A1.
+McDonagh, A.F., and Lightner, D.A. (2007). Influence of conformation and
+intramolecular hydrogen bonding on the acyl glucuronidation and biliary
+excretion of acetylenic bis-dipyrrinones related to bilirubin. J. Med. Chem.
+50, 480–488.
+McPhee, F., Sheaffer, A.K., Friborg, J., Hernandez, D., Falk, P., Zhai, G., Levine, S., Chaniewski, S., Yu, F., Barry, D., et al. (2012). Preclinical profile and
+characterization of the hepatitis C virus NS3 protease inhibitor asunaprevir
+(BMS-650032). Antimicrob. Agents Chemother. 56, 5387–5396.
+Meanwell, N.A. (2011). Improving drug candidates by design: a focus on physicochemical properties as a means of improving compound disposition and
+safety. Chem. Res. Toxicol. 24, 1420–1456.
+Medina-Franco, J.L., Martinez-Mayorga, K., and Meurice, N. (2014). Balancing
+novelty with confined chemical space in modern drug discovery. Expert Opin.
+Drug. Discov. 9, 151–165.
+Meerum Terwogt, J.M., Malingré, M.M., Beijnen, J.H., ten Bokkel Huinink,
+W.W., Rosing, H., Koopman, F.J., van Tellingen, O., Swart, M., and Schellens,
+J.H. (1999). Coadministration of oral cyclosporin A enables oral therapy with
+paclitaxel. Clin. Cancer Res. 5, 3379–3384.
+Meng, X., Mojaverian, P., Doedée, M., Lin, E., Weinryb, I., Chiang, S.T., and
+Kowey, P.R. (2001). Bioavailability of amiodarone tablets administered with
+and without food in healthy subjects. Am. J. Cardiol. 87, 432–435.
+Mor, N., Simon, B., Mezo, N., and Heifets, L. (1995). Comparison of activities of
+rifapentine and rifampin against Mycobacterium tuberculosis residing in human macrophages. Antimicrob. Agents Chemother. 39, 2073–2077.
+Morphy, R. (2006). The influence of target family and functional activity on the
+physicochemical properties of pre-clinical compounds. J. Med. Chem. 49,
+2969–2978.
+Mougey, E.B., Feng, H., Castro, M., Irvin, C.G., and Lima, J.J. (2009). Absorption of montelukast is transporter mediated: a common variant of OATP2B1 is
+associated with reduced plasma concentrations and poor response. Pharmacogenet. Genomics 19, 129–138.
+Mougey, E.B., Lang, J.E., Wen, X., and Lima, J.J. (2011). Effect of citrus juice
+and SLCO2B1 genotype on the pharmacokinetics of montelukast. J. Clin.
+Pharmacol. 51, 751–760.
+Mullard, A. (2013). 2012 FDA drug approvals. Nat. Rev. Drug Discov. 12,
+87–90.
+, V., Kelneri
+Munic
+c, Z., Mikac, L., and Erakovi
+c Haber, V. (2010). Differences in
+assessment of macrolide interaction with human MDR1 (ABCB1, P-gp) using
+rhodamine-123 efflux, ATPase activity and cellular accumulation assays. Eur.
+J. Pharm. Sci. 41, 86–95.
+Muresan, S., Petrov, P., Southan, C., Kjellberg, M.J., Kogej, T., Tyrchan, C.,
+Varkonyi, P., and Xie, P.H. (2011). Making every SAR point count: the development of Chemistry Connect for the large-scale integration of structure and
+bioactivity data. Drug Discov. Today 16, 1019–1030.
+Neszmélyi, A., Machytka, D., Kmety, A., Sándor, P., and Lukacs, G. (1989). Solution conformation of the disaccharide of avermectin B1a examined by NMR
+spectroscopy and nuclear Overhauser enhancement restrained hard-sphere
+exo-anomeric effect calculation. J. Antibiot. (Tokyo) 42, 1494–1501.
+Newman, D.J. (2008). Natural products as leads to potential drugs: an old process or the new hope for drug discovery? J. Med. Chem. 51, 2589–2599.
+Nicholls, M.G., Lewis, L.K., Yandle, T.G., Lord, G., McKinnon, W., and Hilton,
+P.J. (2009). Ouabain, a circulating hormone secreted by the adrenals, is pivotal
+in cardiovascular disease. Fact or fantasy? J. Hypertens. 27, 3–8.
+Nomeir, A.A., Kumari, P., Hilbert, M.J., Gupta, S., Loebenberg, D., Cacciapuoti, A., Hare, R., Miller, G.H., Lin, C.C., and Cayen, M.N. (2000). Pharmacokinetics of SCH 56592, a new azole broad-spectrum antifungal agent, in mice,
+rats, rabbits, dogs, and cynomolgus monkeys. Antimicrob. Agents Chemother. 44, 727–731.
+
+Nordqvist, A., Nilsson, J., Lindmark, T., Eriksson, A., Garberg, P., and Kihlen,
+M. (2004). A general model for prediction of Caco-2 cell permeability. QSAR
+Comb. Sci. 23, 303–310.
+Nozinic, D., Milic, A., Mikac, L., Ralic, J., Padovan, J., and Antolovic, R. (2010).
+Assessment of macrolide transport using PAMPA, Caco-2 and MDCKIIhMDR1 assays. Croat. Chem. Acta 83, 323–331.
+O’Connor, C.J., Beckmann, H.S., and Spring, D.R. (2012). Diversity-oriented
+synthesis: producing chemical tools for dissecting biology. Chem. Soc. Rev.
+41, 4444–4456.
+O’Driscoll, C.M., and Griffin, B.T. (2008). Biopharmaceutical challenges associated with drugs with low aqueous solubility—the potential impact of lipidbased formulations. Adv. Drug Deliv. Rev. 60, 617–624.
+O’Neill, V.J., and Twelves, C.J. (2002). Oral cancer treatment: developments in
+chemotherapy and beyond. Br. J. Cancer 87, 933–937.
+Obrecht, D., Chevalier, E., Moehle, K., and Robinson, J.A. (2012). b-Hairpin
+protein epitope mimetic technology in drug discovery. Drug Discov. Today.
+Technol. 9, e1–e70.
+Ochs, H.R., Bodem, G., and Greenblatt, D.J. (1981). Effect of dose on bioavailability of oral digoxin. Eur. J. Clin. Pharmacol. 19, 53–55.
+Okumu, A., DiMaso, M., and Löbenberg, R. (2008). Dynamic dissolution testing
+to establish in vitro/in vivo correlations for montelukast sodium, a poorly soluble drug. Pharm. Res. 25, 2778–2785.
+Omura, S., Iwasaki, S., Omura, S., and Sunazuka, T. (2002). Chemical modification of macrolides. In Macrolide Antibiotics: Chemistry, Biology, and Practice, S. Omura, ed. (San Diego: Academic Press), p. 99.
+OpenEye (2014). OEChem, version 2.5.1.4, OpenEye Scientific Software, Inc..
+(Santa Fe, NM: OpenEye Scientific Software).
+Over, B., McCarren, P., Artursson, P., Foley, M., Giordanetto, F., Grönberg, G.,
+Hilgendorf, C., Lee, M.D., 4th, Matsson, P., Muncipinto, G., et al. (2014).
+Impact of stereospecific intramolecular hydrogen bonding on cell permeability
+and physicochemical properties. J. Med. Chem. 57, 2746–2754.
+Pachot, J.I., Botham, R.P., Haegele, K.D., and Hwang, K. (2003). Experimental
+estimation of the role of P-Glycoprotein in the pharmacokinetic behaviour of
+telithromycin, a novel ketolide, in comparison with roxithromycin and other
+macrolides using the Caco-2 cell model. J. Pharm. Pharm. Sci. 6, 1–12.
+, J., Letfus, V., Milic
+, A., and Benceti
+, V. (2012).
+Padovan, J., Ralic
+c Mihaljevic
+Investigating the barriers to bioavailability of macrolide antibiotics in the rat.
+Eur. J. Drug Metab. Pharmacokinet. 37, 163–171.
+Painter, G.R., and Hostetler, K.Y. (2004). Design and development of oral
+drugs for the prophylaxis and treatment of smallpox infection. Trends Biotechnol. 22, 423–427.
+Palm, K., Stenberg, P., Luthman, K., and Artursson, P. (1997). Polar molecular
+surface properties predict the intestinal absorption of drugs in humans. Pharm.
+Res. 14, 568–571.
+Paolini, G.V., Shapland, R.H., van Hoorn, W.P., Mason, J.S., and Hopkins, A.L.
+(2006). Global mapping of pharmacological space. Nat. Biotechnol. 24,
+805–815.
+Parker, A.J., and Houston, J.B. (2008). Rate-limiting steps in hepatic drug
+clearance: comparison of hepatocellular uptake and metabolism with microsomal metabolism of saquinavir, nelfinavir, and ritonavir. Drug Metab. Dispos.
+36, 1375–1384.
+Patel, J., Buddha, B., Dey, S., Pal, D., and Mitra, A.K. (2004). In vitro interaction
+of the HIV protease inhibitor ritonavir with herbal constituents: changes in P-gp
+and CYP3A4 activity. Am. J. Ther. 11, 262–277.
+Patel, P., Patel, H., Panchal, S., and Mehta, T. (2012). Formulation strategies
+for drug delivery of tacrolimus: an overview. Int J Pharm Investig 2, 169–175.
+Paul, S.M., Mytelka, D.S., Dunwiddie, C.T., Persinger, C.C., Munos, B.H.,
+Lindborg, S.R., and Schacht, A.L. (2010). How to improve R&D productivity:
+the pharmaceutical industry’s grand challenge. Nat. Rev. Drug Discov. 9,
+203–214.
+Pawarode, A., Shukla, S., Minderman, H., Fricke, S.M., Pinder, E.M., O’Loughlin, K.L., Ambudkar, S.V., and Baer, M.R. (2007). Differential effects of the
+immunosuppressive agents cyclosporin A, tacrolimus and sirolimus on drug
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1139
+
+--- Page 26 ---
+Chemistry & Biology
+
+Review
+transport by multidrug resistance proteins. Cancer Chemother. Pharmacol.
+60, 179–188.
+Peeters, J., Neeskens, P., Tollenaere, J.P., Van Remoortere, P., and Brewster,
+M.E. (2002). Characterization of the interaction of 2-hydroxypropyl-b-cyclodextrin with itraconazole at pH 2, 4, and 7. J. Pharm. Sci. 91, 1414–1422.
+Perloff, E.S., Duan, S.X., Skolnik, P.R., Greenblatt, D.J., and von Moltke, L.L.
+(2005). Atazanavir: effects on P-glycoprotein transport and CYP3A metabolism in vitro. Drug Metab. Dispos. 33, 764–770.
+Pharmaprojects (2013). http://www.citeline.com/products/pharmaprojects/.
+Picard, N., Levoir, L., Lamoureux, F., Yee, S.W., Giacomini, K.M., and Marquet, P. (2011). Interaction of sirolimus and everolimus with hepatic and intestinal organic anion-transporting polypeptide transporters. Xenobiotica 41,
+752–757.
+Pirsch, J.D., Miller, J., Deierhoi, M.H., Vincenti, F., and Filo, R.S. (1997). A comparison of tacrolimus (Fk506) and cyclosporine for immunosuppression after
+cadaveric renal transplantation. Transplantation 63, 977–983.
+Polishchuk, P.G., Madzhidov, T.I., and Varnek, A. (2013). Estimation of the size
+of drug-like chemical space based on GDB-17 data. J. Comput. Aided Mol.
+Des. 27, 675–679.
+Prentice, A.G., and Glasmacher, A. (2005). Making sense of itraconazole pharmacokinetics. J. Antimicrob. Chemother. 56 (Suppl 1 ), i17–i22.
+Price, D.A., Blagg, J., Jones, L., Greene, N., and Wager, T. (2009). Physicochemical drug properties associated with in vivo toxicological outcomes: a
+review. Expert Opin. Drug Metab. Toxicol. 5, 921–931.
+Profit, L., Eagling, V.A., and Back, D.J. (1999). Modulation of P-glycoprotein
+function in human lymphocytes and Caco-2 cell monolayers by HIV-1 protease
+inhibitors. AIDS 13, 1623–1627.
+Ptachcinski, R.J., Burckart, G.J., and Venkataramanan, R. (1985). Cyclosporine. Drug Intell. Clin. Pharm. 19, 90–100.
+ska, J. (2012). A new model of
+Pyta, K., Przybylski, P., Klich, K., and Stefan
+binding of rifampicin and its amino analogues as zwitterions to bacterial
+RNA polymerase. Org. Biomol. Chem. 10, 8283–8297.
+Rafi, S.B., Hearn, B.R., Vedantham, P., Jacobson, M.P., and Renslo, A.R.
+(2012). Predicting and improving the membrane permeability of peptidic small
+molecules. J. Med. Chem. 55, 3163–3169.
+Ramsden, D., Tweedie, D.J., Chan, T.S., Taub, M.E., and Li, Y. (2014). Bridging
+in vitro and in vivo metabolism and transport of faldaprevir in human using a
+novel cocultured human hepatocyte system, HepatoPac. Drug Metab. Dispos.
+42, 394–406.
+Ranaldi, G., Islam, K., and Sambuy, Y. (1992). Epithelial cells in culture as a
+model for the intestinal transport of antimicrobial agents. Antimicrob. Agents
+Chemother. 36, 1374–1381.
+Rand, A.C., Leung, S.S., Eng, H., Rotter, C.J., Sharma, R., Kalgutkar, A.S.,
+Zhang, Y., Varma, M.V., Farley, K.A., Khunte, B., et al. (2012). Optimizing PK
+properties of cyclic peptides: the effect of side chain substitutions on permeability and clearance(). Medchemcomm 3, 1282–1289.
+Rezai, T., Bock, J.E., Zhou, M.V., Kalyanaraman, C., Lokey, R.S., and Jacobson, M.P. (2006a). Conformational flexibility, internal hydrogen bonding, and
+passive membrane permeability: successful in silico prediction of the relative
+permeabilities of cyclic peptides. J. Am. Chem. Soc. 128, 14073–14080.
+Rezai, T., Yu, B., Millhauser, G.L., Jacobson, M.P., and Lokey, R.S. (2006b).
+Testing the conformational hypothesis of passive membrane permeability using synthetic cyclic peptide diastereomers. J. Am. Chem. Soc. 128, 2510–
+2511.
+
+Efficacy of novel rifamycin derivatives against rifamycin-sensitive and -resistant Staphylococcus aureus isolates in murine models of infection. Antimicrob.
+Agents Chemother. 50, 3658–3664.
+Roy, U., Chakravarty, G., Honer Zu Bentrup, K., and Mondal, D. (2009). Montelukast is a potent and durable inhibitor of multidrug resistance protein 2mediated efflux of taxol and saquinavir. Biol. Pharm. Bull. 32, 2002–2009.
+Ruddigkeit, L., van Deursen, R., Blum, L.C., and Reymond, J.L. (2012).
+Enumeration of 166 billion organic small molecules in the chemical universe
+database GDB-17. J. Chem. Inf. Model. 52, 2864–2875.
+Sadowski, J., Gasteiger, J., and Klebe, G. (1994). Comparison of automatic
+three-dimensional model builders using 639 x-ray structures. J. Chem. Inf.
+Comput. Sci. 34, 1000–1008.
+Saha, P., and Kou, J.H. (2000). Effect of solubilizing excipients on permeation
+of poorly water-soluble compounds across Caco-2 cell monolayers. Eur. J.
+Pharm. Biopharm. 50, 403–411.
+Sandouk, P., Bouvier d’Yvoire, M., Chretien, P., Tillement, J.P., and Scherrmann, J.M. (1994). Single-dose bioavailability of oral and intramuscular thiocolchicoside in healthy volunteers. Biopharm. Drug Dispos. 15, 87–92.
+Sasaki, S., Cho, N., Nara, Y., Harada, M., Endo, S., Suzuki, N., Furuya, S., and
+Fujino, M. (2003). Discovery of a thieno[2,3-d]pyrimidine-2,4-dione bearing a
+p-methoxyureidophenyl moiety at the 6-position: a highly potent and orally
+bioavailable non-peptide antagonist for the human luteinizing hormonereleasing hormone receptor. J. Med. Chem. 46, 113–124.
+Sauer, W.H.B., and Schwarz, M.K. (2003). Molecular shape diversity of combinatorial libraries: a prerequisite for broad bioactivity. J. Chem. Inf. Comput. Sci.
+43, 987–1003.
+Scannell, J.W., Blanckley, A., Boldon, H., and Warrington, B. (2012). Diagnosing the decline in pharmaceutical R&D efficiency. Nat. Rev. Drug Discov.
+11, 191–200.
+Schoner, W., and Scheiner-Bobis, G. (2007). Endogenous and exogenous cardiac glycosides: their roles in hypertension, salt metabolism, and cell growth.
+Am. J. Physiol. Cell Physiol. 293, C509–C536.
+Schreiber, S.L. (2000). Target-oriented and diversity-oriented organic synthesis in drug discovery. Science 287, 1964–1969.
+Scola, P.M., Sun, L.-Q., Wang, A.X., Chen, J., Sin, N., Venables, B.L., Sit, S.-Y.,
+Chen, Y., Cocuzza, A., Bilder, D.M., et al. (2014). The discovery of asunaprevir
+(BMS-650032), an orally efficacious NS3 protease inhibitor for the treatment of
+hepatitis C virus infection. J. Med. Chem. 57, 1730–1752.
+Segawa, M., Ogura, J., Seki, S., Itagaki, S., Takahashi, N., Kobayashi, M., Hirano, T., Yamaguchi, H., and Iseki, K. (2013). Rapid stimulating effect of the
+antiarrhythmic agent amiodarone on absorption of organic anion compounds.
+Drug Metab. Pharmacokinet. 28, 178–186.
+Sehgal, S.N. (2003). Sirolimus: its discovery, biological properties, and mechanism of action. Transplant. Proc. 35 (3, Suppl), 7S–14S.
+Seithel, A., Eberl, S., Singer, K., Auge, D., Heinkele, G., Wolf, N.B., Dörje, F.,
+Fromm, M.F., and König, J. (2007). The influence of macrolide antibiotics on
+the uptake of organic anions and drugs mediated by OATP1B1 and OATP1B3.
+Drug Metab. Dispos. 35, 779–786.
+Selva, E., and Lancini, G. (2010). Rifamycins, antibacterial antibiotics and their
+new applications. In Analogue-Based Drug Discovery II, J. Fischer and C.R.
+Ganellin, eds. (Weinheim: Wiley-VCH Verlag GmbH & Co. KGaA), pp. 173–187.
+Sensi, P. (1983). History of the development of rifampin. Rev. Infect. Dis. 5
+(Suppl 3 ), S402–S406.
+
+Rodvold, K.A., George, J.M., and Yoo, L. (2011). Penetration of anti-infective
+agents into pulmonary epithelial lining fluid: focus on antibacterial agents.
+Clin. Pharmacokinet. 50, 637–664.
+
+Shalaeva, M., Caron, G., Abramov, Y.A., O’Connell, T.N., Plummer, M.S., Yalamanchi, G., Farley, K.A., Goetz, G.H., Philippe, L., and Shapiro, M.J. (2013).
+Integrating intramolecular hydrogen bonding (IMHB) considerations in drug
+discovery using DlogP as a tool. J. Med. Chem. 56, 4870–4879.
+
+Rosenquist, Å., Samuelsson, B., Johansson, P.-O., Cummings, M.D., Lenz, O.,
+Raboisson, P., Simmen, K., Vendeville, S., de Kock, H., Nilsson, M., et al.
+(2014). Discovery and development of simeprevir (TMC435), a HCV NS3/4A
+protease inhibitor. J. Med. Chem. 57, 1673–1693.
+
+Sheng, X.C., Appleby, T., Butler, T., Cai, R., Chen, X., Cho, A., Clarke, M.O.,
+Cottell, J., Delaney, W.E., 4th, Doerffler, E., et al. (2012). Discovery of GS9451: an acid inhibitor of the hepatitis C virus NS3/4A protease. Bioorg.
+Med. Chem. Lett. 22, 2629–2634.
+
+Rothstein, D.M., Farquhar, R.S., Sirokman, K., Sondergaard, K.L., Hazlett, C.,
+Doye, A.A., Gwathmey, J.K., Mullin, S., van Duzer, J., and Murphy, C.K. (2006).
+
+Shukla, R., Jowett, N.I., Thompson, D.R., and Pohl, J.E. (1994). Side effects
+with amiodarone therapy. Postgrad. Med. J. 70, 492–498.
+
+1140 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
+
+--- Page 27 ---
+Chemistry & Biology
+
+Review
+Smith, D.A. (2010). Metabolism, Pharmacokinetics and Toxicity of Functional
+Groups: Impact of the Building Blocks of Medicinal Chemistry in ADMET.
+(Cambridge, UK: RSC Pub.).
+Smith, D.A., Waterbeemd, H.d., and Walker, D.K. (2006). Pharmacokinetics
+and Metabolism in Drug Design, Second Edition. (Weinheim: Wiley-VCH).
+Springer, J.P., Arison, B.H., Hirshfield, J.M., and Hoogsteen, K. (1981). The absolute stereochemistry and conformation of avermectin-B2a aglycon and
+avermectin-B1a. J. Am. Chem. Soc. 103, 4221–4224.
+
+oral absorption by lansoprazole gastric acid suppression in healthy volunteers.
+Pharmacotherapy 26, 341–346.
+Torres, H.A., Hachem, R.Y., Chemaly, R.F., Kontoyiannis, D.P., and Raad, I.I.
+(2005). Posaconazole: a broad-spectrum triazole antifungal. Lancet Infect. Dis.
+5, 775–785.
+Trellu, M., Filali-Ansary, A., Françon, D., Adam, R., Lluel, P., Dubruc, C., and
+Thénot, J.P. (2004). New metabolic and pharmacokinetic characteristics of thiocolchicoside and its active metabolite in healthy humans. Fundam. Clin.
+Pharmacol. 18, 493–501.
+
+Stella, V.J., and He, Q. (2008). Cyclodextrins. Toxicol. Pathol. 36, 30–42.
+Stephens, R.H., O’Neill, C.A., Bennett, J., Humphrey, M., Henry, B., Rowland,
+M., and Warhurst, G. (2002). Resolution of P-glycoprotein and non-P-glycoprotein effects on drug permeability using intestinal tissues from mdr1a
+(/) mice. Br. J. Pharmacol. 135, 2038–2046.
+Sugano, K., Kansy, M., Artursson, P., Avdeef, A., Bendels, S., Di, L., Ecker,
+G.F., Faller, B., Fischer, H., Gerebtzoff, G., et al. (2010). Coexistence of passive
+and carrier-mediated processes in drug transport. Nat. Rev. Drug Discov. 9,
+597–614.
+Summa, V., Ludmerer, S.W., McCauley, J.A., Fandozzi, C., Burlein, C., Claudio, G., Coleman, P.J., Dimuzio, J.M., Ferrara, M., Di Filippo, M., et al.
+(2012). MK-5172, a selective inhibitor of hepatitis C virus NS3/4a protease
+with broad activity across genotypes and resistant variants. Antimicrob.
+Agents Chemother. 56, 4161–4167.
+
+Varma, M.V., Ambler, C.M., Ullah, M., Rotter, C.J., Sun, H., Litchfield, J., Fenner, K.S., and El-Kattan, A.F. (2010). Targeting intestinal transporters for optimizing oral drug absorption. Curr. Drug Metab. 11, 730–742.
+Veber, D.F., Johnson, S.R., Cheng, H.Y., Smith, B.R., Ward, K.W., and Kopple,
+K.D. (2002). Molecular properties that influence the oral bioavailability of drug
+candidates. J. Med. Chem. 45, 2615–2623.
+Verbrugghe, M., Verhaeghe, S., Lauwaert, K., Beeckman, D., and Van Hecke,
+A. (2013). Determinants and associated factors influencing medication adherence and persistence to oral anticancer drugs: a systematic review. Cancer
+Treat. Rev. 39, 610–621.
+Vieth, M., and Sutherland, J.J. (2006). Dependence of molecular properties on
+proteomic family for marketed oral drugs. J. Med. Chem. 49, 3451–3453.
+
+Surade, S., and Blundell, T.L. (2012). Structural biology and drug discovery of
+difficult targets: the limits of ligandability. Chem. Biol. 19, 42–50.
+
+Virshup, A.M., Contreras-Garcı́a, J., Wipf, P., Yang, W., and Beratan, D.N.
+(2013). Stochastic voyages into uncharted chemical space produce a representative library of all possible drug-like compounds. J. Am. Chem. Soc.
+135, 7296–7303.
+
+Tada, H., Tsuchiya, N., Satoh, S., Kagaya, H., Li, Z., Sato, K., Miura, M., Suzuki,
+T., Kato, T., and Habuchi, T. (2005). Impact of CYP3A5 and MDR1(ABCB1)
+C3435T polymorphisms on the pharmacokinetics of tacrolimus in renal transplant recipients. Transplant. Proc. 37, 1730–1732.
+
+von Hentig, N. (2008). Atazanavir/ritonavir: a review of its use in HIV therapy.
+Drugs Today (Barc) 44, 103–132.
+
+Tan, E.Y., Hartmann, G., Chen, Q., Pereira, A., Bradley, S., Doss, G., Zhang,
+A.S., Ho, J.Z., Braun, M.P., Dean, D.C., et al. (2010). Pharmacokinetics, metabolism, and excretion of anacetrapib, a novel inhibitor of the cholesteryl ester
+transfer protein, in rats and rhesus monkeys. Drug Metab. Dispos. 38,
+459–473.
+Taub, M.E., Mease, K., Sane, R.S., Watson, C.A., Chen, L., Ellens, H., Hirakawa, B., Reyner, E.L., Jani, M., and Lee, C.A. (2011). Digoxin is not a substrate
+for organic anion-transporting polypeptide transporters OATP1A2, OATP1B1,
+OATP1B3, and OATP2B1 but is a substrate for a sodium-dependent transporter expressed in HEK293 cells. Drug Metab. Dispos. 39, 2093–2102.
+Terhaag, B., Donath, F., Le Petit, G., and Feller, K. (1986). The absolute and
+relative bioavailability of dipyridamole from different preparations and the
+in vitro-in vivo comparison. Int. J. Clin. Pharmacol. Ther. Toxicol. 24, 298–302.
+Terrett, N.K. (2010). Methods for the synthesis of macrocycle libraries for drug
+discovery. Drug Discov. Today. Technol. 7, e95–e146.
+Terrett, N. (2013). Drugs in middle space. MedChemComm 4, 474–475.
+
+Vredenburg, M.R., Ojima, I., Veith, J., Pera, P., Kee, K., Cabral, F., Sharma, A.,
+Kanter, P., Greco, W.R., and Bernacki, R.J. (2001). Effects of orally active taxanes on P-glycoprotein modulation and colon and breast carcinoma drug
+resistance. J. Natl. Cancer Inst. 93, 1234–1245.
+Wachsman, M., Petty, B.G., Cundy, K.C., Jaffe, H.S., Fisher, P.E., Pastelak, A.,
+and Lietman, P.S. (1996). Pharmacokinetics, safety and bioavailability of
+HPMPC (cidofovir) in human immunodeficiency virus-infected subjects. Antiviral Res. 29, 153–161.
+Wager, T.T., Chandrasekaran, R.Y., Hou, X., Troutman, M.D., Verhoest, P.R.,
+Villalobos, A., and Will, Y. (2010). Defining desirable central nervous system
+drug space through the alignment of molecular properties, in vitro ADME,
+and safety attributes. ACS Chem. Neurosci. 1, 420–434.
+Wakenhut, F., Tran, T.D., Pickford, C., Shaw, S., Westby, M., Smith-Burchnell,
+C., Watson, L., Paradowski, M., Milbank, J., Stonehouse, D., et al. (2014). The
+discovery of potent nonstructural protein 5A (NS5A) inhibitors with a unique
+resistance profile-Part 2. ChemMedChem 9, 1387–1396, http://dx.doi.org/
+10.1002/cmdc.201400046.
+Walters, W.P. (2012). Going further than Lipinski’s rule in drug design. Expert
+Opin. Drug Discov. 7, 99–107.
+
+Thomas, V.H., Bhattachar, S., Hitchingham, L., Zocharski, P., Naath, M., Surendran, N., Stoner, C.L., and El-Kattan, A. (2006). The road map to oral bioavailability: an industrial perspective. Expert Opin. Drug Metab. Toxicol. 2,
+591–608.
+
+Walz, D.T., DiMartino, M.J., and Griswold, D.E. (1983). The pharmacological
+profile of auranofin, an orally active gold compound. Scand. J. Rheumatol.
+Suppl. 51, 16–25.
+
+Thompson, G.R., 3rd, and Wiederhold, N.P. (2010). Isavuconazole: a comprehensive review of spectrum of activity of a new triazole. Mycopathologia 170,
+291–313.
+
+Waring, M.J. (2009). Defining optimum lipophilicity and molecular weight
+ranges for drug candidates—molecular weight dependent lower logD limits
+based on permeability. Bioorg. Med. Chem. Lett. 19, 2844–2851.
+
+Thomsonreuters (2013). Thomsonreuter: Integrity. http://thomsonreuters.com/
+integrity/. Last accessed Dec 2013.
+
+Watashi, K. (2010). Alisporivir, a cyclosporin derivative that selectively inhibits
+cyclophilin, for the treatment of HCV infection. Curr. Opin. Investig. Drugs 11,
+213–224.
+
+Tian, X., Li, J., Zamek-Gliszczynski, M.J., Bridges, A.S., Zhang, P., Patel, N.J.,
+Raub, T.J., Pollack, G.M., and Brouwer, K.L.R. (2007). Roles of P-glycoprotein,
+Bcrp, and Mrp2 in biliary excretion of spiramycin in mice. Antimicrob. Agents
+Chemother. 51, 3230–3234.
+
+White, T.R., Renzelman, C.M., Rand, A.C., Rezai, T., McEwen, C.M., Gelev,
+V.M., Turner, R.A., Linington, R.G., Leung, S.S., Kalgutkar, A.S., et al. (2011).
+On-resin N-methylation of cyclic peptides for discovery of orally bioavailable
+scaffolds. Nat. Chem. Biol. 7, 810–817.
+
+Togami, K., Chono, S., and Morimoto, K. (2012). Transport characteristics of
+clarithromycin, azithromycin and telithromycin, antibiotics applied for treatment of respiratory infections, in Calu-3 cell monolayers as model lung epithelial cells. Pharmazie 67, 389–393.
+
+Wildfeuer, A., Laufen, H., and Zimmermann, T. (1996). Uptake of azithromycin
+by various cells and its intracellular activity under in vivo conditions. Antimicrob. Agents Chemother. 40, 75–79.
+
+Tomilo, D.L., Smith, P.F., Ogundele, A.B., Difrancesco, R., Berenson, C.S.,
+Eberhardt, E., Bednarczyk, E., and Morse, G.D. (2006). Inhibition of atazanavir
+
+Williamson, B., Dooley, K.E., Zhang, Y., Back, D.J., and Owen, A. (2013). Induction of influx and efflux transporters and cytochrome P450 3A4 in primary
+
+Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved 1141
+
+--- Page 28 ---
+Chemistry & Biology
+
+Review
+human hepatocytes by rifampin, rifabutin, and rifapentine. Antimicrob. Agents
+Chemother. 57, 6366–6369.
+Wils, P., Warnery, A., Phung-Ba, V., Legrain, S., and Scherman, D. (1994). High
+lipophilicity decreases drug transport across intestinal epithelial cells.
+J. Pharmacol. Exp. Ther. 269, 654–658.
+Wu, C., Decker, E.R., Blok, N., Li, J., Bourgoyne, A.R., Bui, H., Keller, K.M.,
+Knowles, V., Li, W., Stavros, F.D., et al. (2001). Acyl substitution at the ortho
+position of anilides enhances oral bioavailability of thiophene sulfonamides:
+TBC3214, an ETA selective endothelin antagonist. J. Med. Chem. 44, 1211–
+1216.
+Xu, J., Go, M.L., and Lim, L.Y. (2003). Modulation of digoxin transport across
+Caco-2 cell monolayers by citrus fruit juices: lime, lemon, grapefruit, and
+pummelo. Pharm. Res. 20, 169–176.
+Xu, L., Liu, H., Murray, B.P., Callebaut, C., Lee, M.S., Hong, A., Strickley, R.G.,
+Tsai, L.K., Stray, K.M., Wang, Y., et al. (2010). Cobicistat (GS-9350): a potent
+and selective inhibitor of human CYP3A as a novel pharmacoenhancer. ACS
+Med. Chem. Lett. 1, 209–213.
+Yang, Y., Engkvist, O., Llinàs, A., and Chen, H. (2012). Beyond size, ionization
+state, and lipophilicity: influence of molecular topology on absorption, distribution, metabolism, excretion, and toxicity for druglike compounds. J. Med.
+Chem. 55, 3667–3677.
+
+Yang, H., Robinson, M., Corsa, A.C., Peng, B., Cheng, G., Tian, Y., Wang, Y.,
+Pakdaman, R., Shen, M., Qi, X., et al. (2014). Preclinical characterization of the
+novel hepatitis C virus NS3 protease inhibitor GS-9451. Antimicrob. Agents
+Chemother. 58, 647–653.
+Yu, X., and Sun, D. (2013). Macrocyclic drugs and synthetic methodologies toward macrocycles. Molecules 18, 6230–6268.
+Zhanel, G.G., Dueck, M., Hoban, D.J., Vercaigne, L.M., Embil, J.M., Gin, A.S.,
+and Karlowsky, J.A. (2001). Review of macrolides and ketolides: focus on respiratory tract infections. Drugs 61, 443–498.
+Zhang, M.-Q., and Wilkinson, B. (2007). Drug discovery beyond the ‘rule-offive’. Curr. Opin. Biotechnol. 18, 478–488.
+Zhang, Y., Bachmeier, C., and Miller, D.W. (2003). In vitro and in vivo models
+for assessing drug efflux transporter activity. Adv. Drug Deliv. Rev. 55, 31–51.
+Zhang, D., Chando, T.J., Everett, D.W., Patten, C.J., Dehal, S.S., and Humphreys, W.G. (2005a). In vitro inhibition of UDP glucuronosyltransferases by
+atazanavir and other HIV protease inhibitors and the relationship of this property to in vivo bilirubin glucuronidation. Drug Metab. Dispos. 33, 1729–1739.
+Zhang, Y., Gupta, A., Wang, H., Zhou, L., Vethanayagam, R.R., Unadkat, J.D.,
+and Mao, Q. (2005b). BCRP transports dipyridamole and is inhibited by calcium channel blockers. Pharm. Res. 22, 2023–2034.
+
+1142 Chemistry & Biology 21, September 18, 2014 ª2014 Elsevier Ltd All rights reserved
