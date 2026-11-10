@@ -1898,22 +1898,10 @@ Hoang Q. Tran
 <div class="column" style="width:50%;">
 <h3 id="multi-tier-structural-validation">Multi-Tier Structural Validation</h3>
 <ul>
-<li><strong>Why Audit?</strong> We must rigorously verify the computer-built 3D protein before screening drugs against it.</li>
-<li><strong>Tier 1: Atomic Fit (MolProbity <span class="citation" data-cites="williams2018">[<a href="#/references-12" role="doc-biblioref" onclick>12</a>]</span>):</strong>
-<ul>
-<li><strong>Clashscore &lt; 5.0:</strong> Atomic overlaps <span class="math inline">\(\ge 0.4\text{ \AA}\)</span> (&lt; 90th percentile of high-res crystal structures).</li>
-<li><strong>Ramachandran Angles:</strong> <span class="math inline">\(&gt; 98\%\)</span> in favored regions; <span class="math inline">\(&lt; 0.2\%\)</span> outliers.</li>
-<li><strong>Side Chains:</strong> Rotamer outliers <span class="math inline">\(&lt; 1.0\%\)</span>; zero <span class="math inline">\(C_\beta\)</span> distortion.</li>
-</ul></li>
-<li><strong>Tier 2: Chemical Environment (ERRAT &amp; Verify3D):</strong>
-<ul>
-<li>ERRAT score <span class="math inline">\(&gt; 85\%\)</span> for non-bonded contacts; Verify3D <span class="math inline">\(\ge 80\%\)</span> (correct 3D hydrophobic interior packing).</li>
-</ul></li>
-<li><strong>Tiers 3 &amp; 4: Fold Energy &amp; Active Pocket (ProSA &amp; 3FD5):</strong>
-<ul>
-<li>Global ProSA <span class="math inline">\(Z\)</span>-score falls inside native X-ray crystal range for ~45 kDa proteins.</li>
-<li>Active pocket aligns within <strong>RMSD <span class="math inline">\(\le 1.2\text{ \AA}\)</span></strong> of crystal template PDB 3FD5 <span class="citation" data-cites="wang2009">[<a href="#/references-12" role="doc-biblioref" onclick>3</a>]</span>.</li>
-</ul></li>
+<li><strong>Validation Rationale:</strong> Computer-built 3D protein models must pass rigorous multi-tier audits before docking to guarantee physiological accuracy.</li>
+<li><strong>Tier 1 — MolProbity Stereochemistry <span class="citation" data-cites="williams2018">[<a href="#/references-12" role="doc-biblioref" onclick>12</a>]</span>:</strong> Clashscore &lt; 5.0 (&gt; 90th percentile), Ramachandran favored &gt; 98% (outliers &lt; 0.2%), rotamer outliers &lt; 1.0%, zero <span class="math inline">\(C_\beta\)</span> distortion.</li>
+<li><strong>Tier 2 — Non-Bonded Contacts:</strong> ERRAT score &gt; 85% for atomic interactions; Verify3D <span class="math inline">\(\ge 80\%\)</span> for 3D–1D sequence-structure compatibility.</li>
+<li><strong>Tiers 3 &amp; 4 — Fold &amp; Pocket Quality:</strong> ProSA <span class="math inline">\(Z\)</span>-score within native X-ray range; catalytic pocket aligns to template PDB 3FD5 (<strong>RMSD <span class="math inline">\(\le 1.2\text{ \AA}\)</span></strong>) <span class="citation" data-cites="wang2009">[<a href="#/references-12" role="doc-biblioref" onclick>3</a>]</span>.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="hero-card">
