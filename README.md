@@ -13,6 +13,7 @@
   - [2.1 Live Web Access](#21-live-web-access)
   - [2.2 Local Offline Viewing](#22-local-offline-viewing)
   - [2.3 Navigation Keyboard Shortcuts](#23-navigation-keyboard-shortcuts)
+  - [2.4 Exporting as PDF](#24-exporting-as-pdf)
 - [3. Research Pillars](#3-research-pillars)
 - [4. Repository Structure](#4-repository-structure)
 - [5. Literature Metadata & Access Policy](#5-literature-metadata--access-policy)
@@ -53,7 +54,22 @@ The presentation artifact [index.html](index.html) is fully self-contained (`emb
 | **S** | Open speaker notes console |
 | **M** | Toggle slide navigation menu |
 | **O** / **Esc** | Toggle slide overview grid |
+| **E** | Toggle PDF Export Mode (`?print-pdf`) |
 | **Home** / **End** | Jump to first / last slide |
+
+### 2.4 Exporting as PDF
+
+To save a clean slide-per-page PDF copy of the deck (works with both the live GitHub Pages site and local `index.html`):
+
+1. Open the presentation in a Chromium-based browser (**Google Chrome** or **Microsoft Edge** is recommended for Reveal.js print layouts).
+2. Press **`E`** to toggle **PDF Export Mode** (alternatively, press **`M`** → **Tools** → **PDF Export Mode**, or append `?print-pdf` to the URL).
+3. Open the browser print dialog (**`Ctrl+P`** on Windows/Linux or **`Cmd+P`** on macOS).
+4. Configure the print settings:
+   - **Destination:** Save as PDF
+   - **Layout:** Landscape
+   - **Margins:** None
+   - **Options:** Enable **Background graphics**
+5. Click **Save** to export the PDF. Press **`E`** again to return to interactive presentation mode.
 
 ---
 
