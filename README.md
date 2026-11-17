@@ -15,8 +15,9 @@
   - [2.3 Navigation Keyboard Shortcuts](#23-navigation-keyboard-shortcuts)
 - [3. Research Pillars](#3-research-pillars)
 - [4. Repository Structure](#4-repository-structure)
-- [5. Automated CI/CD & Deployment](#5-automated-cicd--deployment)
-- [6. Citation & Inquiries](#6-citation--inquiries)
+- [5. Literature Metadata & Access Policy](#5-literature-metadata--access-policy)
+- [6. Automated CI/CD & Deployment](#6-automated-cicd--deployment)
+- [7. Citation & Inquiries](#7-citation--inquiries)
 
 ---
 
@@ -75,14 +76,27 @@ chondrosarcoma-drug-discovery-2026/
 ├── .github/
 │   └── workflows/
 │       └── deploy-pages.yml     # Automated GitHub Pages CI/CD deployment
-├── .gitignore                   # Git exclusion rules
+├── research-papers/             # Sanitized bibliographic metadata only (no PDFs)
+│   ├── README.md                # DOI & citation-key index (56 references)
+│   └── references.bib           # BibTeX metadata catalog
+├── .gitignore                   # Git exclusion rules (excludes PDFs & transcripts)
 ├── index.html                   # Standalone compiled interactive presentation deck
 └── README.md                    # Project distribution documentation
 ```
 
 ---
 
-## 5. Automated CI/CD & Deployment
+## 5. Literature Metadata & Access Policy
+
+> [!IMPORTANT]
+> **Legal & Collaborator-Only Access Notice:** For **legal reasons** (publisher copyright and licensing restrictions), full-text research paper PDFs and extracted text files are **not** hosted in this public GitHub repository and will **only be shared privately with project collaborators** via email-restricted access on Google Drive.
+
+- **Public Metadata Index:** [`research-papers/README.md`](research-papers/README.md) and [`research-papers/references.bib`](research-papers/references.bib) provide sanitized bibliographic metadata (citation keys and DOIs) for reference and cross-checking.
+- **Collaborator Full-Text Access (Invite-Only):** [Google Drive — `research-papers/`](https://drive.google.com/drive/folders/1IUog8zRgyheX9dKEfgVwLNOyOTY74Fy4?usp=sharing) (access restricted to authorized project collaborators).
+
+---
+
+## 6. Automated CI/CD & Deployment
 
 Slide distributions are maintained through GitHub Actions (`.github/workflows/deploy-pages.yml`):
 
@@ -92,7 +106,7 @@ Slide distributions are maintained through GitHub Actions (`.github/workflows/de
 
 ---
 
-## 6. Citation & Inquiries
+## 7. Citation & Inquiries
 
 Author: Hoang Q. Tran | In Silico Pharmacology & Biotechnology  
 For technical inquiries or collaboration requests, please consult the presentation deck or contact the project team.

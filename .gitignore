@@ -57,3 +57,9 @@ Thumbs.db
 .RData
 .Ruserdata
 .Rproj.user/
+
+# -------------------------
+# Research Papers & Transcripts (Legal / Copyright — Collaborator Google Drive Only)
+# -------------------------
+research-papers/**/*.pdf
+research-papers/transcripts/
